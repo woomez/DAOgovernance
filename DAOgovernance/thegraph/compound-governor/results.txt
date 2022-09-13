@@ -1,0 +1,183 @@
+stdout: stderr: stdout: stderr: stdout: stderr: stdout: 
+> prepare:yaml
+> mustache protocols/${npm_config_protocol}/config/networks/${npm_config_network}/${npm_config_network}.json protocols/${npm_config_protocol}/config/templates/${npm_config_template} > subgraph.yaml
+
+stderr: npm WARN invalid config location="djangu" set in environment
+npm WARN invalid config Must be one of: global, user, project
+stdout: 
+Types generated successfully
+
+stderr: - Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.1 to 0.0.2
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.2 to 0.0.3
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.3 to 0.0.4
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.4 to 0.0.5
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.5 to 0.0.6
+- Apply migrations
+  Skip migration: Bump manifest specVersion from 0.0.1 to 0.0.2
+- Apply migrations
+  Apply migration: Bump manifest specVersion from 0.0.2 to 0.0.4
+- Apply migrations
+✔ Apply migrations
+- Load subgraph from subgraph.yaml
+✔ Load subgraph from subgraph.yaml
+- Load contract ABIs
+  Load contract ABI from abis/ens-governance/ENSGovernor.json
+- Load contract ABIs
+  Load contract ABI from abis/ens-governance/ENSToken.json
+- Load contract ABIs
+✔ Load contract ABIs
+- Generate types for contract ABIs
+  Generate types for contract ABI: ENSGovernor (abis/ens-governance/ENSGovernor.json)
+- Generate types for contract ABIs
+  Write types to generated/ENSGovernor/ENSGovernor.ts
+- Generate types for contract ABIs
+  Generate types for contract ABI: ENSToken (abis/ens-governance/ENSToken.json)
+- Generate types for contract ABIs
+  Write types to generated/ENSToken/ENSToken.ts
+- Generate types for contract ABIs
+✔ Generate types for contract ABIs
+- Generate types for data source templates
+✔ Generate types for data source templates
+- Load data source template ABIs
+✔ Load data source template ABIs
+- Generate types for data source template ABIs
+✔ Generate types for data source template ABIs
+- Load GraphQL schema from schema.graphql
+✔ Load GraphQL schema from schema.graphql
+- Generate types for GraphQL schema
+  Write types to generated/schema.ts
+- Generate types for GraphQL schema
+✔ Generate types for GraphQL schema
+stdout: 
+> deploy:subgraph
+> graph deploy --product hosted-service ${npm_config_location}
+
+
+Build completed: QmeyxvwmY2esP8qVQQxAjDWnSsWS2Q7sfCWixwQtNXcvv9
+
+stderr: npm WARN invalid config location="djangu" set in environment
+npm WARN invalid config Must be one of: global, user, project
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.1 to 0.0.2
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.2 to 0.0.3
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.3 to 0.0.4
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.4 to 0.0.5
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.5 to 0.0.6
+- Apply migrations
+  Skip migration: Bump manifest specVersion from 0.0.1 to 0.0.2
+- Apply migrations
+  Skip migration: Bump manifest specVersion from 0.0.2 to 0.0.4
+- Apply migrations
+✔ Apply migrations
+- Load subgraph from subgraph.yaml
+✔ Load subgraph from subgraph.yaml
+- Compile subgraph
+  Compile data source: ENSGovernor => build/ENSGovernor/ENSGovernor.wasm
+- Compile subgraph
+  Compile data source: ENSToken => build/ENSToken/ENSToken.wasm
+- Compile subgraph
+✔ Compile subgraph
+- Write compiled subgraph to build/
+  Copy schema file build/schema.graphql
+- Write compiled subgraph to build/
+  Write subgraph file build/ENSGovernor/abis/ens-governance/ENSGovernor.json
+- Write compiled subgraph to build/
+  Write subgraph file build/ENSToken/abis/ens-governance/ENSToken.json
+- Write compiled subgraph to build/
+  Write subgraph manifest build/subgraph.yaml
+- Write compiled subgraph to build/
+✔ Write compiled subgraph to build/
+- Upload subgraph to IPFS
+  Add file to IPFS build/schema.graphql
+- Upload subgraph to IPFS
+                .. QmSdrA1CiTaLcqk7JAx7AgJfoRK9sg6ty22KB378yDiy4z
+- Upload subgraph to IPFS
+  Add file to IPFS build/ENSGovernor/abis/ens-governance/ENSGovernor.json
+- Upload subgraph to IPFS
+                .. QmVGgZvASQ9fyHqAF6kZuditHDXtzM53kfB6ER3geYS8QL
+- Upload subgraph to IPFS
+  Add file to IPFS build/ENSToken/abis/ens-governance/ENSToken.json
+- Upload subgraph to IPFS
+                .. QmeRdVviEHfPmtbf8RqhTTrhCjBsgfkq34X9ioFb9HwXxf
+- Upload subgraph to IPFS
+  Add file to IPFS build/ENSGovernor/ENSGovernor.wasm
+- Upload subgraph to IPFS
+                .. Qmdi8et9jQbjtNJEbtFHFR36HrWkNRqJRVBj7SvyhcBKqT
+- Upload subgraph to IPFS
+  Add file to IPFS build/ENSToken/ENSToken.wasm
+- Upload subgraph to IPFS
+                .. QmNUSoXqG9jpn2YPnEHJ3nupPYfFoJprAi1S62e4mPPpSp
+- Upload subgraph to IPFS
+✔ Upload subgraph to IPFS
+- Deploying to Graph node https://api.thegraph.com/deploy/
+✖ Failed to deploy to Graph node https://api.thegraph.com/deploy/: Invalid account name or access token
+Exec error: Error: Command failed: npm run deploy:subgraph --LOCATION=djangu/ens-governance
+npm WARN invalid config location="djangu" set in environment
+npm WARN invalid config Must be one of: global, user, project
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.1 to 0.0.2
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.2 to 0.0.3
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.3 to 0.0.4
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.4 to 0.0.5
+- Apply migrations
+  Skip migration: Bump mapping apiVersion from 0.0.5 to 0.0.6
+- Apply migrations
+  Skip migration: Bump manifest specVersion from 0.0.1 to 0.0.2
+- Apply migrations
+  Skip migration: Bump manifest specVersion from 0.0.2 to 0.0.4
+- Apply migrations
+✔ Apply migrations
+- Load subgraph from subgraph.yaml
+✔ Load subgraph from subgraph.yaml
+- Compile subgraph
+  Compile data source: ENSGovernor => build/ENSGovernor/ENSGovernor.wasm
+- Compile subgraph
+  Compile data source: ENSToken => build/ENSToken/ENSToken.wasm
+- Compile subgraph
+✔ Compile subgraph
+- Write compiled subgraph to build/
+  Copy schema file build/schema.graphql
+- Write compiled subgraph to build/
+  Write subgraph file build/ENSGovernor/abis/ens-governance/ENSGovernor.json
+- Write compiled subgraph to build/
+  Write subgraph file build/ENSToken/abis/ens-governance/ENSToken.json
+- Write compiled subgraph to build/
+  Write subgraph manifest build/subgraph.yaml
+- Write compiled subgraph to build/
+✔ Write compiled subgraph to build/
+- Upload subgraph to IPFS
+  Add file to IPFS build/schema.graphql
+- Upload subgraph to IPFS
+                .. QmSdrA1CiTaLcqk7JAx7AgJfoRK9sg6ty22KB378yDiy4z
+- Upload subgraph to IPFS
+  Add file to IPFS build/ENSGovernor/abis/ens-governance/ENSGovernor.json
+- Upload subgraph to IPFS
+                .. QmVGgZvASQ9fyHqAF6kZuditHDXtzM53kfB6ER3geYS8QL
+- Upload subgraph to IPFS
+  Add file to IPFS build/ENSToken/abis/ens-governance/ENSToken.json
+- Upload subgraph to IPFS
+                .. QmeRdVviEHfPmtbf8RqhTTrhCjBsgfkq34X9ioFb9HwXxf
+- Upload subgraph to IPFS
+  Add file to IPFS build/ENSGovernor/ENSGovernor.wasm
+- Upload subgraph to IPFS
+                .. Qmdi8et9jQbjtNJEbtFHFR36HrWkNRqJRVBj7SvyhcBKqT
+- Upload subgraph to IPFS
+  Add file to IPFS build/ENSToken/ENSToken.wasm
+- Upload subgraph to IPFS
+                .. QmNUSoXqG9jpn2YPnEHJ3nupPYfFoJprAi1S62e4mPPpSp
+- Upload subgraph to IPFS
+✔ Upload subgraph to IPFS
+- Deploying to Graph node https://api.thegraph.com/deploy/
+✖ Failed to deploy to Graph node https://api.thegraph.com/deploy/: Invalid account name or access token

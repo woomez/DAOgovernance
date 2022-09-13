@@ -1,0 +1,5 @@
+Nouns: 381, 381
+Compound: 10M, 7,157,897.96
+PoolTogether: 10M, 1,972,080.00
+Uniswap: 1B, 734,135,450.75 
+Gitcoin: 100M, 14,198,201.73

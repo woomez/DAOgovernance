@@ -1,0 +1,26 @@
+type Proposal @entity {
+  id: ID!
+  blocktime: BigInt!
+  votes: [Single_Vote!]! @derivedFrom(field: "proposalID")
+  forvotes: BigInt
+  againstvotes: BigInt
+}
+
+type Single_Vote @entity {
+  id: ID!
+  voter: Voter!
+  single_vote: BigInt!
+  proposalID: Proposal! 
+  support: Int!
+}
+
+type Voter @entity {
+  id: ID!
+  votes: [Single_Vote!]! @derivedFrom(field: "voter")
+}
+
+type Implementation @entity{
+  id: ID!
+  blocktime: BigInt!
+  newImplementation: Bytes
+}
