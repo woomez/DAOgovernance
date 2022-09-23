@@ -4,8 +4,6 @@ import {
   ProposalCreated,
   ProposalExecuted,
   ProposalQueued,
-  QuorumNumeratorUpdated,
-  TimelockChange,
   VoteCast,
 } from "../../../generated/ENSGovernor/ENSGovernor";
 import {
@@ -18,10 +16,9 @@ import {
   getGovernance,
 } from "../../../src/handlers";
 import { ENSGovernor } from "../../../generated/ENSGovernor/ENSGovernor";
-import { GovernanceFramework, Proposal } from "../../../generated/schema";
+import { Proposal } from "../../../generated/schema";
 import {
   BIGINT_ONE,
-  GovernanceFrameworkType,
   ProposalState,
 } from "../../../src/constants";
 
@@ -32,9 +29,7 @@ export function handleProposalCanceled(event: ProposalCanceled): void {
 
 // ProposalCreated(proposalId, proposer, targets, values, signatures, calldatas, startBlock, endBlock, description)
 export function handleProposalCreated(event: ProposalCreated): void {
-  let quorumVotes = ENSGovernor.bind(event.address).quorum(
-    event.block.number.minus(BIGINT_ONE)
-  );
+  
 
   // FIXME: Prefer to use a single object arg for params
   // e.g.  { proposalId: event.params.proposalId, proposer: event.params.proposer, ...}
@@ -49,7 +44,6 @@ export function handleProposalCreated(event: ProposalCreated): void {
     event.params.startBlock,
     event.params.endBlock,
     event.params.description,
-    quorumVotes,
     event
   );
 }
@@ -64,21 +58,6 @@ export function handleProposalQueued(event: ProposalQueued): void {
   _handleProposalQueued(event.params.proposalId, event.params.eta);
 }
 
-// QuorumNumeratorUpdated(oldQuorumNumerator, newQuorumNumerator)
-export function handleQuorumNumeratorUpdated(
-  event: QuorumNumeratorUpdated
-): void {
-  let governanceFramework = getGovernanceFramework(event.address.toHexString());
-  governanceFramework.quorumNumerator = event.params.newQuorumNumerator;
-  governanceFramework.save();
-}
-
-// TimelockChange (address oldTimelock, address newTimelock)
-export function handleTimelockChange(event: TimelockChange): void {
-  let governanceFramework = getGovernanceFramework(event.address.toHexString());
-  governanceFramework.timelockAddress = event.params.newTimelock.toHexString();
-  governanceFramework.save();
-}
 
 function getLatestProposalValues(
   proposalId: string,
@@ -90,7 +69,6 @@ function getLatestProposalValues(
   if (proposal.state == ProposalState.PENDING) {
     let contract = ENSGovernor.bind(contractAddress);
     proposal.state = ProposalState.ACTIVE;
-    proposal.quorumVotes = contract.quorum(proposal.startBlock);
 
     let governance = getGovernance();
     proposal.tokenHoldersAtStart = governance.currentTokenHolders;
@@ -117,28 +95,3 @@ export function handleVoteCast(event: VoteCast): void {
   );
 }
 
-// Helper function that imports and binds the contract
-function getGovernanceFramework(contractAddress: string): GovernanceFramework {
-  let governanceFramework = GovernanceFramework.load(contractAddress);
-
-  if (!governanceFramework) {
-    governanceFramework = new GovernanceFramework(contractAddress);
-    let contract = ENSGovernor.bind(Address.fromString(contractAddress));
-
-    governanceFramework.name = contract.name();
-    governanceFramework.type = GovernanceFrameworkType.OPENZEPPELIN_GOVERNOR;
-    governanceFramework.version = contract.version();
-
-    governanceFramework.contractAddress = contractAddress;
-    governanceFramework.tokenAddress = contract.token().toHexString();
-    governanceFramework.timelockAddress = contract.timelock().toHexString();
-
-    governanceFramework.votingDelay = contract.votingDelay();
-    governanceFramework.votingPeriod = contract.votingPeriod();
-    governanceFramework.proposalThreshold = contract.proposalThreshold();
-    governanceFramework.quorumNumerator = contract.quorumNumerator();
-    governanceFramework.quorumDenominator = contract.quorumDenominator();
-  }
-
-  return governanceFramework;
-}

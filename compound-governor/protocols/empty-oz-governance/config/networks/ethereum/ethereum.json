@@ -1,0 +1,10 @@
+{
+  "governor": "DAOGovernor",
+  "token": "DAOToken",
+  "governance": "dao-governance",
+  "network": "mainnet",
+  "governorContractAddress": "0xc0Da02939E1441F497fd74F78cE7Decb17B66529",
+  "governorContractStartBlock": 12006099,
+  "tokenContractAddress": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+  "tokenContractStartBlock": 14658278
+}

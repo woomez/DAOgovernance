@@ -3,11 +3,11 @@ schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
-    name: "DAO"Governor
+    name: {{ governor }}
     network: {{ network }}
     source:
       address: "{{ governorContractAddress }}"
-      abi: "DAO"Governor
+      abi: {{ governor }}
       startBlock: {{ governorContractStartBlock }}
     mapping:
       kind: ethereum/events
@@ -19,9 +19,10 @@ dataSources:
         - Vote
         - TokenHolder
         - Delegate
+        - Delegation
       abis:
-        - name: "DAO"Governor
-          file: ./abis/"dao"-governance/"DAO"Governor.json
+        - name: {{ governor }}
+          file: ./abis/{{ governance }}/{{ governor }}.json
       eventHandlers:
         - event: ProposalCanceled(uint256)
           handler: handleProposalCanceled
@@ -31,19 +32,15 @@ dataSources:
           handler: handleProposalExecuted
         - event: ProposalQueued(uint256,uint256)
           handler: handleProposalQueued
-        - event: QuorumNumeratorUpdated(uint256,uint256)
-          handler: handleQuorumNumeratorUpdated
-        - event: TimelockChange(address,address)
-          handler: handleTimelockChange
         - event: VoteCast(indexed address,uint256,uint8,uint256,string)
           handler: handleVoteCast
-      file: ./protocols/"dao"-governance/src/"dao"-governor.ts
+      file: ./protocols/{{ governance }}/src/compound-governor.ts
   - kind: ethereum/contract
-    name: "DAO"Token
+    name: {{ token }}
     network:  {{ network }}
     source:
       address: "{{ tokenContractAddress }}"
-      abi: "DAO"Token
+      abi: {{ token }}
       startBlock: {{ tokenContractStartBlock }}
     mapping:
       kind: ethereum/events
@@ -55,9 +52,10 @@ dataSources:
         - Vote
         - TokenHolder
         - Delegate
+        - Delegation
       abis:
-        - name: "DAO"Token
-          file: ./abis/"dao"-governance/"DAO"Token.json
+        - name: {{ token }}
+          file: ./abis/{{ governance }}/{{ token }}.json
       eventHandlers:
         - event: DelegateChanged(indexed address,indexed address,indexed address)
           handler: handleDelegateChanged
@@ -65,4 +63,4 @@ dataSources:
           handler: handleDelegateVotesChanged
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
-      file: ./protocols/"dao"-governance/src/"dao"-token.ts
+      file: ./protocols/{{ governance }}/src/compound-token.ts

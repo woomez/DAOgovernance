@@ -1,7 +1,8 @@
 type Governance @entity {
   "Unique entity used to keep track of common aggregated data"
   id: ID!
-
+  "Total Supply of Token"
+  totalTokenSupply: BigInt!
   "Total number of token holders currently"
   currentTokenHolders: BigInt!
   "Total number of token holders"
@@ -12,9 +13,10 @@ type Governance @entity {
   totalDelegates: BigInt!
   "Total number of votes delegated expressed in the smallest unit of the token"
   delegatedVotesRaw: BigInt!
+  "Total number of delegation events"
+  totalDelegations: BigInt!
   "Total number of votes delegated expressed as a BigDecimal normalized value for the token"
   delegatedVotes: BigDecimal!
-
   "Total number of proposals created"
   proposals: BigInt!
   "Number of proposals currently queued for execution"
@@ -25,44 +27,6 @@ type Governance @entity {
   proposalsCanceled: BigInt!
 }
 
-type GovernanceFramework @entity {
-  "Governance framework contract address"
-  id: String!
-  "Name of the governance framework"
-  name: String!
-  "Type of governance framework"
-  type: GovernanceFrameworkType!
-  "Version of the governance framework"
-  version: String!
-
-  "Governance framework contract address"
-  contractAddress: String!
-  "The contract address associated with the governance token used for voting on the governance framework proposals"
-  tokenAddress: String!
-  "The contract address associated with the contract that manages the delay of administrative actions for the governance framework"
-  timelockAddress: String!
-
-  "The delay before voting on a proposal may take place in blocks"
-  votingDelay: BigInt!
-  "The duration of voting on a proposal in blocks"
-  votingPeriod: BigInt!
-  "The number of votes required in order for a voter to become a proposer"
-  proposalThreshold: BigInt!
-
-  "The number of votes for a proposal to succeed."
-  quorumVotes: BigInt
-  "Quorum fraction numerator value. (OZ: quorum = totalSupply * numerator / denominator)"
-  quorumNumerator: BigInt
-  "Quorum fraction denominator value. (OZ: quorum = totalSupply * numerator / denominator)"
-  quorumDenominator: BigInt
-}
-
-enum GovernanceFrameworkType {
-  GovernorAlpha
-  GovernorBravo
-  OZGovernor
-}
-
 type Proposal @entity {
   "Internal proposal ID, in this implementation it seems to be a autoincremental id"
   id: ID!
@@ -70,15 +34,10 @@ type Proposal @entity {
   txnHash: String!
   "Proposal description in markdown format"
   description: String!
-  "Governance Framework that proposal is part of"
-  governanceFramework: GovernanceFramework!
-
   "Delegate that proposed the proposal"
   proposer: Delegate!
   "State of the proposal"
   state: ProposalState!
-  "The number of votes for a proposal to succeed."
-  quorumVotes: BigInt!
   "Number of tokenholders at start of voting"
   tokenHoldersAtStart: BigInt!
   "Number of delegates at start of voting"
@@ -167,6 +126,31 @@ type Vote @entity(immutable: true) {
   txnHash: String!
 }
 
+"""
+TODO complete delegation
+"""
+type Delegation @entity(immutable: true) {
+  "blocktime-txnHash as the ID"
+  id: ID!
+  "Delegate receiving delegation"
+  delegate: Delegate!
+  "TokenHolder sending the delegation"
+  delegator: TokenHolder!
+  "Total numer of tokens owned by delegate"
+  delegateTokens: BigDecimal! 
+  "Total number of tokens owned by delegator"
+  delegatorTokens: BigDecimal!
+  "Delegation weight expressed in the vote"
+  weight: BigInt!
+   "Block number vote is cast in"
+  block: BigInt!
+  "Timestamp of block vote was cast in"
+  blockTime: BigInt!
+  "Transaction hash of the vote"
+  txnHash: String!
+
+}
+
 enum VoteChoice {
   FOR
   AGAINST
@@ -210,4 +194,39 @@ type Delegate @entity {
 
   "Proposals that the delegate has created"
   proposals: [Proposal!]! @derivedFrom(field: "proposer")
+}
+
+# Timeseries data
+type TokenDailySnapshot @entity {
+  "Number of days from Unix epoch time"
+  id: ID!
+  "Total Supply at snapshot"
+  totalSupply: BigInt!
+  "Number of tokenholders at snapshot"
+  tokenHolders: BigInt!
+  "Number of delegates at snapshot"
+  delegates: BigInt!
+  "Block number of last block in snapshot"
+  blockNumber: BigInt!
+  "Timestamp of snapshot"
+  timestamp: BigInt!
+}
+
+type VoteDailySnapshot @entity {
+  "Number of days from Unix epoch time"
+  id: ID!
+  "Proposal this snapshot is associated with"
+  proposal: Proposal!
+  "Weighted votes against the proposal at snapshot"
+  forWeightedVotes: BigInt!
+  "Weighted votes abstaining to the proposal at snapshot"
+  againstWeightedVotes: BigInt!
+  "Weighted votes for the proposal at snapshot"
+  abstainWeightedVotes: BigInt!
+  "Total weighted for/against/abstaining votes at snapshot"
+  totalWeightedVotes: BigInt!
+  "Block number of last block in snapshot"
+  blockNumber: BigInt!
+  "Timestamp of snapshot"
+  timestamp: BigInt!
 }

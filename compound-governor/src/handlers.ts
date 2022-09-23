@@ -21,7 +21,12 @@ import {
   Proposal,
   TokenHolder,
   Vote,
+  Delegation,
+  TokenDailySnapshot,
+  VoteDailySnapshot,
 } from "../generated/schema";
+
+export const SECONDS_PER_DAY = 60 * 60 * 24;
 
 export function toDecimal(value: BigInt, decimals: number = 18): BigDecimal {
   return value.divDecimal(
@@ -57,6 +62,7 @@ export function getGovernance(): Governance {
 
   if (!governance) {
     governance = new Governance(GOVERNANCE_NAME);
+    governance.totalTokenSupply = BIGINT_ZERO;
     governance.proposals = BIGINT_ZERO;
     governance.currentTokenHolders = BIGINT_ZERO;
     governance.totalTokenHolders = BIGINT_ZERO;
@@ -67,6 +73,7 @@ export function getGovernance(): Governance {
     governance.proposalsQueued = BIGINT_ZERO;
     governance.proposalsExecuted = BIGINT_ZERO;
     governance.proposalsCanceled = BIGINT_ZERO;
+    governance.totalDelegations = BIGINT_ZERO;
   }
 
   return governance;
@@ -118,6 +125,54 @@ export function getOrCreateDelegate(
   return delegate as Delegate;
 }
 
+export function createDelegation(
+  id: string,
+  delegator: string,
+  delegate: string,
+  event: ethereum.Event,
+  createIfNotFound: boolean = true,
+  save: boolean = true
+): Delegation {
+  let delegation = Delegation.load(id)
+  if (!delegation && createIfNotFound) {
+    delegation = new Delegation(id);
+    delegation.delegate = delegate;
+    delegation.delegator = delegator;
+    delegation.delegateTokens = BIGDECIMAL_ZERO;
+    delegation.delegatorTokens = BIGDECIMAL_ZERO;
+    delegation.weight = BIGINT_ZERO;
+    delegation.block = event.block.number;
+    delegation.blockTime = event.block.timestamp;
+    delegation.txnHash = event.transaction.hash.toHexString();
+    
+    if (save) {
+      delegation.save();
+    }
+    let governance = getGovernance();
+    governance.totalDelegations = governance.totalDelegations.plus(BIGINT_ONE);
+    governance.save();
+  }
+
+  return delegation as Delegation;
+
+}
+
+export function getDelegation(
+  id: string,
+  weight: BigInt
+): Delegation{
+  let delegation = Delegation.load(id)
+  if (delegation){
+    delegation.weight = weight
+    delegation.save();
+  }
+  if (!delegation){
+    log.info("Different block on {}", [id])
+    return delegation as Delegation;
+  }
+  return delegation as Delegation
+}
+  
 export function getOrCreateTokenHolder(
   address: string,
   createIfNotFound: boolean = true,
@@ -146,6 +201,34 @@ export function getOrCreateTokenHolder(
   return tokenHolder as TokenHolder;
 }
 
+export function getOrCreateTokenDailySnapshot(
+  block: ethereum.Block
+): TokenDailySnapshot {
+  let snapshotId = (block.timestamp.toI64() / SECONDS_PER_DAY).toString();
+  let previousSnapshot = TokenDailySnapshot.load(snapshotId);
+
+  if (previousSnapshot != null) {
+    return previousSnapshot as TokenDailySnapshot;
+  }
+  let snapshot = new TokenDailySnapshot(snapshotId);
+  return snapshot;
+}
+
+export function getOrCreateVoteDailySnapshot(
+  proposal: Proposal,
+  block: ethereum.Block
+): VoteDailySnapshot {
+  let snapshotId =
+    proposal.id + "-" + (block.timestamp.toI64() / SECONDS_PER_DAY).toString();
+  let previousSnapshot = VoteDailySnapshot.load(snapshotId);
+
+  if (previousSnapshot != null) {
+    return previousSnapshot as VoteDailySnapshot;
+  }
+  let snapshot = new VoteDailySnapshot(snapshotId);
+  return snapshot;
+}
+
 export function _handleProposalCreated(
   proposalId: string,
   proposerAddr: string,
@@ -156,7 +239,6 @@ export function _handleProposalCreated(
   startBlock: BigInt,
   endBlock: BigInt,
   description: string,
-  quorum: BigInt,
   event: ethereum.Event
 ): void {
   let proposal = getOrCreateProposal(proposalId);
@@ -197,8 +279,6 @@ export function _handleProposalCreated(
     event.block.number >= proposal.startBlock
       ? ProposalState.ACTIVE
       : ProposalState.PENDING;
-  proposal.governanceFramework = event.address.toHexString();
-  proposal.quorumVotes = quorum;
   proposal.save();
 
   // Increment gov proposal count
@@ -308,4 +388,15 @@ export function _handleVoteCast(
   let voter = getOrCreateDelegate(voterAddress);
   voter.numberVotes = voter.numberVotes + 1;
   voter.save();
+
+  // Take snapshot
+  let dailySnapshot = getOrCreateVoteDailySnapshot(proposal, event.block);
+  dailySnapshot.proposal = proposal.id;
+  dailySnapshot.forWeightedVotes = proposal.forWeightedVotes;
+  dailySnapshot.againstWeightedVotes = proposal.againstWeightedVotes;
+  dailySnapshot.abstainWeightedVotes = proposal.abstainWeightedVotes;
+  dailySnapshot.totalWeightedVotes = proposal.totalWeightedVotes;
+  dailySnapshot.blockNumber = event.block.number;
+  dailySnapshot.timestamp = event.block.timestamp;
+  dailySnapshot.save();
 }

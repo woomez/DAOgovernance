@@ -1,7 +1,0 @@
-{
-  "network": "mainnet",
-  "governorContractAddress": "fillin",
-  "governorContractStartBlock": find,
-  "tokenContractAddress": "fillin",
-  "tokenContractStartBlock": find
-}

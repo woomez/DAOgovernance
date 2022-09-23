@@ -1,5 +1,4 @@
 specVersion: 0.0.4
-repository: https://github.com/messari/subgraphs
 schema:
   file: schema.graphql
 dataSources:
@@ -20,6 +19,9 @@ dataSources:
         - Vote
         - TokenHolder
         - Delegate
+        - Delegation
+        - TokenDailySnapshot
+        - VoteDailySnapshot
       abis:
         - name: ENSGovernor
           file: ENSGovernor/abis/ens-governance/ENSGovernor.json
@@ -32,10 +34,6 @@ dataSources:
           handler: handleProposalExecuted
         - event: ProposalQueued(uint256,uint256)
           handler: handleProposalQueued
-        - event: QuorumNumeratorUpdated(uint256,uint256)
-          handler: handleQuorumNumeratorUpdated
-        - event: TimelockChange(address,address)
-          handler: handleTimelockChange
         - event: VoteCast(indexed address,uint256,uint8,uint256,string)
           handler: handleVoteCast
       file: ENSGovernor/ENSGovernor.wasm
@@ -56,6 +54,9 @@ dataSources:
         - Vote
         - TokenHolder
         - Delegate
+        - Delegation
+        - TokenDailySnapshot
+        - VoteDailySnapshot
       abis:
         - name: ENSToken
           file: ENSToken/abis/ens-governance/ENSToken.json

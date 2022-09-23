@@ -42,6 +42,15 @@ export class Governance extends Entity {
     this.set("id", Value.fromString(value));
   }
 
+  get totalTokenSupply(): BigInt {
+    let value = this.get("totalTokenSupply");
+    return value!.toBigInt();
+  }
+
+  set totalTokenSupply(value: BigInt) {
+    this.set("totalTokenSupply", Value.fromBigInt(value));
+  }
+
   get currentTokenHolders(): BigInt {
     let value = this.get("currentTokenHolders");
     return value!.toBigInt();
@@ -87,6 +96,15 @@ export class Governance extends Entity {
     this.set("delegatedVotesRaw", Value.fromBigInt(value));
   }
 
+  get totalDelegations(): BigInt {
+    let value = this.get("totalDelegations");
+    return value!.toBigInt();
+  }
+
+  set totalDelegations(value: BigInt) {
+    this.set("totalDelegations", Value.fromBigInt(value));
+  }
+
   get delegatedVotes(): BigDecimal {
     let value = this.get("delegatedVotes");
     return value!.toBigDecimal();
@@ -130,172 +148,6 @@ export class Governance extends Entity {
 
   set proposalsCanceled(value: BigInt) {
     this.set("proposalsCanceled", Value.fromBigInt(value));
-  }
-}
-
-export class GovernanceFramework extends Entity {
-  constructor(id: string) {
-    super();
-    this.set("id", Value.fromString(id));
-  }
-
-  save(): void {
-    let id = this.get("id");
-    assert(id != null, "Cannot save GovernanceFramework entity without an ID");
-    if (id) {
-      assert(
-        id.kind == ValueKind.STRING,
-        `Entities of type GovernanceFramework must have an ID of type String but the id '${id.displayData()}' is of type ${id.displayKind()}`
-      );
-      store.set("GovernanceFramework", id.toString(), this);
-    }
-  }
-
-  static load(id: string): GovernanceFramework | null {
-    return changetype<GovernanceFramework | null>(
-      store.get("GovernanceFramework", id)
-    );
-  }
-
-  get id(): string {
-    let value = this.get("id");
-    return value!.toString();
-  }
-
-  set id(value: string) {
-    this.set("id", Value.fromString(value));
-  }
-
-  get name(): string {
-    let value = this.get("name");
-    return value!.toString();
-  }
-
-  set name(value: string) {
-    this.set("name", Value.fromString(value));
-  }
-
-  get type(): string {
-    let value = this.get("type");
-    return value!.toString();
-  }
-
-  set type(value: string) {
-    this.set("type", Value.fromString(value));
-  }
-
-  get version(): string {
-    let value = this.get("version");
-    return value!.toString();
-  }
-
-  set version(value: string) {
-    this.set("version", Value.fromString(value));
-  }
-
-  get contractAddress(): string {
-    let value = this.get("contractAddress");
-    return value!.toString();
-  }
-
-  set contractAddress(value: string) {
-    this.set("contractAddress", Value.fromString(value));
-  }
-
-  get tokenAddress(): string {
-    let value = this.get("tokenAddress");
-    return value!.toString();
-  }
-
-  set tokenAddress(value: string) {
-    this.set("tokenAddress", Value.fromString(value));
-  }
-
-  get timelockAddress(): string {
-    let value = this.get("timelockAddress");
-    return value!.toString();
-  }
-
-  set timelockAddress(value: string) {
-    this.set("timelockAddress", Value.fromString(value));
-  }
-
-  get votingDelay(): BigInt {
-    let value = this.get("votingDelay");
-    return value!.toBigInt();
-  }
-
-  set votingDelay(value: BigInt) {
-    this.set("votingDelay", Value.fromBigInt(value));
-  }
-
-  get votingPeriod(): BigInt {
-    let value = this.get("votingPeriod");
-    return value!.toBigInt();
-  }
-
-  set votingPeriod(value: BigInt) {
-    this.set("votingPeriod", Value.fromBigInt(value));
-  }
-
-  get proposalThreshold(): BigInt {
-    let value = this.get("proposalThreshold");
-    return value!.toBigInt();
-  }
-
-  set proposalThreshold(value: BigInt) {
-    this.set("proposalThreshold", Value.fromBigInt(value));
-  }
-
-  get quorumVotes(): BigInt | null {
-    let value = this.get("quorumVotes");
-    if (!value || value.kind == ValueKind.NULL) {
-      return null;
-    } else {
-      return value.toBigInt();
-    }
-  }
-
-  set quorumVotes(value: BigInt | null) {
-    if (!value) {
-      this.unset("quorumVotes");
-    } else {
-      this.set("quorumVotes", Value.fromBigInt(<BigInt>value));
-    }
-  }
-
-  get quorumNumerator(): BigInt | null {
-    let value = this.get("quorumNumerator");
-    if (!value || value.kind == ValueKind.NULL) {
-      return null;
-    } else {
-      return value.toBigInt();
-    }
-  }
-
-  set quorumNumerator(value: BigInt | null) {
-    if (!value) {
-      this.unset("quorumNumerator");
-    } else {
-      this.set("quorumNumerator", Value.fromBigInt(<BigInt>value));
-    }
-  }
-
-  get quorumDenominator(): BigInt | null {
-    let value = this.get("quorumDenominator");
-    if (!value || value.kind == ValueKind.NULL) {
-      return null;
-    } else {
-      return value.toBigInt();
-    }
-  }
-
-  set quorumDenominator(value: BigInt | null) {
-    if (!value) {
-      this.unset("quorumDenominator");
-    } else {
-      this.set("quorumDenominator", Value.fromBigInt(<BigInt>value));
-    }
   }
 }
 
@@ -348,15 +200,6 @@ export class Proposal extends Entity {
     this.set("description", Value.fromString(value));
   }
 
-  get governanceFramework(): string {
-    let value = this.get("governanceFramework");
-    return value!.toString();
-  }
-
-  set governanceFramework(value: string) {
-    this.set("governanceFramework", Value.fromString(value));
-  }
-
   get proposer(): string {
     let value = this.get("proposer");
     return value!.toString();
@@ -373,15 +216,6 @@ export class Proposal extends Entity {
 
   set state(value: string) {
     this.set("state", Value.fromString(value));
-  }
-
-  get quorumVotes(): BigInt {
-    let value = this.get("quorumVotes");
-    return value!.toBigInt();
-  }
-
-  set quorumVotes(value: BigInt) {
-    this.set("quorumVotes", Value.fromBigInt(value));
   }
 
   get tokenHoldersAtStart(): BigInt {
@@ -785,6 +619,110 @@ export class Vote extends Entity {
   }
 }
 
+export class Delegation extends Entity {
+  constructor(id: string) {
+    super();
+    this.set("id", Value.fromString(id));
+  }
+
+  save(): void {
+    let id = this.get("id");
+    assert(id != null, "Cannot save Delegation entity without an ID");
+    if (id) {
+      assert(
+        id.kind == ValueKind.STRING,
+        `Entities of type Delegation must have an ID of type String but the id '${id.displayData()}' is of type ${id.displayKind()}`
+      );
+      store.set("Delegation", id.toString(), this);
+    }
+  }
+
+  static load(id: string): Delegation | null {
+    return changetype<Delegation | null>(store.get("Delegation", id));
+  }
+
+  get id(): string {
+    let value = this.get("id");
+    return value!.toString();
+  }
+
+  set id(value: string) {
+    this.set("id", Value.fromString(value));
+  }
+
+  get delegate(): string {
+    let value = this.get("delegate");
+    return value!.toString();
+  }
+
+  set delegate(value: string) {
+    this.set("delegate", Value.fromString(value));
+  }
+
+  get delegator(): string {
+    let value = this.get("delegator");
+    return value!.toString();
+  }
+
+  set delegator(value: string) {
+    this.set("delegator", Value.fromString(value));
+  }
+
+  get delegateTokens(): BigDecimal {
+    let value = this.get("delegateTokens");
+    return value!.toBigDecimal();
+  }
+
+  set delegateTokens(value: BigDecimal) {
+    this.set("delegateTokens", Value.fromBigDecimal(value));
+  }
+
+  get delegatorTokens(): BigDecimal {
+    let value = this.get("delegatorTokens");
+    return value!.toBigDecimal();
+  }
+
+  set delegatorTokens(value: BigDecimal) {
+    this.set("delegatorTokens", Value.fromBigDecimal(value));
+  }
+
+  get weight(): BigInt {
+    let value = this.get("weight");
+    return value!.toBigInt();
+  }
+
+  set weight(value: BigInt) {
+    this.set("weight", Value.fromBigInt(value));
+  }
+
+  get block(): BigInt {
+    let value = this.get("block");
+    return value!.toBigInt();
+  }
+
+  set block(value: BigInt) {
+    this.set("block", Value.fromBigInt(value));
+  }
+
+  get blockTime(): BigInt {
+    let value = this.get("blockTime");
+    return value!.toBigInt();
+  }
+
+  set blockTime(value: BigInt) {
+    this.set("blockTime", Value.fromBigInt(value));
+  }
+
+  get txnHash(): string {
+    let value = this.get("txnHash");
+    return value!.toString();
+  }
+
+  set txnHash(value: string) {
+    this.set("txnHash", Value.fromString(value));
+  }
+}
+
 export class TokenHolder extends Entity {
   constructor(id: string) {
     super();
@@ -962,5 +900,181 @@ export class Delegate extends Entity {
 
   set proposals(value: Array<string>) {
     this.set("proposals", Value.fromStringArray(value));
+  }
+}
+
+export class TokenDailySnapshot extends Entity {
+  constructor(id: string) {
+    super();
+    this.set("id", Value.fromString(id));
+  }
+
+  save(): void {
+    let id = this.get("id");
+    assert(id != null, "Cannot save TokenDailySnapshot entity without an ID");
+    if (id) {
+      assert(
+        id.kind == ValueKind.STRING,
+        `Entities of type TokenDailySnapshot must have an ID of type String but the id '${id.displayData()}' is of type ${id.displayKind()}`
+      );
+      store.set("TokenDailySnapshot", id.toString(), this);
+    }
+  }
+
+  static load(id: string): TokenDailySnapshot | null {
+    return changetype<TokenDailySnapshot | null>(
+      store.get("TokenDailySnapshot", id)
+    );
+  }
+
+  get id(): string {
+    let value = this.get("id");
+    return value!.toString();
+  }
+
+  set id(value: string) {
+    this.set("id", Value.fromString(value));
+  }
+
+  get totalSupply(): BigInt {
+    let value = this.get("totalSupply");
+    return value!.toBigInt();
+  }
+
+  set totalSupply(value: BigInt) {
+    this.set("totalSupply", Value.fromBigInt(value));
+  }
+
+  get tokenHolders(): BigInt {
+    let value = this.get("tokenHolders");
+    return value!.toBigInt();
+  }
+
+  set tokenHolders(value: BigInt) {
+    this.set("tokenHolders", Value.fromBigInt(value));
+  }
+
+  get delegates(): BigInt {
+    let value = this.get("delegates");
+    return value!.toBigInt();
+  }
+
+  set delegates(value: BigInt) {
+    this.set("delegates", Value.fromBigInt(value));
+  }
+
+  get blockNumber(): BigInt {
+    let value = this.get("blockNumber");
+    return value!.toBigInt();
+  }
+
+  set blockNumber(value: BigInt) {
+    this.set("blockNumber", Value.fromBigInt(value));
+  }
+
+  get timestamp(): BigInt {
+    let value = this.get("timestamp");
+    return value!.toBigInt();
+  }
+
+  set timestamp(value: BigInt) {
+    this.set("timestamp", Value.fromBigInt(value));
+  }
+}
+
+export class VoteDailySnapshot extends Entity {
+  constructor(id: string) {
+    super();
+    this.set("id", Value.fromString(id));
+  }
+
+  save(): void {
+    let id = this.get("id");
+    assert(id != null, "Cannot save VoteDailySnapshot entity without an ID");
+    if (id) {
+      assert(
+        id.kind == ValueKind.STRING,
+        `Entities of type VoteDailySnapshot must have an ID of type String but the id '${id.displayData()}' is of type ${id.displayKind()}`
+      );
+      store.set("VoteDailySnapshot", id.toString(), this);
+    }
+  }
+
+  static load(id: string): VoteDailySnapshot | null {
+    return changetype<VoteDailySnapshot | null>(
+      store.get("VoteDailySnapshot", id)
+    );
+  }
+
+  get id(): string {
+    let value = this.get("id");
+    return value!.toString();
+  }
+
+  set id(value: string) {
+    this.set("id", Value.fromString(value));
+  }
+
+  get proposal(): string {
+    let value = this.get("proposal");
+    return value!.toString();
+  }
+
+  set proposal(value: string) {
+    this.set("proposal", Value.fromString(value));
+  }
+
+  get forWeightedVotes(): BigInt {
+    let value = this.get("forWeightedVotes");
+    return value!.toBigInt();
+  }
+
+  set forWeightedVotes(value: BigInt) {
+    this.set("forWeightedVotes", Value.fromBigInt(value));
+  }
+
+  get againstWeightedVotes(): BigInt {
+    let value = this.get("againstWeightedVotes");
+    return value!.toBigInt();
+  }
+
+  set againstWeightedVotes(value: BigInt) {
+    this.set("againstWeightedVotes", Value.fromBigInt(value));
+  }
+
+  get abstainWeightedVotes(): BigInt {
+    let value = this.get("abstainWeightedVotes");
+    return value!.toBigInt();
+  }
+
+  set abstainWeightedVotes(value: BigInt) {
+    this.set("abstainWeightedVotes", Value.fromBigInt(value));
+  }
+
+  get totalWeightedVotes(): BigInt {
+    let value = this.get("totalWeightedVotes");
+    return value!.toBigInt();
+  }
+
+  set totalWeightedVotes(value: BigInt) {
+    this.set("totalWeightedVotes", Value.fromBigInt(value));
+  }
+
+  get blockNumber(): BigInt {
+    let value = this.get("blockNumber");
+    return value!.toBigInt();
+  }
+
+  set blockNumber(value: BigInt) {
+    this.set("blockNumber", Value.fromBigInt(value));
+  }
+
+  get timestamp(): BigInt {
+    let value = this.get("timestamp");
+    return value!.toBigInt();
+  }
+
+  set timestamp(value: BigInt) {
+    this.set("timestamp", Value.fromBigInt(value));
   }
 }

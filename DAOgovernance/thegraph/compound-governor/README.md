@@ -16,7 +16,7 @@ Shared logic among the forks.
 
 ### queries
 
-Useful queries to run against a Compound fork subgraph.
+seful queries to run against a Compound fork subgraph.
 
 ### protocols
 
