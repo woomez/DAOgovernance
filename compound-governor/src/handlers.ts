@@ -137,7 +137,7 @@ export function createDelegation(
   if (!delegation && createIfNotFound) {
     delegation = new Delegation(id);
     delegation.delegate = delegate;
-    delegation.delegator = delegator;
+    delegation.delegator = delegator
     delegation.delegateTokens = BIGDECIMAL_ZERO;
     delegation.delegatorTokens = BIGDECIMAL_ZERO;
     delegation.weight = BIGINT_ZERO;
@@ -159,17 +159,24 @@ export function createDelegation(
 
 export function getDelegation(
   id: string,
-  weight: BigInt
+  delegate: string,
+  event: ethereum.Event
 ): Delegation{
   let delegation = Delegation.load(id)
-  if (delegation){
-    delegation.weight = weight
+  
+  if (!delegation){
+    delegation = new Delegation(id);
+    delegation.delegate = delegate;
+    delegation.delegator = ZERO_ADDRESS
+    delegation.delegateTokens = BIGDECIMAL_ZERO;
+    delegation.delegatorTokens = BIGDECIMAL_ZERO;
+    delegation.weight = BIGINT_ZERO;
+    delegation.block = event.block.number;
+    delegation.blockTime = event.block.timestamp;
+    delegation.txnHash = event.transaction.hash.toHexString();
     delegation.save();
   }
-  if (!delegation){
-    log.info("Different block on {}", [id])
-    return delegation as Delegation;
-  }
+  
   return delegation as Delegation
 }
   

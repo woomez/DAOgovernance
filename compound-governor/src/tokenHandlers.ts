@@ -72,10 +72,9 @@ export function _handleDelegateVotesChanged(
   governance.delegatedVotes = toDecimal(governance.delegatedVotesRaw);
   governance.save();
 
-  let delegation = getDelegation(delegationId, votesDifference);
-  if (delegation){
-    delegation.save();
-  }
+  let delegation = getDelegation(delegationId, delegate.id, event);
+  delegation.weight = votesDifference;
+  delegation.save();
 
 }
 
