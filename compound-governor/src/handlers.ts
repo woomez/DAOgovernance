@@ -140,7 +140,6 @@ export function createDelegation(
     delegation.delegator = delegator
     delegation.delegateTokens = BIGDECIMAL_ZERO;
     delegation.delegatorTokens = BIGDECIMAL_ZERO;
-    delegation.weight = BIGINT_ZERO;
     delegation.block = event.block.number;
     delegation.blockTime = event.block.timestamp;
     delegation.txnHash = event.transaction.hash.toHexString();

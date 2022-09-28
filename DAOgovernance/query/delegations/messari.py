@@ -1,9 +1,5 @@
-from gql import gql, Client
-from gql.transport.aiohttp import AIOHTTPTransport
 from queries import query
-import datetime
 import pandas as pd
-import os  
 import gc
 
 urls = [('Compound', 'https://api.thegraph.com/subgraphs/name/danielkhoo/compound-governance'),
@@ -20,15 +16,7 @@ urls = [('Compound', 'https://api.thegraph.com/subgraphs/name/danielkhoo/compoun
         ('Euler', 'https://api.thegraph.com/subgraphs/name/messari/euler-governance')
         ]
 
-_queries = ["delegates", "governances", "proposals", "votes"]
-# Provide a GraphQL query
-
-"""
-TO DO:
-    add delegation event
-    organize files
-    add proposal to delegation
-"""
+_queries = ["delegates", "governances", "proposals", "votes", "delegations", "tokendailysnapshots", "votedailysnapshots"]
 
 def generate_results(url, _queries):
     dao, api = url
@@ -37,6 +25,6 @@ def generate_results(url, _queries):
         query(dao, api, _query)
     gc.collect()
 
-ens_url = ('ENS', 'https://api.thegraph.com/subgraphs/name/messari/ens-governance')
+ens_url = ('ENS', 'https://api.studio.thegraph.com/query/28876/ens-governance/v5')
 
 generate_results(ens_url, _queries)

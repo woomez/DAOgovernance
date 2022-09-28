@@ -46,13 +46,11 @@ export function _handleDelegateChanged(
 export function _handleDelegateVotesChanged(
   delegateAddress: string,
   previousBalance: BigInt,
-  newBalance: BigInt,
-  event: ethereum.Event
+  newBalance: BigInt
 ): void {
   let votesDifference = newBalance.minus(previousBalance);
 
   let delegate = getOrCreateDelegate(delegateAddress);
-  let delegationId = event.block.number.toHexString().concat("-").concat(delegate.id);
 
   delegate.delegatedVotesRaw = newBalance;
   delegate.delegatedVotes = toDecimal(newBalance);
@@ -71,10 +69,6 @@ export function _handleDelegateVotesChanged(
     governance.delegatedVotesRaw.plus(votesDifference);
   governance.delegatedVotes = toDecimal(governance.delegatedVotesRaw);
   governance.save();
-
-  let delegation = getDelegation(delegationId, delegate.id, event);
-  delegation.weight = votesDifference;
-  delegation.save();
 
 }
 
@@ -141,6 +135,7 @@ export function _handleTransfer(from: string, to: string, value: BigInt, event: 
   dailySnapshot.delegates = governance.currentDelegates;
   dailySnapshot.blockNumber = event.block.number;
   dailySnapshot.timestamp = event.block.timestamp;
+  dailySnapshot.delegations = governance.totalDelegations;
   dailySnapshot.save();
 
 }

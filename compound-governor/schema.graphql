@@ -140,9 +140,7 @@ type Delegation @entity(immutable: true) {
   delegateTokens: BigDecimal! 
   "Total number of tokens owned by delegator"
   delegatorTokens: BigDecimal!
-  "Delegation weight expressed in the vote"
-  weight: BigInt!
-   "Block number vote is cast in"
+  "Block number vote is cast in"
   block: BigInt!
   "Timestamp of block vote was cast in"
   blockTime: BigInt!
@@ -206,6 +204,8 @@ type TokenDailySnapshot @entity {
   tokenHolders: BigInt!
   "Number of delegates at snapshot"
   delegates: BigInt!
+  "Number of delegations at snapshot"
+  delegations: BigInt!
   "Block number of last block in snapshot"
   blockNumber: BigInt!
   "Timestamp of snapshot"
@@ -230,3 +230,4 @@ type VoteDailySnapshot @entity {
   "Timestamp of snapshot"
   timestamp: BigInt!
 }
+

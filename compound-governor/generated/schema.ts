@@ -686,15 +686,6 @@ export class Delegation extends Entity {
     this.set("delegatorTokens", Value.fromBigDecimal(value));
   }
 
-  get weight(): BigInt {
-    let value = this.get("weight");
-    return value!.toBigInt();
-  }
-
-  set weight(value: BigInt) {
-    this.set("weight", Value.fromBigInt(value));
-  }
-
   get block(): BigInt {
     let value = this.get("block");
     return value!.toBigInt();
@@ -961,6 +952,15 @@ export class TokenDailySnapshot extends Entity {
 
   set delegates(value: BigInt) {
     this.set("delegates", Value.fromBigInt(value));
+  }
+
+  get delegations(): BigInt {
+    let value = this.get("delegations");
+    return value!.toBigInt();
+  }
+
+  set delegations(value: BigInt) {
+    this.set("delegations", Value.fromBigInt(value));
   }
 
   get blockNumber(): BigInt {
