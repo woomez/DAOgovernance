@@ -137,7 +137,7 @@ type Delegation @entity(immutable: true) {
   "TokenHolder sending the delegation"
   delegator: TokenHolder!
   "Total numer of tokens owned by delegate"
-  delegateTokens: BigDecimal! 
+  delegateTokens: BigDecimal!
   "Total number of tokens owned by delegator"
   delegatorTokens: BigDecimal!
   "Block number vote is cast in"
@@ -146,7 +146,6 @@ type Delegation @entity(immutable: true) {
   blockTime: BigInt!
   "Transaction hash of the vote"
   txnHash: String!
-
 }
 
 enum VoteChoice {
@@ -230,4 +229,3 @@ type VoteDailySnapshot @entity {
   "Timestamp of snapshot"
   timestamp: BigInt!
 }
-

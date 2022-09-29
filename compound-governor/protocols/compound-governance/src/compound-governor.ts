@@ -17,10 +17,7 @@ import {
 } from "../../../src/handlers";
 import { COMPOUNDGovernor } from "../../../generated/COMPOUNDGovernor/COMPOUNDGovernor";
 import { Proposal } from "../../../generated/schema";
-import {
-  BIGINT_ONE,
-  ProposalState,
-} from "../../../src/constants";
+import { BIGINT_ONE, ProposalState } from "../../../src/constants";
 
 // ProposalCanceled(proposalId)
 export function handleProposalCanceled(event: ProposalCanceled): void {
@@ -30,7 +27,6 @@ export function handleProposalCanceled(event: ProposalCanceled): void {
 // ProposalCreated(proposalId, proposer, targets, values, signatures, calldatas, startBlock, endBlock, description)
 // FIXME quorum values
 export function handleProposalCreated(event: ProposalCreated): void {
-
   // FIXME: Prefer to use a single object arg for params
   // e.g.  { proposalId: event.params.proposalId, proposer: event.params.proposer, ...}
   // but graph wasm compilation breaks for unknown reasons
@@ -97,24 +93,24 @@ export function handleVoteCast(event: VoteCast): void {
 // Helper function that imports and binds the contract
 // function getGovernanceFramework(contractAddress: string): GovernanceFramework {
 //   let governanceFramework = GovernanceFramework.load(contractAddress);
-// 
+//
 //   if (!governanceFramework) {
 //     governanceFramework = new GovernanceFramework(contractAddress);
 //     let contract = COMPOUNDGovernor.bind(Address.fromString(contractAddress));
-// 
+//
 //     governanceFramework.name = contract.name();
 //     governanceFramework.type = GovernanceFrameworkType.COMPOUND_GOVERNOR;
 //     governanceFramework.version = contract.version();
-// 
+//
 //     governanceFramework.contractAddress = contractAddress;
 //     governanceFramework.tokenAddress = contract.token().toHexString();
 //     governanceFramework.timelockAddress = contract.timelock().toHexString();
-// 
+//
 //     governanceFramework.votingDelay = contract.votingDelay();
 //     governanceFramework.votingPeriod = contract.votingPeriod();
 //     governanceFramework.proposalThreshold = contract.proposalThreshold();
-//     
+//
 //   }
-// 
+//
 //   return governanceFramework;
 // }

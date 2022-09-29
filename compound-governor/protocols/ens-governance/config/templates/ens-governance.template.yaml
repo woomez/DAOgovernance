@@ -3,47 +3,12 @@ schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
-    name: {{ governor }}
-    network: {{ network }}
+    name: { { governor } }
+    network: { { network } }
     source:
       address: "{{ governorContractAddress }}"
-      abi: {{ governor }}
-      startBlock: {{ governorContractStartBlock }}
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.6
-      language: wasm/assemblyscript
-      entities:
-        - Governance
-        - Proposal
-        - Vote
-        - TokenHolder
-        - Delegate
-        - Delegation 
-        - TokenDailySnapshot
-        - VoteDailySnapshot
-      abis:
-        - name: {{ governor }}
-          file: ./abis/{{ governance }}/{{ governor }}.json
-      eventHandlers:
-        - event: ProposalCanceled(uint256)
-          handler: handleProposalCanceled
-        - event: ProposalCreated(uint256,address,address[],uint256[],string[],bytes[],uint256,uint256,string)
-          handler: handleProposalCreated
-        - event: ProposalExecuted(uint256)
-          handler: handleProposalExecuted
-        - event: ProposalQueued(uint256,uint256)
-          handler: handleProposalQueued
-        - event: VoteCast(indexed address,uint256,uint8,uint256,string)
-          handler: handleVoteCast
-      file: ./protocols/{{ governance }}/src/{{ governor }}.ts
-  - kind: ethereum/contract
-    name: {{ token }}
-    network:  {{ network }}
-    source:
-      address: "{{ tokenContractAddress }}"
-      abi: {{ token }}
-      startBlock: {{ tokenContractStartBlock }}
+      abi: { { governor } }
+      startBlock: { { governorContractStartBlock } }
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -58,7 +23,42 @@ dataSources:
         - TokenDailySnapshot
         - VoteDailySnapshot
       abis:
-        - name: {{ token }}
+        - name: { { governor } }
+          file: ./abis/{{ governance }}/{{ governor }}.json
+      eventHandlers:
+        - event: ProposalCanceled(uint256)
+          handler: handleProposalCanceled
+        - event: ProposalCreated(uint256,address,address[],uint256[],string[],bytes[],uint256,uint256,string)
+          handler: handleProposalCreated
+        - event: ProposalExecuted(uint256)
+          handler: handleProposalExecuted
+        - event: ProposalQueued(uint256,uint256)
+          handler: handleProposalQueued
+        - event: VoteCast(indexed address,uint256,uint8,uint256,string)
+          handler: handleVoteCast
+      file: ./protocols/{{ governance }}/src/{{ governor }}.ts
+  - kind: ethereum/contract
+    name: { { token } }
+    network: { { network } }
+    source:
+      address: "{{ tokenContractAddress }}"
+      abi: { { token } }
+      startBlock: { { tokenContractStartBlock } }
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      entities:
+        - Governance
+        - Proposal
+        - Vote
+        - TokenHolder
+        - Delegate
+        - Delegation
+        - TokenDailySnapshot
+        - VoteDailySnapshot
+      abis:
+        - name: { { token } }
           file: ./abis/{{ governance }}/{{ token }}.json
       eventHandlers:
         - event: DelegateChanged(indexed address,indexed address,indexed address)

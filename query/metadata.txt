@@ -1,0 +1,5 @@
+urls = [('Angle', 'https://api.studio.thegraph.com/query/28876/angle-governance/v2'),
+        ('ENS', 'https://api.studio.thegraph.com/query/28876/ens-governance/v5'),
+        ('Fei', 'https://api.studio.thegraph.com/query/28876/fei-governance/v1'),
+        ('Euler', 'https://api.studio.thegraph.com/query/28876/euler-governance/v2')
+        ]

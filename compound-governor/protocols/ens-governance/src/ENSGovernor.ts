@@ -17,10 +17,7 @@ import {
 } from "../../../src/handlers";
 import { ENSGovernor } from "../../../generated/ENSGovernor/ENSGovernor";
 import { Proposal } from "../../../generated/schema";
-import {
-  BIGINT_ONE,
-  ProposalState,
-} from "../../../src/constants";
+import { BIGINT_ONE, ProposalState } from "../../../src/constants";
 
 // ProposalCanceled(proposalId)
 export function handleProposalCanceled(event: ProposalCanceled): void {
@@ -29,11 +26,6 @@ export function handleProposalCanceled(event: ProposalCanceled): void {
 
 // ProposalCreated(proposalId, proposer, targets, values, signatures, calldatas, startBlock, endBlock, description)
 export function handleProposalCreated(event: ProposalCreated): void {
-  
-
-  // FIXME: Prefer to use a single object arg for params
-  // e.g.  { proposalId: event.params.proposalId, proposer: event.params.proposer, ...}
-  // but graph wasm compilation breaks for unknown reasons
   _handleProposalCreated(
     event.params.proposalId.toString(),
     event.params.proposer.toHexString(),
@@ -57,7 +49,6 @@ export function handleProposalExecuted(event: ProposalExecuted): void {
 export function handleProposalQueued(event: ProposalQueued): void {
   _handleProposalQueued(event.params.proposalId, event.params.eta);
 }
-
 
 function getLatestProposalValues(
   proposalId: string,
@@ -94,4 +85,3 @@ export function handleVoteCast(event: VoteCast): void {
     event
   );
 }
-

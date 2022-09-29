@@ -3,12 +3,12 @@ schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
-    name: {{ governor }}
-    network: {{ network }}
+    name: { { governor } }
+    network: { { network } }
     source:
       address: "{{ governorContractAddress }}"
-      abi: {{ governor }}
-      startBlock: {{ governorContractStartBlock }}
+      abi: { { governor } }
+      startBlock: { { governorContractStartBlock } }
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -20,8 +20,10 @@ dataSources:
         - TokenHolder
         - Delegate
         - Delegation
+        - TokenDailySnapshot
+        - VoteDailySnapshot
       abis:
-        - name: {{ governor }}
+        - name: { { governor } }
           file: ./abis/{{ governance }}/{{ governor }}.json
       eventHandlers:
         - event: ProposalCanceled(uint256)
@@ -36,12 +38,12 @@ dataSources:
           handler: handleVoteCast
       file: ./protocols/{{ governance }}/src/compound-governor.ts
   - kind: ethereum/contract
-    name: {{ token }}
-    network:  {{ network }}
+    name: { { token } }
+    network: { { network } }
     source:
       address: "{{ tokenContractAddress }}"
-      abi: {{ token }}
-      startBlock: {{ tokenContractStartBlock }}
+      abi: { { token } }
+      startBlock: { { tokenContractStartBlock } }
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -53,8 +55,10 @@ dataSources:
         - TokenHolder
         - Delegate
         - Delegation
+        - TokenDailySnapshot
+        - VoteDailySnapshot
       abis:
-        - name: {{ token }}
+        - name: { { token } }
           file: ./abis/{{ governance }}/{{ token }}.json
       eventHandlers:
         - event: DelegateChanged(indexed address,indexed address,indexed address)

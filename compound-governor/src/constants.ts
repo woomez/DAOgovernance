@@ -6,7 +6,7 @@ export const BIGINT_ONE = BigInt.fromI32(1);
 export const BIGINT_FIVE = BigInt.fromI32(5);
 export const BIGDECIMAL_ZERO = new BigDecimal(BIGINT_ZERO);
 
-export const GOVERNANCE_NAME = "OZGovernor";
+export const GOVERNANCE_NAME = "CompoundGovernor";
 export namespace GovernanceFrameworkType {
   export const OPENZEPPELIN_GOVERNOR = "OZGovernor";
 }

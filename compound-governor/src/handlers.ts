@@ -133,17 +133,17 @@ export function createDelegation(
   createIfNotFound: boolean = true,
   save: boolean = true
 ): Delegation {
-  let delegation = Delegation.load(id)
+  let delegation = Delegation.load(id);
   if (!delegation && createIfNotFound) {
     delegation = new Delegation(id);
     delegation.delegate = delegate;
-    delegation.delegator = delegator
+    delegation.delegator = delegator;
     delegation.delegateTokens = BIGDECIMAL_ZERO;
     delegation.delegatorTokens = BIGDECIMAL_ZERO;
     delegation.block = event.block.number;
     delegation.blockTime = event.block.timestamp;
     delegation.txnHash = event.transaction.hash.toHexString();
-    
+
     if (save) {
       delegation.save();
     }
@@ -153,20 +153,19 @@ export function createDelegation(
   }
 
   return delegation as Delegation;
-
 }
 
 export function getDelegation(
   id: string,
   delegate: string,
   event: ethereum.Event
-): Delegation{
-  let delegation = Delegation.load(id)
-  
-  if (!delegation){
+): Delegation {
+  let delegation = Delegation.load(id);
+
+  if (!delegation) {
     delegation = new Delegation(id);
     delegation.delegate = delegate;
-    delegation.delegator = ZERO_ADDRESS
+    delegation.delegator = ZERO_ADDRESS;
     delegation.delegateTokens = BIGDECIMAL_ZERO;
     delegation.delegatorTokens = BIGDECIMAL_ZERO;
     delegation.weight = BIGINT_ZERO;
@@ -175,10 +174,10 @@ export function getDelegation(
     delegation.txnHash = event.transaction.hash.toHexString();
     delegation.save();
   }
-  
-  return delegation as Delegation
+
+  return delegation as Delegation;
 }
-  
+
 export function getOrCreateTokenHolder(
   address: string,
   createIfNotFound: boolean = true,
@@ -248,7 +247,7 @@ export function _handleProposalCreated(
   event: ethereum.Event
 ): void {
   let proposal = getOrCreateProposal(proposalId);
-  let proposer = getOrCreateDelegate(proposerAddr, false);
+  let proposer = getOrCreateDelegate(proposerAddr);
 
   // Checking if the proposer was a delegate already accounted for, if not we should log an error
   // since it shouldn't be possible for a delegate to propose anything without first being "created"
@@ -288,7 +287,7 @@ export function _handleProposalCreated(
   proposal.save();
 
   // Increment gov proposal count
-  const governance = getGovernance();
+  let governance = getGovernance();
   governance.proposals = governance.proposals.plus(BIGINT_ONE);
   governance.save();
 }
@@ -304,7 +303,7 @@ export function _handleProposalCanceled(
   proposal.save();
 
   // Update governance proposal state counts
-  const governance = getGovernance();
+  let governance = getGovernance();
   governance.proposalsCanceled = governance.proposalsCanceled.plus(BIGINT_ONE);
   governance.save();
 }

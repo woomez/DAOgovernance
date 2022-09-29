@@ -9,7 +9,7 @@ import {
   toDecimal,
   getOrCreateTokenDailySnapshot,
 } from "./handlers";
-import {Delegation} from "../generated/schema";
+import { Delegation } from "../generated/schema";
 
 export function _handleDelegateChanged(
   delegator: string,
@@ -17,12 +17,19 @@ export function _handleDelegateChanged(
   toDelegate: string,
   event: ethereum.Event
 ): void {
- 
   let tokenHolder = getOrCreateTokenHolder(delegator);
   let previousDelegate = getOrCreateDelegate(fromDelegate);
   let newDelegate = getOrCreateDelegate(toDelegate);
-  let delegationId = event.block.number.toHexString().concat("-").concat(newDelegate.id);
-  let delegation = createDelegation(delegationId, tokenHolder.id, newDelegate.id, event);
+  let delegationId = event.block.number
+    .toHexString()
+    .concat("-")
+    .concat(newDelegate.id);
+  let delegation = createDelegation(
+    delegationId,
+    tokenHolder.id,
+    newDelegate.id,
+    event
+  );
 
   tokenHolder.delegate = newDelegate.id;
   tokenHolder.save();
@@ -56,7 +63,6 @@ export function _handleDelegateVotesChanged(
   delegate.delegatedVotes = toDecimal(newBalance);
   delegate.save();
 
-
   // Update governance delegate count
   let governance = getGovernance();
   if (previousBalance == BIGINT_ZERO && newBalance > BIGINT_ZERO) {
@@ -69,10 +75,14 @@ export function _handleDelegateVotesChanged(
     governance.delegatedVotesRaw.plus(votesDifference);
   governance.delegatedVotes = toDecimal(governance.delegatedVotesRaw);
   governance.save();
-
 }
 
-export function _handleTransfer(from: string, to: string, value: BigInt, event: ethereum.Event): void {
+export function _handleTransfer(
+  from: string,
+  to: string,
+  value: BigInt,
+  event: ethereum.Event
+): void {
   let fromHolder = getOrCreateTokenHolder(from);
   let toHolder = getOrCreateTokenHolder(to);
   let governance = getGovernance();
@@ -137,5 +147,4 @@ export function _handleTransfer(from: string, to: string, value: BigInt, event: 
   dailySnapshot.timestamp = event.block.timestamp;
   dailySnapshot.delegations = governance.totalDelegations;
   dailySnapshot.save();
-
 }
