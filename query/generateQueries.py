@@ -1,6 +1,8 @@
 from queryHandler import query
 import pandas as pd
 import gc
+import os
+from utils import traverse_tree
 
 urls = [('Angle', 'https://api.studio.thegraph.com/query/28876/angle-governance/v2'),
         ('ENS', 'https://api.studio.thegraph.com/query/28876/ens-governance/v5'),
@@ -20,5 +22,9 @@ def generate_results(url, _queries):
 ens_url = ('ENS', 'https://api.studio.thegraph.com/query/28876/ens-governance/v5')
 
 if __name__ == "__main__":
-    for url in urls:
-        generate_results(url, _queries)
+    path = "/Users/jaeyongpark/codes/governance/query/res"
+    traverse_tree(path)
+    # for url in urls:
+    #     generate_results(url, _queries)
+
+

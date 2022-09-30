@@ -1,0 +1,2 @@
+id,totalTokenSupply,currentTokenHolders,totalTokenHolders,currentDelegates,totalDelegates,totalDelegations,delegatedVotesRaw,delegatedVotes,proposals,proposalsQueued,proposalsExecuted,proposalsCanceled
+OZGovernor,100000000000000000000000000,59276,178228,11590,29860,99417,5559911529509905021296468,5559911.529509905021296468,11,0,10,0

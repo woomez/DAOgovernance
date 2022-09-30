@@ -7,8 +7,6 @@ import gc
 def make_client(api):
     # Select your transport with a defined url endpoint
     transport = AIOHTTPTransport(url=api)
-    
-    # Create a GraphQL client using the defined transport
     client = Client(transport=transport, fetch_schema_from_transport=True)
 
     return client
