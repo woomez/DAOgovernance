@@ -4,6 +4,13 @@ import json
 import os
 import gc
 
+def generate_results(url, _queries):
+    dao, api = url
+    print(f"starting process for {dao}")
+    for _query in _queries:
+        query(dao, api, _query)
+        gc.collect()
+
 def make_client(api):
     # Select your transport with a defined url endpoint
     transport = AIOHTTPTransport(url=api)
@@ -15,6 +22,7 @@ def save_query_as_json(dao, query, counter, result):
     os.makedirs(f"./res/{dao}/{query}", exist_ok=True)
     with open(f'./res/{dao}/{query}/'+f'{counter}.json', 'w') as outfile:
         json.dump(result, outfile)
+
 
 def query(dao, api, _query):
     client = make_client(api) 

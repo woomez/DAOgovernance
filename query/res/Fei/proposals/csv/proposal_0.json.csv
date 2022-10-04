@@ -1,4 +1,4 @@
-id,description,state,tokenHoldersAtStart,delegatesAtStart,againstDelegateVotes,forDelegateVotes,abstainDelegateVotes,totalDelegateVotes,againstWeightedVotes,forWeightedVotes,abstainWeightedVotes,totalWeightedVotes,creationBlock,votes,startBlock,endBlock,proposer.id
+id,description,proposer.id,state,tokenHoldersAtStart,delegatesAtStart,againstDelegateVotes,forDelegateVotes,abstainDelegateVotes,totalDelegateVotes,againstWeightedVotes,forWeightedVotes,abstainWeightedVotes,totalWeightedVotes,creationBlock,votes.0.choice,votes.0.weight,votes.0.voter.id,votes.1.choice,votes.1.weight,votes.1.voter.id,votes.2.choice,votes.2.weight,votes.2.voter.id,votes.3.choice,votes.3.weight,votes.3.voter.id,votes.4.choice,votes.4.weight,votes.4.voter.id,votes.5.choice,votes.5.weight,votes.5.voter.id,votes.6.choice,votes.6.weight,votes.6.voter.id,votes.7.choice,votes.7.weight,votes.7.voter.id,startBlock,endBlock,votes
 21852815661133861431069342628197440301017315762387828688826283933340724199435,"FIP-31 Upgrade Governance Timelock
 Summary:
 
@@ -15,7 +15,7 @@ This rollback can be activated by either the guardian or the DAO itself.
 
 Forum Discussion: https://tribe.fei.money/t/fip-31-fei-dao-timelock-upgrade/3537
 
-Code: https://github.com/fei-protocol/fei-protocol-core/tree/feat/FIP-30b",EXECUTED,12836,315,0,8,0,8,0,30823956600171320144248302,0,30823956600171320144248302,13375356,"[{'choice': 'FOR', 'weight': '1000000000000000000000000', 'voter': {'id': '0x458ceec48586a85fcfeb4a179706656ee321730e'}}, {'choice': 'FOR', 'weight': '5000782184230561871247991', 'voter': {'id': '0x66b9d411e14fbc86424367b67933945fd7e40b11'}}, {'choice': 'FOR', 'weight': '5114000000000000000000000', 'voter': {'id': '0x70b6ab736be7672c917a1ab11e67b5bc9fddeca9'}}, {'choice': 'FOR', 'weight': '4000000000000000000000000', 'voter': {'id': '0x961bcb93666e0ea73b6d88a03817cb36f93a6dd9'}}, {'choice': 'FOR', 'weight': '2500001000000000000000000', 'voter': {'id': '0xb81cf4981ef648aaa73f07a18b03970f04d5d8bf'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xcdddcf576e2018ea8d22461137a8f1bf9ab4f8c1'}}, {'choice': 'FOR', 'weight': '10709163415940758273000311', 'voter': {'id': '0xe0ac4559739bd36f0913fb0a3f5bfc19bcbacd52'}}, {'choice': 'FOR', 'weight': '2500010000000000000000000', 'voter': {'id': '0xf8d0387538e8e03f3b4394da89f221d7565a28ee'}}]",13375357,13388357,0xf8d0387538e8e03f3b4394da89f221d7565a28ee
+Code: https://github.com/fei-protocol/fei-protocol-core/tree/feat/FIP-30b",0xf8d0387538e8e03f3b4394da89f221d7565a28ee,EXECUTED,12836,315,0,8,0,8,0,30823956600171320144248302,0,30823956600171320144248302,13375356,FOR,1000000000000000000000000,0x458ceec48586a85fcfeb4a179706656ee321730e,FOR,5000782184230561871247991,0x66b9d411e14fbc86424367b67933945fd7e40b11,FOR,5114000000000000000000000,0x70b6ab736be7672c917a1ab11e67b5bc9fddeca9,FOR,4000000000000000000000000,0x961bcb93666e0ea73b6d88a03817cb36f93a6dd9,FOR,2500001000000000000000000,0xb81cf4981ef648aaa73f07a18b03970f04d5d8bf,FOR,0,0xcdddcf576e2018ea8d22461137a8f1bf9ab4f8c1,FOR,10709163415940758273000311,0xe0ac4559739bd36f0913fb0a3f5bfc19bcbacd52,FOR,2500010000000000000000000,0xf8d0387538e8e03f3b4394da89f221d7565a28ee,13375357,13388357,
 22527152761642945815331109239368025734384750396751703372247192038695009099433,"FIP-31 Upgrade Governance Timelock
 Summary:
 
@@ -32,7 +32,7 @@ This rollback can be activated by either the guardian or the DAO itself.
 
 Forum Discussion: https://tribe.fei.money/t/fip-31-fei-dao-timelock-upgrade/3537
 
-Code: https://github.com/fei-protocol/fei-protocol-core/tree/feat/FIP-30b",CANCELED,0,0,0,0,0,0,0,0,0,0,13375220,[],13375221,13388221,0xf8d0387538e8e03f3b4394da89f221d7565a28ee
+Code: https://github.com/fei-protocol/fei-protocol-core/tree/feat/FIP-30b",0xf8d0387538e8e03f3b4394da89f221d7565a28ee,CANCELED,0,0,0,0,0,0,0,0,0,0,13375220,,,,,,,,,,,,,,,,,,,,,,,,,13375221,13388221,[]
 91029981361606648885693306378308858841543598617836257600463077984671548586385,"FIP-32: Pre-V2 Contract Upgrades
 Summary:
 
@@ -53,7 +53,7 @@ Finally, moves pcv from the old eth & dpi uni pcv deposits into the�
 Uses some adapter contracts to move the PCV from the old ETH BondingCurve into Aave and Compound
 
 Forum Discussion: https://tribe.fei.money/t/fip-32-pre-v2-contract-upgrades/3538
-Code: https://github.com/fei-protocol/fei-protocol-core/pull/219",CANCELED,0,0,0,0,0,0,0,0,0,0,13370450,[],13370451,13383451,0xb81cf4981ef648aaa73f07a18b03970f04d5d8bf
+Code: https://github.com/fei-protocol/fei-protocol-core/pull/219",0xb81cf4981ef648aaa73f07a18b03970f04d5d8bf,CANCELED,0,0,0,0,0,0,0,0,0,0,13370450,,,,,,,,,,,,,,,,,,,,,,,,,13370451,13383451,[]
 93357291593194312261346499544567298679261704308288227159285002033190414845299,"FIP-32: Pre-V2 Contract Upgrades
 Summary:
 
@@ -74,4 +74,4 @@ Finally, moves pcv from the old eth & dpi uni pcv deposits into the�
 Uses some adapter contracts to move the PCV from the old ETH BondingCurve into Aave and Compound
 
 Forum Discussion: https://tribe.fei.money/t/fip-32-pre-v2-contract-upgrades/3538
-Code: https://github.com/fei-protocol/fei-protocol-core/pull/219",EXECUTED,12835,315,0,8,0,8,0,29823956600171320144248302,0,29823956600171320144248302,13372627,"[{'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x027e652f28d71de7ee7fdf90cc95a160164e9fd7'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x40b12d200404c0d082b6d088ab24ceded6bcf8c2'}}, {'choice': 'FOR', 'weight': '5000782184230561871247991', 'voter': {'id': '0x66b9d411e14fbc86424367b67933945fd7e40b11'}}, {'choice': 'FOR', 'weight': '5114000000000000000000000', 'voter': {'id': '0x70b6ab736be7672c917a1ab11e67b5bc9fddeca9'}}, {'choice': 'FOR', 'weight': '4000000000000000000000000', 'voter': {'id': '0x961bcb93666e0ea73b6d88a03817cb36f93a6dd9'}}, {'choice': 'FOR', 'weight': '2500001000000000000000000', 'voter': {'id': '0xb81cf4981ef648aaa73f07a18b03970f04d5d8bf'}}, {'choice': 'FOR', 'weight': '10709163415940758273000311', 'voter': {'id': '0xe0ac4559739bd36f0913fb0a3f5bfc19bcbacd52'}}, {'choice': 'FOR', 'weight': '2500010000000000000000000', 'voter': {'id': '0xf8d0387538e8e03f3b4394da89f221d7565a28ee'}}]",13372628,13385628,0xb81cf4981ef648aaa73f07a18b03970f04d5d8bf
+Code: https://github.com/fei-protocol/fei-protocol-core/pull/219",0xb81cf4981ef648aaa73f07a18b03970f04d5d8bf,EXECUTED,12835,315,0,8,0,8,0,29823956600171320144248302,0,29823956600171320144248302,13372627,FOR,0,0x027e652f28d71de7ee7fdf90cc95a160164e9fd7,FOR,0,0x40b12d200404c0d082b6d088ab24ceded6bcf8c2,FOR,5000782184230561871247991,0x66b9d411e14fbc86424367b67933945fd7e40b11,FOR,5114000000000000000000000,0x70b6ab736be7672c917a1ab11e67b5bc9fddeca9,FOR,4000000000000000000000000,0x961bcb93666e0ea73b6d88a03817cb36f93a6dd9,FOR,2500001000000000000000000,0xb81cf4981ef648aaa73f07a18b03970f04d5d8bf,FOR,10709163415940758273000311,0xe0ac4559739bd36f0913fb0a3f5bfc19bcbacd52,FOR,2500010000000000000000000,0xf8d0387538e8e03f3b4394da89f221d7565a28ee,13372628,13385628,
