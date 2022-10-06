@@ -89,17 +89,20 @@ def combine_csvs(path, vote_csv, delegation_csv):
                 df =pd.read_csv(os.path.join(root,file), index_col=None, header=0)
                 df['dao'] = dao
                 vote_csv = pd.concat([vote_csv, df], ignore_index=True)
-                print(vote_csv)
-                break
-        elif two == 'delegations':
-            pass
+        elif two == 'delegations/csv':
+            dao = root.split(os.path.sep)[-3]
+            for file in files:
+                df =pd.read_csv(os.path.join(root,file), index_col=None, header=0)
+                df['dao'] = dao
+                delegation_csv = pd.concat([delegation_csv, df], ignore_index=True)
 
-    vote_csv.to_csv(path+"/combined.csv", index=False)
+    vote_csv.to_csv(path+"/votescombined.csv", index=False)
+    delegation_csv.to_csv(path+"/delegationscombined.csv", index=False)
 
 path = "/Users/jaeyongpark/codes/governance/query/res"
 #combine all files in the list
 #export to csv
 vote_csv = pd.DataFrame()
-delegation_csv =[]
+delegation_csv =pd.DataFrame()
 
 combine_csvs(path, vote_csv, delegation_csv)
