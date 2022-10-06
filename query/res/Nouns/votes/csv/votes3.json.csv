@@ -1,0 +1,962 @@
+id,choice,weight,reason,block,blockTime,txnHash,voter.id,proposal.id
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-40,FOR,6,,14304862,1646187503,0x5bb5ca211b6645490313c7082e50a0a2d7b2bb03d2578a9638c4a834f15b61d5,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,40
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-41,FOR,6,,14332263,1646555270,0xad9c2c6db9c0c2a2b0c70dca583239ae6e3c9562ea16493c9ee82ecf3fe42a3a,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,41
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-42,FOR,6,,14341849,1646684812,0x9f1fa8488c67dab5c3d89ce8730563a7467759ac88423eeb1c1eb81d53b32b2e,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,42
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-43,FOR,6,,14381124,1647212113,0x84a78021bb167a2bec87366805d6919778c6bc9f414870b6fca9b3c24d866907,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,43
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-44,FOR,6,,14430986,1647882833,0x640706e07a7afb1aaa2e439722515522b66742f93cd9bae38dc709dd4cd3089b,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,44
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-48,FOR,6,,14521344,1649099835,0x120679df40c6f2b015268efff2ff41501d4097753e3c8ea9e75f5df45d256a37,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,48
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-51,FOR,6,,14571330,1649774551,0xd5dc06b5ef224bcf4ed188c6970015f8c8ceefa3225eb0fa2bcea195bdf6212f,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,51
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-56,FOR,6,we like the FUN Frames,14590801,1650037262,0xd89d17406168d0d87c6cad554b8915b7dff2718f94cb18053e96ac70188e4b4a,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,56
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-60,ABSTAIN,6,SharkDAO 🦈,14641487,1650722421,0x65757f1aab4c3b8e942f8985d81893505a22457dd88ab7a8d958fbde3e5bda8d,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,60
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-61,FOR,6,"Dedicated. Kind. Ingenious. Nounish. Shark. With great pride we vote FOR cdt.
+
+-SharkDAO🦈",14641500,1650722633,0xffa800b369861003cfa244800660969ff0daa954a6d0efac2f7b6cc6dc7d15b7,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,61
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-62,FOR,6,Keep up the great work! - SharkDAO 🦈,14641516,1650722933,0x44523b8ba485a743827e7104fc652e836ef836efb031d52f02f3e6cf6ae3717e,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,62
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-63,FOR,6,"Rewarding contributors, Nounish ⌐◨-◨ ",14662078,1651003013,0x675776661059acc8914b9a4224828752ff3f50fda3a67507ac4ed6c3352f1947,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,63
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-64,FOR,6,🦈 🤝 🐐,14662108,1651003313,0xbbffdaeea71d29977286a9383c360e2dae75a25d1b009942ea590900b35cd772,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,64
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-68,FOR,6,Game On! In Sasquatch We Trust - 🦈 SharkDAO 🦈,14664403,1651034084,0x3dd5aa74903e45ffc31d331f258f27e6086547b87e4dceb312094dfb7114c598,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,68
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-70,FOR,6,"🥂, heres to the Nouns Multiverse ⌐◨-◨ 
+🦈 SharkDAO 🦈",14668804,1651093671,0x8e13abce5b474c50809d636b1dfb1b225a5acbbf0dbea41be39aacc16132da41,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,70
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-72,FOR,6,we like the toys. !fun for all ages.,14743513,1652115282,0x7406ab4deea9fe1c1bbe97e61d04e9f70e0929e0668adbb4d05178ea39cc1a95,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,72
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-73,FOR,6,This is going to be Stoopid Fun! 🌹,14769847,1652478132,0x8e2e86cd711d4a7f6860a71161c4b59172ea43e91e281ad05df5434ef513321a,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,73
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-75,FOR,6,SharkDAO is in! 🦈,14788341,1652732796,0xb18970602d5a8f0ef8f24003763f978d62ea85bb9f0ca725d24edd3a0b9b05dc,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,75
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-81,AGAINST,6,,14831340,1653333409,0x65eedd97284dc746e9dd13d048f958247480a89c1d7ae29920e3fdba83b2dc10,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,81
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-82,FOR,6,lil nouns nom nom nouns for a clean meme,14831348,1653333518,0xa5ee70bbd0c36ff65b5b1410a5892c6c8eab66881a5bd03866382ecc3180b488,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,82
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-84,FOR,6,"nouns coffee, fomo nouns, nom nom nouns. dream scenario.
+
+we like the coffee. SharkDAO
+",14877069,1653976519,0x7e9d0d169f04fa1ac720298bc5afcc8f21c2c192754d170295705e1a2d4b0b22,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,84
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-86,AGAINST,6,,14881068,1654033016,0x911df303bfa2d39e9e7f7036f5f3b5e360fa50946461df1238bc1494e3f0b758,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,86
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-89,FOR,6,Sharks like all passionate artists working on Nouns ⌐◨-◨ ,14928376,1654715583,0xd78a5209d0ad2b1610f5d332b3c27aebe40d5dac48ceb23762d3b92e49474871,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,89
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-90,FOR,6,"They don’t call it GOAT CLUB for nothing! SharkDAO is proud to support these important creative works, we like the memes ⌐◨-◨ ",14942910,1654930577,0xfd82a60ea06e9f968493e7b9b1c5d65a46e0f0b304c383b66f1fd434f5320cb6,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,90
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-92,FOR,6,"Sharks like where this is headed, keep up the great work David!",14953820,1655091138,0xc4222d785dd020ddacc32747d5efc71b0affa51626f28160aa929bec430a924b,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,92
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-93,FOR,6,"If you Noadz you Noadz.  We like the POAP's.
+-SharkDAO",14960555,1655191531,0x5657656f870ff39f14a0cbd7a4144e3da11ef6b47da102cbb5291fdcf2c42c82,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,93
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-94,FOR,6,"May this one small step for Nouns lead to a giant leap in our cc0 library for builders of the future.
+-SharkDAO",14960574,1655191838,0x5461523ccb45be7507cf5c6dbc2b73f0fdd2b7ba7051543e0200b5c06ecafe21,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,94
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-95,FOR,6,nom nom Noun Chocolate. Sharks want the Guerrilla Marketing ⌐◨-◨ ,14971043,1655348266,0xedff39f1a3ad8e77ffe5367121c2eadd4ec79429c0734df7d741663d09bc2705,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,95
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-97,ABSTAIN,6,,15008351,1655912746,0x6e4236275a7e67d37cdae96cb11d1f482a7895812a47cca4b95bcd86fa8efe7a,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,97
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-98,ABSTAIN,6,,15029393,1656253143,0x7e53d0ab1975edf1763351cf2bc3e6242ce816356155a0857e81301ac32060a7,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,98
+0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a-99,FOR,6,"""I like big boats and I can not lie"" ",15038553,1656401021,0x200553ceed8e07a72e9aa35fbc261953bba30d6e9eb596181a9a98f29c3da391,0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a,99
+0xbf5a7f9ea27322c07a50c78a512a9972e5557c34-84,FOR,7,We ⌐◨-◨ coffee,14869587,1653870925,0xde38033272e8ee11e80a99575143a75d78ee4a7b37e58b4b7f4cf0e3eca78a78,0xbf5a7f9ea27322c07a50c78a512a9972e5557c34,84
+0xbf5a7f9ea27322c07a50c78a512a9972e5557c34-85,FOR,7,"We think a nimble, flexible, pool of capital is important for the DAO.
+
+We would love to see more real-time transparency of the work of this pod. For example, a weekly report on the pod's discord channel on what was funded and what was reject. This way nouners can give faster feedback on the pod's decisions, and builders can learn what gets funded what not. ",14878889,1654002821,0x34f125f8411fca921dcd50da030dda4c6d35b2796dd1eb533e60faf19a766f54,0xbf5a7f9ea27322c07a50c78a512a9972e5557c34,85
+0xbf5a7f9ea27322c07a50c78a512a9972e5557c34-86,AGAINST,7,We don't feel nuanced enough on the legal details to make a decision to contribute so much ETH to this cause.,14878934,1654003422,0xa45ca777e09f89407a3fd7cf5a63af5769fdc0d69dc74d75e2701bb62d5cc110,0xbf5a7f9ea27322c07a50c78a512a9972e5557c34,86
+0xbf5a7f9ea27322c07a50c78a512a9972e5557c34-87,FOR,6,,14889354,1654150180,0x1d7bb2bf91aa466b3992776ea05e45dcac1d75386c258fc27faa0e93422a87af,0xbf5a7f9ea27322c07a50c78a512a9972e5557c34,87
+0xc1d4325fd08599a9178ca5df6de4993207fcec5f-145,FOR,0,yes,15659371,1664700575,0xb1859eb8c8b49c72385d2d3aed8e36058adeddfd52e312a6a4ed7226aa7879d1,0xc1d4325fd08599a9178ca5df6de4993207fcec5f,145
+0xc1d4325fd08599a9178ca5df6de4993207fcec5f-146,FOR,0,,15659420,1664701163,0xbf0385a7294185175617b464a3128f2b459d57719da9fd33ee486b65ff857382,0xc1d4325fd08599a9178ca5df6de4993207fcec5f,146
+0xc1d4325fd08599a9178ca5df6de4993207fcec5f-147,AGAINST,0,,15659371,1664700575,0x498ec2241ec72b454e172c16fa0db2083548647bf581ae2274ad02bea8f516ed,0xc1d4325fd08599a9178ca5df6de4993207fcec5f,147
+0xc3598d91844b061195136600ad243b077cc164e2-73,FOR,1,,14768984,1652466694,0x34ed3bc893fc4f8f4e4b5033f4054dcbfb136d4d340289c208f193f4c2491136,0xc3598d91844b061195136600ad243b077cc164e2,73
+0xc3598d91844b061195136600ad243b077cc164e2-74,AGAINST,1,,14768969,1652466532,0x646dccf53fa445b79c3ee5499bbb8537531c991fe3f95d6cf96fbf470f05ef97,0xc3598d91844b061195136600ad243b077cc164e2,74
+0xc3598d91844b061195136600ad243b077cc164e2-75,FOR,1,,14788709,1652737873,0xa6a4d8c28470fa017fd6bc6d1363b112ebad0712554bd36553b0ff01953c7381,0xc3598d91844b061195136600ad243b077cc164e2,75
+0xc3598d91844b061195136600ad243b077cc164e2-77,FOR,1,,14807895,1653004633,0x3f9a3b5da25cd028db3833f3137536c29e4aeee1da64e7b0e07b106ccf7536c2,0xc3598d91844b061195136600ad243b077cc164e2,77
+0xc3598d91844b061195136600ad243b077cc164e2-84,FOR,1,,14869763,1653873707,0x5fadd21e3b39d2f0d05c5975f0a89728b7b04c9f4fdc101a0d530398b05595af,0xc3598d91844b061195136600ad243b077cc164e2,84
+0xc3598d91844b061195136600ad243b077cc164e2-85,FOR,1,,14869763,1653873707,0xd2c0c8feb0ff62357b85197beec1b1114fe9b00ac4edf8ab9f1c7853998be0a7,0xc3598d91844b061195136600ad243b077cc164e2,85
+0xc3598d91844b061195136600ad243b077cc164e2-86,FOR,1,,14883213,1654063326,0x464b501fe03691e18ca2f6ef15457d3bc48c58ea33e809d4d4902b6f953843d3,0xc3598d91844b061195136600ad243b077cc164e2,86
+0xc3598d91844b061195136600ad243b077cc164e2-87,FOR,1,,14883258,1654064027,0x9655a78ef107441d60c6b78a8b0858970361a9cc3d8f401fd285bc3a8b83d6ea,0xc3598d91844b061195136600ad243b077cc164e2,87
+0xc3598d91844b061195136600ad243b077cc164e2-90,FOR,1,,14941062,1654902751,0xa99658834a94f84432aed0e5133bcbb4e88d8f1e024345f870bdff080afac116,0xc3598d91844b061195136600ad243b077cc164e2,90
+0xc3598d91844b061195136600ad243b077cc164e2-91,FOR,1,,14941062,1654902751,0x94493f9c350196d6dafbcf5f378c72b914d16387ae0264e280453599d5d77746,0xc3598d91844b061195136600ad243b077cc164e2,91
+0xc3598d91844b061195136600ad243b077cc164e2-92,FOR,1,,14941066,1654902809,0x9607834bbed3de4a81a861ee459d8a0a64699910245ee839904f99731770f7c2,0xc3598d91844b061195136600ad243b077cc164e2,92
+0xc3b80922832450aabafe6aae8a6aaf1e5e6158ea-11,FOR,1,,13409815,1634125458,0x72c5549830fcc5648222a42917713d441b0812566aaf2052d60a9a59a66556a3,0xc3b80922832450aabafe6aae8a6aaf1e5e6158ea,11
+0xc3b80922832450aabafe6aae8a6aaf1e5e6158ea-3,FOR,1,,13156843,1630726699,0xe9dc2e790dea23d61ea4b45680d2988cb8677fd8c964b1f8df181f8eed252f7e,0xc3b80922832450aabafe6aae8a6aaf1e5e6158ea,3
+0xc3b80922832450aabafe6aae8a6aaf1e5e6158ea-4,FOR,1,,13185747,1631112365,0xf2f1461981d976bd591aa8f70905779db95d28e3100fa2dc11dd2f43e2d36d22,0xc3b80922832450aabafe6aae8a6aaf1e5e6158ea,4
+0xc3b80922832450aabafe6aae8a6aaf1e5e6158ea-9,FOR,1,,13351576,1633336763,0xc4b22d0cd509d24a5b6521b621b6db78a46d8fe319b8af16d56468b47c2a084e,0xc3b80922832450aabafe6aae8a6aaf1e5e6158ea,9
+0xc3fdadbae46798cd8762185a09c5b672a7aa36bb-140,FOR,1,"Strongly support more experimentation with Prop House, especially for larger amounts of ETH.",15539814,1663253591,0xfaccefad9d97b04203e14961c8553b6e6511127fdf2c43e142190f715cede0b9,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb,140
+0xc3fdadbae46798cd8762185a09c5b672a7aa36bb-141,FOR,1,"On one hand, I worry that we don't have a distribution plan for this many toys, and therefore question the impact. On the other hand, Klim has demonstrated a lot of tenacity as a builder and the ask is reasonable enough that it's worth taking a bet to see what happens, especially since many members of the DAO have already given this feedback around distribution, so it'll top of mind as he executes.",15568462,1663601423,0xd7edef4942fef1cdcbe74181c9a07dfc8742489b1dffca7886651e80d900a055,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb,141
+0xc3fdadbae46798cd8762185a09c5b672a7aa36bb-142,FOR,3,,15583287,1663781987,0x40af599e0597bf7edbba446598fffa469eb0eec82efe03c5e7aa0fbde21a0e24,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb,142
+0xc3fdadbae46798cd8762185a09c5b672a7aa36bb-143,FOR,3,I'm excited to fund ambitious proposals from proven builders. Look forward to the impact that a full video production studio would bring!,15583306,1663782215,0xf79f2ff5de69065a8d970f8b4d97747d464024ce2b2704fa97e373f163286eb6,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb,143
+0xc3fdadbae46798cd8762185a09c5b672a7aa36bb-145,ABSTAIN,2,Abstaining because I do not understand enough about the historical context of the NAC to make an informed decision here.,15658012,1664684207,0x70bcdc8652af27608e0008e65d158dd46f78cdfbcb88a69c618d36833fce212e,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb,145
+0xc3fdadbae46798cd8762185a09c5b672a7aa36bb-146,AGAINST,2,"Although I'm very excited to fund builders on the expectation of (or based on the history of) great impact, I'm generally more weary of funding effort as an end goal in itself. ",15657995,1664684003,0x84d9772967d3d2c60a3dd0c4f1bacb2f08d187dd198a0207bae56eb8239e7894,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb,146
+0xc3fdadbae46798cd8762185a09c5b672a7aa36bb-147,FOR,2,"Generally excited to generous fund endeavors that have brought meaningful value to the DAO. 
+
+Retro funding ftw",15657973,1664683739,0x2bd7dfc64a2175795aa560d676c1f6a40c9560812f37dc761c72e110422221fa,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb,147
+0xc44a17c827cd97b7338c074eb00eecb76d69944d-104,AGAINST,0,,15088011,1657098260,0x7cdcf841f3852fc0da2a65b7656adc16c722489b223a1154bc084314d9c74218,0xc44a17c827cd97b7338c074eb00eecb76d69944d,104
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-100,FOR,2,,15048032,1656554485,0x8a474301f98f5deba82116fb72ee423576fe8ee3d9a8a1a1907c3fd8d96596ec,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,100
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-101,FOR,2,,15047601,1656547281,0xc942cc35bae03d4d2069bb75542f248e6cb6b0828255c39730fb1eaf7fde452d,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,101
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-103,FOR,2,,15090114,1657126162,0x3a4d3376b639399df4f2d77bda84893a2d54933e944dbf3eba0b31349537fd44,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,103
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-104,FOR,2,,15090152,1657126714,0x26d0d0b66804dd3a7871f511c12f726f148be1933f226fe95b964b5f2fee1885,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,104
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-110,FOR,2,,15154934,1657990879,0x61192db8a57c971606970e599cb80b0a5577c81d933172fbb0d797ce3a8a36cc,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,110
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-112,FOR,2,,15154914,1657990608,0xc19dcfd72601fffcdd7ad26f772ca5666e9f6e9be8b7917d85a23cc273b4bdf6,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,112
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-114,FOR,2,we do a lil error fixin,15167824,1658162948,0xbcf3d2a26bf6b6199cd396d2a6f31e5ae70ee7de11afac319417c31ed2542341,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,114
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-116,FOR,2,,15213986,1658782880,0xd6b807a59eae3b90205b0b721dd982418bc57870bba64562f8705334955c6439,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,116
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-118,FOR,2,,15252908,1659306209,0xe52e4cdc8000a229b37955362e2dc512cee2c4df2cfcd5d743bca1a4bc6c956d,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,118
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-119,FOR,2,⛳🏌️‍♂️,15252914,1659306354,0x39ad08eaf75df26d8ec122f5411121b8a29787e3a84e036915e24b63b15588b4,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,119
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-120,ABSTAIN,2,we are all unwell and we know it (idk how we fix this with an app tho) ,15252927,1659306489,0xee2462008bbd2712b056b711a5a26465618b73d8f9255c8e57789d7217c871fb,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,120
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-123,FOR,2,,15259079,1659389257,0xba0d6d44e224333ac7ba6b3440803bef9346bb7a518dd61a21b2d93154b20bc3,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,123
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-124,FOR,2,⛳🏌️‍♂️,15259097,1659389488,0xbe8e5ba4b5a8123f74ecccad6692512ce8f7117ad6dec4dc97975b670ee12d50,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,124
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-125,FOR,2,🏌️‍♂️🏌️‍♂️🏌️‍♂️🏌️‍♂️🏌️‍♂️🏌️‍♂️🏌️‍♂️,15270615,1659545428,0x8355583f5208fc8a800e373b86e6fa53d8072911be7661c3669c59de0d111638,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,125
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-126,FOR,2,,15308737,1660058193,0xea4b7a39830a4e4267ee545b34286043fc62c9ba593159e99de220d2a2ab8852,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,126
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-127,FOR,2,,15329840,1660345636,0x684d108f8248e9ff097eedc73a7d83646a8f326837c13de6d9af924899e60e75,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,127
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-128,FOR,2,we like the noc,15327477,1660314059,0xba7ed922088eb20e207a3adbb4614fc4e6c4774c3f6a8a121921f6a9eca83240,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,128
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-129,FOR,2,,15354094,1660676569,0xe0869f2133302a74c5d2bc04d07c66728a1d942beb9f6a5b703b96efa1a39423,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,129
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-132,FOR,2,🏌️‍♂️🏌️‍♂️🏌️‍♂️,15388062,1661140757,0x8bafe072125b298c9cf0e72ac307220de096184643d906aa1649b8fa375ea89a,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,132
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-86,ABSTAIN,1,,14886172,1654105995,0xd197354f0b9feea61a41f5b36cd83f5d7ca7a4f37ec2066eece6a490b01a1ced,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,86
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-87,FOR,1,,14886773,1654114107,0xde10725a88aaa961f1580703f7cb375df1402480cc6ac4d02a488806fd8d99c0,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,87
+0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f-95,FOR,2,,14969273,1655322126,0xc377de19a19ccf7227d8708cd776df7bb6415e4c639ed9b8d3ea391d5082c082,0xc46db2d89327d4c41eb81c43ed5e3dff111f9a8f,95
+0xc6f6c89f7f297b5230d2fd028ac06f0677c1857b-145,FOR,1,,15646538,1664545559,0x8a3eb055fdb275ba66e73f701c2a5ba79bc13da8d610d1148c1d262bbc7f4cc6,0xc6f6c89f7f297b5230d2fd028ac06f0677c1857b,145
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-132,FOR,1,,15382348,1661062889,0x9bce69b00e8b8dada2cf47607e093c563b8e7d32006270a6b6e45b5423691764,0xc8598168d8475133de3150eff9b0ce27fb9b038d,132
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-133,ABSTAIN,1,Personally didn’t take the time to research shark 🦈 and formulate an opinion.   ,15401096,1661319173,0xc2b520e481ea394722f7ee57971ac71006ed534d09f062c1d3861a5d7a1ffc0c,0xc8598168d8475133de3150eff9b0ce27fb9b038d,133
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-135,FOR,1,,15469296,1662261931,0xd43a3f4fffc2995b9a17a5789adc35b76af83d40499415624b3f06efc828aea9,0xc8598168d8475133de3150eff9b0ce27fb9b038d,135
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-137,FOR,1,,15506267,1662776792,0xf0738989f68f675220eb7b583ddaf4cdfe68e8160a692f9eef6bd931561e15ea,0xc8598168d8475133de3150eff9b0ce27fb9b038d,137
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-138,AGAINST,1,,15506267,1662776792,0xc227d1e706694f3a514949bf130b39f81f0c863b8844203f9ed5ed5e6e73348f,0xc8598168d8475133de3150eff9b0ce27fb9b038d,138
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-139,FOR,1,I’ll roll with a grammy nominated producers any day ! ,15520534,1662980617,0x3d20897ba3b0a5c270e4049dacb96ab599aafae42db1b12a0745c9ce34afedaa,0xc8598168d8475133de3150eff9b0ce27fb9b038d,139
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-140,FOR,1,,15548655,1663361327,0xb446af1d9ca4778ea0743e1567ffef6cd041ae502a505aeada8f8b653b38e018,0xc8598168d8475133de3150eff9b0ce27fb9b038d,140
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-141,FOR,1,,15549274,1663368899,0x6ccc2ab4fcb845b8ab3c677cce58d599d31b4e9672e391adbbf9a14c0af6b63d,0xc8598168d8475133de3150eff9b0ce27fb9b038d,141
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-142,FOR,1,,15571807,1663641983,0x5e7bf716753f241cbd289bdd7b640594231dc9ee74cc50d6f7e6dcb31f832eeb,0xc8598168d8475133de3150eff9b0ce27fb9b038d,142
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-143,FOR,1,,15587071,1663827839,0xb438224f055d420b968200e82c2e1b624afbaefc2b12a0d2b19442bbe7ed40d7,0xc8598168d8475133de3150eff9b0ce27fb9b038d,143
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-144,AGAINST,1,,15648749,1664572211,0xc038586f156a67feebfbacb6df1aaa304c4cb477f66b3dff29d781322225cfcc,0xc8598168d8475133de3150eff9b0ce27fb9b038d,144
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-145,FOR,1,,15648744,1664572151,0xaaeec86255b007aaee548e5900835bad0ae6cc49ee0b39bf378578ef2d857e6b,0xc8598168d8475133de3150eff9b0ce27fb9b038d,145
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-146,AGAINST,1,,15655824,1664657795,0x29a19cbba094690442e183d53ca3eeb9e03695570a342dcc6320b29ba31e5ddb,0xc8598168d8475133de3150eff9b0ce27fb9b038d,146
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-147,FOR,1,,15648752,1664572247,0x8262183a5d686940c63c68cbd0096a4f01d0a9ca5614dc4a8e5658fce59ae233,0xc8598168d8475133de3150eff9b0ce27fb9b038d,147
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-149,AGAINST,1,,15684358,1665002543,0xfb14a20bdcf7d202e67923673f72a9d8ff3a977694825ce4e3e8a7ffdf982d43,0xc8598168d8475133de3150eff9b0ce27fb9b038d,149
+0xc8598168d8475133de3150eff9b0ce27fb9b038d-99,FOR,1,,15033991,1656327045,0xa3bb102ef22641d4e616484bd15e4ca45b19ec9da13b99e48184603887144c2b,0xc8598168d8475133de3150eff9b0ce27fb9b038d,99
+0xca6caedcc79d4d6541b3f82dc7754a14d9b196f8-14,FOR,1,,13528332,1635731201,0x212513ab033de61646f32b964f41b6af66943e796c2983be22ab02c964c47e4e,0xca6caedcc79d4d6541b3f82dc7754a14d9b196f8,14
+0xca6caedcc79d4d6541b3f82dc7754a14d9b196f8-15,FOR,1,,13579719,1636427355,0xf279c59ce7d84f67ab98d0597314b2a26dc427a4facd857f1d9536a1d0ce9a8f,0xca6caedcc79d4d6541b3f82dc7754a14d9b196f8,15
+0xca6caedcc79d4d6541b3f82dc7754a14d9b196f8-16,AGAINST,1,,13579709,1636427206,0xe5d30ba6a9d4a09baf0bca95cb625b414cf3959dab28ec2026aeb1eb65a62af4,0xca6caedcc79d4d6541b3f82dc7754a14d9b196f8,16
+0xca93e1912ab9bd7858334b22eb6f4b152c27d77f-145,AGAINST,0,,15659223,1664698799,0x3ea29f38fb5aef32fbd4f993a08379b4f25f82704b0280b54550ca550d299fc4,0xca93e1912ab9bd7858334b22eb6f4b152c27d77f,145
+0xca93e1912ab9bd7858334b22eb6f4b152c27d77f-146,AGAINST,0,,15659223,1664698799,0x92b78fc277691d315a771022b44bc46491c57687294ecb633b4d243aef9d3a2c,0xca93e1912ab9bd7858334b22eb6f4b152c27d77f,146
+0xca93e1912ab9bd7858334b22eb6f4b152c27d77f-147,FOR,0,,15659243,1664699039,0x7f5b9e11ead2ca054d511887114c62f8200d52cfa2a57a5a764f4f604a2e7769,0xca93e1912ab9bd7858334b22eb6f4b152c27d77f,147
+0xcaa8b2c1c86de1ac7e2c85bf7f7c9dec3c3dd356-137,AGAINST,0,,15517625,1662939038,0x7c316f13cc84b70db957819f85b15dcae700bb2db1d015a227350809607d5b3f,0xcaa8b2c1c86de1ac7e2c85bf7f7c9dec3c3dd356,137
+0xcaa8b2c1c86de1ac7e2c85bf7f7c9dec3c3dd356-146,FOR,0,,15660256,1664711243,0x2e703ab1e9291abf67ef4f8e3bd43ee86c32dd61d214b6797127275a2686c4fe,0xcaa8b2c1c86de1ac7e2c85bf7f7c9dec3c3dd356,146
+0xcaa8b2c1c86de1ac7e2c85bf7f7c9dec3c3dd356-147,FOR,0,,15660261,1664711303,0xf70ba94acdc329d7cbfe8a2717b9c3269818ca5200aef32ac438441eeaa6cb74,0xcaa8b2c1c86de1ac7e2c85bf7f7c9dec3c3dd356,147
+0xcb43078c32423f5348cab5885911c3b5fae217f9-146,FOR,1,noundry was a collaborative experience and this proposal serves as a gesture of gratitude and acknowledgment of the valuable role the community played in the process.,15662796,1664741807,0x60ad3ce71d72f143b2a7e2e8b878299ddbca998fdabd44052065914ff6c5822b,0xcb43078c32423f5348cab5885911c3b5fae217f9,146
+0xcb43078c32423f5348cab5885911c3b5fae217f9-147,FOR,1,congrats to the artists and big thanks to the curation committee for their work here ⌐◨-◨,15662841,1664742359,0xf5b230c28cb513ca3c1bed2e0ed3570dfebc62bf2f553e5aed6d091b79fe2b28,0xcb43078c32423f5348cab5885911c3b5fae217f9,147
+0xcb6fbf9b4e822bed1a8365c0c32e66bd7a779bae-44,FOR,0,I am in favor,14423450,1647781849,0xdaea9df28d2f77112196b733d5d7d745522b18c821225be65b4d4b1ad302a884,0xcb6fbf9b4e822bed1a8365c0c32e66bd7a779bae,44
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-100,FOR,12,⌐◨-◨ 🍻,15046006,1656522289,0x6781a5a276eb6cd554400c1b64b2dceeb50019f31f62fd317673ed4872a209f1,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,100
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-101,FOR,12,"One Noun Square, every day, forever. 🙏",15046041,1656522930,0x24dd36dd8efa3958a62e9d68eadaa578ef5e797b512b4d2afbdb2eb781ff11f9,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,101
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-102,FOR,12,⌐◨-◨,15080387,1656995682,0x1b5c0be0116a7e3aeb2519fcbe370970ab96fe0a73e865695ede8fd852b8705e,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,102
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-103,FOR,12,⌐◨-◨,15080397,1656995910,0xb37edffc909844e4ad4724c19a3e5ba95953705caf75a9a839e4c7438f4319fb,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,103
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-104,FOR,12,⌐◨-◨,15080410,1656996007,0x402611c597504c95e214d83e670b7ddcb7d9e8158cd839b2c610800cab78f3f1,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,104
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-105,FOR,12,⌐◨-◨,15104839,1657321619,0x29477dcd137a4e5cadf474b4cdb72f9f14380ab3ed9d0153cfb0d7e7fd814c67,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,105
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-106,FOR,12,,15117757,1657494771,0xce91e6bbb2f0ed4e88a1c8ee5f85675c2278d6c87bd2f5087bb66d668b8a5ad8,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,106
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-107,ABSTAIN,12,,15124430,1657583460,0x5496f206e3d9dc1427a5ededcddcde21cd0b5899bf43e59e5eecec18b8dc5b4f,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,107
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-108,FOR,12,⌐◨-◨,15143359,1657835850,0x9d13b7cf019a1edabca5d1e8e2d70141dc31c3c0b3d6620948ec85290113bdde,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,108
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-109,FOR,12,"⌐◨-◨
+The Nouncil has voted in favour of prop 109 as majority consensus is supportive of the mission.
+We like the cut and sew.",15143689,1657840078,0x53dff670205d92e3a29e6c2bc6cd892db271abfeb5921d37ceed3829feae999f,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,109
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-110,FOR,12,"⌐◨-◨
+The Nouncil has voted in favour of prop 110 with with a huge majority consensus.
+Aubtoshi, also a Nouncillor, absolutely crushed this mission the first time around and is an amazing nounish ambassador with involvement in multiple endeavours including:
+Nouns on the Ground
+The Nouncil
+The Noun Square at ⌐ⓝ°ⓒ
+⌐◨-◨
+This support is reflected in our discussions and voting as Nouncil.
+There are so many opportunities for unexpected positive results with this prop execution and we’re excited to see the next phase.
+⌐◨-◨
+Nouners! The Nouncil votes using delegated Nouns. If you like the work of The Nouncil and would like to delegate your votes, please consider delegating your nouns to nouncil.eth.
+⌐◨-◨ ",15144182,1657846477,0xe53256f7bf4421a8d7f06d461c9a14e9b7d23155272d93a0a9f9d87be2ce7a91,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,110
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-111,FOR,12,"⌐◨-◨
+Noun22 has been an amazing Nounish ambassador! The effects of his work will be long experienced by the people he supports and the wider ecosystem.
+There was a unanimous YES vote from Nouncil! 
+We like Noun22!
+🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨
+🟨🟨🟨🟥🟥🟥🟥🟨🟥🟥🟥🟥🟨
+🟨🟥🟥🟥⬜️⬛️🟥🟥🟥⬜️⬛️🟥🟨
+🟨🟥🟨🟥⬜️⬛️🟥🟨🟥⬜️⬛️🟥🟨
+🟨🟨🟨🟥🟥🟥🟥🟨🟥🟥🟥🟥🟨
+🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨",15154939,1657991019,0xbd95af5fe0eaa71c9a93ebabfe73a85dcd8033f8ff3d640d6d177c21e5a73ae6,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,111
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-112,FOR,10,Unanimous support from Nouncil for this Proposal. The previous trial was a resounding success and we are as excited as everyone to see how much more Proliferation this team can kickstart with another round of funding. ,15169471,1658185900,0xb929816d00060ceff861d2de2e0860847685a36e00a935efc2c8decb3e1f0f1c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,112
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-113,FOR,10,This will be a good way to introduce Nouns to ordinary folk.,15169552,1658187049,0x7518267741b553fc44e130796cff0b62b9f4441c6afbc1d6564ecccadbf4e6d9,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,113
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-114,FOR,10,https://tenor.com/3zDN.gif,15169656,1658188346,0x32a03eed70664620b372580896e2d31751e0f7c6a6df0d6726145e99f3e7e443,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,114
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-116,FOR,12,"⌐◨-◨
+Nouncil has voted unanimously in support of this proposal. We like the nounish comics and look forward to seeing how this progresses.",15207466,1658694685,0x3c4554c820ed6ad86da6e62a8c8eb1f45e7239694aa376b66ff4159d318e04c0,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,116
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-118,FOR,10,"Nouncil has voted almost unanimously (50-1-1) in favor of this initiative. A comment from the discussion thread:
+
+ ""At broad level, am leaning in to props in emerging economies... because grants go further there, and opportunity is larger due to sheer population density."" -Mintfaced
+
+On the Nouncil call, Nouncillors expressed an affinity for and trust in B, and general excitement to see how much proliferation this pod can achieve in Brazil. ",15244669,1659195805,0x4639c31b39695726b374c142d29eeb19f36d5a985ecc8eeaebddc294f5b1b598,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,118
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-119,FOR,10,"⌐◨-◨ 
+Nouncil likes the Esports pod!
+Continued proliferation in an impactful way. Keep up the good work.
+gg ⌐◨-◨ ",15247448,1659232655,0x2f9c891960fca9e7d9ff43c5318fc4bbcbfbfe2ac43c48cbae12f86c7eb7d65c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,119
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-120,FOR,10,"Unfortunately there was a bit of contention among nouncil members. While wellness is a good focus that is seemingly nounish, this prop feels to some like it is not nounish enough and the previous experience mentioned is not in the current app market.",15247450,1659232699,0x80e8761dcbc3738b702079db54af7a334c03dd1091fbcad80295c030c450a345,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,120
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-121,FOR,10,"Nouncil has voted 41-0-3 in favor of this proposal. 
+
+Sam spoke on our weekly call and gave an outline of his team's project. He argued that top tier animation talent will not leave secure employment for a short term gig, so if the DAO wants something truly amazing to be produced here, a sufficiently scaled project is required to attract them. 
+
+We know Sam to be a consistent builder in the space and a talented illustrator and so even though this Proposal ask is quite large, overall we support his efforts to try and make something really special here that could truly raise the profile of the Nouns brand tremendously if executed properly. If this Proposal fails, we hope Sam and team will find another way to iterate, reframe, and try again. ",15266104,1659483599,0xf4b16c08ad51d51ee338134ac3d1e6ec531d235f121cc67dcac0164f17d730c4,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,121
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-122,AGAINST,10,⌐◨-◨,15265961,1659481736,0x960dcf2583f179a3d56bd4067a8b211b5ce01ccff0f7c582da550e341aa13e5c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,122
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-123,FOR,10,⌐◨-◨,15265961,1659481736,0x960dcf2583f179a3d56bd4067a8b211b5ce01ccff0f7c582da550e341aa13e5c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,123
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-124,FOR,10,⌐◨-◨,15265961,1659481736,0x960dcf2583f179a3d56bd4067a8b211b5ce01ccff0f7c582da550e341aa13e5c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,124
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-125,FOR,13,"With 51 yes votes, 18 thumbs up, 2 wows, 38 vibes, 6 mandancings, and 373 corn reacts, Nouncil has boldy declared its support for this controversial proposal. We like Nouns, we like art, we like the number 8, we like birthdays, couches, hangers, grease. Can't go wrong on this one.
+
+⌐◨-◨ 🙏",15285629,1659746402,0xcc3943a1ee1537dd6e934607a56acc39104cef6318d30c73882cf2e8c8d7dc21,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,125
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-126,FOR,13,⌐◨-◨,15311330,1660093053,0xe680e3a3c569ad6eac8436f57c8bd86f2771ed1131c5d16da013d065b61d32cb,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,126
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-127,AGAINST,13,"This vote ended up being fairly contentious in Nouncil, with the final tally ending 18 FOR - 27 AGAINST (7 ABSTAIN).
+
+Most of the discussion on the Nouncil weekly call centered around feelings that the proposed garments did not look Nounish, or that the ""Nounish streetwear"" category was currently crowded with props such as Madhappy and Nouns Brand already in production. 
+
+""Overall, I'm struggling with the 'nounishness' of this project. I'm a no for now,"" was one comment from our Nouncil Discussion Thread. ""It seems like a duplicative effort,"" was another. ""The generous 15:85 rev split isn’t enough to make up for the lack of Nounish brand experience.""  
+
+Proponents of the project liked the novel NFT ownership verification, and the Nounish apparel mockups that were released maybe just a little too late to sway the vote (after the team spoke on The Noun Square last night and dropped into Nouncil to show Nounish mockups and clarify some things, a flood of YES votes did come in, but ultimately not enough to win the vote.) 
+
+Example comments on the Discussion thread after the TNS appearance and new mockups: ""Having been sceptical, I've been really impressed by Dopamine on NoC. I think it's taken a while to articulate the scope of the vision, and why it's nounish: Community, web3 native, proof of work, tech innovation (and it will be fully noggle branded). I'm a yes."" And: ""I am as well. I feel like the concerns have been addressed and this could be a good experiment with digital/physical merch in a new way."" 
+
+If the team does choose to iterate and reapply, it would be good to make sure those Nounish prototypes are front and center. ",15329943,1660347114,0xaa4601fd1c7cfa600d0ca012fc137dee97eb2fe77c2e77b6fe841f7b5e19e922,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,127
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-128,FOR,13,"Nouncil voted unanimously in favor of this proposal, with 51 YES, 0 NO, 8 ABSTENTIONS, 2 BAN EMOJIS, 4 MANGIA HAND EMOJIS, 3 100 EMOJIS and a GOOD LUCK CLOVER for good measure.
+
+Some Nouncillor comments from the Discord discussion thread:
+
+""This is a cost of 3 days of noun auctions. There is no question about the ROI, easy yes vote""
+
+""I vote yes for a dream NounOClock team!""
+
+""too much handsomeness not to co-sign""
+
+⌐◨-◨
+
+",15330178,1660350147,0x1172105be825e2acb2051eee098c74d819fe0436aa04277e3bef68d7c8912526,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,128
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-129,FOR,14,"#nouncil-votes results:
+22 Yes, 21 No, 6 Abstain",15354043,1660675935,0x9d01720f75267a3db6cc9d8d8df164dff159c014d40c31453465564fcc4e3609,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,129
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-130,FOR,14,"Nouncil has voted in favor of The Nouns Almanac 2nd Edition.
+There was discussion around props like this aiming to become self sufficient, knowing there would be plans for further editions. The cost has been brought up by Nouners as being too much as well.",15374290,1660953299,0x4e728502f2e6df3c0a118e012123c8366a643a7cb4d7ad178c691523b902f366,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,130
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-132,FOR,14,⌐◨-◨,15394155,1661224241,0xfa5ee97fe1a4e073cbe48ac139d11954fd2f368dd8ba4a084a1e65e0c28e8b87,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,132
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-133,FOR,14,"⌐◨-◨
+SharkDAO have been great contributors to the Nouns ecosystem and Nouncillors recognise this with a unanimous vote FOR this proposal. We hope to see them enabled to make more impact through this initiative.",15405950,1661386246,0xc1d3612c03ad36a7ce2e3ca749b7b66d49294520fbd84cf50c49d81dc6448feb,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,133
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-134,AGAINST,14,⌐◨-◨,15475380,1662346405,0xdcf1efa81b1a4b9046310805a192353081f84964cd07ca9e967b4fd1e9edd924,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,134
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-135,FOR,14,"Nouncil was impressed by the effort and detail that went into this proposal. Many also expressed excitement around the repository of assets that will be made available as part of the deal. It was mentioned that during his appearance on Noun O' Clock at The Noun Square, Blu and his partner seemed genuinely passionate about Nouns and excited to work on this project in collaboration. Some raised questions about whether the production costs might be high, but ultimately most Nouncillors felt it will be worth the investment, both for the exposure that could come from the production itself and from the assets that will be created for free future use.  ",15481696,1662435194,0x11643d2b2b49e35587ab7c23be667ebf4a368b2849c4e70d7fd1f9b15f89f9c0,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,135
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-136,FOR,14,"Nouncil voted to put this proposal on chain on behalf of Brennen (who delegates his tokens to Nouncil.) During discussions on the weekly call with the proposer, Nouncillors liked the idea of having a conference to shape to Nouns' vision over time, and the idea of proliferating the Noggles meme directly to people interested in web 3 seemed like a worthy pursuit. Ultimately, Nouncil voted 29-2-12 in favor of this proposal.   ",15487351,1662512475,0x92562a48d7c62c17d3f09c5a8f048f1a5bf0268d23bf24d5dd6d7ec6abad237c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,136
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-137,FOR,14,"""We need to not only extend but also multiply this action,"" said Nouncillor Klim in Nouncil Votes Chat, and clearly Nouncil agreed, Voting unanimously FOR with 54 votes. 
+
+Necfas and co, keep on proliferating nouns with public goods in the DR (and hopefully beyond!)",15518043,1662944902,0xc0c1ad1c0c407231075a25228f75bce5d3f5118484df4de0c1e28facab5ca666,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,137
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-138,FOR,14,"During the weekly nouncil call, it felt like most were initially against the proposal. Through discussions, the point was made that the ask is fairly small by on-chain prop standards, and the potential reach could be outsized considering the parties involved, and for that reason a fair number of nouncillors changed their votes to yes. 
+
+It was nonetheless still a contentious vote, with only 21 YES, 12 NO and a whopping 17 undecided Abstentions. Because we calculate our Nouncil quorum including Abstentions, we are voting FOR this prop and we hope it will bring thousands of new eyeballs to nouns. ",15518051,1662944958,0x29b3cb8fc8678e7d0e1c8ad943769e6bf644cb8d62e642026fdabf12cdf35e07,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,138
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-139,FOR,14,"""Big giant yes."" 
+""Awesome video.""
+""Nouns garage band!""
+""Love love loveeeee this project and idea!!!""
+""This is great on so many levels, presentation is spoot on and the concept is excellent""
+
+Nothing but positivity about this proposal can be found anywhere in Nouncil channels. Woody has been a fixture in nouncil and in nouns for the past 7+ months has brought so much joy with his musical and production skills (Nouncil theme song, Woody's Soundboard, etc.) 
+
+A soundscape / sonic aesthetic is important for any brand and nobody had tried to do one for nouns yet, so it feels like a no-brainer to give the Grammy-nominated noun-pilled a producer to blow our minds. 
+
+Nouncil voted 55-0-0 unanimously in support of this proposal and this builder. ",15518313,1662948448,0x12f955ee8f1dc74c26486cf01be4a699108fcc7b578886705c5b94045e189d08,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,139
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-140,FOR,14,"Without Prop House, Nouncil would be, like, 5 builders, instead of 100 strong.
+
+Nouncil <3 Prop House",15554184,1663428395,0x865064b15e906ce0784af6ed3971880bbc6c89e1c2ab61675db60754ac1c08ad,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,140
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-141,FOR,14,"""I’ve been waiting for this.""
+
+""I have faith in Klim!""
+
+""Good luck, Klim. love the enthusiasm and hard work. overall, getting a lot of vibe rooting for this.... toys are cool, nounish toys--even cooler!
+
+
+^ Some of the feedback from the Nouncil Votes Chat. Nouncil voted almost unanimously to support Klim's proposal and put it on chain, and then 48-1-2 in favor of a YES vote here. We believe in Klim's vision and his value as a Nouncillor and a builder, and we can't wait to see these toys in production. ⌐◨-◨",15554180,1663428347,0xc23c1dd77d00ee438378f6a4386b569a6b8358c7b9dbf7a833de276ee13d7fd9,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,141
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-142,FOR,14,Nouncil has voted almost unanimously FOR this proposal. The ask is low for high impact with a few aspects including educating kids about the DAO and onboarding them to crypto in general in a country where NFT usage is 2nd highest in the world. The DAO to DAO proposal pipeline is also a really interesting approach to funding things that extension communities support but can't necessarily fund directly and have the ability to submit an on chain proposal at Nouns DAO.,15583356,1663782815,0xec7c65169baf6c1291b548c2b3c105ca342935ef15615a991734c98cadefe011,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,142
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-143,FOR,14,"⌐◨-◨ reading ⌐◨-◨
+
+⌐◨-◨ reading ⌐◨-◨
+
+⌐◨-◨ reading ⌐◨-◨
+
+Yep, looks nounish. ",15599964,1663983311,0x8c03f0059ee21a23a884a2fae44b849aa9ce3278d4773841524fe60f3d109bf0,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,143
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-144,FOR,15,"Nouncil Results:
+
+  Yes: 64%
+  No: 8%
+  Abstain: 28%
+
+""This will allow one click for any subDAO as well, so we'll instantly have a multitude of other nounish bots giving Twitter updates on auctions and other activities. That's the main benefit for me. I think it's going to be a proliferation monster for the price.""
+ - andrewladdusaw
+
+""they also have a good record making these bots""
+ - fiveoceans_dev",15657963,1664683619,0xa3b5490b92493abb2f8d5fcac7e8156f54e0d9eff85607261a8e17aae8c2e815,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,144
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-145,FOR,15,"Nouncil Results:
+
+  Yes: 94%
+  No: 0%
+  Abstain: 6%
+
+Bring Nouns to the people ⌐◨-◨ 🙏",15657966,1664683655,0x49b95fc8757caaf7101ea5ec2b3dd98842290de7a6cce8ddf09d22cb97d0374e,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,145
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-146,FOR,15,"⌐◨-◨ 🙏
+ 
+ Yes wins. (50 yes, 1 no, 7 abstain, 1 x)
+
+ ~~ ThaSwami ~~
+I think it's great to reward everyone who submitted traits, but Coordinape voting might be overkill. I'm of the view that anyone who took the time to contribute some art should get rewarded, irrespective of how many they submitted, quality of work or who they interacted with. I'm in favour of a simple pro-rata of ETH amongst the number of artists. We could setup clearer guidelines for rewards next season
+
+ ~~ JoelCares ~~
+ Personally think this would be fun, help build community across the broad group of participants, and give the community a voice in evaluating quality. The current structure (3 GIVE tokens) would not be rewarding general participation, it would be rewarding the runner up work valued most by the community.",15662096,1664733371,0xf0e84c4c40e6c88156308c2127529fb06ba1fd5a258cdd75f1e6c533bfeec5c0,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,146
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-147,FOR,15,"⌐◨-◨ 🙏
+Yes wins. (28 yes, 2 no, 25 abstain)
+
+~~ marxistmillionaire ~~
+""It doesn't feel right to me that some of the curators are also among the winners. I sometimes work as a curator in real life and such overlaps are not accepted there for obvious reasons. Even if the curators don't choose the winners.""
+
+~~ fiveoceans_dev ~~
+""I think everyone will agree if competition for winning trait will be 100 eth. Currently, compensation is 132 for 11 winning traits. We literally spending lots of time to cut 12 eth per trait to 9 eth per trait, roughly. 
+
+I think it is not such a big difference…. It’s better to pass this prop on focus on future props""
+
+~~ samellis ~~
+""I think all traits should be awarded the same.""",15662101,1664733431,0xefcd173dd68d190c0e4c0655a6678ce732f7da3cf6c035bee9618b7f4ceeef4e,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,147
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-41,FOR,2,,14328494,1646505015,0x4dd0e4446de439358074af675fb71baebf4d671de5bd1750b3d567637d9569fe,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,41
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-42,FOR,2,,14340863,1646671385,0x8dccc769f234e95895d302ce9d80099f11d86e85538252d72843e000a29eba7f,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,42
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-43,FOR,4,,14379436,1647190251,0x507486e72904d4f1cc8e94054257c6e8daf23beea6a0892eccafe2da9744b326,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,43
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-44,FOR,5,,14432815,1647907736,0x83ba0322c5db9b46549ca0f706cba36853be048afacd58fc854645c1aaf2663c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,44
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-45,FOR,5,,14465222,1648343549,0xc6febfd7acb58740aebe3fdf659718c9998df6ece3b4f92739cc193cede815d4,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,45
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-46,FOR,5,,14482252,1648572322,0xc6458285e44bb743fa51f7857cd11939cd19a9ac86e6b654bd81fc74f1f3a030,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,46
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-47,FOR,5,,14522284,1649112670,0x3ca310c080d4e2a3771bacaf552e42b8751fa4ed75b829c795e5445923b8adcf,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,47
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-48,AGAINST,5,,14522313,1649113048,0x75f5fbdc675ecb7cef274690d9cb7df839619ca1f20ea44e8d177c7d8694420a,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,48
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-49,FOR,5,,14539117,1649339522,0xe65429236c5419aa01bb56229892c8af617aa61eb03be27fa30e2a118dd5724c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,49
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-51,FOR,7,,14567302,1649719568,0xf07f0d69a0c6ba082593e2e77224b0f65389c73b1c8c4ff3a8f2796a8f54edb4,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,51
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-52,FOR,7,,14567326,1649719949,0x32843af75b76ec5e2e49f4854b061a9696a66d2c604fd58169a25375bdc9c914,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,52
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-53,FOR,7,we liked it,14581012,1649905342,0x652501c312bc4c46becb1c2a17ccfcbbdc8bbe4506cb8a82c20d7b88c7c42b04,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,53
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-54,FOR,7,"We read this one, and you know, thought it was pretty good.",14592967,1650066277,0xfd0c6d9254fd0fc9d4e57212149aee3ed0ebe1b1e4bf57d6399a756f1090b615,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,54
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-55,AGAINST,7,The committee tasked with doing the work in this proposal was not consulted about the work being done in this proposal and has not agreed to do this work in this proposal and this dilemma encouraged us to vote no.,14592983,1650066453,0xa4ba4db47c0b44e06e6d95c5a41ec2989610f3f84a80e1b6bc144430257fb807,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,55
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-56,FOR,7,nouncil supports fun,14604383,1650220567,0x333cce2fcfc467fd2c29753d0b1c37d140511512d368f03f94a3a5edac693521,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,56
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-57,AGAINST,7,"In general Nouncil was supportive of this proposal. But, for some Nouncillors, the extra Noun felt like too big an ask. This kind of reward would make more sense as a retroactive prize provided after the project is wildly successful.",14610058,1650297074,0x01d226eff6aec45669012fd60ae9e45685fd3a016c0afda0208712436a8f3526,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,57
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-58,FOR,7,Time is precious.,14610120,1650297876,0xf012aeaa53da513a15da7bae34cf15b58be58bc0ee69f3fa1298909c57ecf871,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,58
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-60,ABSTAIN,7,🙏 Nouncil Abstains 🙏,14631244,1650584121,0x2caedd15cada4d7b9d234d8313a04404c0dd71bfe5d92b1530766b13a4ce759a,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,60
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-61,FOR,7,CDT bullied us into doing this,14631287,1650584648,0xe72c1502c94b5febbb9cff9ad7c4f8eff9cf97f10ee78a9a67f576e6cbbffea9,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,61
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-62,FOR,7,Nouncil <3 Prop House,14631304,1650584885,0x018f06e08bd507cb14e59af2b0015e234581a6c04416f630d6e466b072cdb5a1,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,62
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-63,FOR,5,⌐◨-◨ ❄,14657661,1650941713,0xf0d0adca01f4b73a44f5b40a105bdd27b5836eb21e43dd469f87619931cedb2c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,63
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-64,FOR,6,⌐◨-◨-◨-◨-◨-◨ ,14657682,1650942120,0x876375b541f6445d604256bd8b1cdf87083a782f66e38b6f1a8d5f1c72facc7e,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,64
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-65,FOR,6,"We read through the proposal, considered it a bit, and in doing so, developed a favorable consensus, which birthed an obligation of supportive votes.
+
+⌐◨-◨",14657890,1650944978,0x8bf9b40f4378fa1690b5c8f6c9280ca5f6f077ecb12a8d7e61839f2cbc98fdef,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,65
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-67,FOR,6,nouncil <3 nouncil,14664100,1651029775,0xbb16513f67e3b4240266a187ed383281dfc56e37b93010a49d20bc48655897b7,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,67
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-68,FOR,6,"ESports are big already and that audience is only growing, seems a great opportunity for Nouns to increase reach within the gaming community. ",14670964,1651123324,0x959101bfadfbdaa5d37a66f240e020f3a64eb0dcf439d406f931cbac71d22552,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,68
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-69,FOR,6,"Nouncil halten es für wichtig, Initiativen zu unterstützen, die unserem Projekt helfen, ein breiteres internationales Publikum zu erreichen. Das passt auf die Rechnung.",14670974,1651123465,0x8948970fd8fc6187550ce2a3c4bacc9193d8c5390e7bac42f39e700cbe67eea9,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,69
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-70,FOR,6,"We like the Sharks. And for that reason, we're IN.",14670997,1651123739,0x75364c193eb4b988f417bf28cb7f27b3953f2ab13ba62edbf7953e44d8860c9e,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,70
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-71,FOR,6,"Nouncil wants to support this Prop because Leo is a great contributor to the DAO, Dean is an excellent artist, and we like the fact that all raw footage will be returned to the DAO to be used in marketing. A few Nouncil members did vote against or abstained with the feedback that perhaps the scope of the documentary could have been more broadly about Nouns,  or about a more varied selection of extension projects / artists rather than just one. Good luck to Leo and team!",14737433,1652031410,0x912e043fafe1be37a532f832b83dd21ab6d1e1d7e1ea5d9e52e6efe837aeb37c,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,71
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-72,FOR,6,"Klim is a valued enthusiastic member of the Nouns community (and Nouncil!) with lots of great ideas, and he is devoting a great deal of energy and resources to Nounish initiatives like this one. The DAO needs creatives like him to stick around and BUIDL, and we think he should be given the opportunity here to have his team focus on this project, consulting and iterating until a consensus can be reached on final aesthetic for the toys before production. Klim pls include Nouncil toga as one of the bodies and also Joel head thank you. 
+
+Sincerely,
+Nouncil",14745605,1652144215,0xa096aa71628b8f7a4ab45c955e333bae743c442648056ceaf0147d5ff2a87285,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,72
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-73,FOR,6,"We thought this Proposal was far from stupid, buddy. The team is a veritable league of legends, and we are looking forward to dancing with you all at the Rose Parade to celebrate (suggested dances to learn in preparation: The Robot, The Chicken Dance.)  In all seriousness, this is a great opportunity for the proliferation of Nouns, and we appreciated how detailed and structured the Proposal was, with Phases that are tied to percentages of the ask. Would recommend future proposers structure similarly, for bigger asks especially, to help voters better understand the process and breakdown of costs. ",14762982,1652384906,0xc5d01b6be20950d8abd4de09eb4ab7002d8db6c6b32975e57e08c59161d4a265,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,73
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-74,AGAINST,7,"On Nouncil call, we had a fruitful discussion about this proposal and overall some Nouncillors familiar with the sport indicated that it felt like a big investment to make in the sport when perhaps more exposure could be gotten, even within this sport, by sponsoring events etc, rather than an entire team/season. The concern was also voiced that the DAO owning the cars could be a cost/liability after the season (storage, etc.) Overall, we like the energy and the proposal was well written, but the majority voted No this time. We really like Don and his energy and hope he will stick around and build more within Nouns. Kudos to him for seeking lots of discussion on Discourse and holding open calls in the discord to take feedback. We should encourage this kind of builder to stick around. Dom, please build something Nounish, even if it's small, so that we can invite you to join Nouncil!",14777403,1652582436,0x9d85ccfdf821f3ad7f848175aca71d4b3fc035f23f3d9f78064c1824978df48a,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,74
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-75,FOR,7,"This was probably our most contentious YES vote to date (final tally was 20 votes for, 10 against, 6 abstentions.) Overall, I think the common theme from our discussions on Nouncil call this week was that MadHappy is a great brand, and this potentially represents a great opportunity for Nouns to get positive exposure in the streetwear community. Also, we overall acknowledge that established artists and brands can be afforded a certain baseline of trust to execute on ideas. However, having said that, many Nouncillors expressed concern at the fact that the Proposal included no mockups or design plans, and no Development Phases tied to Milestones. We would like to see, even from established brands, at least some basic mockups to determine whether the designs will be desirable, and/or Nounish. And some Phase Breakdowns, maybe with a design consultation Phase to start, would have made this Proposal more amenable to more Nouncillors (we think.) We're voting FOR, and excited to see the result, but hopefully this feedback is taken to heart by future proposers so that good ideas don't lose votes due to a lack of detail in their on-chain Proposal.  ",14777455,1652583116,0x1fb5fb470cf667755641dfed1416af2860d2d53d193732077dfa1b52e66498ca,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,75
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-77,FOR,7,"Even if we had never heard of this Joel guy before (Who is he? Does he really Care?), this proposal would have impressed Nouncil. First, Joel successfully sought funding for an MVP, and delivered. Then, he wrote a very detailed execution plan for an expanded scope, posted it to Discourse, and then hustled for feedback from Nouners and Nouncillors alike. The final on-chain proposal is front-loaded with an easily digested paragraph outlining Deliverables, Timeline, Budget, and then the detailed proposal that follows explains exactly what the DAO will be getting for its ETH. We are looking forward to all the challenges Nerman Bot will be able to help solve within Nouns DAO discord (including several applications for Nouncil), as well as the other websites and bots that Joel’s team will build to help proliferate the meme. Nouncil is proud to have sponsored this Proposal (our first, after our own) and we wish Joel luck with the vote, and hopefully soon, with building out all these awesome tools for Nouns.",14810942,1653047332,0xf5cd75a1349a517e9d2c616afa2123e05cb49ef34a4d062610872512d21f2256,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,77
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-81,AGAINST,8,"Nouncil <3 Lil Nouns
+
+We prefer Prop 82 with a sale price based on FMV.",14825111,1653246466,0x45146bce305897f29fded5f35192ffdc19c60ce6473d4f16d27d6b9e3a5fd9ba,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,81
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-82,FOR,8,"As a representative council of mostly Nounish extension projects, Nouncil thinks Proposal 82 is a more responsible precedent to set in this regard. There are many ways that Nounish projects may (and do) give back to the DAO and pay the spirit of CC0 forward, and we think Nouns should be careful not to unduly reward certain types of contributions over others. Goes without saying, we love Nouncillor Dot and his Lil Nouns, and are excited to see all his success since launch. We are also excited to see an historic DAO-DAO Noun purchase if this Proposal is successful!",14833448,1653362997,0xc61f75c52043a8ca99aca1c25e3e54430a155434d1f24ede382f5d487089a43b,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,82
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-83,FOR,8,"Brandon's Nounish art is really special, and the world needs to see more of it. wen Nouncillor Brandon? https://tenor.com/bSR8O.gif",14833494,1653363800,0x1a75a9caeae6a5e1d6468ff387ed93472ab0e5ef72aaa3dd2033e07939e923b1,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,83
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-84,FOR,10,"We overall support this team. They did a great job on their last similar project. Nouns coffee is something that has been talked about a lot and this is the first serious effort to make it happen. We trust the product and branding will be high quality, so for these reasons we are voting Yes. One piece of feedback that did come up during Nouncillor discussion was that we would like to see Proposals (especially those with relatively substantial asks) go up on Discourse for at least a couple days for discussion and feedback before going on chain. This way Nouncil (and the broader Nouns community) has time to ask clarifying questions about budget, success metrics, etc. We are voting YES here in spite of this not having been done in this case, but would encourage future Proposers to consider this route when possible. By the way, we also welcome Proposers to Post their ideas in Nouncil for feedback, or ask to have it added to our weekly call Agenda.  ",14876662,1653970594,0x6ddcec7ede87587e6f866605d0620276cb8ba491d2288d3f5b5719e73e42d198,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,84
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-85,FOR,10,"Dutch Impressionist Vincent Van Gogh once famously wrote: ""Great things are done by a series of small things brought together."" It's amazing that he was able to predict Nouns Small Grants more than 130 years ago. Keep up the great work Small Grants Team!",14876687,1653970989,0xd32ab1aaf7b2557c183a6c34a23e172a21691e55bcdf631ab4c78ee53d79d826,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,85
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-86,ABSTAIN,10,"Ultimately, Nouncil was not able to reach a consensus on this Prop so we are voting to Abstain. After the majority vote to Abstain (16), all other votes cast were against (12.) Overall, in discussions, we felt that there are too many unknowns/unclear items WRT the case. Even if the Plaintiffs' motivations could be politically motivated, it seems PT may have indeed broken some lottery and/or banking laws in NY, or at least, it is far from a sure thing that they didn't. Moreover, it was mentioned that this should probably have been a planned-for eventuality for such a protocol (to be sued by the State) and Nouncil worries about the precedent of deploying Nouns treasury to fund this kind of predictable legal battle (hat tip Wag.) On top of the above, this was also not a small ask (which might have found broader support.) We wish PoolTogether the best with this case, but we couldn't vote to support this Proposal at this time.",14876699,1653971142,0xd2d626c4253c7a24b3fe5de1268e793e0bb8c62b6a3d99857bdc9a31b8b0ab3e,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,86
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-87,FOR,10,"Looking forward to seeing these posters, such a solid roster of artists. 
+
+⌐◨-◨🙏",14894581,1654223205,0xe928cbe9b6f4035e0e47ecde9c4a42a5f594c9bf5d8c4fb18a159a5ee53d0fd5,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,87
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-89,FOR,13,"we support
+noggles on wall 🙏
+
+_|___|___|___|___|___|
+___|___|___|___|___|__
+_|___⌐◨-◨___|___|___|
+___|___|___|___|___|__
+_|___|___|___|___|___|
+___|___|___|___⌐◨-◨__
+_|___|___|___|___|___|
+___⌐◨-◨___|___|___|__ 
+_|___|___|___|___|___|
+___|___|___|___|___|__",14935208,1654816774,0x923058c22bc69e16610894253ef4ac84fdda6b6d61171c20dcd316169aef82ea,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,89
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-90,FOR,13,GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT GOAT ,14945430,1654967375,0x419e452dab25f325337c889c0814704f7d055804ac082d99be77e255bde219ad,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,90
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-91,FOR,13,r-[ g ]-[ g ],14945446,1654967593,0x2c3044305bb25e8ad3e12fc6cc565ae89704cd0cc29d9ea6f0c5d42a11ed57ee,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,91
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-92,FOR,13,⌐◨-◨,14945476,1654968206,0x443814f83f216266c881b5907abce0b2d98fd49af3d740a4f81dda7cd9a17ee3,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,92
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-94,FOR,13,"This was one of our most contentious votes to date, with 17 Y, 15 N and 5 Abstentions. Overall feedback was that the project is a great idea but maybe lacked overt Nounishness. Project proposers dropped into Nouncil channel to discuss, and argued that CC0 image repositories are inherently Nounish, and this ultimately swayed enough support for a Yes Result. Ser Noadz made a suggestion of tying in some kind of Nounish art contest to make the connection more overt, we hope to see something like this integrated during execution. ",14962642,1655223836,0x532aefff81c8497c2518be880a5bf6aa5d1fa8c4761bcaea05f64b3b1d7a589f,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,94
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-95,FOR,13,"Nouncil was impressed by the sheer amount of proliferation included in this Proposal for such a relatively low ask. Well done B, we can't wait to see the results! One suggestion was made to potentially engage a photographer to capture professional images of the initiatives for social media and marketing purposes (perhaps this could be funded by Small Grants if it requires additional funding.) ",14962642,1655223836,0x532aefff81c8497c2518be880a5bf6aa5d1fa8c4761bcaea05f64b3b1d7a589f,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,95
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-97,FOR,12,"""Premium OpenSauce baked beans"" 🙏",15004496,1655849811,0x4bf337e109e95d3c5a2b72801f1ecadc2dd3c036bc33f93376d027de799e6440,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,97
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-98,FOR,12,⌐◨-◨,15026461,1656205452,0xb2fb18b2dc55405f98d503f6ade25fbe26284e8b89a9494bc28636b752f7c0bb,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,98
+0xcc2688350d29623e2a0844cc8885f9050f0f6ed5-99,FOR,12,⌐◨-◨ 💨⛵,15036338,1656364619,0x5e67b7a1e7b23273b4132af8f7d6b0309b8d7a369812f25c2899112b8a3dc4d0,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5,99
+0xcc778603d10bdb4865ff6589b4f48ce8f9887744-85,AGAINST,1,Balance,14878863,1654002492,0x6d9ee7638fbdff3447debb02de92f549b6312f0cbce0a26911e9affbae11913c,0xcc778603d10bdb4865ff6589b4f48ce8f9887744,85
+0xcc8e3600356b62baa44100a5f2e61aa2c7bc68c2-84,FOR,1,,14869635,1653871734,0x655128a5733903a66a62b7fe89dcf7e65552f2b782bb64196b5f30d1ecd3498f,0xcc8e3600356b62baa44100a5f2e61aa2c7bc68c2,84
+0xcd2b14986db9638fb7b9bebd8678dd1c011bf4b5-127,FOR,0,,15323465,1660258900,0xf9d4407facca3c1e5de07da3df12e19f8dfea8c4064864034297dbf9a01b1d5c,0xcd2b14986db9638fb7b9bebd8678dd1c011bf4b5,127
+0xce6404642bb08f897fce5317c1349656ca44f2d8-113,FOR,2,,15174175,1658248889,0x447d9071bf7cc65c85a1ea90222855b2372635438d0fc7f4285100b3c3649622,0xce6404642bb08f897fce5317c1349656ca44f2d8,113
+0xce6404642bb08f897fce5317c1349656ca44f2d8-118,FOR,13,,15251331,1659285142,0x7ede39409994f58a787a19968c6dd611bfa9ffa4e63fb9b40e09f758045d88ac,0xce6404642bb08f897fce5317c1349656ca44f2d8,118
+0xce6404642bb08f897fce5317c1349656ca44f2d8-127,FOR,13,,15327578,1660315600,0x364bfe81efda3e1e3e4c4ff822e00e49675cf014b3b435ea750a3494c809e2a0,0xce6404642bb08f897fce5317c1349656ca44f2d8,127
+0xce6404642bb08f897fce5317c1349656ca44f2d8-128,FOR,13,,15341842,1660508510,0xf68106cd6069a3da1625abaab60e2ee9f30dea3fe1cebd0f9856a197aa3ba4e3,0xce6404642bb08f897fce5317c1349656ca44f2d8,128
+0xce6404642bb08f897fce5317c1349656ca44f2d8-132,FOR,13,,15384465,1661091935,0xaded56b539e411de8cdba8086c4f7f92e297504c43e9dd7f7f510b99a5cf5440,0xce6404642bb08f897fce5317c1349656ca44f2d8,132
+0xce6404642bb08f897fce5317c1349656ca44f2d8-136,FOR,14,,15485241,1662483052,0x31db1243ce85912968094dbebe8d1f15ac83dad164dff18fa9b6c1d6ed3a8dbd,0xce6404642bb08f897fce5317c1349656ca44f2d8,136
+0xce6404642bb08f897fce5317c1349656ca44f2d8-139,FOR,14,,15522884,1663014629,0x852b9b641955044b05dc78eb90af6f95a2b2dce8bfb78d9bda4d40b5c6e1b95b,0xce6404642bb08f897fce5317c1349656ca44f2d8,139
+0xce6404642bb08f897fce5317c1349656ca44f2d8-141,FOR,14,,15568107,1663597127,0x343555af3d032f8483b591c0df0493ede4b56329260fa2e33c6387265704fb6b,0xce6404642bb08f897fce5317c1349656ca44f2d8,141
+0xce6404642bb08f897fce5317c1349656ca44f2d8-142,FOR,14,,15575455,1663686167,0x016cd22368eac4060e9512682b5adf933690bfcc30ba55d00ebfbabf1d3eb249,0xce6404642bb08f897fce5317c1349656ca44f2d8,142
+0xce6404642bb08f897fce5317c1349656ca44f2d8-144,FOR,14,,15654996,1664647751,0x917aa59ec60cde48b9680f3611f6728d9ffa6c7ec79a62cdafa5ff8e3bfe6c79,0xce6404642bb08f897fce5317c1349656ca44f2d8,144
+0xce6404642bb08f897fce5317c1349656ca44f2d8-145,AGAINST,14,,15655004,1664647847,0x187ba43a991825d51b8c1406a2d0d019dfdee3394c89dbc2ddf13e84fad20406,0xce6404642bb08f897fce5317c1349656ca44f2d8,145
+0xce6404642bb08f897fce5317c1349656ca44f2d8-78,FOR,2,,14812916,1653075135,0xffd75d4b4c444368fd0b4e7eb5685e0dc0683cbfc6dc5c3212c8cd355a2e545c,0xce6404642bb08f897fce5317c1349656ca44f2d8,78
+0xce6404642bb08f897fce5317c1349656ca44f2d8-81,AGAINST,2,,14830582,1653322839,0x28b443f247d199d12631ddf26251956a417b12240ede41455caeff4988a7284b,0xce6404642bb08f897fce5317c1349656ca44f2d8,81
+0xce6404642bb08f897fce5317c1349656ca44f2d8-82,AGAINST,2,,14830596,1653323048,0x951527e8400034f0f9cf214f357eeae6ce74ffcfe96448eac735c44936273083,0xce6404642bb08f897fce5317c1349656ca44f2d8,82
+0xce6404642bb08f897fce5317c1349656ca44f2d8-91,FOR,2,,14946116,1654977606,0x1781fff58e95c45023f2431aea0af646310b281b5d1561b669d46ef67930b3e1,0xce6404642bb08f897fce5317c1349656ca44f2d8,91
+0xceb78abfad166c11e350156fd671b385265a6c87-100,FOR,1,,15057790,1656694512,0x9aca0ab2c1013a0cc46e7113c21f39785b0dee6ee111f7a1120e85050c06e361,0xceb78abfad166c11e350156fd671b385265a6c87,100
+0xceb78abfad166c11e350156fd671b385265a6c87-101,FOR,1,,15057785,1656694398,0xc5ee7cc1cbd29442ee4934eb56fb53c5e949b5e75ecb95dbe8084c4125c1668f,0xceb78abfad166c11e350156fd671b385265a6c87,101
+0xceb78abfad166c11e350156fd671b385265a6c87-103,FOR,1,,15090940,1657137245,0x23b059a17392f4f80ab334ffc3a5545ec718e0cfd0e277a0f4036e74eac72b30,0xceb78abfad166c11e350156fd671b385265a6c87,103
+0xceb78abfad166c11e350156fd671b385265a6c87-104,FOR,1,,15091043,1657138324,0x09ef65a8caa9414adbb410afd93e60e20c7d17eac0fc3f60caa107d4b1ede85b,0xceb78abfad166c11e350156fd671b385265a6c87,104
+0xceb78abfad166c11e350156fd671b385265a6c87-107,ABSTAIN,1,"I like the concept, the idea of Nouns owning equity in a company building web3 infra and said company then buying a Noun.
+
+However, I abstain since I'd like to know and see more about Verse V2 and for the DAO to have a broader discussion about owning equity and its possible implications. Once that is clarified and we know more about Verse V2, I'd be happy to vote for the proposal.",15126007,1657604090,0x446069eef7a343b0496fe2afc8680e372ee7175984cc1a3031c965d2f3d06306,0xceb78abfad166c11e350156fd671b385265a6c87,107
+0xceb78abfad166c11e350156fd671b385265a6c87-108,FOR,1,I'm honored to be a member of a DAO that can make this type of public good investments. We're all citizens of Ethereum and shall do our part.,15143291,1657834872,0x4564c260ae1f9a65998d99ad6b9e6634d40c841693b85a7abdfcf34c03a4a269,0xceb78abfad166c11e350156fd671b385265a6c87,108
+0xceb78abfad166c11e350156fd671b385265a6c87-110,FOR,1,,15150705,1657934378,0x04f60e51b3c8160538a67a9d909a1810ce38ee93edf93058022a455433c3e529,0xceb78abfad166c11e350156fd671b385265a6c87,110
+0xceb78abfad166c11e350156fd671b385265a6c87-111,FOR,1,Keep up the great work 22,15150717,1657934489,0x57a3ddf7a61fdcbc9966d4038db61eff31f25bf1c79daeb74ce16b2aa5d2c957,0xceb78abfad166c11e350156fd671b385265a6c87,111
+0xceb78abfad166c11e350156fd671b385265a6c87-113,FOR,1,,15180734,1658336541,0x95fdb35f4de5bb42b3f30eef7ed90b9c94b6dcb61e260ce234a12e09734de41d,0xceb78abfad166c11e350156fd671b385265a6c87,113
+0xceb78abfad166c11e350156fd671b385265a6c87-114,FOR,1,🧯🐜,15180768,1658337087,0x99cf30c2c382a49c2719fb08e9b298ea434975675d5c7adb4926c27de0bcb99b,0xceb78abfad166c11e350156fd671b385265a6c87,114
+0xceb78abfad166c11e350156fd671b385265a6c87-119,FOR,1,It's important for the NFT space to have positive representation in the gaming world. Nouns esports initiatives have been successful so I'm supportive of pushing in this direction even further.,15242206,1659162652,0xaf48bc3c33264e57e21ecf82b23a674c8cfbc4103d491bdcf576ee2c6963aa8f,0xceb78abfad166c11e350156fd671b385265a6c87,119
+0xceb78abfad166c11e350156fd671b385265a6c87-120,FOR,1,Mental health is extremely important. I see Nouns having a playful wellness app the same way Nintendo has fitness games. A fun positive brand on a healthy habit.,15242261,1659163375,0x997fdf5c747f53e28ffff1a036d4a6415f95a3192a53674be03fb1ae7d8e2948,0xceb78abfad166c11e350156fd671b385265a6c87,120
+0xceb78abfad166c11e350156fd671b385265a6c87-124,FOR,1,,15252855,1659305491,0x19faf74a13a5aa5d0c4c5d19f9cca46004b0d8927ee58e1cf41096c8d8cf4bc7,0xceb78abfad166c11e350156fd671b385265a6c87,124
+0xceb78abfad166c11e350156fd671b385265a6c87-126,FOR,1,,15305795,1660018111,0x02746e36e9ef61f502804030c34a92ecce63758ff9261063721b508d6e14f9b2,0xceb78abfad166c11e350156fd671b385265a6c87,126
+0xceb78abfad166c11e350156fd671b385265a6c87-37,FOR,1,,14154444,1644176447,0xbce3b5f08b14f73e46fb990f104555d0e5c176a9a00c3f463776b31d36d0d5dc,0xceb78abfad166c11e350156fd671b385265a6c87,37
+0xceb78abfad166c11e350156fd671b385265a6c87-39,FOR,1,,14239807,1645318291,0xb7d98a4338864ca429b1fc2445030b4779dd7d66ca13f56b9ad7c97264fb8aaa,0xceb78abfad166c11e350156fd671b385265a6c87,39
+0xceb78abfad166c11e350156fd671b385265a6c87-43,FOR,1,,14387161,1647293158,0xbc8fd9dc05cda82d668af2ee789a26f593720de02d3c9fc5e35baa034eb9f7db,0xceb78abfad166c11e350156fd671b385265a6c87,43
+0xceb78abfad166c11e350156fd671b385265a6c87-51,FOR,1,,14567420,1649720978,0xe86f2ca6336931bb1d4177fcf1b58302d7ff01ae7b57df5aa7f0af8393e15a47,0xceb78abfad166c11e350156fd671b385265a6c87,51
+0xceb78abfad166c11e350156fd671b385265a6c87-53,FOR,1,,14567428,1649721089,0x565ca481476712d4d0501b348b370ce4a29c508569123fe85021a781f9e6012b,0xceb78abfad166c11e350156fd671b385265a6c87,53
+0xceb78abfad166c11e350156fd671b385265a6c87-61,FOR,1,LFG cdt.eth!,14636008,1650648475,0x5f8fbb15805348c7936fd986e4aeed5bf6db1b8dcb6392df08c25c6ac6e4b4e1,0xceb78abfad166c11e350156fd671b385265a6c87,61
+0xceb78abfad166c11e350156fd671b385265a6c87-62,FOR,1,,14636080,1650649497,0x1267fdadbb518a20c5f47bd938baa0f18dd8d8ffd88237c639d01e7a61ea8b2c,0xceb78abfad166c11e350156fd671b385265a6c87,62
+0xceb78abfad166c11e350156fd671b385265a6c87-73,FOR,1,,14772409,1652514805,0x100f0ce115cc090bdfe8be2012b266fead935805cd688aa5a98de0aacec690d2,0xceb78abfad166c11e350156fd671b385265a6c87,73
+0xceb78abfad166c11e350156fd671b385265a6c87-74,AGAINST,1,,14772437,1652515308,0x28fcbe11d4e45543d27aba531bb38b986743bf7a9a0d8ec3851f31810b04e0c4,0xceb78abfad166c11e350156fd671b385265a6c87,74
+0xceb78abfad166c11e350156fd671b385265a6c87-75,FOR,1,,14775178,1652552836,0xf60cb573fe4c134c885ba1b3c00cdfce4600190aaf1320bce2c7c0eb623fb2e3,0xceb78abfad166c11e350156fd671b385265a6c87,75
+0xceb78abfad166c11e350156fd671b385265a6c87-81,AGAINST,1,,14833708,1653366640,0xd6e3cc70139c9d7641568322414d07b5dbb836f3edec6ad42790747e6c4ac8f2,0xceb78abfad166c11e350156fd671b385265a6c87,81
+0xceb78abfad166c11e350156fd671b385265a6c87-82,FOR,1,"Although I think participating and winning a NounsDAO auction would be a fun achievement for lil nouns, I'm not opposed to this DAO to DAO sale.",14833728,1653366984,0x42f84c7345b56fc68f22d665cc29f603951da1f2934c27d41c02aad808187897,0xceb78abfad166c11e350156fd671b385265a6c87,82
+0xceb78abfad166c11e350156fd671b385265a6c87-83,FOR,1,YES!,14833740,1653367172,0x871c7cd67da3a219355e0e5084839f2d90e2d39b1dcc08bca40af4d262895b24,0xceb78abfad166c11e350156fd671b385265a6c87,83
+0xceb78abfad166c11e350156fd671b385265a6c87-84,FOR,1,Great way to get Nouns into an IRL brand.,14862246,1653768191,0x72ea00c26afeeab2e26b5e2ba1dfefeed36bd1458d49b4383a483730ea4e7786,0xceb78abfad166c11e350156fd671b385265a6c87,84
+0xceb78abfad166c11e350156fd671b385265a6c87-85,FOR,1,SG FTW,14879917,1654016918,0xe24894fb607d816c64c58e15ecbcc825d9e81fbec5de56dfa7d21e0dfd5a356d,0xceb78abfad166c11e350156fd671b385265a6c87,85
+0xceb78abfad166c11e350156fd671b385265a6c87-86,AGAINST,1,,14879910,1654016738,0x3b264f2282258db639c312ac94bce89907abf49e1baa606b26502c06888d6ef2,0xceb78abfad166c11e350156fd671b385265a6c87,86
+0xceb78abfad166c11e350156fd671b385265a6c87-87,FOR,1,"All for bringing new artistic voices to the nounverse.
+Also fan of building a closer relationship with VectorDAO through noun ownership.
+win-win",14885698,1654099004,0x91edf9047a6ec0e8fb6711998adb78ffa22e5a5b23c5f630b8ce8a1c9bbef38b,0xceb78abfad166c11e350156fd671b385265a6c87,87
+0xceb78abfad166c11e350156fd671b385265a6c87-90,FOR,1,👏👏👏,14942075,1654918185,0x8fb4a6ac048ddfd0411db966b458ecf9d91ab5bc60700f72b06d878e8d23ada9,0xceb78abfad166c11e350156fd671b385265a6c87,90
+0xceb78abfad166c11e350156fd671b385265a6c87-92,FOR,1,🎥,14942083,1654918297,0xc4a0efb276da6aad63d57208c246d4dab9922477dac757859418c24eb726ff63,0xceb78abfad166c11e350156fd671b385265a6c87,92
+0xceb78abfad166c11e350156fd671b385265a6c87-95,FOR,1,,14962757,1655225390,0x4b90b26a32b22c39c1725a5c3e29f8f6d9a9fa7b25321b56fe8126ca7b3fce30,0xceb78abfad166c11e350156fd671b385265a6c87,95
+0xcfe856e0df0f3950fb118a5ad22b4021aaa60e9f-146,FOR,0,,15660269,1664711399,0x79b7021d14917601ad99e63ffcb4b24b12cbf373c66ca73f7db9522dce60ae63,0xcfe856e0df0f3950fb118a5ad22b4021aaa60e9f,146
+0xcfe856e0df0f3950fb118a5ad22b4021aaa60e9f-147,FOR,0,,15660269,1664711399,0x3e2ecc3072787b919a9c47c212f6834f052e6c284fa0a76562a5b9aae3fa0e3a,0xcfe856e0df0f3950fb118a5ad22b4021aaa60e9f,147
+0xd049b3064990869c9f73bd7896271d83325d2067-11,FOR,3,,13406510,1634080190,0x983baa2e8d1fc62376d7d2b38b9b3e6a9f3e573e7ec70b518f992e1e10ab2039,0xd049b3064990869c9f73bd7896271d83325d2067,11
+0xd049b3064990869c9f73bd7896271d83325d2067-14,FOR,3,,13514356,1635541266,0x794ff45ec4d2d426533af1c32ad50b0249df1c16758908906edbea1142a51a00,0xd049b3064990869c9f73bd7896271d83325d2067,14
+0xd049b3064990869c9f73bd7896271d83325d2067-24,FOR,3,,13754439,1638823414,0x8a3c374fc6f0ebcf9f438284b107438ab8f790479724ad4c10ef29d10d325d23,0xd049b3064990869c9f73bd7896271d83325d2067,24
+0xd049b3064990869c9f73bd7896271d83325d2067-3,FOR,1,,13166315,1630852895,0x62abed1b9568747b7baffccb013b9e834440c419e956fa122beed6224741c6fa,0xd049b3064990869c9f73bd7896271d83325d2067,3
+0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca-65,FOR,1,bullish on zora as an arbiter of web3 culture ,14661513,1650994696,0xfb73d4987e114a102c7aa03c4bc809f309c65a3c69c73f0b7a94e79c2697692c,0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca,65
+0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca-83,FOR,1,brandon ftw ,14831227,1653331656,0xaae933e0ba892589c8058de9f2dbcfefa51633433da66c44decadf8931365cd3,0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca,83
+0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca-85,FOR,1,"i think this should always be a component of the meme proliferation strategy, rewarding those who take permissionless action is extremely nounish, imo",14875243,1653950884,0xa9ea099eb829e2fecfcd809eea79461633050656fa9b5bbc83c1c2a0a3e5dda4,0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca,85
+0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca-87,FOR,1,"yes
+
+please print extra posters ",14885008,1654089647,0xb4cdc9946f62ce6b9b4d5cd2d8b90690edc8cb29fbd28efdae2c769a86fc6f2d,0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca,87
+0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca-90,FOR,1,"one of the finest ways to propagate the meme, imo
+
+hard to overstate the elegance of nounifying memes w/ market fit and giga distribution/integration
+
+gg",14939700,1654882158,0x7bd9eca721f02c30771d6bab929940772b418526eb5e22db0b5c380a985b5e28,0xd1295fcbaf56bf1a6dff3e1df7e437f987f6feca,90
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-100,FOR,3,,15055916,1656669207,0xf0234b05ffe0a3bf15d51da053e5c23e40144dde0ca575f64d8c091a44820e02,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,100
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-101,FOR,3,,15055923,1656669291,0xa856b59a8cc2ea4ffa7a1b8b02853cc9dfe5e05c06faffe8623514007a0cef1f,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,101
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-102,FOR,3,run it back,15070598,1656865056,0x20d73a629f772137037424bb8c96e676080a6fcc33e7519dde50c05d5ad658f5,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,102
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-103,FOR,3,,15083747,1657040445,0x006f27afff725103f842edff8865a7a1762ab029675bc72cd6235989029ab402,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,103
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-104,FOR,3,,15083778,1657040897,0x6d899f5fb23adfaeb67197195b18ecb262a14a9ce02f17ec821f8109a803f2d8,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,104
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-105,FOR,3,🫡,15095727,1657200628,0xfeec2b976dd185ed9822a7aa1f9458b2f02f0a042ffe9c0b7a2fa1ff4165893e,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,105
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-106,FOR,3,,15103890,1657309221,0xa988ae0a84597bb0e55512be3b7ef6c4893cbd91bda68b6cd416898859368c44,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,106
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-107,ABSTAIN,3,,15124184,1657580323,0x09a09d4cc48aa6f3bd63f26fa40defe5ad9142fd805d5d347534828261a21ac2,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,107
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-108,FOR,3,this is what we’re here to do.,15129498,1657650711,0x9e62967363b08269a5f8b585918bb6b0e08905df5ef29d02627506221ca6a8ff,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,108
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-109,FOR,3,,15142470,1657824160,0xace0d6b3190c34008ce71344bd40a206620b17c02cce6491dfb4f06e8d3f6087,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,109
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-110,FOR,3,,15142472,1657824164,0xcd69a3f8f9dce7e164256d2ece9711447c95b8493ab72a748846044aa1048b96,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,110
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-111,FOR,3,,15142481,1657824255,0xb8ef1673a52172d9e16d96d102d3f606bbd682eb5d926e54fcacd9b9fac471c9,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,111
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-112,FOR,2,,15153515,1657971520,0x940ce3732cfbfd9dfc3c1f74eab88346e39ccf7bc5fd17d35dc90be290df927b,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,112
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-114,FOR,2,,15162501,1658092759,0x92b1ab03266ea4065dabff07ff742393ebd170b1945b50b9de56b9ab75e36805,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,114
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-116,FOR,2,,15202237,1658623717,0x6fdeb560fffb12f5e0d379cd6b013ba57c6c9b02cb9b946392455e37046dbb17,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,116
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-87,FOR,2,"First time voter, long time builder.
+
+I like that some of the funds will be used to buying a Noun, therefore adding another group of people to the ecosystem. I also like to see artists get paid and am impressed with the lineup. Excited to see this happen and I hope the photos of the posters hanging up and the art images themselves will be available for others to use across other Nounish sites, if appropriate. Lastly, I’m glad that this is just fun. Definitely helps with spreading the meme and I like that Nouns can be associated with both high-quality art & having fun.",14885365,1654094218,0x84cc31fb685711be37d7c6bda4e611a2eb2a4f46366f0a268b9e5e7a4625f9c9,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,87
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-89,AGAINST,2,"While I appreciate the changes made from feedback given I’m still not sold on the ROI given the short time frame it will be up and the mural’s website deliverable. Also the statement that he “will attempt to leverage his network to invite some of his artist friends to hang out with him at the completed mural” doesn’t seem to mean much. No knock on the artist or proposer, that’s just my feelings based off other art-related props & grants we’ve seen that have had clearer value adds and/or were more cost-effective.",14920503,1654600321,0x38ab75c2c9be08f701fe36b08d17d5394217bb5af8d2e97aaf169c8fc057434f,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,89
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-90,FOR,2,"𝐖ith 𝐞very 𝐥ast 𝐢dea, 𝐤eep 𝐞xcelling 𝐭o 𝐡andcraft 𝐞very 𝐠if 𝐨pportunity, 𝐚lways 𝐭o 𝐬atisfaction.",14932422,1654775341,0x44c89285db38a6d62386da5de13be2335dd11d4f7066c5cfa4825d73ad3d6b12,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,90
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-91,FOR,2,"Pleased with the reception from the last Esports prop. I'm excited to see this experiment continue, and I trust those at the helm. I want to see Nouns permeate the gaming community more.",14939046,1654872967,0x05dde5dbd9982fa434ff251e2d6279315f68491cf4a5ffb5813b028199d1912a,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,91
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-92,FOR,2,We're lucky to have David in our community. Want to support his proliferation efforts as much as possible.,14939207,1654875084,0x8d57d450deaf38f3d712b97d3be91198790dd5a9e1c61d68363cfc95ccdba1d4,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,92
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-93,ABSTAIN,2,i worked on v1.,14943939,1654945779,0xa8870e0b327a662e94bb8524dd026696e7fb21d92b06b4a490d5cfee11859ca5,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,93
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-94,FOR,2,"The idea is nounish and I support this experiment. 
+
+Even though I would much rather see an all-purpose cc0 image repo, I’m trusting that this can be the first step to get the ball rolling for what could, and should, be a bigger endeavor to include many other artists’ work in one place. I think cc0images.wtf was smart vs. tied to space theme.
+
+Lastly, as a photographer, I’m unsure about funding equipment upgrades. The work already seems to be very good and would’ve liked to have seen a breakdown there but kudos for proposing something interesting & beautiful.",14949853,1655032525,0xa3dfa2c1b3e5cdf2cf1ed74309d1ef7d20a24ab2e0fe8afbd8408cc42c192a37,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,94
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-95,FOR,3,eu apoio isso e estou ansioso para isso.,14955929,1655122253,0x2cf2af25fd8db6cd348154d08f211aa9270ae9daa36fdd52af7489c98a3b76e3,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,95
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-97,FOR,3,,15009268,1655927370,0x41147ae5ff17c3534a3a93bc5d393d34ac215f27c2e4e7a3f9bdbb1c42f2dc67,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,97
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-98,FOR,3,,15028988,1656246605,0xf204f49854caf035701f2078cea07fae29635bce8bb6bab2ded4f640ab5864cb,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,98
+0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4-99,FOR,3,,15029252,1656251008,0x324f3e0404b8d699b933a0e54b442fb57e8550848f65c1ca28cbeb60dc2bc0b3,0xd19bf5f0b785c6f1f6228c72a8a31c9f383a49c4,99
+0xd30715949029b4cb5b4db073fc10814818a60e8a-145,FOR,0,,15659885,1664706767,0x5ccc962207c7578cd9974f9530e892193b3355a74ba79d3f352b1772a80b048d,0xd30715949029b4cb5b4db073fc10814818a60e8a,145
+0xd30715949029b4cb5b4db073fc10814818a60e8a-146,FOR,0,,15659885,1664706767,0xfd8fd56dca4b7d956e77cbc3b4aeb088ae438682ec9b9d122c2085ee2bfd005d,0xd30715949029b4cb5b4db073fc10814818a60e8a,146
+0xd30715949029b4cb5b4db073fc10814818a60e8a-147,FOR,0,,15659885,1664706767,0x2d15ead9e8729ea50de832a3f177706745c13a19b929f647ff86400eebb63ee7,0xd30715949029b4cb5b4db073fc10814818a60e8a,147
+0xd3dc4b7a574498555b520280d61511c14d50b1a9-24,AGAINST,0,,13745787,1638703472,0xf366ecc3a9fce5a7cfb0541194d2291d9b06a62a4e68ec88cee91ef8175ce8d3,0xd3dc4b7a574498555b520280d61511c14d50b1a9,24
+0xd3e2e76e4ab0322614fe7aaa3be0b04bed83d0d0-36,FOR,1,,14088759,1643300829,0x9ebe275afc74459b72b10e1294121a99d3ab618329139d80ec8419212b60ede4,0xd3e2e76e4ab0322614fe7aaa3be0b04bed83d0d0,36
+0xd3e2e76e4ab0322614fe7aaa3be0b04bed83d0d0-42,FOR,2,,14329382,1646516392,0x1732b8e2c83483641222c0cf7a9aa213e154312e195d1b1ef8e29665dd07d273,0xd3e2e76e4ab0322614fe7aaa3be0b04bed83d0d0,42
+0xd3e2e76e4ab0322614fe7aaa3be0b04bed83d0d0-44,FOR,2,,14430061,1647870642,0x480a93ac435cdfcbf9818b92125377c4de9b35d339c29cded8013d437d937143,0xd3e2e76e4ab0322614fe7aaa3be0b04bed83d0d0,44
+0xd3e401814d1faa8ca0419ecccbfee93ac7b15b31-42,FOR,1,,14329790,1646522285,0xc320969883f13d1b3cc0de2001dacb84e5f7048ed899831c981d1473f1bcb01e,0xd3e401814d1faa8ca0419ecccbfee93ac7b15b31,42
+0xd3e401814d1faa8ca0419ecccbfee93ac7b15b31-43,FOR,1,,14386207,1647280756,0x77a9538bc6ef35444bc68107915382466a4d26275a74854465274d04a7f044a2,0xd3e401814d1faa8ca0419ecccbfee93ac7b15b31,43
+0xd3e401814d1faa8ca0419ecccbfee93ac7b15b31-46,FOR,1,,14470276,1648411109,0x11e6955fa93c529463a33d051902cd15fab05809eb9e35fc513d5de5871dce04,0xd3e401814d1faa8ca0419ecccbfee93ac7b15b31,46
+0xd44e9b676e74ae45c0a39150be771eb189bb2337-47,FOR,2,,14513603,1648995177,0xe70b7aaae05c106e4185837a02b2df112c81c97dbc9b1787cfc2158560d0837e,0xd44e9b676e74ae45c0a39150be771eb189bb2337,47
+0xd44e9b676e74ae45c0a39150be771eb189bb2337-48,FOR,2,,14513503,1648993767,0x09701378ab3c2c4f33a7ae8c8098c029cc6b3542f30eba14f0089f89b151826d,0xd44e9b676e74ae45c0a39150be771eb189bb2337,48
+0xd44e9b676e74ae45c0a39150be771eb189bb2337-57,FOR,2,,14609670,1650291688,0x6440188315f730874b0272b6120b1e99a1df4271e599c0074c6487a0bf06f054,0xd44e9b676e74ae45c0a39150be771eb189bb2337,57
+0xd44e9b676e74ae45c0a39150be771eb189bb2337-82,FOR,2,,14824150,1653233194,0x7e58981d9ebec027985afd2a948e30ef8693ddf6d6318e84c9c8bd101eae12ce,0xd44e9b676e74ae45c0a39150be771eb189bb2337,82
+0xd44e9b676e74ae45c0a39150be771eb189bb2337-99,FOR,2,,15029465,1656254310,0xa316103d52443b223a046e2a1c55da4f6e6ba9de6536b121fa73ee15a2a464a0,0xd44e9b676e74ae45c0a39150be771eb189bb2337,99
+0xd70823761c043255f70a322388de2ed32f7f71e2-26,FOR,0,,13745930,1638705417,0xadfdbd3e8a0152bea766d759babad19dcce9da8b27ea88ccfee52b9128004223,0xd70823761c043255f70a322388de2ed32f7f71e2,26
+0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383-111,FOR,1,"Noun 22 is very supportive of many projects that request Small Grants, including Sidenoun, and I cannot think of a better candidate to continue the role Noun 22 effectively introduced. ",15149459,1657917377,0xa6aa6020322042e7389cfeb6c73f8f3fb988dc6396b9354e08574d5c9da1c602,0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383,111
+0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383-114,FOR,1,Future looks bright. ⌐◨-◨,15178570,1658307711,0x3139650a279f3d4c69ac4efc9952d9d595ad0ecbb6b3e8fdbee79e588c8ad01a,0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383,114
+0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383-128,FOR,1,,15334164,1660404034,0x9dd1595f8194840ddfcce5e57194a1e6b425365fc4d840a8728faed3564dce1b,0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383,128
+0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383-139,FOR,1,Let me hearrrr the all the ⌐◨-◨ soundssssss,15508343,1662805968,0x9a82dfa9544f756dacd03bb858b660d2e33ce19385f0aa753433f9ae64af4574,0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383,139
+0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383-141,FOR,1,,15555915,1663449407,0xdbe76bd9a12d0a25d259b03ab6dc253efca18f8d1688b75501945ae65dd89e02,0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383,141
+0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383-145,FOR,1,,15653427,1664628683,0x946a3f54b23aabea9916fa76481a7ca02c5bd4dd3c63b4486f062764c3896d4f,0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383,145
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-84,FOR,1,,14862062,1653765531,0x33d3a3c6e30e9cf221c883568bb8dd009babe0a563dd72d87f041eb76a31f158,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,84
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-85,FOR,1,,14862730,1653774913,0xdfaa8b4aee6c9cde4db395aebed9241cfb7a41b07ca8e3c1f2310e2d336584f4,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,85
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-86,ABSTAIN,1,Do not carry the proper knowledge on this matter to confidently vote yes or no. ,14878216,1653993153,0x98feb1ca2ef14f2aacbba011d1b031e3dd72d059c40fc343c417e0083223d2ec,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,86
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-87,FOR,1,"If executed properly (which it seems like this team can do), this should be a great way to bring multiple different artist communities into the fold of nouns. I would like to make sure there is transparency in the final capital allocation to the artists though, which I’m sure this team will provide. Really looking forward to the treasure hunt. ",14884338,1654079984,0x30bb5175e71626e43e7e85f86ad5abb4bc99d7b157e9b1a20fc6cb81361d6ba6,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,87
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-89,AGAINST,1,"I think the team is great and the execution would be of high quality, but the lifespan of the mural just doesn’t quite seem worth the time and funds requested for allocation. That being said, I’d vote strongly in favor of a longer term mural in a high-traffic area. ",14922795,1654633723,0x87c231ec6b9337c6710ccaf8189d52ab32d0bc6cad558e4bc428140cdf083e2b,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,89
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-90,FOR,1,It’s just so obvious. ⌐◨-◨ ,14932121,1654770669,0x53b00213b09de950edf7efbba790dc381b54766906e53177e30b9e12d361d534,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,90
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-91,FOR,1,Seeing the reach we received from the last esports initiative makes this a no-brainer.,14939897,1654885009,0xad3ca1bd75989dafdf1a872204845ff6ff663df411682b9086d7080c5b8858ee,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,91
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-92,FOR,1,No question. The power of David cannot be stopped. ,14939903,1654885077,0x14fc9c248b9485aebed8e98908f12be773efff9cbe5f04e391bab1d5e09f4ac9,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,92
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-93,FOR,1,,14953826,1655091242,0x3371a4da872b933bbe9918a9d43df63bfae859e0b120fd033772d6a6461c915b,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,93
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-94,FOR,1,"Although the tie to the DAO isn't perfect, the promotion of CC0, in whatever form, is an honorable pursuit of the DAO in our opinion. My hope is that more nounish initiatives will be tied to this prop as it's being built to further proliferate the DAO as well. ",14953354,1655084209,0xa192fc5be7ed004e11a25cef813d09aa491eb69506a66a0e0d4802335066d53e,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,94
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-95,FOR,1,An easy yes in my book. ,14955428,1655115029,0x4c12a877bce5b2421a092d424fd552488c184885bdc77d9dce15c0fa4bfab72e,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,95
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-98,FOR,1,Killer team that has executed splendidly in the past. A decent amount of proliferation for an attractive price. Let’s do it. ,15015384,1656026487,0x1db58446884e82192ac091cab9b3e1d4754202c0f51082705ed5b1ad8506e21f,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,98
+0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade-99,FOR,1,An easy yes! Just make sure you stop by the nouns coffee pop-up afterwards. ⌐◨-◨ ,15028890,1656245040,0xe2bdb1f01e08fd5497aa6d4f374fcb5e25564bafbdc46784d0b94751c1c0e018,0xdb94daa8bf1b6f45b122f442f922a2c4dd2f7ade,99
+0xdbef9c83d5a6b8f9662d22e38db2a4eb1d70569a-127,FOR,1,🔓. gentle,15325201,1660282486,0xc8d2cb196e9ba42abf3367cd1455ce9ab34c12d905bc43c267afbf8f1a0fdc76,0xdbef9c83d5a6b8f9662d22e38db2a4eb1d70569a,127
+0xdbef9c83d5a6b8f9662d22e38db2a4eb1d70569a-128,FOR,1,https://create.zora.co/editions/0xbe6c6af458b33aab6b6cc38a7ae35d1e3a9b1f69,15325209,1660282592,0x3d55d5d9b7b3ce8bb46940a34d06ec67984f4665859a49b779c846215bd86d1d,0xdbef9c83d5a6b8f9662d22e38db2a4eb1d70569a,128
+0xdbef9c83d5a6b8f9662d22e38db2a4eb1d70569a-134,FOR,1,"Noun 401 mixed at random with 999 exact forgeries.
+
+🔓. gentle 🔒. _____ 🔒. _____ 🔒. _____
+🔒. _____ 🔒. _____ 🔓. maple 🔒. _____
+🔒. _____ 🔒. _____ 🔒. _____ 🔒. _____
+
+https://forgeries.wtf",15463117,1662176906,0x4cccaad5d02f563e14810b1bcd32656598db91a600455ef542a0090ddcf3e145,0xdbef9c83d5a6b8f9662d22e38db2a4eb1d70569a,134
+0xdc68ff3e2ccf723eba0a33959de70406a176be95-139,FOR,0,,15517036,1662931005,0x42aa8c365b86db88bedf55c92ac4b1d6df13e1e10c6fb9ed618025aeb514f9ca,0xdc68ff3e2ccf723eba0a33959de70406a176be95,139
+0xdc68ff3e2ccf723eba0a33959de70406a176be95-145,FOR,0,,15659913,1664707103,0xa5f8ddb513d08dcc9004b8f2f0583e29cd7ecb038f725eb08a025d5c8d38e98f,0xdc68ff3e2ccf723eba0a33959de70406a176be95,145
+0xdc68ff3e2ccf723eba0a33959de70406a176be95-146,FOR,0,,15659916,1664707139,0x944e45115ea7ebfa98fc69ed6fe7fc943fb0b8bf8beb2b42581bbd0ccb2d4b21,0xdc68ff3e2ccf723eba0a33959de70406a176be95,146
+0xdc68ff3e2ccf723eba0a33959de70406a176be95-147,AGAINST,0,,15659918,1664707163,0xa1b6e7c713d26accc09a796c8a4762d71e427ea92177dee64593c439c6fd1649,0xdc68ff3e2ccf723eba0a33959de70406a176be95,147
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-119,FOR,6,,15253895,1659320457,0x5dae5ec274581e596c8d45ff661c99765f9d5500a165ae8deb398c2b49d08c0a,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,119
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-120,AGAINST,6,,15253903,1659320524,0x866fffc381c3ef7a5ee2d7401340004db36bddc2abf011c679f46a8a715da739,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,120
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-121,AGAINST,6,,15253911,1659320606,0x877fe633a4eb94e68d2afa337a22af3d9d55c9f2cd239afcb03aa08bd1371d1a,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,121
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-122,FOR,6,,15253911,1659320606,0x877fe633a4eb94e68d2afa337a22af3d9d55c9f2cd239afcb03aa08bd1371d1a,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,122
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-123,AGAINST,6,,15253911,1659320606,0x877fe633a4eb94e68d2afa337a22af3d9d55c9f2cd239afcb03aa08bd1371d1a,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,123
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-124,FOR,6,,15253911,1659320606,0x877fe633a4eb94e68d2afa337a22af3d9d55c9f2cd239afcb03aa08bd1371d1a,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,124
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-125,FOR,6,,15284715,1659734770,0x4674ba6cda4a7c5c8cac991165b8362d99bbe9667fbe6ee902ec3a899222178c,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,125
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-126,FOR,6,,15307422,1660040342,0x3956ad36680ba78e003345f39fa2d007b66fd862ee17c17d4463e890fc91b804,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,126
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-127,AGAINST,6,The Lil Nouns have spoken.,15328558,1660328793,0x9c4634dc48be880dfadef2b9382104401c2191c84a10ee3af95254f7935192b1,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,127
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-128,FOR,6,"The Lil Nouns have spoken.
+
+There was a loud YES for this one. ""No brainer. This is already a staple of Nouns I can’t imagine not existing anymore"".
+
+Lil Nouners were delighted to have taken part in Nouniversary event. The Lil Golden Globe winners being announced live was exciting.
+
+The Noun Square has shown an immense track record and we are curious to see its future unfold.",15333624,1660396458,0xfb977e1beb3c004586f30428e4a50b6ca48916c4d07ee45bd073cef42783cd23,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,128
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-129,FOR,6,,15342428,1660516504,0x5ea54fbcfbfedf1ce7ce31369098a82b8ecdb0c6d91ebe746f5025d4a6606863,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,129
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-130,FOR,6,,15368753,1660876711,0xcd41631145862d89f92597aff4dcc710f90d6738cae7b09f06feb5c8acdbdcac,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,130
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-132,AGAINST,6,Find the discussion here: https://discord.com/channels/954142017556979752/1009859488146264155,15385850,1661110571,0xd5cecf60dd84d31abf25852dd5c54ca21427ee713872081b523f56067f189380,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,132
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-133,ABSTAIN,6,"With all due love and respect for SharkDAO and their heritage in the Nouniverse — feel that the vision of SharkLabs overlaps with the ambitions of LilNouns, but without a reasonable strategy in place for self sustainability. Echo’ing 22’s sentiment from Discourse conversation, a lot of these initiatives feel redundant and more appropriately and organically funded individually through Nouns existing funding channels (prop, grants, onchain), rather than a lump sum funding formation of a new studio development with scope yet to be wholly defined.",15404891,1661371495,0x63f60e75ebce396b8c10f83dae5494c6aa75fbe0ee48dcb53f684bad7bba3741,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,133
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-134,AGAINST,6,,15478977,1662397146,0x9892e7baa5298f2b53ab8eb77c0bcafc8acbadf2f37aa29d121cb6cf6f40e0cd,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,134
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-135,FOR,6,,15479109,1662398784,0x95446e724804f492b0aca7cebf88aa8709589f74db84a44d685afe60043ac8a7,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,135
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-136,FOR,6,,15479115,1662398931,0x8e68cc0faff2eb6f99c5d9fdd612c1d9e96ec0fbb49fe6e9afa213e77cfa9e88,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,136
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-137,FOR,6,,15510541,1662837723,0xa752156777b08e196edf0c24514a0cf37231f140313eb85f63784766507f3b1c,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,137
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-138,FOR,6,,15516424,1662922356,0x3d2f1d4bf1be4e705fcdf8fafba36c41dcec04170c8f09b97a05b452332e48c5,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,138
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-139,FOR,6,,15516597,1662924948,0xe88c8f4a1fd3c4d5f923247d2f2211a5646d6cc967f0bf6d06d7dbace26073e5,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,139
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-140,FOR,7,,15545825,1663327031,0x469cc4c25ec25a2b102a64d51fdaada799d3b3635c26212a5bf947c721a2197b,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,140
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-141,FOR,7,,15559764,1663495979,0x135f85916807a5ee9ceba883a42f37a478f5eef230eb36cf2a772e17b6fadcc3,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,141
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-142,FOR,7,,15583256,1663781603,0x1181585c645af68a3f97699ef6a5ab274024117993592cdb683f12bf82a3442b,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,142
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-143,FOR,7,,15592185,1663889531,0x90a5d5d72dbfa52e3c6a490f41e3a672e6f6f5be9d7c519d1d1bf95877f29770,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,143
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-144,FOR,7,,15654353,1664639891,0x9668f3737ac8c2b94a56f603304a0bc324847916aa716c36d0413a1417b499d4,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,144
+0xdcb4117e3a00632efcac3c169e0b23959f555e5e-145,FOR,7,,15654361,1664639999,0x6734e723a4d02e5a6fe62bcd590a288f9319a97a293eace51607c247bf35ae53,0xdcb4117e3a00632efcac3c169e0b23959f555e5e,145
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-102,AGAINST,1,I don't see much upside in this if it's not run concurrently with a bigger crypto/NFT-focused event.,15083480,1657036938,0xc7eef95480298d833c0b8e4e2348d3438d8bf496c35411e30d49d71497e22efa,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,102
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-103,FOR,1,,15083518,1657037451,0xa89e84813dd59ec8a887f8f1ffa59e11d4d7ad97c4d4ab50e9dbe448127bbe60,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,103
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-104,FOR,1,Awesome project <3,15083541,1657037781,0x5a267148b1d94cf84445960add3b6fc0d77ae348c44c45e0e22b6c09ad4234f5,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,104
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-105,FOR,1,,15106663,1657346980,0x30e4f1037b86583898e39e76e1e51f69155c5cd8bd0c7d6e1e3b46f7a6fae6ef,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,105
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-107,ABSTAIN,1,,15134615,1657720215,0x2a0c8fe090fbede51ff2f52b796185b515a43c0b400a26cf3b8ccca8cc06339c,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,107
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-108,AGAINST,1,,15134635,1657720418,0x891ecbcf9a6af47323c4429cacdd42ea2bc3bfb88109125c1b34a366634a70e5,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,108
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-109,FOR,1,I like the builder's energy and I believe they will be able to execute perfectly.,15155234,1657995186,0xf578501cb73d96efb311c1eae7b8697c13f818a9a601302f854061da0c707540,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,109
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-110,FOR,1,Aubtoshi for the president.,15155246,1657995374,0x1cdd2f35983e75085622340b02e1ca06830cb473f74e46aa4ae22d9355199838,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,110
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-111,FOR,1,,15159787,1658055785,0xa2145fc4b0d636545fd0426df6b3a66c537a994cf3037fe77c3326fb9298f755,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,111
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-112,ABSTAIN,1,,15161832,1658083781,0xa0d4d281d0c91f3bd9fca6fc49fb35bc3da6c4d9e59a950c6cf2d0b39e75234c,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,112
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-113,FOR,1,,15175655,1658267861,0x839a1ec62dea8c2ea9c28bf709854d21e857d8936b4f3c8555bd7d30048c1d8e,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,113
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-118,FOR,1,,15245730,1659209891,0x3132a0c9f94485cd1f5832a09cfd584a32f2703c04a8720b9eb262c1886507cb,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,118
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-119,ABSTAIN,1,Sasquatch made me abstain.,15245420,1659205747,0x395ff98edebe90fbe0e8bb6c3683c0c1e8a2327886eddec37da2d7f9ff2d054a,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,119
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-126,FOR,1,,15309070,1660062844,0xbc4e5424d8f2286e11bb3ea118667f743863fb9b78491179dda9192cc85295c5,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,126
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-128,FOR,1,,15341481,1660503638,0x4d3c17f75d94fc8d19b991285ea35fcef3ac99282e09f4f6b1a98206678bbaa8,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,128
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-130,AGAINST,1,,15376423,1660982082,0xbe9f3fb127292d0106bd7ef6f5f0a647c0a2ee747217b274be45bf9c133c81e7,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,130
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-137,FOR,1,,15516702,1662926447,0x3aa0b1b92e344c2c340fb3f63d66bcc253ffe3cd054ada34d187538e998e6853,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,137
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-138,AGAINST,1,,15516711,1662926546,0x2182db7835d02435d1080aefb700f529b96990710efacb4190a5e963905cc630,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,138
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-139,FOR,1,,15522586,1663010003,0xe8f3e20abe26970272d6e893f8e584bdf29fc40e59afa1300662a605b769310c,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,139
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-140,FOR,1,,15548664,1663361459,0x4cd54c21c67af22cf0a43ebe69e908d669f922b6fc7cd92827a5c7dc78d8e123,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,140
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-141,FOR,1,,15558719,1663483355,0xca4c3dd2650b1a5503dec2e1594af89de490978b9dc9371d5480178530774d68,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,141
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-142,FOR,1,,15577455,1663710371,0x8c6a7ed5a29830eafd361889e0935d82804ee88308a247c9c6f5f20564724d55,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,142
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-143,FOR,1,,15580947,1663753415,0x4ab63137fb92cb954f514c09f740426094ddb640288c97300b55b37257cad81c,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,143
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-144,FOR,1,,15655441,1664653163,0x2aa29893ef523e47b5e1f8fae9d98916712d1f9856925a283bcebc01063dd026,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,144
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-145,FOR,1,,15655447,1664653235,0xc0fa7a4ee9b2bb9521cfb3a2add6b94642189c9f302db4fb19c729c97607af70,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,145
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-146,ABSTAIN,1,,15655464,1664653439,0x224b031136e15fd660f6bf740bad7a28dbcfc06e1ce86e832e7980474086c33a,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,146
+0xdead753f9b1eb8f2f7372e8587e7c6e342daac89-147,AGAINST,1,id like to see a comp structure less impacted by the number of traits chosen (= not 45 eth going to a single person),15655640,1664655563,0x91b8581111114090cb82738a632f2e6d1925dcb81c7dde7f27eda3a82cea4453,0xdead753f9b1eb8f2f7372e8587e7c6e342daac89,147
+0xe051deee4bdada672c314bc74d404c03ed920daa-125,FOR,2,,15272054,1659564393,0xf70ebb7b8131171930a8edfaa09400c686008023de407f980bff890b211a5666,0xe051deee4bdada672c314bc74d404c03ed920daa,125
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-100,FOR,1,,15054172,1656646021,0xb97ffdc70c6ab6c1954f16ec7f61b48d314980fb99702c19510ac0500d11facc,0xe085327c5ad2f77147f10973fed45fb19d734f7e,100
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-101,FOR,1,,15054173,1656646056,0xb689e83899fb545af5f5c0c4cf4b772fdd70aa8f3f50a1bd03f32726a1f108ea,0xe085327c5ad2f77147f10973fed45fb19d734f7e,101
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-103,FOR,1,,15080971,1657003691,0xb7bab68f312a953885a97fee224e1620ed286f8a8474d5f560e5760ba10f9b4d,0xe085327c5ad2f77147f10973fed45fb19d734f7e,103
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-104,FOR,1,,15080972,1657003701,0x6bcbc548cb824e9fddadde0ae98b57620ef2667f02bbad34b2c495f3742e5231,0xe085327c5ad2f77147f10973fed45fb19d734f7e,104
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-106,FOR,1,,15116377,1657475838,0x3a4215ac399d3269b4171a98efe49a4046f54a6e3f596d709ebebde33fb45984,0xe085327c5ad2f77147f10973fed45fb19d734f7e,106
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-107,FOR,1,,15116379,1657475872,0xf50a0ef645da9cc5357fa3bce400fde19993a6f9a5f3ea33b1b87213281dc44a,0xe085327c5ad2f77147f10973fed45fb19d734f7e,107
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-108,FOR,1,,15130610,1657665546,0xb83356149388fbf857cd840c21d7c1490c70c48418aa65b10f4c89704ad79ace,0xe085327c5ad2f77147f10973fed45fb19d734f7e,108
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-109,FOR,1,,15150010,1657924839,0x037dad9fb23016ef7b3acb11b0661daea1140792e53783fba06d698e4c60fa6e,0xe085327c5ad2f77147f10973fed45fb19d734f7e,109
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-110,FOR,1,,15150013,1657924868,0xba2ec37fb1e8b6f9abc202d408e2a7026b937b2ce118f77c648d391027e9389a,0xe085327c5ad2f77147f10973fed45fb19d734f7e,110
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-111,FOR,1,,15150013,1657924868,0x25b2b970ba529433899f78de582580e5efda4843cf580352ad7878a3e8580970,0xe085327c5ad2f77147f10973fed45fb19d734f7e,111
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-112,FOR,1,,15162381,1658091246,0x7d04510096c8408f70eab3a397d165c383075f082ed9e3933e84bcab2f810b71,0xe085327c5ad2f77147f10973fed45fb19d734f7e,112
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-113,FOR,1,,15162383,1658091271,0xee6f71fa0772e72aaf6090cae249bbf663608c7799efb4dc68a5b609cfdc58d2,0xe085327c5ad2f77147f10973fed45fb19d734f7e,113
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-114,FOR,1,,15162384,1658091318,0x7d02c289c433a2551b87d7f772c79783cd7b5e81842066d39156600e6c2fb809,0xe085327c5ad2f77147f10973fed45fb19d734f7e,114
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-116,FOR,1,,15208213,1658704625,0x745e4a5ea349924974f9c973f80ce0e5f73484b331aa6e42b6ee3ce617fc8b87,0xe085327c5ad2f77147f10973fed45fb19d734f7e,116
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-117,FOR,1,,15234027,1659052454,0xc7ddcd6388c5aa59800ba882586ae7de1e42216cb769aeadda57184ea6b1e6b8,0xe085327c5ad2f77147f10973fed45fb19d734f7e,117
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-119,FOR,1,,15252744,1659304143,0x5b08dc97cf513dbd70c922739bbb8d1a7c95532b6c22410ce884bc8711450817,0xe085327c5ad2f77147f10973fed45fb19d734f7e,119
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-120,AGAINST,1,,15252747,1659304187,0x287015b949cf907fb3779d7dab39a1d74abe94d903b96a95b45f0161a48d9a51,0xe085327c5ad2f77147f10973fed45fb19d734f7e,120
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-121,AGAINST,1,,15252752,1659304208,0xa7aea3447c5ca8dcbb7350ddd68a3a887274f84105aafe582de207d732948dad,0xe085327c5ad2f77147f10973fed45fb19d734f7e,121
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-122,AGAINST,1,,15252752,1659304208,0xd42dd7e081cf26228055ea1f001f1270e1acd268d7ab2049ce953e816babf66a,0xe085327c5ad2f77147f10973fed45fb19d734f7e,122
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-124,FOR,1,,15264032,1659455893,0x4bd2fed862a4a3cb749f5ed6c32ded304855eadec47fdafaa7aca1432a77fa87,0xe085327c5ad2f77147f10973fed45fb19d734f7e,124
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-125,FOR,1,,15272376,1659568645,0x7506da927af9f20d637295c937fda2a12cf9b28d182d7150fd233f6e3cdd3d8c,0xe085327c5ad2f77147f10973fed45fb19d734f7e,125
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-133,FOR,1,,15396814,1661260882,0xa64e1f5671a3d200dff8154678e59226d51636d83aef0970f67c02cf2b2d1dda,0xe085327c5ad2f77147f10973fed45fb19d734f7e,133
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-28,FOR,1,,13811145,1639590299,0x4fb41d0e932fa8293cda788a08121b2c23a8134e3ed088bee3b2ea5b3d3d4810,0xe085327c5ad2f77147f10973fed45fb19d734f7e,28
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-77,FOR,1,,14812852,1653074257,0x62188d613a2274c948e23be160d82773b5e59d588bfa029e25ec30690e229cbc,0xe085327c5ad2f77147f10973fed45fb19d734f7e,77
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-78,FOR,1,,14812854,1653074293,0xe8b82993362bb325ed1bcf23ed542a97bd131c7edff8a6e832b40d02d1abeabb,0xe085327c5ad2f77147f10973fed45fb19d734f7e,78
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-84,FOR,1,,14862599,1653773065,0x6e2747349fb40b9cc5cdbcf16d8629faa4d2a960813040dfbc541566789deddb,0xe085327c5ad2f77147f10973fed45fb19d734f7e,84
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-85,FOR,1,,14862602,1653773086,0xf0cd34138aa358931b218bfae3e9d55405aa3b774cda311ebda2f3802c8557fb,0xe085327c5ad2f77147f10973fed45fb19d734f7e,85
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-86,AGAINST,1,,14876643,1653970352,0xf990f835e7c26cf9238c78519f1f8a407774d20ef89814eb3d0d76cc33446ecc,0xe085327c5ad2f77147f10973fed45fb19d734f7e,86
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-87,FOR,1,,14893936,1654214225,0xf832ea2799273302d851308bf592873a5455b20dcf79969b9420edef5f7718d2,0xe085327c5ad2f77147f10973fed45fb19d734f7e,87
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-98,FOR,1,,15027316,1656219349,0x09bcb013c81ae64c899ee27b5d5da6913063a3b442910c413f00661e4d9dcef2,0xe085327c5ad2f77147f10973fed45fb19d734f7e,98
+0xe085327c5ad2f77147f10973fed45fb19d734f7e-99,FOR,1,,15027315,1656219347,0xbb7ab3fb61ba032189f504a9e3aaa4633f8f92f4a74435ef10bfaf2adfbaf9c6,0xe085327c5ad2f77147f10973fed45fb19d734f7e,99
+0xe26d78c6bff297bbc2da3f80fea9a42028a4260f-105,FOR,3,,15099182,1657246548,0x8c16a8650586acd19e8e0587c41c0d244b8fa4c110ea7b5c133e492a1d34222c,0xe26d78c6bff297bbc2da3f80fea9a42028a4260f,105
+0xe26d78c6bff297bbc2da3f80fea9a42028a4260f-106,FOR,3,,15123352,1657569199,0xfae2775c57586d71e85f61352c6e47152dde2cd549992cec7e70da1b60fa24a6,0xe26d78c6bff297bbc2da3f80fea9a42028a4260f,106
+0xe26d78c6bff297bbc2da3f80fea9a42028a4260f-107,AGAINST,3,,15135194,1657728112,0x9fbfe0dbd552065868b5e56529f69a7dc1e05fb6a45718bd7c8830ea0f70086e,0xe26d78c6bff297bbc2da3f80fea9a42028a4260f,107
+0xe26d78c6bff297bbc2da3f80fea9a42028a4260f-112,FOR,3,,15161203,1658074920,0x4a5afc87603a2045afbd8d9df8e8b25d4d707a9788354d6d8f7e193b8f2cfa86,0xe26d78c6bff297bbc2da3f80fea9a42028a4260f,112
+0xe26d78c6bff297bbc2da3f80fea9a42028a4260f-113,FOR,3,,15161301,1658076159,0xc3b6e8e793257a3d06b4e5a249d363581d1dadfa67344e1f603f348cfbfd183a,0xe26d78c6bff297bbc2da3f80fea9a42028a4260f,113
+0xe26d78c6bff297bbc2da3f80fea9a42028a4260f-99,FOR,3,,15040263,1656428839,0x99ad5f73ca306f5a47a89a0f3ad93d05efbf1772025fd73af502a7b53c1191f0,0xe26d78c6bff297bbc2da3f80fea9a42028a4260f,99
+0xe2d1b3c4807ace55767c1f320c7c052d94b517f6-145,FOR,0,,15659339,1664700191,0xb79ee9040ee429efdd3a2c77b52caf012626368313374e20a0201e5cdbd9e6b3,0xe2d1b3c4807ace55767c1f320c7c052d94b517f6,145
+0xe2d1b3c4807ace55767c1f320c7c052d94b517f6-146,ABSTAIN,0,,15659339,1664700191,0xe27c93308d1bdac446109e647f2769ade9af5a31f7207030ce946beb370b403b,0xe2d1b3c4807ace55767c1f320c7c052d94b517f6,146
+0xe2d1b3c4807ace55767c1f320c7c052d94b517f6-147,FOR,0,,15659344,1664700251,0xddc16a04567796a82fbfe6a97c42849a9ae75519a8df223501cc3d43274a0b20,0xe2d1b3c4807ace55767c1f320c7c052d94b517f6,147
+0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc-100,FOR,1,,15051025,1656602247,0x780982922086d980e12bfddcf94bcf7ada3085d9a0e0e9b0a0ba24f227c04002,0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc,100
+0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc-101,FOR,2,,15051026,1656602252,0x45a00f8bdb971432f3e09ab40b7ab02ee112a047f8893b5ad84d458b011b7c44,0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc,101
+0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc-109,FOR,1,,15155650,1658000425,0x28649783da571494549fe862cde112e140a8836489d4d1dee19155fff16ed2b8,0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc,109
+0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc-110,FOR,1,,15155650,1658000425,0x0aecac5fb9c11e8ab148989b14496a7678bbd54d447eb900adb73721a77343ad,0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc,110
+0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc-111,FOR,1,,15155650,1658000425,0x06845eec5181e533ef7ab4e5fa69d01f5ddf16912326dc3bdca97712ee098dd1,0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc,111
+0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc-112,FOR,1,,15155664,1658000614,0xa2672655c64c9651b08cbcf1832f4824c6b2f9b3be378ee43c31aadc32cd6f0f,0xe30585034f5e2ac9635cf94d0fd069d6bac2f7bc,112
+0xe3064d830c35119a83402636816444446ac72d36-107,ABSTAIN,1,,15129380,1657649334,0x6d80660bc2d6065cc812618bf701c91238db2d7de4ef73ec3eaced6da76995d2,0xe3064d830c35119a83402636816444446ac72d36,107
+0xe3064d830c35119a83402636816444446ac72d36-110,FOR,1,,15155600,1657999782,0xce092d4f16e9fcc610f9bf28b0978757875978179af1480fbcaf2885d65efe03,0xe3064d830c35119a83402636816444446ac72d36,110
+0xe3064d830c35119a83402636816444446ac72d36-111,FOR,1,,15155613,1657999919,0x2110664a698576ba5284b2c0053d7ee3d14e7fdd33482d22a5e13c4adf39cda4,0xe3064d830c35119a83402636816444446ac72d36,111
+0xe3064d830c35119a83402636816444446ac72d36-112,FOR,1,,15168884,1658177800,0x7d3d348f40376f880394d9008287c6a724b52d671ee9dcb7fac8de4f20b4a79a,0xe3064d830c35119a83402636816444446ac72d36,112
+0xe3064d830c35119a83402636816444446ac72d36-113,FOR,1,,15177148,1658287996,0xeb3714dd2702ae963c24e5cefae4be7760a0a24020b6360e646876c9239e573a,0xe3064d830c35119a83402636816444446ac72d36,113
+0xe3064d830c35119a83402636816444446ac72d36-114,FOR,1,,15177152,1658288064,0x5a577e954df333c550babae1975c38549b166c7a0d91e64582bc6026f24a7075,0xe3064d830c35119a83402636816444446ac72d36,114
+0xe3064d830c35119a83402636816444446ac72d36-116,FOR,1,,15215552,1658803860,0x51b51a1edea41bc8a036f92ca58f885070e1d3571c11c527e1b897c92e13f1ee,0xe3064d830c35119a83402636816444446ac72d36,116
+0xe3064d830c35119a83402636816444446ac72d36-119,FOR,1,,15257646,1659369910,0x4ef2b91d3398668773b74954bd530abb1d35408c3e645f7304c7769f5be45a78,0xe3064d830c35119a83402636816444446ac72d36,119
+0xe3064d830c35119a83402636816444446ac72d36-120,FOR,1,,15257659,1659370063,0x21fe54022ef34544a0194470cee40cfd8aef652b994f9204bbb6c94019c965e0,0xe3064d830c35119a83402636816444446ac72d36,120
+0xe3064d830c35119a83402636816444446ac72d36-121,FOR,1,,15257668,1659370164,0x3264784f0ac207a6f939886f7cea31a1ad9778db37f7699055d5825b68be1e2d,0xe3064d830c35119a83402636816444446ac72d36,121
+0xe3064d830c35119a83402636816444446ac72d36-122,ABSTAIN,1,,15257683,1659370400,0x0e1a3f63b18032e8aaee3771e3045361d37dd8e60036315afecd285ca2fcc92c,0xe3064d830c35119a83402636816444446ac72d36,122
+0xe3064d830c35119a83402636816444446ac72d36-123,FOR,1,,15257698,1659370553,0x40c83060b2bdb55001cff0c85c01d040445f9a5b8d089d2d2bedce77502c94ef,0xe3064d830c35119a83402636816444446ac72d36,123
+0xe3064d830c35119a83402636816444446ac72d36-124,FOR,1,,15257704,1659370628,0x3e56efcd3dcdffe14dae77e4e610d1aff7712af7f96fd33125cd385108abefad,0xe3064d830c35119a83402636816444446ac72d36,124
+0xe3064d830c35119a83402636816444446ac72d36-125,FOR,1,,15286513,1659759018,0x0bc9144ed370fee445ebb2f84d71c705ee2b9ba03d444c6aed13d61b9a321c4f,0xe3064d830c35119a83402636816444446ac72d36,125
+0xe3064d830c35119a83402636816444446ac72d36-128,FOR,1,,15342416,1660516297,0x24a7695045d9d444cd745515131908a60b821d4d575e2704cd043d65359af36a,0xe3064d830c35119a83402636816444446ac72d36,128
+0xe3064d830c35119a83402636816444446ac72d36-132,FOR,1,,15393570,1661216337,0xeeeb3b4037303bbc7fc3822a11ac6b0d5106ea8f26e927338ca06b79b2d52de2,0xe3064d830c35119a83402636816444446ac72d36,132
+0xe3064d830c35119a83402636816444446ac72d36-134,FOR,1,,15481601,1662433790,0x1aed848979b3270ee72a8a9077fb1367a3f4ea4cf149a904b50329d39cfb304a,0xe3064d830c35119a83402636816444446ac72d36,134
+0xe3064d830c35119a83402636816444446ac72d36-135,FOR,1,,15481607,1662433856,0x16956188fc188d846a4085b25963bd9f0e3af43299d07ac5a480b131927c36a6,0xe3064d830c35119a83402636816444446ac72d36,135
+0xe3064d830c35119a83402636816444446ac72d36-137,FOR,1,,15518148,1662946164,0x7a708dc83f2e6d448837e513318a9bae9cd052c7ae67fa2bdcfcac5da509e310,0xe3064d830c35119a83402636816444446ac72d36,137
+0xe3064d830c35119a83402636816444446ac72d36-139,FOR,1,,15518157,1662946266,0xa00bcf32c5d664db78a493092d73a9b6e472e83b8ce017fb33833f9ea770838f,0xe3064d830c35119a83402636816444446ac72d36,139
+0xe3064d830c35119a83402636816444446ac72d36-142,FOR,1,,15586427,1663820039,0x84d00b5fe76f97862b3135466cbcc0997812e5520e890134759a1b2cd1fe4a29,0xe3064d830c35119a83402636816444446ac72d36,142
+0xe3064d830c35119a83402636816444446ac72d36-143,FOR,1,,15586431,1663820087,0x3c756d56619f89c2d991126cdf84eb946987caec494209ef02811e0ac02897c9,0xe3064d830c35119a83402636816444446ac72d36,143
+0xe3064d830c35119a83402636816444446ac72d36-146,ABSTAIN,1,,15665154,1664770247,0x183498995a8057bfb58dabe8062c91cd47507c81effa25176f71b47dacdfeaa8,0xe3064d830c35119a83402636816444446ac72d36,146
+0xe3064d830c35119a83402636816444446ac72d36-147,FOR,1,,15665162,1664770343,0xeb90ba75cdfd9380e040d26c8ddee4e73fda4c8a2eace787b6c54e7c19e4d6ef,0xe3064d830c35119a83402636816444446ac72d36,147
+0xe3f27deff96fe178e87559f36cbf868b9e75967d-112,FOR,2,the duck has spoken.,15169515,1658186494,0xe9d726f7abd41020d3c6d986a461501c70428c3f62ae693967c8da6c99ed409b,0xe3f27deff96fe178e87559f36cbf868b9e75967d,112
+0xe3f27deff96fe178e87559f36cbf868b9e75967d-113,FOR,2,,15175688,1658268391,0xb632ee60efddecece5907e592464ae15b23883299eee4756c96bcfe86cae69e9,0xe3f27deff96fe178e87559f36cbf868b9e75967d,113
+0xe3f27deff96fe178e87559f36cbf868b9e75967d-118,FOR,2,talented builders LFG,15242534,1659167311,0x242bd3531fb5ef5afc1f628671010e24c5e3d0bd24e8674c96f2eaf9a8a5272a,0xe3f27deff96fe178e87559f36cbf868b9e75967d,118
+0xe3f27deff96fe178e87559f36cbf868b9e75967d-119,FOR,2,grateful for all the support towards the esports initiative thus far and excited to continue building ⌐◨-◨,15245069,1659201117,0x62ce8bfba7cb30d33887fcde41ec598e4c164780dce69dddfe030049f0cde6c6,0xe3f27deff96fe178e87559f36cbf868b9e75967d,119
+0xe4330b03f40d51b00e484e0889d403b74d3476e8-127,FOR,0,,15323465,1660258900,0x7ec8ac5992e8ee9d823db9c13c72f49c5e63f7a89d2656cf56deb0413ac055a3,0xe4330b03f40d51b00e484e0889d403b74d3476e8,127
+0xe5e4b1ec4061d6fc932207dfc5cf96bd27fb11da-107,FOR,1,,15134619,1657720242,0xab3e578019c7081d061b5304b0015eabfeb3d35a3aec053762dccf022f2f9492,0xe5e4b1ec4061d6fc932207dfc5cf96bd27fb11da,107
+0xe7304ba0f157f2ade94015934284b6704bc72911-81,AGAINST,1,,14827579,1653281448,0x4a757871ef33fa11a152dd0cf768b7e763bc51b4520cb4590ddbbc9218371021,0xe7304ba0f157f2ade94015934284b6704bc72911,81
+0xe7304ba0f157f2ade94015934284b6704bc72911-82,FOR,1,,14827604,1653281728,0x955aa07bd0255e31ef4f8fd1a93cce0b46090835084500cb55ca08fc023e7a3a,0xe7304ba0f157f2ade94015934284b6704bc72911,82
+0xe7304ba0f157f2ade94015934284b6704bc72911-83,FOR,1,,14827743,1653283596,0x31a2e17022d6a0fdbcd11df6f200cc1433232053365213a726ffc37a72e1f51d,0xe7304ba0f157f2ade94015934284b6704bc72911,83
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-101,AGAINST,1,,15058718,1656707281,0x22806dbfb05f6569874eb1d025c6149ae34472f30d96748de525d0911235b552,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,101
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-102,FOR,1,,15083903,1657042589,0xa5ab8f3ee1f806f495b4ffb1c80eabceaf2b271fb5d47db4d9680728a2ca04e8,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,102
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-103,AGAINST,1,,15083920,1657042763,0xc02581c23dde4c5b2da0bd66ee9b126874b0ee7c51c7633aef7ebf5ffa9e7148,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,103
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-105,FOR,1,,15105821,1657335351,0x2447c0dd7d38087bc2fe929ce6615fab531373115f6f3299a92722f533d59541,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,105
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-106,AGAINST,1,,15122376,1657556586,0x43019a46965d87788d958fcc3491c5e46f57c320bccbf2927d7334bd8f0a81b7,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,106
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-107,FOR,1,,15129171,1657646615,0x67a9bbc25bf0fb6a48ddf6e6ca718f0733e31a518fb938dc2cf662032a7c2a3c,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,107
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-108,AGAINST,1,,15148144,1657899803,0x02e905a1789e5ebb86db31c390b8c628c2d51a7b9f4132447826cfb7ec8398a8,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,108
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-109,FOR,1,,15148205,1657900482,0xd0b3ac8fb601f7a7fb5806e58c99245059bf4c738bcf145044190b7af3b108e2,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,109
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-110,FOR,1,,15148223,1657900646,0x96994e9190761a54ca21ae4c4bb6f84fa6a46df1289b2dc145866641676e05ba,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,110
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-111,AGAINST,1,,15148315,1657901904,0xb7ba519d1254518a73490a959f1e32b0797405cf6375120b6eb7236fe6cc626d,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,111
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-112,AGAINST,1,,15167740,1658161958,0x8aa8dae0cf71240445b0e5382e8f18946d85b702c33ef2cc87325a1b092dd3e7,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,112
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-113,AGAINST,1,,15168220,1658168375,0x2d6633a101c2c6f346de44503e0107b563aa90a40d8dbba2e97eb1cee61651cb,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,113
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-114,FOR,1,,15168940,1658178587,0x2dde7d98910d66bbea55bdd41e02045f610f2d870ec6be19159f05c3ce7fdb5c,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,114
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-119,AGAINST,1,,15258133,1659376616,0x2fd94eecf033c13a6c4d488a6eb935d9bbbfd38556db5426df223de09c5d81fa,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,119
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-122,FOR,1,,15264545,1659463027,0xf479ad0d4ef8b86b3453678027640ad8b1af184c6d0a39b1d2ef095ac44965e3,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,122
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-123,AGAINST,1,,15264662,1659464583,0xac265c1e15296924f23b4580eb4ad52f1f9bc9fb8dae882de3bada0a5f88bec7,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,123
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-124,AGAINST,1,,15264829,1659466636,0x21047da4ddd4fae79987b38ded19abb16e03edd740e1fa6c70018f7dad86bacf,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,124
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-125,FOR,1,,15283060,1659712132,0x13ecfd0f7e8bf7aae9765ed4883a14b8bef39a48581c7ec926b3183bc648818e,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,125
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-126,FOR,1,,15302343,1659972401,0xccba02eae113da12f58c1834d12545a56239499a9b9235df42b917c912607281,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,126
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-127,FOR,1,,15329089,1660335525,0x7812db23c207f048a10addef0637b8119a08f5b7699e142fd12b9a29d37dde46,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,127
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-128,FOR,1,,15329118,1660335795,0x164a71a3839e48ca89341878ce90c57424bfd0f49b8ae88159a95b60f80fb423,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,128
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-129,FOR,1,,15348151,1660595755,0x23efeed43966b8a9305686c8f19561a4731ef243b52f73467a4c8d952b32146f,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,129
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-132,FOR,1,,15391319,1661185528,0xcae30676e37cdeb971847ed3978c46284e6c27c4f2a43110ff2499d673773ef7,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,132
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-133,FOR,1,,15404479,1661365836,0x6a3e1ee19a1b9553323f6790988463414bc3fc49064685a474e734ff23d30ac3,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,133
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-134,FOR,1,,15467653,1662239879,0xaae755a2469eddb4e47f19f592b5efc5ce3a3c94c7544c48d05ce65223675e26,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,134
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-135,FOR,1,,15467688,1662240283,0xd60b747667e0236e5023c744b0fe99c6d3138df58dc92663d8a12a2025c7cc13,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,135
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-138,FOR,1,,15522368,1663007045,0x3f04c507f3cdaa44ab19821b84ca3153b59dfe93d0a8c04c738b3f1b84a2e59e,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,138
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-139,FOR,1,,15522677,1663011446,0x5aff0209406768db9b3f0f3d270324687f7802510a56179b755d2b50c2ad32f2,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,139
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-140,FOR,1,,15548750,1663362515,0xe937d1994ff74ceaaa75f3430ef01207794ebd433fa1656e4d96c7c8743af621,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,140
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-141,FOR,1,,15568153,1663597691,0xdf068d885d3e15654e29678563b4b10f43af06bce30899f2ea72464b1ff60919,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,141
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-143,FOR,1,,15597307,1663951331,0x9f34c9d1211bd2e401d8d79d37c9bb6e78c20a0c27d514de676fa5b25292006f,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,143
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-144,FOR,1,,15649996,1664587259,0x7a7120d445bd27cf600f39c292c814801e484c115183f2df46e7b94a32f7cae2,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,144
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-145,FOR,1,,15649996,1664587259,0x7a7120d445bd27cf600f39c292c814801e484c115183f2df46e7b94a32f7cae2,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,145
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-146,FOR,1,,15663404,1664749151,0x306c15d329eb03566235b949a41bb4f3194d0b6bb0c84dd1875b07a8f4d94c93,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,146
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-147,FOR,1,,15663409,1664749211,0xa7e792e14ea26fa60558d64a19658477bad036fbb5d3ff2ce3e641fdfc761c57,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,147
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-39,FOR,1,,14238449,1645300321,0x7a6dec1fecd5c888426f96c6e7c1eb40c9048b1b7958da9e37ad1c5653481aae,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,39
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-41,FOR,1,,14335211,1646595227,0x28bfdf5e662e2dfb16ecff6209e8da40e4fe315e6cae2c62beb1c63f2c702255,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,41
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-43,FOR,1,,14386541,1647285080,0x4756e02e4945595008d3c379b29d3aac5566cba9109b5f09f5043ed88f932ba6,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,43
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-44,FOR,1,,14432923,1647909167,0x87fa57a46ee0f088c51354829b46a71bb29abcc073dae4d1e3485559d4aef7eb,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,44
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-46,FOR,1,,14483309,1648586197,0x61d3d2b2b578cc5f0219d9d26f3edcb1765454370b5cfe933573b79a8da2f251,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,46
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-47,FOR,1,,14521459,1649101451,0xda33872072ce626b354469637386ddb2e530dc5a34537dd8a87e3342f5b5c01b,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,47
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-51,FOR,1,,14572316,1649787431,0x7aa2f4981d9e8ba2004ad2ebce19dde91b19d60853f16091b21a955194fd00d1,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,51
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-52,FOR,1,,14572335,1649787743,0x84e797159ac71ba6d1f857e5e44b09685434071c8ceadada698c00c3fd0a7111,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,52
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-53,FOR,1,,14578168,1649867242,0x941ea0370ce379089a063530d51659a6820b2b2b2aaa230b792ea812675c3082,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,53
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-56,AGAINST,1,,14604795,1650225667,0x59376eb4ae96158c80441be7938c20591fc46d4dfe13f807982c3b00e610e5f9,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,56
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-57,AGAINST,1,,14610633,1650304604,0xa1b8c0603bca43b46c5cfb5b6fadbf2f370e469b130e215460ef699c80b15104,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,57
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-58,FOR,1,,14610650,1650304782,0x91ae2126ceef5a615d098521d9e4020b9e37375470316512e158e43915dfa64e,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,58
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-60,FOR,1,,14635945,1650647582,0x82239837a6e8a5c54a3888572e979deaf566ca0bbad04eb494fe5b9630791f4b,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,60
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-61,FOR,1,,14635973,1650648009,0x6f636c772783bc527b88ed9444e466dcf2719e5f1983ec49c00f6fbd90c59315,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,61
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-62,FOR,1,,14636002,1650648409,0xf169007b5ea07ec5449683b60c174a4ed987b580cb6b4f34fb17ab52b19fc151,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,62
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-63,AGAINST,1,,14660966,1650987618,0xa59db558ffb030625771f79d347396f1a05ee9dbf02ba3cbc6aa7e02e89f422e,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,63
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-64,FOR,1,,14660986,1650987852,0xce74a122c224308f7d3edf2c5ad339e2dff45476b749e084f0e049bc8e488b2b,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,64
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-65,FOR,1,,14667805,1651079713,0xe85944d6ed3f4b0194047bf8eda5fb024b2c3616b4d62dbd47ada1d5a4bc9fc3,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,65
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-67,AGAINST,1,,14674407,1651170371,0xa253415d0855bcc8cff7ee8648b876c7ef3147621e507b7970020fa0fd55428b,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,67
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-68,FOR,1,,14674412,1651170450,0xed0e6c9d65543fa002f31617557aedf16ba5ad9f3f1af62f5dd49abe9ca1d3b2,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,68
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-69,FOR,1,,14674427,1651170604,0x58f4b8828f943fbf01f78b6190a79fd1b7deb59dd6021510725c90186f866f1c,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,69
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-70,AGAINST,1,,14681568,1651266794,0x9f8cb50c3c253fbf9f57fa074fa596164ddc928073297bff6023a5d1313a27ba,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,70
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-72,AGAINST,1,,14744638,1652130623,0xab8a486cfdb9584c6df255ae177f9e22f88e4e90c795738f89f99b4f1666b32c,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,72
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-73,FOR,1,,14768569,1652461143,0x0f907a98cf945c3c5a3dacbc33999e33e3c059d36e595f197ea5b2745efc47a1,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,73
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-74,FOR,1,,14781491,1652638845,0xe1f3f25baff9dab5920002ad92514b68e6e2708da074d79dfad6d7d4c32396e7,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,74
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-81,FOR,1,,14831287,1653332502,0x028d42604be38ae120511c13727e39fbfce77212c3dbdf84464bea7dfbed778c,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,81
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-82,FOR,1,,14831448,1653334819,0x526f68626373cb603c0d295e4e1c66f551ec16b5f7dbd3b3e5695388511a9bd6,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,82
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-84,FOR,1,,14880717,1654028359,0x0b53a883a6fb94d79b5e7d31176d610aea1144b1ff5bf631c74a77d7a30ac962,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,84
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-85,FOR,1,,14880782,1654029190,0xdbe4ea339536e5f61922e8112e393cfcfcaeac8e95888bf0d2dfd140c8bf400c,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,85
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-89,AGAINST,1,,14922561,1654630024,0x4fd5f26ee72d6f1eb08923435d5c763c4015e12725586d564ce447b24a4b6c9c,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,89
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-90,AGAINST,1,,14940232,1654890501,0x7a338fc7221b0bc7c6d937139c004b77c6d50047cdeb0fcde5d157843a83114c,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,90
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-92,AGAINST,1,,14940306,1654891693,0xa34bf9273b52025fe6cc9f3430ec8d71d06dfe4fb203534094e5eb7b7e3149dc,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,92
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-93,FOR,1,,14956740,1655134791,0x448aeda6d0297047c3b9cfaac7f3697ea468efd378272c8c0a9aece335f93121,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,93
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-94,AGAINST,1,,14956833,1655136201,0x2e2a4977e77d7e38afa11f4947f26774610903e8ee7389e1200fd91a11a47933,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,94
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-97,AGAINST,1,,15003685,1655837291,0xbed317d56adff3f32c8385101374730220475311478c3fa6c29879397640d8f0,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,97
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-98,FOR,1,,15019857,1656098665,0x630f4e3ed63669a840da0a06b51b2535025a1f4010649ec87f7c50e5a4682e32,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,98
+0xe8d24be3abf6eb27b800f752a969d3c1e84fd401-99,AGAINST,1,,15035167,1656345721,0xb76bd5ab0fa9dc6c99aac6ceb1030a845523f50596aa1d3dff4bff6fbecab367,0xe8d24be3abf6eb27b800f752a969d3c1e84fd401,99
+0xe8f72382109af3ef787cb9ea983ce33c741b3db4-138,FOR,0,,15517666,1662939590,0xc725a6628f678dd4e82c7dc7d8ef7568cd9103dc45abe6b2900317f0e06c3b05,0xe8f72382109af3ef787cb9ea983ce33c741b3db4,138
+0xe8f72382109af3ef787cb9ea983ce33c741b3db4-145,AGAINST,0,,15659191,1664698415,0x0de6e1558674e455c0d3a2cad935d912a4c13b27d8532b0df964b568feb07e00,0xe8f72382109af3ef787cb9ea983ce33c741b3db4,145
+0xe8f72382109af3ef787cb9ea983ce33c741b3db4-146,AGAINST,0,,15659192,1664698427,0xd7a3c4f648ce883f0736160720d85563794fcd8af5d110fd22cb5d0eb890fc0d,0xe8f72382109af3ef787cb9ea983ce33c741b3db4,146
+0xea03523a90e5fc7e424ccef2b3e7d1ac3c90cdae-120,FOR,1,,15246270,1659217278,0x80b1056dce0c9d9dd5fe1d81f7418ab1598da00719798a81c00f5dfc437f87ea,0xea03523a90e5fc7e424ccef2b3e7d1ac3c90cdae,120
+0xea9e9ae3bd4a7f771eec5193c0498f90fe2d53e3-14,FOR,1,,13513025,1635523949,0x5021c5610870b2509e3e1c7de459da1a443c8ecf9c3bac31d181470357573736,0xea9e9ae3bd4a7f771eec5193c0498f90fe2d53e3,14
+0xea9e9ae3bd4a7f771eec5193c0498f90fe2d53e3-17,FOR,1,,13654853,1637451830,0xa4eb5c8bc7f03d94022d4d28bd8fa977ad5b3fa36aa6ee5e82555f1c51390bd9,0xea9e9ae3bd4a7f771eec5193c0498f90fe2d53e3,17
+0xea9e9ae3bd4a7f771eec5193c0498f90fe2d53e3-18,FOR,1,,13656225,1637471229,0x33cf8045e7b513fac034921cd03838f1e710fadc19f29848df699df05c63f65d,0xea9e9ae3bd4a7f771eec5193c0498f90fe2d53e3,18
+0xeac1c57ea577e480e8a59db6eb05d41ea0716e8b-21,AGAINST,1,,13693798,1637985027,0x107d5cc9767b98a9aa4b0b13870e101530ecea99ff83ac9b17bf48aba484b769,0xeac1c57ea577e480e8a59db6eb05d41ea0716e8b,21
+0xeac1c57ea577e480e8a59db6eb05d41ea0716e8b-22,FOR,1,,13694215,1637990628,0xfd8142f72c04ce019db3d08f9a3537632531347fbba903fdb60ae3dac46a4fbe,0xeac1c57ea577e480e8a59db6eb05d41ea0716e8b,22
+0xeb1c22baacafac7836f20f684c946228401ff01c-16,FOR,1,,13587162,1636529481,0xa38bf38ce214f0078b1db9ae8a65c0d6d3c66c1c1b13284df17184a75c2dbc36,0xeb1c22baacafac7836f20f684c946228401ff01c,16
+0xeb1c22baacafac7836f20f684c946228401ff01c-2,FOR,1,,13114512,1630162051,0x8ed3222c73d4d91cb8688fef7614aca4ce3e8b3a428a8d4b6d7ee133c7a99385,0xeb1c22baacafac7836f20f684c946228401ff01c,2
+0xeb1c22baacafac7836f20f684c946228401ff01c-6,FOR,1,,13286567,1632460482,0xb6e305743b139285307c848089ce674addfb645da3ea8aa0172f21b0b5efb6ce,0xeb1c22baacafac7836f20f684c946228401ff01c,6
+0xec3051af698d49e08a478008aa62244bed7d6569-116,FOR,0,,15211483,1658749611,0x7329b8a36cfd7e58bdecce539a648910bd4296b9d696db095ab71394aa3d096e,0xec3051af698d49e08a478008aa62244bed7d6569,116
+0xf017890c1a5f56a96aa10eda72004b9b087f81a7-138,FOR,0,,15517697,1662939971,0xea292336eaf7f98578f0345fb0a9fba72c8327911688d10a8e2aa9a8feeb41af,0xf017890c1a5f56a96aa10eda72004b9b087f81a7,138
+0xf017890c1a5f56a96aa10eda72004b9b087f81a7-145,FOR,0,,15659104,1664697359,0x4a30c3b3d249da91bcb14b758f3b93cb2e2a56e0ca62054c6d3101c5639c026b,0xf017890c1a5f56a96aa10eda72004b9b087f81a7,145
+0xf017890c1a5f56a96aa10eda72004b9b087f81a7-146,FOR,0,,15659108,1664697407,0x0fe13a5131bb814a0b3280c953e52e4b3484be107c21e29dfa5ce200eb241319,0xf017890c1a5f56a96aa10eda72004b9b087f81a7,146
+0xf05a0497994a33f18aa378630bc674efc77ad557-61,FOR,1,,14625476,1650505104,0xa3536c6ee605335625521efb1da0f091f72d6a76c05257c0c64b6143c01d24b3,0xf05a0497994a33f18aa378630bc674efc77ad557,61
+0xf05a0497994a33f18aa378630bc674efc77ad557-62,FOR,1,,14637481,1650668228,0xd912feb536a309b125b1aa6dc17e3ba624d9ded6c558a27e1d47a07695b77694,0xf05a0497994a33f18aa378630bc674efc77ad557,62
+0xf05a0497994a33f18aa378630bc674efc77ad557-64,FOR,1,,14661454,1650994083,0x4fef9b0d038a4788d98c3bf19683f86d6a34d651bab2f9ee2d896e9237eadc6b,0xf05a0497994a33f18aa378630bc674efc77ad557,64
+0xf05a0497994a33f18aa378630bc674efc77ad557-65,FOR,1,,14661467,1650994170,0x68ea8b34b74e95230c0b2041004c85bec2b6db6fe1a2aecb377ea83ea309a748,0xf05a0497994a33f18aa378630bc674efc77ad557,65
+0xf05a0497994a33f18aa378630bc674efc77ad557-67,FOR,1,,14669332,1651101234,0x381531be6d9539b63d6900eb5a777cf8f15af510bade5a848fcb7e7a76222514,0xf05a0497994a33f18aa378630bc674efc77ad557,67
+0xf05a0497994a33f18aa378630bc674efc77ad557-70,FOR,1,,14683155,1651288694,0x0ea72af0cc64945f78e72846ce8fe364d9ca330844c6d790d6069ab9a40cbc90,0xf05a0497994a33f18aa378630bc674efc77ad557,70
+0xf05a0497994a33f18aa378630bc674efc77ad557-71,FOR,1,,14724441,1651852514,0xce5106a4db3d7e2138055fa4aab189d7126aee55fb1866ed8b72aac31a48a012,0xf05a0497994a33f18aa378630bc674efc77ad557,71
+0xf05a0497994a33f18aa378630bc674efc77ad557-72,AGAINST,1,,14733751,1651980862,0x73adbbf6e8923d27f5a403b699bba4d5013eb43f4577fe31e6b8d3e744cd48d0,0xf05a0497994a33f18aa378630bc674efc77ad557,72
+0xf05a0497994a33f18aa378630bc674efc77ad557-73,FOR,1,,14763948,1652397880,0x2a8c2888aa6b15c923a352d4b00c80204e663967335622b896ee386e2ac29402,0xf05a0497994a33f18aa378630bc674efc77ad557,73
+0xf05a0497994a33f18aa378630bc674efc77ad557-74,AGAINST,1,,14763954,1652397917,0x5257cef9604b8e93e316986480357bab0a7963c382e8b71e18939a02fc0b7e3d,0xf05a0497994a33f18aa378630bc674efc77ad557,74
+0xf05a0497994a33f18aa378630bc674efc77ad557-75,FOR,1,,14779361,1652609572,0x30bc98d7be5aaee2fb2278af99f463dfb068ab36dae91557238ddd5aa07e2546,0xf05a0497994a33f18aa378630bc674efc77ad557,75
+0xf05a0497994a33f18aa378630bc674efc77ad557-81,AGAINST,1,,14826085,1653260138,0x83caced9f62205dbd094cdcb1dfd4f49181616f708e11bb50bf817053eb4c302,0xf05a0497994a33f18aa378630bc674efc77ad557,81
+0xf05a0497994a33f18aa378630bc674efc77ad557-82,FOR,1,,14826081,1653260076,0x245be1f2dbfcc7770945d56b658a248cc951d8a71741c85a7cd147f47b8363d9,0xf05a0497994a33f18aa378630bc674efc77ad557,82
+0xf05a0497994a33f18aa378630bc674efc77ad557-83,FOR,1,,14826097,1653260307,0xbb2f6e6a1407a1bdabe6033025cbcf9ea83d8299f70b47508065396fbf153bab,0xf05a0497994a33f18aa378630bc674efc77ad557,83
+0xf05a0497994a33f18aa378630bc674efc77ad557-84,FOR,1,,14869099,1653864196,0x2c9611a93b44d190df5c1a828cbfbe40816a517c18ecc949b6e10b5e101a0dff,0xf05a0497994a33f18aa378630bc674efc77ad557,84
+0xf05a0497994a33f18aa378630bc674efc77ad557-85,FOR,1,,14869111,1653864361,0xe40d0c09deb64db7b637d988449b9c855449c96fa4a7d60a115d599b2c362bee,0xf05a0497994a33f18aa378630bc674efc77ad557,85
+0xf05a0497994a33f18aa378630bc674efc77ad557-86,AGAINST,1,,14874758,1653943969,0x5d4c9e5ed1fd94aee35d91ff5192fdf8f73c1524a187d023b453edc0b9a25f56,0xf05a0497994a33f18aa378630bc674efc77ad557,86
+0xf05a0497994a33f18aa378630bc674efc77ad557-87,FOR,1,,14885748,1654099600,0x480b7f33a8a349fd5acb2678a0803d7ac8ba08713f1e4c54d032cda38ed61e10,0xf05a0497994a33f18aa378630bc674efc77ad557,87
+0xf05a0497994a33f18aa378630bc674efc77ad557-90,FOR,1,,14947866,1655003552,0x52d72a41c9017cb67cc69730af09ecb8156f34efcc9f858074313e2a6356f203,0xf05a0497994a33f18aa378630bc674efc77ad557,90
+0xf05a0497994a33f18aa378630bc674efc77ad557-91,FOR,1,,14947877,1655003660,0xc455cfdec7d39ed2f305b88ca974bb35c82cb705ff151c78abd52f55fd0c57b1,0xf05a0497994a33f18aa378630bc674efc77ad557,91
+0xf05a0497994a33f18aa378630bc674efc77ad557-92,FOR,1,,14947884,1655003804,0xa2be50054f75f799ab90eab93e91e1ec9e094a34b23bf2f4d19fe6fb3cadac7b,0xf05a0497994a33f18aa378630bc674efc77ad557,92
+0xf0ae4f60a4dc379ae25371a34b4b699dee8d530f-122,FOR,1,Jokedao is seriously badass,15256938,1659360763,0x96db366885d0b5a07bebb3f46efa103bb5a8e738dfcf624be8505927d54de337,0xf0ae4f60a4dc379ae25371a34b4b699dee8d530f,122
+0xf1544ba9a1ad3c8c8b507de3e1f5243c3697e367-116,FOR,3,,15210114,1658731270,0x47027b3ec3b9efd6a54019f12036f52bb20f283733c3c17a57e072cae82c6038,0xf1544ba9a1ad3c8c8b507de3e1f5243c3697e367,116
+0xf1544ba9a1ad3c8c8b507de3e1f5243c3697e367-125,FOR,3,,15286657,1659760677,0xcdba6eb87422904b4ee3e09c189015bf965daead2f4a0f1954ca75fe5cf89621,0xf1544ba9a1ad3c8c8b507de3e1f5243c3697e367,125
+0xf1544ba9a1ad3c8c8b507de3e1f5243c3697e367-128,FOR,3,,15334704,1660411515,0xa913aec663b67a0c0fab227fe649055fd3a9f1b8fe6660e9e7e0797c9b4767be,0xf1544ba9a1ad3c8c8b507de3e1f5243c3697e367,128
+0xf1544ba9a1ad3c8c8b507de3e1f5243c3697e367-129,FOR,3,,15345720,1660562537,0xf4edbfed58214bf593105ad12b4d92bca7aae1552906180e8ab21dbf1772a0aa,0xf1544ba9a1ad3c8c8b507de3e1f5243c3697e367,129
+0xf3d5e8f1cb8cc717661d6a8e692b60cdd1b45ca2-14,FOR,1,,13525568,1635693883,0xf2180d7d5d5f4459d56ab8a17899bfec34cddc28e7a20726f174b18f1961f2ba,0xf3d5e8f1cb8cc717661d6a8e692b60cdd1b45ca2,14
+0xf3d5e8f1cb8cc717661d6a8e692b60cdd1b45ca2-18,FOR,1,,13656214,1637471010,0x1cb2835c4a8eab8ef5e07bc96209eeec6be8da173e256cb0dcb2e32654761437,0xf3d5e8f1cb8cc717661d6a8e692b60cdd1b45ca2,18
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-1,FOR,1,,13081994,1629727632,0x67546ab677ad17832774be7c57ddee15d6c6048919177d8af3074b2366c27319,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,1
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-10,FOR,1,,13398205,1633967502,0xbcddf3b4fa7ab1de422a6a9315f04502b59a4ac9f759fa84da7b2cbb3325a3a9,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,10
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-12,FOR,1,,13467549,1634907493,0xb16dd2783f3eebab298e77bd79db4aa1b11e5ee6da6296efa2b1235162b47560,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,12
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-13,FOR,1,,13467549,1634907493,0xdc8adbe1b8ba2ac633daf518f7c7b1c1d0cebc0907f9748be6b1454d7645ea72,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,13
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-14,FOR,1,,13513268,1635527374,0x921a54d16d5653aad12f1f741060941dd883eb27ed82eea7b4d4c7b1d9ed699e,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,14
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-15,FOR,1,,13576481,1636384077,0x93adb89c543d86a351b3763d732dedd19ba08671b2e43a45f0d2dc26f581afcd,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,15
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-16,FOR,1,,13576481,1636384077,0xb8a0fc982b9809375dbce00957023d148c3571b7b20d7f209866b6d74336e5bf,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,16
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-2,FOR,1,,13108277,1630078851,0x352ca5a49f2fd1eee733ad45560ac75112f75d344e402e316283da3b7b4ca082,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,2
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-3,FOR,1,,13155162,1630704172,0xd0a666c6788b9300082d33a6cbdefece69a18f39f64974bb36a879a4a600fb37,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,3
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-5,FOR,1,,13238245,1631815021,0x602e314eee9a5fd5cab4c40326e08ad827577f05b1849c3960e1e8a52843a540,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,5
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-6,FOR,1,,13270049,1632239685,0x7b92bcbc0e80133f917464e7d2faa27e621cf341d3ae40b9383f6bc6c2a56b0a,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,6
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-7,FOR,1,,13289355,1632498564,0x7878424818f029eeae9ea21a4507cea4730b9e1b678d3049c2d6848eabb94fed,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,7
+0xf476cd75be8fdd197ae0b466a2ec2ae44da41897-9,FOR,1,,13335975,1633125002,0xfbdb131cfd61c9aeb22ef9594a3709f42d55a7bf7fcedf45f491921842e839db,0xf476cd75be8fdd197ae0b466a2ec2ae44da41897,9
+0xf504211d774c9b7d4c61959d6fe773d250a44dcf-24,AGAINST,1,,13749404,1638754404,0xa88086eb367dabbc4aaa090982abe555b362e5f08cb87c991733ee997011504c,0xf504211d774c9b7d4c61959d6fe773d250a44dcf,24
+0xf504211d774c9b7d4c61959d6fe773d250a44dcf-25,FOR,1,,13749429,1638754645,0x3e9e910915599908d67d3805472888a86194d610ca0c7f897ba4a93f7e1e06e7,0xf504211d774c9b7d4c61959d6fe773d250a44dcf,25
+0xf504211d774c9b7d4c61959d6fe773d250a44dcf-26,FOR,2,,13749456,1638755080,0x4c67769e2239b76052eba427ec2f16087dcaac32ef84ad29476f2ac25c25d5a6,0xf504211d774c9b7d4c61959d6fe773d250a44dcf,26
+0xf504211d774c9b7d4c61959d6fe773d250a44dcf-28,AGAINST,2,,13811202,1639590868,0x3345f555b7c04849534f82b576fa6396f4c810bb5febccbe9ffdcad945a8b5fc,0xf504211d774c9b7d4c61959d6fe773d250a44dcf,28
+0xf548e317e87434b1657f84dd57dea0c9d31b502f-37,FOR,1,,14155030,1644184342,0x8f2e280bb03ea44be48e11f1357228eb78b71ba47d68523633956276ebefeff6,0xf548e317e87434b1657f84dd57dea0c9d31b502f,37
+0xf548e317e87434b1657f84dd57dea0c9d31b502f-40,FOR,2,,14303716,1646172181,0x79fdbb011e76d4f95072d4e1306239f1166a83d137b7ae79889264aec6013d6c,0xf548e317e87434b1657f84dd57dea0c9d31b502f,40
+0xf548e317e87434b1657f84dd57dea0c9d31b502f-41,FOR,2,,14329646,1646520197,0x0fcfc55188485b590d535b8c30027cdad82b79a9a6b856aaf635d18259f848f0,0xf548e317e87434b1657f84dd57dea0c9d31b502f,41
+0xf548e317e87434b1657f84dd57dea0c9d31b502f-42,FOR,2,,14329648,1646520219,0x45d4365f217558e10a0e348ef1b22c32b75b55b514fa073bb188872949cf62bf,0xf548e317e87434b1657f84dd57dea0c9d31b502f,42
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-119,FOR,1,,15253951,1659321182,0x20fcebf21e845937db3d89f731d34b72479ea3b292c8dbb559e9cfd30f039385,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,119
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-120,ABSTAIN,1,,15253955,1659321224,0x9a04d7d520c9e2cbcff017422a6374c40e5d3721a978dcc92ea93fd0d31a1582,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,120
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-122,AGAINST,1,,15253956,1659321270,0x277428580c1f428496b7fcc2c497199c3dfbd20fd60557f3ae2d8abc0fc16274,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,122
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-124,FOR,1,,15253959,1659321323,0x0e4eea54307ccc295b59f60c9d285e0054520ea8f4692bcfaff86657b48f0f4a,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,124
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-125,FOR,1,,15279867,1659669728,0x1076acda986d31885ed812ead5a1205b3b602e06c3de6f506aac2a7c12baf8d4,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,125
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-126,FOR,1,,15301712,1659963888,0x12723ee65af0aacf1ddb1eb324afd4234659fccaa37ba6e4b37c5985ef9420a0,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,126
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-127,FOR,2,,15332618,1660383039,0x877bf42055b710461eb336cda67723e9fdaf543434cddd1cd94a8bfc9dd809cd,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,127
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-128,FOR,2,,15332619,1660383066,0xb069662be955e33dd8d8180ff664582df9442ee57eaf324e4760cb75fe545614,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,128
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-129,FOR,2,,15343353,1660529554,0xd3c85586dc816f0e4ad4c51733c637491deaa6ce946c65b12e793f96bb3579de,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,129
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-133,FOR,1,,15396394,1661255665,0x4d82607dbfa05b415c6c86c3adb140907801eaefa7dd102d641bc38a0769e00a,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,133
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-140,FOR,1,,15543403,1663297439,0xe39ffa2bd49b9242d0c7999894426ab376f6d3251cc89c831b26a0923b9ba49f,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,140
+0xf627e5f4bad95a956468d8bb6ee20b119f992e96-141,FOR,1,,15553727,1663422863,0xa5e2105e395b99533a93949c26ae314fb031e2ab7b044973896ca3e84e4ba005,0xf627e5f4bad95a956468d8bb6ee20b119f992e96,141
+0xf6b6f07862a02c85628b3a9688beae07fea9c863-93,FOR,14,,14943458,1654938611,0x25a6d65cf7488e6efe8c78cf8710bf7fe20c91ae28511603cebace46c1ac7e9a,0xf6b6f07862a02c85628b3a9688beae07fea9c863,93
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-100,FOR,1,"I am voting according to what was decided by a live vote by the audience on Noun Square’s Noun O’ Clock twitter space https://twitter.com/noun_o_clock
+
+The proposer pitched their proposal and the audience voted live in our discord, see results here: https://discord.gg/m7FR2mhgWz",15048585,1656563454,0x2941dc8845edd17a8783130dcc45c2bb0aa0b422054e92b59ed063cad23c8136,0xf6c625851d48fe26b50d96b821a87efc7e35c222,100
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-103,FOR,1,Voted by the crowd at the Noun O' Clock show,15089721,1657120686,0x6491e2736cebfefa8f720b66feabc8d7c92cfea04df21ee1c66ea86b92c22c12,0xf6c625851d48fe26b50d96b821a87efc7e35c222,103
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-104,FOR,1,"I am voting according to what was decided by a live vote by the audience on Noun Square’s Noun O’ Clock twitter space yesterday.
+
+The audience was invited to vote live on our discord, see results here: https://discord.gg/m7FR2mhgWz
+
+I have delegated my vote to the show so in future votes we will submit our collective vote live from our Noun Square address.
+
+Nouners, if you want to delegate your votes to Noun Square's Noun O' Clock show (it's fun, believe me), here's the address: 0x6937db08Db977C734Fc1cE884D2915b05147F845
+
+Builders, if you want to pitch your proposal live to the crowd of voters, please reach out on our discord!",15089503,1657117990,0xd6a019d426d3a1190ddd94ae539919938b02baa4c8aca9d145a5cd74915ae9b1,0xf6c625851d48fe26b50d96b821a87efc7e35c222,104
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-33,FOR,1,,14009098,1642237245,0xdf2a6766f39aa2f25dfa068713fbd8eb0c1be5b3f940accdf11f2b68eff239ef,0xf6c625851d48fe26b50d96b821a87efc7e35c222,33
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-37,FOR,1,,14153281,1644160847,0x6a19ee004864c0292996bd4834d0c4095aa9898b1dff4c3cf7f24de008af1279,0xf6c625851d48fe26b50d96b821a87efc7e35c222,37
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-38,FOR,1,,14216311,1645003390,0xce65983cb168827484b1d80f2305bf4f995d5ad90eae7e533840570c73b65442,0xf6c625851d48fe26b50d96b821a87efc7e35c222,38
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-40,FOR,1,,14304152,1646177624,0xbdaa04714ebf47c12a1c3db24c8aea6f35220bb334a59c6ab33d930ddf6b1de9,0xf6c625851d48fe26b50d96b821a87efc7e35c222,40
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-41,FOR,1,,14334163,1646580807,0x898ebf86f88d051efad1f642ee776f0f6565345a0decaa76af01f285c636aeaa,0xf6c625851d48fe26b50d96b821a87efc7e35c222,41
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-42,FOR,1,,14334163,1646580807,0x405568b6539c4f948822298ddb14a1f878164b202151d4c5d8886c8ec349b651,0xf6c625851d48fe26b50d96b821a87efc7e35c222,42
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-43,FOR,1,,14386586,1647285665,0xaac0ca5d9b3a14eba1ce82ec965bac5f8da8a98da28ab2e94962efda4f310657,0xf6c625851d48fe26b50d96b821a87efc7e35c222,43
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-48,FOR,1,,14524941,1649148931,0x5edbc4f19e965cfb74baed933c5ca23f6c108a82fd6a9d5a7b2d6c3811fec07e,0xf6c625851d48fe26b50d96b821a87efc7e35c222,48
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-49,AGAINST,1,,14538928,1649336911,0xa087617d34d3b7a8b84580653dff3a52ab879ced7f5d3f7adc05dd04f79ee9f8,0xf6c625851d48fe26b50d96b821a87efc7e35c222,49
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-50,AGAINST,1,,14538936,1649337038,0x2c5052e753cc5a219938e0075410889f0e80e609f3552e154cd7abfc8d6aeda6,0xf6c625851d48fe26b50d96b821a87efc7e35c222,50
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-51,FOR,1,,14563707,1649670781,0xb2c977a54f2389dd156745d6434ed15d481669f103a645574e3bcb246e8d6dcd,0xf6c625851d48fe26b50d96b821a87efc7e35c222,51
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-53,FOR,1,,14563746,1649671290,0x83bbbedcbd764bde0e2d798e20e76c96ce0f7dd7917dc74504a026f622565881,0xf6c625851d48fe26b50d96b821a87efc7e35c222,53
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-54,ABSTAIN,1,These two engineers are my partners from Verbs so feels right to abstain. I am very excited for them to work on Nouns tech!,14597704,1650130025,0x85c1bb1dcf996ee7cd8a55615d462f0ca324d42c944def5d49377d06a54e4dfb,0xf6c625851d48fe26b50d96b821a87efc7e35c222,54
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-61,FOR,1,cdt is a constant shipper + love his great vibes ⌐◨-◨,14641985,1650729232,0xad3c1c43eafaa37ba34a046af37ca736e3846d0db07d688e8e6aced3a86081e8,0xf6c625851d48fe26b50d96b821a87efc7e35c222,61
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-62,FOR,1,Very big fan of prop house. Seneca has deep vision for this and is executing beautifully. It has product-market fit and we should lean into it!,14641985,1650729232,0x681e7287abee870b88f4649271d021b1762b09b51c33d978e4f97590d8d6658e,0xf6c625851d48fe26b50d96b821a87efc7e35c222,62
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-63,FOR,1,What A Great experiment,14662705,1651011214,0x978fcf301374d5b7b9e074cd734434a44d8164eb919dc6a000f9f8f97c9ac7af,0xf6c625851d48fe26b50d96b821a87efc7e35c222,63
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-67,FOR,1,Nouncil is one of the best things that has happened for the protocol,14662719,1651011423,0xf1db067b5c1f8c45ab297ca6916fcb92811086e54a49bd2b642c789b067456fc,0xf6c625851d48fe26b50d96b821a87efc7e35c222,67
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-69,FOR,1,A great opportunity to nounify an international event and get proliferation in Europe. Great speakers and a great team behind this!,14665019,1651042850,0x36cf28e020d401c60853d7d59d25cdc586358110426de8b2b2d119cdfe6526b0,0xf6c625851d48fe26b50d96b821a87efc7e35c222,69
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-70,FOR,1,"I love that Joshua took the BBDAO proposal and nounified it by getting more teams to work on multiple story bibles. Great pivot!
+
+Also love the compensation structure for the DAO oversight - per proposal comp is a great way to get paid for contributing to the protocol. ",14665128,1651044056,0x4b7ff7305f5103f651dad60e1060b5a85a092d207809f48211150238b558dbaa,0xf6c625851d48fe26b50d96b821a87efc7e35c222,70
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-71,FOR,1,Documentary content about artists inspired by nouns is important to collect in these early days.,14737672,1652034532,0xb65f4e35f39b8436476c433a4bbed36c7a95c8a60e4a91124b42df4212108394,0xf6c625851d48fe26b50d96b821a87efc7e35c222,71
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-75,FOR,1,,14779782,1652615146,0x11a9fbafe0d11fb91b8f11d2a8aad40ce4df50d662d0ec7aa5502029f2171491,0xf6c625851d48fe26b50d96b821a87efc7e35c222,75
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-81,AGAINST,2,,14830673,1653324110,0xcf75d983530c920c266a2c4fdb816955f1f08d59a7aeaff141c48073a5ec5e99,0xf6c625851d48fe26b50d96b821a87efc7e35c222,81
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-82,FOR,2,Join the World Call on Thursdays at 9:30am UTC to work on more proposals together!,14830705,1653324428,0xe06128e8dde9f2c99c131c93e4dbd5f2d19ce507c00034416bf518343bf52816,0xf6c625851d48fe26b50d96b821a87efc7e35c222,82
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-83,FOR,2,Love your art!,14830862,1653326770,0xbc729193a39172c09f4ddd92f5891302ef5e86d9d28e340447d317d4ed10ece8,0xf6c625851d48fe26b50d96b821a87efc7e35c222,83
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-89,FOR,1,Attracting world class artists and IRL noun manifestations is very important. Plus more nounish stuff at nft.nyc is valuable. A bit pricey yes. Next time I hope we have a themed prop.house for nft.nyc and other events so we make this more competitive. ,14928436,1654716454,0xe51ed64d054d11d05e13f3165264be45e8fc460b278c98d65661744cf866675f,0xf6c625851d48fe26b50d96b821a87efc7e35c222,89
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-90,FOR,1,I ⌐◨-◨ the 🐐 ,14937764,1654854482,0x69c2bf0071893eba6743aec0cd15586d5187bbef850917be616b50fc3246af12,0xf6c625851d48fe26b50d96b821a87efc7e35c222,90
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-94,FOR,1,"Is it nounish to CC0 space photography? and to support an amazing artist such as Cosmos? I think so.
+
+Similar to how supporting Miguel and his film CALLADITA brought a lot of attention to Nouns in the film3 community, I think that by supporting folks like Cosmos will do the same to in the photography NFT community. 
+
+I would love to see Cosmos find elegant ways to incorporate the nouns brand to this project. 
+
+:full_moon_with_face: :nounishglassesblink: ",14949342,1655024955,0x0dbdb89811827630f5db6c51328a437adf9a2e9b8f883f321b5b24a6c45e3b4f,0xf6c625851d48fe26b50d96b821a87efc7e35c222,94
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-95,FOR,1,We like the Art. We like B. We like Basel.,14955084,1655109961,0xcf52b0fc320a6a3ade12187fd628fd44915d919639a505496015af85adc09c85,0xf6c625851d48fe26b50d96b821a87efc7e35c222,95
+0xf6c625851d48fe26b50d96b821a87efc7e35c222-98,FOR,1,Brazil is one of the biggest countries in the world and should be nounified,15027411,1656220906,0xacecb9e6f4f8ee9cad0cd4345ba3b2565d324b14a5c1bf83e34183d7a533848a,0xf6c625851d48fe26b50d96b821a87efc7e35c222,98
+0xf6d639fcdd2467139976675fec588ba970e7e599-145,FOR,0,,15659176,1664698223,0xfad53bae0de78b58a889f20f25506fd15b18f639ed10afa46f1214faa3e08e33,0xf6d639fcdd2467139976675fec588ba970e7e599,145
+0xf6d639fcdd2467139976675fec588ba970e7e599-146,FOR,0,,15659180,1664698283,0xdb500f3ba504fffc7003b6978f6da12ff4bac77a0e7ad178cf949e9e08787758,0xf6d639fcdd2467139976675fec588ba970e7e599,146
+0xf6d639fcdd2467139976675fec588ba970e7e599-147,FOR,0,,15659180,1664698283,0xf2166c0391fa64dad5c286346301171f935fb0e9dcd019a49ff5b52754aa7852,0xf6d639fcdd2467139976675fec588ba970e7e599,147
+0xf6e1e441c5113e9a76f84efa6c98f54a036668ce-140,FOR,1,,15555155,1663440119,0x121093b02059dc1ebbb8aa3b81ad0f112b2a006dc5b7f4ad81a8745e155a050f,0xf6e1e441c5113e9a76f84efa6c98f54a036668ce,140
+0xf6e1e441c5113e9a76f84efa6c98f54a036668ce-141,FOR,1,,15555149,1663440047,0x1c8b22d8556c4755980ba8bc1976ecaee595f15c6e68677934cb4b0e8ec91266,0xf6e1e441c5113e9a76f84efa6c98f54a036668ce,141
+0xf6e1e441c5113e9a76f84efa6c98f54a036668ce-73,FOR,1,,14763092,1652386310,0xfc3732ef0a09d931046bc5909287ce2403b6fc423185f36cc24dc563408b7328,0xf6e1e441c5113e9a76f84efa6c98f54a036668ce,73
+0xf83e3eab14101737d1dc5298888e4895e17d261c-118,FOR,1,,15247191,1659229570,0xe533e40404559d1dce6e853e0cf07fae93c548dee30ed46d79871dc688ed4c61,0xf83e3eab14101737d1dc5298888e4895e17d261c,118
+0xf83e3eab14101737d1dc5298888e4895e17d261c-119,FOR,1,,15247192,1659229579,0xbb267ca443c54281bb3df68ad9746874a4323c9cefd08685a4d988082dbb2342,0xf83e3eab14101737d1dc5298888e4895e17d261c,119
+0xf83e3eab14101737d1dc5298888e4895e17d261c-120,AGAINST,1,,15247192,1659229579,0xdefd5625b92a4784db38ffebd77e470f2f6a63a2f708fa82cfbc876f6dd50b2c,0xf83e3eab14101737d1dc5298888e4895e17d261c,120
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-45,FOR,0,,14464922,1648339253,0xec4abd4bb501e1b3e0492985079e9c246936ab2348fac7c1603e767e09857acd,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,45
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-46,FOR,0,,14464932,1648339388,0x0dd45c109023105a981a2a0a3351cca4fe66dec6955d149f81544b68b2ff7571,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,46
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-47,FOR,1,,14522606,1649117225,0x87e9e24d942c95a1bf337425bbecb2cabbe66e5a735b9b508380998c3ca8ce27,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,47
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-48,FOR,1,,14522630,1649117507,0xa7bc7e826dd8c7bf74f3f448dbc36f3aa0b2e4798a95f64b25c3ebb1aacdd10c,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,48
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-49,ABSTAIN,1,,14522631,1649117511,0xf7a5dab7716cf0f18e976a8d6ad276281d263c22e6686c0ce909d569bd107baa,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,49
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-51,ABSTAIN,1,,14573189,1649798672,0xa57b513dbd18dbfa0dd9ee6d4cdc5c96346219aacdc51ab276bb0881e309810c,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,51
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-52,ABSTAIN,1,,14573025,1649796554,0x4bbf2a0b2d20e74c1d7c9fc2761de55617659d62f0b6e95e5b3bd018097c9a2a,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,52
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-53,ABSTAIN,1,,14573009,1649796205,0x50fca330345fb2870d64a908ebdefac2bc29a8cc01a2ad9e7e425d5516663482,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,53
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-54,ABSTAIN,1,,14580274,1649894999,0x7b59a19f56b7405d28fea2b146a481e9efcd67258a67f7b520bb638ad8e24193,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,54
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-55,ABSTAIN,1,,14580276,1649895013,0xbe9b5107264159fc74952a0517658797784a33ba9bdb82a04a4c094df6333441,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,55
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-56,ABSTAIN,1,,14599377,1650152738,0x19b042bc84482a25c6fadd5b45f1b0d2d648acdebcb24cfbdfe5716563f1de41,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,56
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-57,ABSTAIN,1,,14599377,1650152738,0x940d6125acec0cd4f051ec68579de8e0cbbf63426b4026a525513a9306d94f95,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,57
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-58,ABSTAIN,1,,14599377,1650152738,0xb77062a7db27b71fc9faccdc16d079a4c4b50297a9d27e1481638c8b2f35f075,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,58
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-59,ABSTAIN,1,,14599377,1650152738,0xde898bb0f2dc0a6b603d9d181f2dc057b704dd0bfcac3f13c6cffcabc0355351,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,59
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-60,ABSTAIN,1,,14625560,1650506277,0xb4989abf100678f6a3e725d532f676f345ffd0637d79f432f23a49c5160146b7,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,60
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-61,FOR,1,,14625563,1650506292,0xefd8bd13626fc9a701b4bef8d0b1bcac186b289e9b0af4db6133e363309cdd93,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,61
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-62,FOR,1,,14625565,1650506308,0x3acca84a330974566fbdfcf8e6b97b5c0ac22a2ff06a4333b385a8c48313b065,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,62
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-63,FOR,1,,14664212,1651031307,0xa90d4f9f236e81b8794ebb60a9c455eab5d6af725e22f4f24792239b935a0234,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,63
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-64,FOR,1,,14664212,1651031307,0xc8b0a8adaac563450d77b4fd4f2b02e7cac0b47f9f8d81de1113800d51cf83e9,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,64
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-65,ABSTAIN,1,,14664212,1651031307,0x640b21ca1b9c0c7e244cb0c86a6d92438f79899f06773ce23ed7f308a23010b7,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,65
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-67,FOR,1,,14664212,1651031307,0x8d849df66d115877a91ee3e5cb45d9afab0603e6b28abb38056f64df85a63d0c,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,67
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-68,ABSTAIN,1,,14664212,1651031307,0x3c68015fb6e02bd00a33ed93eea9d91387fe0d46c0ddbf4440ded938c6e079fe,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,68
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-69,ABSTAIN,1,,14664212,1651031307,0x1a381a526e848083cb866783e43a5e0287c1d709b963a91d26d999eba8fbd166,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,69
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-70,ABSTAIN,1,,14679325,1651237393,0x1b9e1764a67084757ff3cfc47bedf460db1a43521aaf7f797c8d22ca51589a20,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,70
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-71,FOR,1,,14737261,1652029137,0xb315d935e19f52805c96fd810c7c8969f73465c0a62e847a919ccf5eec7a2bc5,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,71
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-72,ABSTAIN,1,,14737261,1652029137,0x693ba9018d49eebbd40a8fb99affa35ceabe226bf904a8e8a353ad99cb533c2e,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,72
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-73,FOR,1,,14773771,1652533658,0xa63c1c742866c3b7bfbf09123b7095105a64fab804bb476321a201fa874541bc,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,73
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-74,ABSTAIN,1,,14773771,1652533658,0x871933f24abae508ba67f790f3718768cae7cce8d050300df5a0ef52b335978e,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,74
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-75,ABSTAIN,1,,14773774,1652533679,0xd62b9cee66355a0003261ec7a9c479d1823354dda71120f3762b400658eec33b,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,75
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-77,FOR,1,,14814826,1653102076,0x018cd5bbafe5805dd05a70588616f1aef633a57074f328131492e603d23431a1,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,77
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-78,ABSTAIN,1,,14814826,1653102076,0xc13309de62275d63bf443c82f981481d568bec3b7be36d1deff347bff63eb2c0,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,78
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-81,ABSTAIN,1,,14815318,1653108668,0x118ed15f61b609c468bf397d6e7de5f5af6c9950293c68c9cc3084d492a3709d,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,81
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-82,ABSTAIN,1,,14826655,1653268220,0x40c044dbb79bbb0e096101dac0d2587223a69dbbac1a1762fdd9f8da825ced2f,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,82
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-83,FOR,1,,14826656,1653268229,0x99e39e7832b0914f9ddccb651c85bad20bbc56bb42064b48de470d2610968325,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,83
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-84,ABSTAIN,1,,14875112,1653948944,0xd8eea5b3f860436e1d092859e7781505e7e8135cb084fcca41f93364422f6b7d,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,84
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-85,FOR,1,,14875189,1653950037,0x9addea318cee240f0813a787d93ce86d7911fe4c41565936cc95b8f7b44c3550,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,85
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-86,ABSTAIN,1,,14875112,1653948944,0x9b24e8729a3ffeb67885cea4e4494649ee4faa5cfcaa12f8b12b42ca6ccd6510,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,86
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-89,ABSTAIN,1,,14932912,1654782427,0x1b301265304ba17cbb0754f940f1b591c21ce841da85b15f9aecf027bb654c0f,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,89
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-90,FOR,1,,14932912,1654782427,0x62f3ccdedd714067ad2add9c4ff6581d2bc08f7092301b2afaaed09a3cb71d3b,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,90
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-93,ABSTAIN,1,,14960202,1655186204,0x456fe86ac5f596396c8ce70734e5d3a7b1ba34334516f9a0971e3a1fd4f95e3e,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,93
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-94,FOR,1,,14960203,1655186242,0xb310d34057d90a4bdbf4f1d0c43681c7d46e5a883c516d0c28f35b2e17ea002f,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,94
+0xf86a6fa100f50e9e715b57d176214c93e6d6bcea-95,FOR,1,,14960204,1655186248,0x54920f9cb108ce5a2266e1c36d57fe3f0effbdf562ff1e0e280617f3d8f5481e,0xf86a6fa100f50e9e715b57d176214c93e6d6bcea,95
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-44,ABSTAIN,0,,14418019,1647708504,0x96e96b35a0b497bde9c779b6a2fe3dc3ab1ee055ade37d16a817287b293dba0a,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,44
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-45,FOR,1,,14452984,1648178627,0x83825aa8690b04b5c613f22c1e1c7f4c7fac8012ec9a9d0c4ba200d9375ba64d,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,45
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-46,FOR,1,,14468338,1648385635,0x8f7686bf385136ae8fb117d1c1f7bba6aab8c602695bf0faf09d3db9aa900a98,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,46
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-47,ABSTAIN,1,,14507783,1648916538,0x3a70593c6fc0b7513e66aed27bf08adeda5a3e60e7d54f3dd8c424921eab686b,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,47
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-48,FOR,1,,14509749,1648943180,0x7dfe208d0119be8e19aecb8a95f1adfb8570c3186dadb6a6b7723ebcf715e198,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,48
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-49,AGAINST,1,,14522522,1649115877,0x67174f26300430889e06098c6b3ca2666eab6e365a87f1f47eb3fa8ca007b72d,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,49
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-51,FOR,2,,14558623,1649602908,0x185bfa1e27338f50dbf92f38c9d31ed4f00979febd915e5965c7ea2609805319,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,51
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-53,FOR,1,,14564968,1649687751,0x932a523c24eefef5553b5372cd916d327bd22c021083752d43ccb8cbf4ed94ad,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,53
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-54,ABSTAIN,2,,14583847,1649943481,0x49d30252544dcc8c3dcb607a0fc3c8162f31487760be98c5190fbdcb4804bac2,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,54
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-55,AGAINST,2,,14583892,1649944166,0xec1fa82c4f52a41fd892f663822ca2bb5213a203f44d6fd5c726f3f4173fd03f,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,55
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-56,FOR,2,,14590652,1650035105,0x2d06a13dc0eaca0d40712f9478b680db0d585557c54e8c81cd43ea8983d73d2c,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,56
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-57,FOR,1,,14596439,1650113673,0xbdc2de5dc519d80b794d509fd32307646ca3ad6c371369d78f6c66e1366e0458,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,57
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-58,FOR,1,"Not sure this will fix random non-discussed props being placed on chain, but having longer time for these props to be discussed seems good at those rates.",14604012,1650215469,0x44b5a783e7440485f66d0de7f6583c8193745227d13bb49b39e2873931970e38,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,58
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-59,AGAINST,1,"Thought we already down voted this proposal, lol",14604022,1650215602,0x27a0f376fae90cf919ae09b6b11a8d8c42c7f30f9a27cff3cb1ad13cfb2ca590,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,59
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-60,FOR,1,test test test test,14622860,1650470741,0x59ba479b481d4d9f187b94f83b0e5372b647dcbd225920aaaacae843b26c6875,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,60
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-61,FOR,1,i like the cdt,14623695,1650481673,0xc4af9d85b15a4d9b2889869101591df9c567dd3894fdcd2c8a0cacfd8c65e4ad,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,61
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-62,FOR,1,,14635459,1650640990,0x390a32613f1abe73735ea24d72d88816af5bc52eb553b70f1f620268c3abab13,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,62
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-63,FOR,1,I like the nouncil,14649910,1650836678,0xa34e52e49bc1fef32fedfb48d07baa4df89c76b82d07763638c4e562699af1de,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,63
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-64,FOR,1,High quality videos to proliferate noun projects is awesome!,14649944,1650836984,0x4a026a44a742aeef5b967c50d7ba248a0035b8122210b7ae5ba5267b7004de21,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,64
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-65,AGAINST,1,"I don't personally like reality tv shows and don't see how nouns can make an impact with this type of event. I am probably wrong, but I vote how I feels. No hate to the people putting it on, just not sure nouns dao is the right sponsor. ",14654073,1650893371,0x9a8009da4b21c9ca2ce146c33a8400f9550b65d3e2532dbc0ba7506353eb0406,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,65
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-67,FOR,1,In Nouncil we trust,14660231,1650977364,0x1f0afdc20961475d0d9577f8d4bb7536f47d0cccd9744187c5a2e019d38942aa,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,67
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-68,FOR,1,"eSports are big, nouns are big, eSports + nouns = bigger. Also, maybe we can get Gaben to get a noun... I emailed him let's see what happens!",14663113,1651016653,0x4f20a50e6055ee98c33db824c54d43221fc4694561ded54b66bdb009d1ae3d97,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,68
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-69,FOR,1,hehe 69 hehe,14663138,1651017000,0x65aef42c4d8a2087f1cc830999da6a69ca83c7bfc4f79d3fa0af756989a8de34,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,69
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-70,FOR,1,shark go chomp chomp,14668836,1651094055,0x4e051ab3b1f012b4e9a5782520796185a3e7175ec78cf014cd37d734e0af0716,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,70
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-71,FOR,1,,14724182,1651848957,0x05e7cf081400b2756b0b628abeb7c97b2e31761c01dc505e15ac3cc8abb68bb7,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,71
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-72,FOR,1,"I love collectibles, pls make duck",14730870,1651941392,0x543984ba373a2bde54233188471d19dd0b92f1cc7c2f347ece039b25ee16652e,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,72
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-73,FOR,1,This is legit!,14757193,1652303841,0x11988cb6f554920c24bac97f796461f48ffb629b14404c5cf74706c694de32f4,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,73
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-74,AGAINST,2,"I think the rally car sponsorship is really awesome ideally, but the bang for the buck seems really low :(",14763627,1652393372,0x349eb38f19298d2013972f2a07f70986aae4989f6db537c3f8180dc7db3660d8,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,74
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-75,FOR,2,wen merch ;),14775156,1652552520,0x125b32e6c669a3dfead10edded06db64ddc8cd47faa5edd0f84a111cc42620e6,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,75
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-77,FOR,2,"I wish I was a nerman bot
+I wish I was little bit taller
+I wish I was a baller
+I wish I had a girl who looked good
+I would call her
+I wish I had a rabbit in a hat with a bat
+And a six four Impala",14802585,1652929850,0xa009d973b5003b5b971094dc8a50c8406aec515f6e8964aa26274058c1131741,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,77
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-78,FOR,2,"Nouns from space, a space to play, thats a yes from me. O-H-I-O",14807643,1653001167,0x23d27ba9014da971ddbbace8bdb3e7769dd2b9b22eb81d6114a47d46bb92e05d,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,78
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-81,AGAINST,2,trying to reach 42-69,14825761,1653255440,0x58ec45627199c5e22bc12214f9a32a7785f49f779e5fb963e3b716b7f00c4d8b,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,81
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-82,FOR,2,"Feels like lil nouns want to buy at a respectable price, so this makes more sense. ",14824167,1653233413,0x76d11cfc9f5907f143b66bc0e557597ddc33ff605939324d626fa1bd1d1b8cda,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,82
+0xf8a065f287d91d77cd626af38ffa220d9b552a2b-83,FOR,2,i like books,14825827,1653256317,0x2429a3fb1da9fcc7077fed62936f9b2a78e29517d810d22da8abe8e6a98b39c5,0xf8a065f287d91d77cd626af38ffa220d9b552a2b,83
+0xfabe6c1b1be983811d1616bec49f679e1d8e928e-146,FOR,0,,15660309,1664711891,0x69f3dc4da4a78455287244f357657e58febf21ea8a157d73262724323836d9b6,0xfabe6c1b1be983811d1616bec49f679e1d8e928e,146
+0xfabe6c1b1be983811d1616bec49f679e1d8e928e-147,FOR,0,,15660312,1664711927,0x9dcda0d47720e19dae5d083a968edb457160eb6bbc14a699f5f2159cb11109c6,0xfabe6c1b1be983811d1616bec49f679e1d8e928e,147
+0xfb216faf1b1650c26b0cfdf879379ba46c3da66b-16,FOR,2,,13586653,1636522356,0x4f657a4be3dca954f701c4e382e12d21417786432e76057c22842c31081d5806,0xfb216faf1b1650c26b0cfdf879379ba46c3da66b,16
+0xfb216faf1b1650c26b0cfdf879379ba46c3da66b-17,FOR,2,,13655536,1637461645,0xfee0f08e089a77cc9ec64d1b774413d67ebaffe6719516f02e0af057cc5bf57c,0xfb216faf1b1650c26b0cfdf879379ba46c3da66b,17
+0xfb216faf1b1650c26b0cfdf879379ba46c3da66b-18,FOR,2,,13655546,1637461749,0x0401a8416a61237395d1ab5cd640afb48f7090801c32135d45ef84155cb93a7f,0xfb216faf1b1650c26b0cfdf879379ba46c3da66b,18
+0xfc9e8db5e255439f430e058462360dd52b87cb4f-101,FOR,3,,15063382,1656768729,0x0ffe191244270dad1f5d8557639986f8c96dc1444285d3cb9b6ec7b40810596f,0xfc9e8db5e255439f430e058462360dd52b87cb4f,101
+0xfc9e8db5e255439f430e058462360dd52b87cb4f-105,FOR,3,,15103888,1657309157,0x2d4d5d71a86e86dccebc0abedff5574776113fd250f182a32980606a60c5e569,0xfc9e8db5e255439f430e058462360dd52b87cb4f,105
+0xfc9e8db5e255439f430e058462360dd52b87cb4f-106,FOR,3,,15103885,1657309117,0x2b0ece91bf042bb55b4f2b979d12456e34f6abde4afb60bf461ff0671ddc8c54,0xfc9e8db5e255439f430e058462360dd52b87cb4f,106
+0xfcbca52b23db28470eb97680d18e988d8b60b608-29,FOR,1,,13904247,1640834047,0x75f5e1650c616de89dac811df032373a9904bfdefe883b54303401a4a7db4db6,0xfcbca52b23db28470eb97680d18e988d8b60b608,29
+0xfe2f279d3679bac2d07cf46c93503410ef9ca448-17,FOR,2,,13639716,1637243667,0x5b1e31bd59019d0061098f373ed9de26e7b11d8b80ea536cf8397d54e9142ea9,0xfe2f279d3679bac2d07cf46c93503410ef9ca448,17
+0xfe2f279d3679bac2d07cf46c93503410ef9ca448-18,FOR,2,,13639716,1637243667,0x821618ce623ae598b315bbb19aebe59e0c3d7c9ec6040338790d2239adf09c66,0xfe2f279d3679bac2d07cf46c93503410ef9ca448,18
+0xfe2f279d3679bac2d07cf46c93503410ef9ca448-21,AGAINST,2,,13692432,1637966373,0x408feac246f715159e8d5bb3b5c0b8fec101f6705c32d73dbb965d7b7b49c5d5,0xfe2f279d3679bac2d07cf46c93503410ef9ca448,21
+0xfe2f279d3679bac2d07cf46c93503410ef9ca448-22,FOR,2,,13703451,1638117246,0x3c216f16f586e350f8c6d3909a80033f70fa6fa3c71f371f32d7b1915c23954c,0xfe2f279d3679bac2d07cf46c93503410ef9ca448,22

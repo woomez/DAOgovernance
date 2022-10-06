@@ -33,10 +33,6 @@ export function handleProposalCreated(event: ProposalCreated): void {
   _handleProposalCreated(
     event.params.id.toString(),
     event.params.proposer.toHexString(),
-    event.params.targets,
-    event.params.values,
-    event.params.signatures,
-    event.params.calldatas,
     event.params.startBlock,
     event.params.endBlock,
     event.params.description,

@@ -168,7 +168,6 @@ export function getDelegation(
     delegation.delegator = ZERO_ADDRESS;
     delegation.delegateTokens = BIGDECIMAL_ZERO;
     delegation.delegatorTokens = BIGDECIMAL_ZERO;
-    delegation.weight = BIGINT_ZERO;
     delegation.block = event.block.number;
     delegation.blockTime = event.block.timestamp;
     delegation.txnHash = event.transaction.hash.toHexString();
@@ -237,10 +236,6 @@ export function getOrCreateVoteDailySnapshot(
 export function _handleProposalCreated(
   proposalId: string,
   proposerAddr: string,
-  targets: Address[],
-  values: BigInt[],
-  signatures: string[],
-  calldatas: Bytes[],
   startBlock: BigInt,
   endBlock: BigInt,
   description: string,
@@ -271,10 +266,6 @@ export function _handleProposalCreated(
   proposal.forWeightedVotes = BIGINT_ZERO;
   proposal.abstainWeightedVotes = BIGINT_ZERO;
   proposal.totalWeightedVotes = BIGINT_ZERO;
-  proposal.targets = addressesToStrings(targets);
-  proposal.values = values;
-  proposal.signatures = signatures;
-  proposal.calldatas = calldatas;
   proposal.creationBlock = event.block.number;
   proposal.creationTime = event.block.timestamp;
   proposal.startBlock = startBlock;

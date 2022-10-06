@@ -1,0 +1,10 @@
+{
+  "governor": "Governor",
+  "token": "Token",
+  "governance": "nouns-governance",
+  "network": "mainnet",
+  "governorContractAddress": "0x6f3E6272A167e8AcCb32072d08E0957F9c79223d",
+  "governorContractStartBlock": 12985452, 
+  "tokenContractAddress":"0x9C8fF314C9Bc7F6e59A9d9225Fb22946427eDC03",
+  "tokenContractStartBlock": 12985732
+}

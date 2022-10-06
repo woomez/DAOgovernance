@@ -1,0 +1,125 @@
+id,description,state,tokenHoldersAtStart,delegatesAtStart,againstDelegateVotes,forDelegateVotes,abstainDelegateVotes,totalDelegateVotes,againstWeightedVotes,forWeightedVotes,abstainWeightedVotes,totalWeightedVotes,creationBlock,votes,startBlock,endBlock,proposer.id
+50162030097467957240858929287270422964132711578599454777185525955744917535782,"# Hop Proposal Bundle: HIPs 0-7, SNX/sUSD Bridging Support
+
+This is the inaugural on-chain vote for Hop Protocol governance. It consists of a bundle of eight proposals that successfully passed a Snapshot temperature check, and initiated by six different authors. Several proposals (HIPs 3, 4, and 7) authorize the community multisig to disburse funds. There is currently ample funding in that address, and no new HOP is required from the protocol at this time.
+
+Please refer to the linked Snapshot poll and forum discussion for the full language of each proposal rather than relying on the brief description here.
+
+The full list of proposals bundled for this vote are:
+
+HIP 0: Hop Mission Statement and Success Framework
+HIP 1: Deploy a HOP Bridge
+HIP 2: Explore Private Sale Legal Options
+HIP 3: Governance Incentives
+Fast bridging support for SNX and sUSD
+HIP 4: Delegate Incentivization Trial
+HIP 6: Deploy a HOP bridge on Arbitrum Nova
+HIP 7: AMM and Bonder Liquidity Incentives
+
+These proposals were all bundled together because they 1) passed overwhelmingly in Snapshot polls, 2) have no immediate on-chain executable component that could present technical risk, 3) collectively created a large backlog of governance initiatives to bring to a final vote.
+
+Snapshot is a great tool to quickly and affordably (freely) poll token holders. However, it is not meant to set policy for the DAO. All governance must occur on-chain.
+
+Generally, GFX Labs does not support the bundling of proposals. Experience suggests it leads to low engagement and haphazard due diligence by voters. In this case, however, the bundling was deemed appropriate due to the low risk and high consensus already mentioned. 
+
+If this proposal fails, GFX Labs will separate out those components it feels are most important and least controversial, and prioritize those for narrower votes.
+
+# HIP 0: Hop Mission Statement and Success Framework
+## Background
+Forum Discussion: https://forum.hop.exchange/t/discussion-hop-s-mission-and-primary-success-metric/234
+
+Discord Discussion: https://discord.com/channels/789310208413270078/988600846877065316/988614962534572072
+
+Snapshot Temperature Check: https://snapshot.org/#/hop.eth/proposal/0x603f0f6e54c7be8d5db7e16ae7145e6df4b439b8aac49654cdfd6b0c03eb6492
+
+## Proposal
+This proposal adopts a mission statement and success framework for Hop Protocol
+
+
+
+
+# HIP 1: Deploy a HOP bridge
+
+## Background
+Forum Discussion: https://forum.hop.exchange/t/temperature-check-hip-1-deploy-a-hop-bridge/315
+
+Snapshot Temperature Check: https://snapshot.org/#/hop.eth/proposal/0xd8dfe984a70f7999ee8ce31ab725fc450074b83e9c9cf515b29c2e4c783b7bfe
+
+## Proposal
+Deploy a HOP bridge to Arbitrum, Optimism, Polygon, and Gnosis Chain.
+
+
+# HIP 2: Explore Private Sale Legal Options
+
+## Background
+Forum Discussion: https://forum.hop.exchange/t/temperature-check-hip-2-explore-private-sale-legal-options/316
+
+Snapshot Temperature Check: https://snapshot.org/#/hop.eth/proposal/0x5ed734668ad7eb7a6080f23d6cf119379ba6ca3bbbac7de0a80cc47b2b09aca5
+
+## Proposal
+Hop DAO authorizes the Hop Foundation to explore legal options and documentation so that should Hop DAO vote to conduct a private sale, the Hop Foundation is prepared from a legal perspective to execute it.
+
+
+# HIP 3: Hop Governance Incentives
+
+## Background
+Forum Discussion: https://forum.hop.exchange/t/temperature-check-should-hop-governance-fund-bounties-on-successful-proposals/340
+
+Snapshot Temperature Check: https://snapshot.org/#/hop.eth/proposal/bafkreihvjb3ytkqrroouve3kwuho46ho2dz2an2oljokjwnx6lwmaekumi
+
+## Proposal
+Utilize a fixed monthly allocation of HOP to incentivize successful concrete, outcome-producing governance proposals.
+
+
+# Fast bridging support for SNX and sUSD
+
+## Background
+Forum Discussion: https://forum.hop.exchange/t/request-for-comment-fast-bridging-support-for-snx-and-susd/380
+
+Snapshot Temperature Check: https://snapshot.org/#/hop.eth/proposal/bafkreihioi2uoubmzc4onqxbhvfuvvngsrbbox6yesbuyhfngc5a7gmuvu
+
+## Proposal
+
+This is a proposal for HOP protocol to offer fast bridging support for SNX and sUSD to/from Optimism and L1.
+
+
+# HIP 4: Delegate Incentivization Trial
+
+## Background
+Forum Discussion: https://forum.hop.exchange/t/rfc-hop-delegate-incentivization-trial/376
+
+Snapshot Temperature Check: https://snapshot.org/#/hop.eth/proposal/bafkreic3hu4fhna7lfyecwvvasfqccygzhpkvw2zu4mihzglccwa5om6ii
+
+## Proposal
+This trial program aims to attract and retain both entities and individuals who will actively participate in governance on behalf of HOP token-holders.
+
+
+# HIP 6: Deploy a HOP bridge on Arbitrum Nova
+
+## Background
+Forum Discussion: https://forum.hop.exchange/t/request-for-comment-deploy-a-hop-bridge-on-arbitrum-nova/344
+
+Snapshot Temperature Check: https://snapshot.org/#/hop.eth/proposal/0x3df21f676877e7c87311ef6cb6864abd865d2e58a2613d6f10dd291b4f5dbce6
+
+## Proposal
+
+Deploy a HOP bridge on Arbitrum Nova.
+
+
+# HIP 7 - AMM and Bonder Liquidity Incentives
+
+## Background
+Forum Discussion: https://forum.hop.exchange/t/request-for-comment-amm-and-bonder-liquidity-incentives/352
+
+Snapshot Temperature Check: https://snapshot.org/#/hop.eth/proposal/bafkreicliwx2wt4rnjbappi4yyk4z2qrh224guatw7z3uo3wwh7ruekeee
+
+
+## Proposal
+
+**LP Incentives**
+2,000,000 HOP per month
+
+
+**Bonder Incentives**
+800,000 HOP per month
+",ACTIVE,13461,3622,6,136,1,143,843898227890920099071884,7124905195686709372821945,0,7968803423577629471893829,15670864,"[{'choice': 'FOR', 'weight': '100063225079956059235', 'voter': {'id': '0x011211ec9576923988c2fe5aa3a362528c4e7e64'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x016c2fd7f34eb1a6421118b1f640832a8c4964ed'}}, {'choice': 'FOR', 'weight': '42463470685163584733', 'voter': {'id': '0x05b8312f545ce7daae10aae93aea375d366bf4b5'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x06d13d1562eb9da28c59e86e9bfc2a87d13afb01'}}, {'choice': 'FOR', 'weight': '20957603627549572381', 'voter': {'id': '0x085ed975a8b6b860de3c2b871da60a3f9f48a5b8'}}, {'choice': 'FOR', 'weight': '1786124778510227049136', 'voter': {'id': '0x09a60649f4d29abf919dc130e7d517352f988087'}}, {'choice': 'FOR', 'weight': '27102042352765683685878', 'voter': {'id': '0x09da2d53c9d7e569e428b7f4a5c82c7cd855a7d4'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x0d93f519aeb8d75d208b8fcd5730de02f673542c'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x0d9a1b704f3d916a7905de91d69a033314856ea0'}}, {'choice': 'FOR', 'weight': '13254610195664182621', 'voter': {'id': '0x111ae4d8db445c46b4c342abbbb508519275d3c3'}}, {'choice': 'FOR', 'weight': '423822530788872193922721', 'voter': {'id': '0x193c74753e5ed222a5932cbe53624063189d842b'}}, {'choice': 'FOR', 'weight': '44711948226842411947', 'voter': {'id': '0x1c85d6ae1336d0e4e3f165bbfa9641bfa04cedb1'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x1ca7eec510a17617dfa901ed52ad1ac91d8d5325'}}, {'choice': 'FOR', 'weight': '77145361421775830319308', 'voter': {'id': '0x1d1a13b16667c284b87de62caeeff0ce89e342b2'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x1f2b217e1864ccee3c3094bb3d248a1ac6bcdc73'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x1ffae41a1c5c964c0404bc886b6ee802ab576222'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x204bfb4889f6370f4627de4056db557527198e66'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x20874a5975d5dd69a9e88a1b7e2fe8d666e8005a'}}, {'choice': 'FOR', 'weight': '1427740907137185810665', 'voter': {'id': '0x2169ec73eeb5287ed3180b401b6383beaf5a2011'}}, {'choice': 'AGAINST', 'weight': '53416267299987939410608', 'voter': {'id': '0x2612caeb7a04c5b8f7870bb29a64ef21ff7ee3ef'}}, {'choice': 'FOR', 'weight': '1271933491705108407612', 'voter': {'id': '0x2622100b2e324e9183e2ccdbbb23a9cbf9c0851b'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x291ce45f326dfaefe41c89b29493733e05011bc3'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x2ba0cf3a45d78fb39cd2a75516c3338d5f36dd37'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x2e18a95dd25451a091061333d2f238936ea86b86'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x2e437ffc7605db1159f6f3e26f9579f6e0ac13e3'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x2ee3300306c156948947a9c63959e89d9d60824f'}}, {'choice': 'FOR', 'weight': '28337127290103261311', 'voter': {'id': '0x32791bbc7ddc9d0e6bd914f3b7f73747132a3a5b'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x35b022ae795077f96dbb24ec87a0d8ca3c52b0b8'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x3abdb6c900c78dc1856798e63952991d2d648280'}}, {'choice': 'FOR', 'weight': '3602605136866643180073', 'voter': {'id': '0x3bd672ec3d56e4a87a1a0d43cf2a84c8664e3869'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x3cdbbb20556b366eda8421667c75ded9a39037a2'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x414ddb113f66169fae031a8cd45292a312da799f'}}, {'choice': 'AGAINST', 'weight': '111843069196616407027', 'voter': {'id': '0x4318cc449b1cbe6d64dd82e16abe58c79e076c2b'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x44f5579de7763623a79a4e618dbb26a3ff0955c5'}}, {'choice': 'FOR', 'weight': '8758551905342969325', 'voter': {'id': '0x45452d8508356dc9619f23eab6932b4aab1946e6'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x461d9d5d69364f309912ffed869b5864b2f14cb9'}}, {'choice': 'FOR', 'weight': '412754977740619931863161', 'voter': {'id': '0x46abfe1c972fca43766d6ad70e1c1df72f4bb4d1'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x46afd77e66a240cd1a5c6e20ddfe6dbbcde9c8ac'}}, {'choice': 'FOR', 'weight': '6405183960638378686', 'voter': {'id': '0x48b576c87e788a762d6f95a456f2a39113b46950'}}, {'choice': 'FOR', 'weight': '4861910301829065661', 'voter': {'id': '0x49d2db5f6c17a5a2894f52125048aaa988850009'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x4a7d88d29a26dd3169988f3a12dff6a3ea784cff'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x4c53ca026109289ae3c2d33fdcc621288486fc56'}}, {'choice': 'FOR', 'weight': '296953801432031490725', 'voter': {'id': '0x4d199d283331f0be86405a247faef88af90c129f'}}, {'choice': 'FOR', 'weight': '82090221676464810436', 'voter': {'id': '0x4d477f1aabcfc2fc3fc9b802e861c013e0123ad9'}}, {'choice': 'FOR', 'weight': '29324441207150460006', 'voter': {'id': '0x4e70bd663b20bb64db6172f5c871bd41c1cc7298'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x54ca3b59fd8a4d881976344623f0a9b882ee808b'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x5552b1cccfa9292e8edf9e6c1c0d2af3630a4835'}}, {'choice': 'FOR', 'weight': '21081583313395687216', 'voter': {'id': '0x5574d6f75a59945a3d2e056d048816e11ce12bf8'}}, {'choice': 'FOR', 'weight': '1119567810828196533858', 'voter': {'id': '0x5a2cf5b6061de4cd3c5936a781621fa8e4d1fdcf'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x5ab73e2f1124e10998491e19b36ff3ff38f678c6'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x5b878c173c8712bfefef9d750cd5ed6d5bf17885'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x5fb9303477d0cde0e2935f9f08c2d9988ece56af'}}, {'choice': 'FOR', 'weight': '76731024347402716947', 'voter': {'id': '0x60dd456273cbb018c2222621d4c2dc5016e870d3'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x62bc8c095f122cadef3b263ebaaab9d51f06c94d'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x63f37e000dba0b16710f138e8a733425d744aab7'}}, {'choice': 'ABSTAIN', 'weight': '0', 'voter': {'id': '0x648e71b3586a5d594157456c9de3df614a524086'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x66c97dc031bb2f6ad421cef7b01de0ca2ae4fe64'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x6b491aebe1fdd3dff345b2cd915bdb3ad8ad3e84'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x6e31344032acefd3f2fb00822a1a51cd7d1a86b3'}}, {'choice': 'FOR', 'weight': '1508611695922286845527', 'voter': {'id': '0x73064f6c1c5dad8d917782aec16ab564feb3c011'}}, {'choice': 'FOR', 'weight': '462697881031373598641552', 'voter': {'id': '0x7453713a2539a9e9e25849eb8ed94c13e9e7138a'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x7750b18cc5398f2bdde8dd368762d85e764497ec'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x788e6b02258307ad05be5c8756060f248ce3585d'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x79438224bc21b0e6b45ecf9f8caadfbdb874dedd'}}, {'choice': 'FOR', 'weight': '42581759772040294377', 'voter': {'id': '0x7b0b35b416631f05f321fe74990817dca81cabde'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x7b1768877a8cb5f51adb4c231626dae8f862f881'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x7cd5de707b57a3fdda92807a41af7f4c3fd8aafc'}}, {'choice': 'FOR', 'weight': '1592294383023137290897', 'voter': {'id': '0x7e0305db11088ec12ab00b7d68f26ab31f722027'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x820094b7942f39a635609c6268f7311e4c661d71'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x87628fd843d953021000cd83dbed8a6a8194957e'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x8905530f1cf0e40f802383c81dfb38f6ad5e0bb6'}}, {'choice': 'FOR', 'weight': '42466960350291158003', 'voter': {'id': '0x8d86df61da1eefa281d263c47c77629a6f9f2c3a'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x8f29ac7bd8b1e522e9c6e834c57cd6f713a5204b'}}, {'choice': 'FOR', 'weight': '881911246327434651376927', 'voter': {'id': '0x8f73be66ca8c79382f72139be03746343bf5faa0'}}, {'choice': 'FOR', 'weight': '62135580465962572694', 'voter': {'id': '0x8fa3232ff0a45de66f1810096189a0f6f4ea8724'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x91e6b7939dbf48ff0eeb87384dfab05d35a1fc9f'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x93fa26253abbfb21a7f2749a81bb25a7e5f95ba1'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x9602c750905b2dd6d5f477d68ff218c7dc5b943c'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x9628f11c8fbf15df1307ad5284398ad7dcdf573c'}}, {'choice': 'AGAINST', 'weight': '300002940989826825332643', 'voter': {'id': '0x9a048a7bf38306c055c05606a6010c78cfc7c1e8'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x9b3d8d700faeeef87159ce2ba89e8d99f39ed1b4'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x9b41779051bc8d4904da2e1312cea8a8dc6cfa66'}}, {'choice': 'AGAINST', 'weight': '488726298452443258600132', 'voter': {'id': '0x9f1920d0cbb63ed03376a1e09fd2851d601234c8'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xa181a3c3460ad5a2650f380352e3e68111e3d60e'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xa1df38a26b946672399b94ef5171909e52c8b9cf'}}, {'choice': 'FOR', 'weight': '128472512827462819215085', 'voter': {'id': '0xa2b15ce187165bc1723df411d9887d738fabe5f7'}}, {'choice': 'FOR', 'weight': '21494053913781974888', 'voter': {'id': '0xa4b2c652b4052729ab35f6a6ffc0c22bad7bdba8'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xa4fb709aac7099766ef6f09d2dabeb843db27b4c'}}, {'choice': 'FOR', 'weight': '1789530907165137068943585', 'voter': {'id': '0xa6e8772af29b29b9202a073f8e36f447689beef6'}}, {'choice': 'FOR', 'weight': '6136411495838713211', 'voter': {'id': '0xa8c4e3ce1743d0f2a6c227548c982a7c40569940'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xa8c518d50fb3d992345de79f99827de22eeb4ae7'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xa9f709bca4e505411f9aac4b019dcfa69e21a779'}}, {'choice': 'FOR', 'weight': '42465351345589663764', 'voter': {'id': '0xab2dce783011a5ae40110678004d1f14efc73536'}}, {'choice': 'FOR', 'weight': '474453738016556398612', 'voter': {'id': '0xaba92f62ef9d45d0b61808d330461c3b2d8fece8'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xabcd17a91ea31d643e79e81fe6ee84c49d1aa85e'}}, {'choice': 'FOR', 'weight': '1558560652570175803599', 'voter': {'id': '0xac7dd5a34f5859ef1fecc8f4d036f75a35b19eb9'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xaf002b63f2d353c88dc4628d2ee894d97cbbc10e'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xafe2b51592b89095a4cfb18da2b5914b528f4c01'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xb1181a2cec746fe12e1b56862a16e49fbf705cfe'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xb22c008423a34897a4afe1880ae4d626cd530eed'}}]",15670865,15716683,0xa6e8772af29b29b9202a073f8e36f447689beef6

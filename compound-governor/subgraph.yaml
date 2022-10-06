@@ -6,9 +6,9 @@ dataSources:
     name: Governor
     network: mainnet
     source:
-      address: "0x0bef27feb58e857046d630b2c03dfb7bae567494"
+      address: "0x6f3E6272A167e8AcCb32072d08E0957F9c79223d"
       abi: Governor
-      startBlock: 13349454
+      startBlock: 12985452
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -24,7 +24,7 @@ dataSources:
         - VoteDailySnapshot
       abis:
         - name: Governor
-          file: ./abis/fei-governance/Governor.json
+          file: ./abis/nouns-governance/Governor.json
       eventHandlers:
         - event: ProposalCanceled(uint256)
           handler: handleProposalCanceled
@@ -36,14 +36,14 @@ dataSources:
           handler: handleProposalQueued
         - event: VoteCast(indexed address,uint256,uint8,uint256,string)
           handler: handleVoteCast
-      file: ./protocols/fei-governance/src/Governor.ts
+      file: ./protocols/nouns-governance/src/Governor.ts
   - kind: ethereum/contract
     name: Token
     network: mainnet
     source:
-      address: "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B"
+      address: "0x9C8fF314C9Bc7F6e59A9d9225Fb22946427eDC03"
       abi: Token
-      startBlock: 12147964
+      startBlock: 12985732
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -59,12 +59,12 @@ dataSources:
         - VoteDailySnapshot
       abis:
         - name: Token
-          file: ./abis/fei-governance/Token.json
+          file: ./abis/nouns-governance/Token.json
       eventHandlers:
         - event: DelegateChanged(indexed address,indexed address,indexed address)
           handler: handleDelegateChanged
         - event: DelegateVotesChanged(indexed address,uint256,uint256)
           handler: handleDelegateVotesChanged
-        - event: Transfer(indexed address,indexed address,uint256)
+        - event: Transfer(indexed address,indexed address,indexed uint256)
           handler: handleTransfer
-      file: ./protocols/fei-governance/src/Token.ts
+      file: ./protocols/nouns-governance/src/Token.ts

@@ -22,8 +22,7 @@ def get_buckets(df):
         a = df.loc[mask]
         voting_rate = a['vote_rate'].mean()
         total_cap = a['total_cap'].mean()
-        circulating_cap = a['circulating'].mean()
-        total_voting_rate = voting_rate / total_cap
+        circulating_voting_rate = voting_rate / total_cap
         circulating_voting_rate = voting_rate / circulating_cap
         """
          - make list with (start_date.date, end.date), voting_rate, for, against, 

@@ -83,14 +83,6 @@ type Proposal @entity {
   "Timestamp of block proposal was canceled in"
   cancellationTime: BigInt
 
-  "Targets data for the change"
-  targets: [String!]
-  "Values data for the change"
-  values: [BigInt!]
-  "Signature data for the change"
-  signatures: [String!]
-  "Call data for the change"
-  calldatas: [Bytes!]
 }
 
 enum ProposalState {
