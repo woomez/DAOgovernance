@@ -3,6 +3,7 @@ import numpy as np
 from web3.auto.infura import w3
 from ens import ENS
 import datetime
+import glob
 import os
 import json
 from flatten_json import flatten
@@ -10,7 +11,6 @@ from flatten_json import flatten
 
 
 def read_json(filename: str) -> dict:
-  
     try:
         with open(filename, "r") as f:
             data = json.loads(f.read())
@@ -77,5 +77,29 @@ def convert_json(folder, files, conversion_methods):
                 jsonpath = folder+"/"+file
                 _jsonData = read_json(jsonpath)
                 conversion_method(folder, file, _jsonData)
-            
 
+def combine_csvs(path, vote_csv, delegation_csv):
+    for root, dirs, files in os.walk(path):
+        two = os.sep.join(os.path.normpath(root).split(os.sep)[-2:])
+        if two == 'votes/csv':
+            dao = root.split(os.path.sep)[-3]
+            print(dao)
+            for file in files:
+                print(os.path.join(root, file))
+                df =pd.read_csv(os.path.join(root,file), index_col=None, header=0)
+                df['dao'] = dao
+                vote_csv = pd.concat([vote_csv, df], ignore_index=True)
+                print(vote_csv)
+                break
+        elif two == 'delegations':
+            pass
+
+    vote_csv.to_csv(path+"/combined.csv", index=False)
+
+path = "/Users/jaeyongpark/codes/governance/query/res"
+#combine all files in the list
+#export to csv
+vote_csv = pd.DataFrame()
+delegation_csv =[]
+
+combine_csvs(path, vote_csv, delegation_csv)

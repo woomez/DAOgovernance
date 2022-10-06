@@ -7,8 +7,14 @@ from utils import traverse_tree
 urls = [('Angle', 'https://api.studio.thegraph.com/query/28876/angle-governance/v2'),
         ('ENS', 'https://api.studio.thegraph.com/query/28876/ens-governance/v5'),
         ('Fei', 'https://api.studio.thegraph.com/query/28876/fei-governance/v1'),
-        ('Euler', 'https://api.studio.thegraph.com/query/28876/euler-governance/v2')
-        ]
+        ('Euler', 'https://api.studio.thegraph.com/query/28876/euler-governance/v2'),
+        ('Compound', 'https://api.studio.thegraph.com/query/28876/compound-governance/v7'),
+        ('Hop', 'https://api.studio.thegraph.com/query/28876/hop-governance/v1'),
+        ('Silo', "https://api.studio.thegraph.com/query/28876/silo-governance/v1"),
+        ('Truefi', "https://api.studio.thegraph.com/query/28876/truefi-governance/v1"),
+        ('Unlock', "https://api.studio.thegraph.com/query/28876/unlock-governance/v1"),
+        ('CompoundAlpha', 'https://api.studio.thegraph.com/query/28876/compoundalpha-governance/v1'),
+        ('Nouns', 'https://api.studio.thegraph.com/query/28876/nouns-governance/v1')]
 
 new_urls = [('Compound', 'https://api.studio.thegraph.com/query/28876/compound-governance/v7'),
             ('Hop', 'https://api.studio.thegraph.com/query/28876/hop-governance/v1'),
