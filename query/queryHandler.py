@@ -153,7 +153,7 @@ def proposalQuery(client, dao, _query):
                     forWeightedVotes
                     abstainWeightedVotes
                     totalWeightedVotes
-                    creationBlock
+                    creationTime
                     votes{
                       choice
                       weight
