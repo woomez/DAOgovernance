@@ -8,7 +8,7 @@ import os
 import json
 from flatten_json import flatten
 
-onchain = "/Users/jaeyongpark/codes/governance/query/final_onchain.csv"
+onchain = "/Users/jaeyongpark/codes/governance/query/res/final_onchain.csv"
 offchain = "/Users/jaeyongpark/codes/governance/query/offchain.csv"
 
 def combineres(path):

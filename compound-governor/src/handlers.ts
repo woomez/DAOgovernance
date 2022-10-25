@@ -340,11 +340,13 @@ export function _handleProposalQueued(proposalId: BigInt, eta: BigInt): void {
   governance.save();
 }
 
+// comment out reason if compoundAlpha
+
 export function _handleVoteCast(
   proposal: Proposal,
   voterAddress: string,
   weight: BigInt,
-  reason: string,
+  // reason: string,
   support: i32,
   event: ethereum.Event
 ): void {
@@ -353,7 +355,7 @@ export function _handleVoteCast(
   vote.proposal = proposal.id;
   vote.voter = voterAddress;
   vote.weight = weight;
-  vote.reason = reason;
+  // vote.reason = reason;
   vote.block = event.block.number;
   vote.blockTime = event.block.timestamp;
   vote.txnHash = event.transaction.hash.toHexString();

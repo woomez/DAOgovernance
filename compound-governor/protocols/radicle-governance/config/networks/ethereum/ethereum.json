@@ -1,0 +1,10 @@
+{
+  "governor": "Governor",
+  "token": "Token",
+  "governance": "radicle-governance",
+  "network": "mainnet",
+  "governorContractAddress": "0x690e775361AD66D1c4A25d89da9fCd639F5198eD",
+  "governorContractStartBlock": 11863739, 
+  "tokenContractAddress": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+  "tokenContractStartBlock": 11863739
+}

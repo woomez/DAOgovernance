@@ -84,12 +84,12 @@ def delegateQuery(client, dao, _query):
 
     loadmore = True
     counter = 1
-    total_delegates = 0
+    length = 0
 
     while loadmore:
         
         curr = client.execute(_delegateQuery, variable_values=params)
-        total_delegates += len(curr['delegates'])
+        length += len(curr['delegates'])
         
         if len(curr['delegates']) == 0:
             loadmore = False
@@ -104,8 +104,10 @@ def delegateQuery(client, dao, _query):
 
             save_query_as_json(dao, _query, counter, curr)
             counter += 1
-
+        
         gc.collect()
+    print(_query, length)
+
 
 
 def governanceQuery(client, dao, _query):
@@ -153,7 +155,7 @@ def proposalQuery(client, dao, _query):
                     forWeightedVotes
                     abstainWeightedVotes
                     totalWeightedVotes
-                    creationTime
+                    creationBlock
                     votes{
                       choice
                       weight
@@ -200,12 +202,12 @@ def voteQuery(client, dao, _query):
 
     loadmore = True
     counter = 1
-    total_delegates = 0
+    length = 0
 
     while loadmore:
         
         curr = client.execute(_voteQuery, variable_values=params)
-        total_delegates += len(curr['votes'])
+        length += len(curr['votes'])
         
         if len(curr['votes']) == 0:
             loadmore = False
@@ -213,7 +215,6 @@ def voteQuery(client, dao, _query):
         else:
             # update params
             params["lastID"] = curr['votes'][-1]['id']
-            print(total_delegates)
             # save to csv
             # delegations = pd.json_normalize(curr['delegates'])
             # delegations.to_csv(f"./csvs/delegations/{name}/{name}_{count}.csv")
@@ -221,7 +222,9 @@ def voteQuery(client, dao, _query):
             save_query_as_json(dao, _query, counter, curr)
             counter += 1
 
+        
         gc.collect()
+    print(_query, length)
 
 def delegationQuery(client, dao, _query):
 
@@ -251,12 +254,12 @@ def delegationQuery(client, dao, _query):
 
     loadmore = True
     counter = 1
-    total_delegates = 0
+    length = 0
 
     while loadmore:
         
         curr = client.execute(_delegationQuery, variable_values=params)
-        total_delegates += len(curr['delegations'])
+        length += len(curr['delegations'])
         
         if len(curr['delegations']) == 0:
             loadmore = False
@@ -264,7 +267,6 @@ def delegationQuery(client, dao, _query):
         else:
             # update params
             params["lastID"] = curr['delegations'][-1]['id']
-            print(total_delegates)
             # save to csv
             # delegations = pd.json_normalize(curr['delegates'])
             # delegations.to_csv(f"./csvs/delegations/{name}/{name}_{count}.csv")
@@ -272,8 +274,9 @@ def delegationQuery(client, dao, _query):
             save_query_as_json(dao, _query, counter, curr)
             counter += 1
 
+        
         gc.collect()
-
+    print(_query, length)
 
 def votedailysnapshotQuery(client, dao, _query):
 
@@ -300,12 +303,12 @@ def votedailysnapshotQuery(client, dao, _query):
 
     loadmore = True
     counter = 1
-    total_delegates = 0
+    length = 0
 
     while loadmore:
         
         curr = client.execute(_votedailysnapshotQuery, variable_values=params)
-        total_delegates += len(curr['voteDailySnapshots'])
+        length += len(curr['voteDailySnapshots'])
         
         if len(curr['voteDailySnapshots']) == 0:
             loadmore = False
@@ -313,12 +316,13 @@ def votedailysnapshotQuery(client, dao, _query):
         else:
             # update params
             params["lastID"] = curr['voteDailySnapshots'][-1]['id']
-            print(total_delegates)
+            
 
             save_query_as_json(dao, _query, counter, curr)
             counter += 1
 
         gc.collect()
+    print(_query, length)
 
 def tokendailysnapshotQuery(client, dao, _query):
 
@@ -343,12 +347,12 @@ def tokendailysnapshotQuery(client, dao, _query):
 
     loadmore = True
     counter = 1
-    total_delegates = 0
+    length = 0
 
     while loadmore:
         
         curr = client.execute(_tokendailysnapshotQuery, variable_values=params)
-        total_delegates += len(curr['tokenDailySnapshots'])
+        length += len(curr['tokenDailySnapshots'])
         
         if len(curr['tokenDailySnapshots']) == 0:
             loadmore = False
@@ -356,9 +360,10 @@ def tokendailysnapshotQuery(client, dao, _query):
         else:
             # update params
             params["lastID"] = curr['tokenDailySnapshots'][-1]['id']
-            print(total_delegates)
+            
 
             save_query_as_json(dao, _query, counter, curr)
             counter += 1
-
+        
         gc.collect()
+    print(_query, length)

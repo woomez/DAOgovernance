@@ -1,0 +1,10 @@
+{
+  "governor": "Governor",
+  "token": "Token",
+  "governance": "uniswapa2-governance",
+  "network": "mainnet",
+  "governorContractAddress": "0xC4e172459f1E7939D522503B81AFAaC1014CE6F6",
+  "governorContractStartBlock": 12686654, 
+  "tokenContractAddress": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+  "tokenContractStartBlock": 10861674
+}

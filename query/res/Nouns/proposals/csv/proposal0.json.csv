@@ -5189,7 +5189,7 @@ Mrtn – Ops / Community: Delegate from nounlets, funded via Prop House as gover
 
 20 ETH to incentivize voter participation
 
-Total ask 230 ETH (of which 20 will be given back to community via participation incentives)",ACTIVE,282,239,1,0,0,1,1,0,0,1,15671022,"[{'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}]",15684162,15703872,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb
+Total ask 230 ETH (of which 20 will be given back to community via participation incentives)",CANCELED,282,239,7,2,1,10,23,3,2,28,15671022,"[{'choice': 'AGAINST', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x141b63d93daf55bfb7f396eee6114f3a5d4a90b2'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'ABSTAIN', 'weight': '2', 'voter': {'id': '0x6223bc5fd16a19bcfae2281dde47861cfe1023ee'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x7210e2acd9105775644f0dde51970cb2cb77b8b4'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x7b7736a2c07c4332ffad45a039d2117ae15e3f66'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'AGAINST', 'weight': '13', 'voter': {'id': '0xce6404642bb08f897fce5317c1349656ca44f2d8'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}]",15684162,15703872,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb
 15,"# setProposalThresholdBPS(50)
 
 thank you for your consideration ",EXECUTED,69,69,0,11,0,11,0,29,0,29,13552172,"[{'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '9', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0x43a330dec81bbd5e21f41c6b8354e54d481efc93'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x48e3e06520ff208746b8555076f7af3e71af1a4f'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6c0cf880cb20eefabfb09341fba9e2bd29ad3dfa'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9646e0f7544b8ee3649e7ac77eef0cf5b53b748a'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xca6caedcc79d4d6541b3f82dc7754a14d9b196f8'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf476cd75be8fdd197ae0b466a2ec2ae44da41897'}}]",13565312,13585022,0x3dbdf1a202d21aac3309d91dacfcef84b8873f7a
@@ -5261,7 +5261,7 @@ If this first iteration sees traction, we see a number of further extensions:
 - extend the number of places that messages are published, i.e. to a dedicated twitter account as well as discord
 - plugins/react components to integrate pseudonymous badges/proving into other governance clients (i.e. agora, discourse killer)
 - additional pseudonymous nouner groups, i.e. groups based on voting history (I voted in 10 of last 15 proposals)
-",PENDING,0,0,0,0,0,0,0,0,0,0,15676189,[],15689329,15709039,0x141b63d93daf55bfb7f396eee6114f3a5d4a90b2
+",EXECUTED,282,239,2,30,0,32,2,171,0,173,15676189,"[{'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x021edd67d43b365a6401a5ee704aa6f264f3f4e4'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x0b20ed7418f153a6595e0f88c682df52d54b00c4'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x0d93f519aeb8d75d208b8fcd5730de02f673542c'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x141b63d93daf55bfb7f396eee6114f3a5d4a90b2'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x1e341aa44c293d95d13d778492d417d1be4e63d5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '49', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2e32935bfd5b2718f99bc8fdf8b37c16811f7d97'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x36a5bc205df1ed65c86301022cfc343a6ce546ff'}}, {'choice': 'FOR', 'weight': '30', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'FOR', 'weight': '15', 'voter': {'id': '0x5d802e2fe48392c104ce0401c7eca8a4456f1f16'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6525c002b80ae9f2431883d3a6274c0d4af5ed7c'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x6b491aebe1fdd3dff345b2cd915bdb3ad8ad3e84'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '19', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x7b7736a2c07c4332ffad45a039d2117ae15e3f66'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9a2f6117d1ffa82ad0a2b36f133d476db5bd55f5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9d4162ca2f01583e2f34cb594e8cf198ace99dd3'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0xa86882277e69fbf0a51805cdc8b0a3a113079e63'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa903c06bf35286f6d1cdad25396748353979a44c'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xa9f709bca4e505411f9aac4b019dcfa69e21a779'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xc3fdadbae46798cd8762185a09c5b672a7aa36bb'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcb43078c32423f5348cab5885911c3b5fae217f9'}}, {'choice': 'FOR', 'weight': '15', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdead753f9b1eb8f2f7372e8587e7c6e342daac89'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe3064d830c35119a83402636816444446ac72d36'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}]",15689329,15709039,0x141b63d93daf55bfb7f396eee6114f3a5d4a90b2
 151,"# Refill Nouns Strategic Funding Works (NSFW) Pool
 
 # Refill Nouns Strategic Funding Works (NSFW) Pool
@@ -5288,7 +5288,536 @@ Previous NSFW Proposals:
     * 111 contains more detailed context on NSFW's role in the DAO and its day to day operations.  This proposal also funded NSFW with 50 ETH.
 
 Transactions
-* This proposal will refill the NSFW multisig with 250 ETH",PENDING,0,0,0,0,0,0,0,0,0,0,15682675,[],15695815,15715525,0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e
+* This proposal will refill the NSFW multisig with 250 ETH",EXECUTED,282,239,3,32,4,39,8,112,53,173,15682675,"[{'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x0b20ed7418f153a6595e0f88c682df52d54b00c4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x0b3cf56e7df3bb3fb7201ffcd96d279b05ddd2e3'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x0d93f519aeb8d75d208b8fcd5730de02f673542c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x13eef4ef8fca471f242ab0f8f49a3db6017ada33'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x141b63d93daf55bfb7f396eee6114f3a5d4a90b2'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x1e341aa44c293d95d13d778492d417d1be4e63d5'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x204bfb4889f6370f4627de4056db557527198e66'}}, {'choice': 'ABSTAIN', 'weight': '49', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2e32935bfd5b2718f99bc8fdf8b37c16811f7d97'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0x36a5bc205df1ed65c86301022cfc343a6ce546ff'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x3abdb6c900c78dc1856798e63952991d2d648280'}}, {'choice': 'FOR', 'weight': '30', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'FOR', 'weight': '15', 'voter': {'id': '0x5d802e2fe48392c104ce0401c7eca8a4456f1f16'}}, {'choice': 'ABSTAIN', 'weight': '2', 'voter': {'id': '0x6223bc5fd16a19bcfae2281dde47861cfe1023ee'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6525c002b80ae9f2431883d3a6274c0d4af5ed7c'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x6b491aebe1fdd3dff345b2cd915bdb3ad8ad3e84'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '19', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x7b7736a2c07c4332ffad45a039d2117ae15e3f66'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x7dd5b92716542ab2442030df6d87cec437a51ded'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9a2f6117d1ffa82ad0a2b36f133d476db5bd55f5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'AGAINST', 'weight': '4', 'voter': {'id': '0xa86882277e69fbf0a51805cdc8b0a3a113079e63'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa903c06bf35286f6d1cdad25396748353979a44c'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xa9f709bca4e505411f9aac4b019dcfa69e21a779'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0xb47a70df538b9a3b591bc5d75da66a04c879b291'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcb43078c32423f5348cab5885911c3b5fae217f9'}}, {'choice': 'FOR', 'weight': '15', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xcfe856e0df0f3950fb118a5ad22b4021aaa60e9f'}}, {'choice': 'FOR', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdead753f9b1eb8f2f7372e8587e7c6e342daac89'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe3064d830c35119a83402636816444446ac72d36'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf6e1e441c5113e9a76f84efa6c98f54a036668ce'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xfabe6c1b1be983811d1616bec49f679e1d8e928e'}}]",15695815,15715525,0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e
+152,"# Nouns DAO V2 Upgrade
+
+## Summary
+
+This proposal updates the Nouns DAO logic contract to a new version, with the following improvements and additions:
+
+1. **Dynamic Quorum**: In V1, quorum is a fixed percentage of total supply. In V2, quorum has a dynamic range, rising as a function of against votes up to a defined cap. Read [this post](https://mirror.xyz/0x10072dfc23771101dC042fD0014f263316a6E400/96zSoFfiT_RM2o2P9UbVKxPzVpB_trZqUjzllBE00BE) for more info.
+2. **Vote with Gas Refund**: Allow Nouners/delegates to vote and receive a gas refund. The vote still takes place in the case of insufficient ETH to refund.
+3. **Voting Delay Editing Bug Fix**: In V1, editing voting delay was unsafe. V2 makes it safe to edit anytime. More info on the bug [here](https://github.com/nounsDAO/nouns-diligence/blob/main/reports/proposal-58.md#major).
+4. **Cancel Proposal Bug Fix**: The DAO has a spam mitigation feature, allowing anyone to cancel a proposal if the proposer has an amount of votes less than or equal to proposal threshold. In V1, this feature didn't work when proposer had exactly proposal threshold votes; in V2 it works as expected.
+5. **Vetoer Change Is Now 2-step**: We received audit feedback that V1's vetoer change process was risky as a single-step process. In V2, the risk of setting a wrong vetoer is mitigated using a 2-step process where the current vetoer sets a pending new vetoer. Once set, the pending vetoer must accept for the change to take place.
+
+## Audit
+
+1. The code has gone through internal reviews and a [code4rena audit](https://code4rena.com/reports/2022-08-nounsdao/).
+2. **No high-risk issues were found in V2**.
+3. **Unrelated to this proposal**, one high-risk issue was found. See [this audit summary on discourse](https://discourse.nouns.wtf/t/nouns-dao-v2-audit-summary/2525) for more information.
+
+
+## Dynamic Quorum Parameters
+
+As articulated in this [detailed post](https://mirror.xyz/0x10072dfc23771101dC042fD0014f263316a6E400/96zSoFfiT_RM2o2P9UbVKxPzVpB_trZqUjzllBE00BE), three parameters need to be set for dynamic quorum. This proposal sets their values, and we’re offering the thinking behind them here:
+
+1. **Minimum quorum %**: keeping it at 10%, the same as today’s quorum.
+2. **Maximum quorum %**: setting it to 15%, taking into account recent participation levels around 30%, allowing proposals with more than 15% For votes to be decided by simple majority; the intent is for this value to provide extra protection from voter apathy, while allowing most all proposals to be decided by simple majority rather than quorum.
+3. **Coefficient**: setting it to 1, such that each against vote raises the quorum requirement by one vote, until the maximum quorum is reached.
+
+These parameters can be edited at any time via a proposal; treat these values as the first experiment.
+
+## Vote with Gas Refund
+
+A bit more on how this feature works:
+
+1. Governance clients (like nouns.wtf/vote) need to update their code to support it.
+2. Refunds are subject to certain constraints:
+    1. Gas base fee is capped at 200 gwei.
+    2. Gas priority fee is capped at 2 gwei.
+    3. Total gas is capped at 200K, supporting voting reason text up to roughly 9,190 characters.
+    4. If the contract’s balance is insufficient, voter will receive a partial refund.
+3. This feature requires the DAO to maintain the DAO contract’s ETH balance, which should be done via periodic ETH transfer proposals from the treasury to the DAO contract (this proposal performs the first funding).
+4. The DAO can choose to withdraw refund ETH back into the treasury at any time via a proposal.
+
+
+## Proposal Transactions for Humans
+
+1. `_setImplementation`: upgrades DAO logic to V2.
+2. `_setDynamicQuorumParams`: sets dynamic quorum params to:
+    1. Minimum quorum BPs: 10% (1000 basis points).
+    2. Maximum quorum BPs: 15% (1500 basis points).
+    3. Coefficient: 1 (1,000,000 in unsigned integer with 6 decimal places).
+3. `transfer`: funding vote refunds with 12 ETH, which should be enough for just over 100 proposals at today's participation rate (excluding honk’s tendency to paste long paragraphs).
+
+As always, please reach out in the [#54-tech-grants](https://discord.com/channels/849745721544146955/981584123225321503) channel in Discord with any questions ⌐◨-◨.",EXECUTED,290,247,0,36,0,36,0,203,0,203,15724579,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x021edd67d43b365a6401a5ee704aa6f264f3f4e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x0b20ed7418f153a6595e0f88c682df52d54b00c4'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x141b63d93daf55bfb7f396eee6114f3a5d4a90b2'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '51', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x2746d2693e4a80dc567f16d9c86a901f86734fd7'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '3', 'voter': {'id': '0x3496f3600070cc01d9665d1057f6f39afc0fe149'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x36a5bc205df1ed65c86301022cfc343a6ce546ff'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x41e72d30c967a595cc2c7dbc9e1ed98638f3b8c8'}}, {'choice': 'FOR', 'weight': '31', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'FOR', 'weight': '3', 'voter': {'id': '0x5d4df391f56f0d8f854434e52a15b10b6501129f'}}, {'choice': 'FOR', 'weight': '16', 'voter': {'id': '0x5d802e2fe48392c104ce0401c7eca8a4456f1f16'}}, {'choice': 'FOR', 'weight': '19', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x7b7736a2c07c4332ffad45a039d2117ae15e3f66'}}, {'choice': 'FOR', 'weight': '18', 'voter': {'id': '0x7fa020f063b3a06153ed755cee5923039efb86a3'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9a2f6117d1ffa82ad0a2b36f133d476db5bd55f5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9d4162ca2f01583e2f34cb594e8cf198ace99dd3'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9f4838f18104f4973aa0972a73a3f50bdebf86ba'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa1c0b11b86a46885b87c7ed68b91faa0c349e1cd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa387c87102fc0b51939d0cf9a86f7edd05291d5c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0xa86882277e69fbf0a51805cdc8b0a3a113079e63'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xb2a09d83fca93eede41def88b6ba27fc716f1bfd'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xc3fdadbae46798cd8762185a09c5b672a7aa36bb'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcb43078c32423f5348cab5885911c3b5fae217f9'}}, {'choice': 'FOR', 'weight': '12', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdae3b357b18854ebeecfe94199ab4ba21dc1c3a1'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383'}}, {'choice': 'FOR', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe085327c5ad2f77147f10973fed45fb19d734f7e'}}]",15737719,15757429,0x05a286e5165d72823a749b00b009a2af0dc36ff7
+153,"# NSFW compensation
+
+Being part of NSFW is a lot of work and currently not being fairly distributed. 
+
+To help fix this, I propose the DAO compensates the current members to incentivise/ensure their participation on NSFW.
+
+Therefore, I suggest an 8 ETH compensation for each member per month. The proposal shall run for 3 months on an experimental base to see if we as a DAO manage to incentivise people enough to stay on NSFW and share the burden of responsibility. 
+
+If effective, we can then continue to pay those active members until the current funding runs out. 
+
+Current active members are:
+- Noun 12 (multi-sig)
+- Noun 16 (multi-sig)
+- Noun 22 (multi-sig)*
+- skilift (multi-sig)
+- Jarmen
+- maty
+- Oni
+- Sam Ellis
+- wiz
+- eoj
+*Noun 22 is excluded from the calculation, as he is currently compensated for his involvement with NSFW.
+
+For any member that won’t be actively participating in these three months the DAO would terminate the payment for this individual and would expect them to be removed or replaced.
+
+I would expect once everyone is onboarded that each member has a function and a role within NSFW. If members can’t participate, they are urged to remove themselves and return the funds to the treasury.
+
+Total ask 216 ETH.
+
+I suggest to send send the ETH to the NSFW multi-sig, from where it will get distributed to the individual contributors on a monthly base.
+",CANCELED,0,0,0,0,0,0,0,0,0,0,15741665,[],15754805,15774515,0x8321795bdace7428d4fadfa30c2ee8e727e491e5
+154,"# Agora Continuation [revised]
+*This is a revised version of the Agora continuation prop based on community feedback. We've clarified our deliverables, increased transparency, reduced the ask by 20%, and implemented a payment stream*
+
+## TL;DR
+We’d like to seek funding to keep developing [Agora](https://www.nounsagora.com/) in order to improve the governance efficacy of Nouns through delegation. Our goal is to significantly increase the participation rate of nouns through a combination of software improvements, and delegation drive programs over the next quarter.
+
+## Progress so far
+We got [funded](https://prop.house/proposal/1023) on August 31 via Prop House mandates to build an MVP. In less than one month, we’ve built a delegate platform for voters to broadcast what they want to see, and for builders to find voters who might support their proposal. To illustrate the outcome with some numbers, so far we’ve seen:
+
+* 19 statements from delegates representing 127 nouns (>25% of all votes!)
+* 25 statements from builders who are seeking delegation
+* 5 nouns delegated via Agora (that we know of)
+* Hosted a delegate race to “auction” 3 more votes to delegates
+* Proposal passed to deploy on lil nouns, as well as inbound interest from many other DAOs
+
+In sum, Agora has created a hub that turned delegation from an invisible, behind the scenes activity, to something the community can see, participate in, discuss, and improve upon.
+
+## Roadmap & Goals
+Now that we’ve landed an MVP of a delegate platform, it’s time to start leveraging it to meaningfully drive delegation & governance participation. We expect to complete these goals and achieve their resulting outcome in roughly one quarter. Note that all points here consist of our best plan of attack today, but as we continue to build Agora, we expect the roadmap to naturally evolve as we double down on what’s working, and deprioritize what’s not.
+
+**Goal 1: Dramatically reduce friction to delegation:**
+* Integrate with nouns.wtf to propose “post-win” delegate suggestions
+* Enable direct delegation on Agora (where today we borrow the nouns.wtf flow)
+* Enable time-bound, fractional, and supercedable delegation by a proxy contract to unblock funds & whales who are currently unwilling to delegate
+* Productize delegate race so that Nouners who don’t want to pick a delegate can let the community pick for them
+
+**Goal 2: Make governance and delegation more transparent and easy to understand**
+* Continue investing in surfacing more delegate and voting data on Agora
+* Build a governance activity feed that highlights delegation, ownership change, voting, and other governance related activities.
+* Make other general improvements to Agora to make it a first class experience for governance participants
+
+**Goal 3: Activate nouns holders to either vote or delegate**
+* Direct outreach to inactive Nouners from Agora team to find them a suitable delegate
+* Implement an inactive nouner bounty program, highlighting and incentivizing the community to reach out to inactive holders.
+* Run a marketplace experiment to allow anyone to rent votes from Nouns holders
+* Run a direct reward (in both ETH and NFT prizes) experiment to directly incentivize voting
+
+**Target objectives in 3 months:**
+* 75% of new nouns are delegated to voters who vote on more than 50% of props they're eligible to
+* 50% participation in a rolling average of past 3 proposals
+
+## Transparency & decentralization
+As a governance platform, we will take measures to maintain transparency and avoid centralization of power by taking the following measures: 
+* Make Github repo public within 1 month (with proper documentation to come over time)
+* Publish all data monthly to public google sheets, or equivalent (such as API or onchain mirror)
+* Current Agora team members added together will commit to not represent more than 5% of nouns.
+
+## Team
+Yitong – Project lead & designer: co-founder of Vector DAO, and previously design + product at Coinbase. Prop builder for #87, contributor to Nouns Vision, delegate.
+
+0xcaff – Engineer: Built the v1 of Agora, previously engineer at Coinbase.
+
+Tom Taubkin – Protocol Engineer: Contributor to several defi projects, previously engineer at Coinbase
+
+Mrtn – Ops / Community: Delegate from nounlets, funded via Prop House as governance historian, deployed Agora on lil nouns, previously pm on nouns.builder, and pm at Google.
+
+## Funding request & terms
+**Funding request:**
+
+We’d like to request $221,000 to fund the team for a quarter (170ETH @ $1300/ETH, a 20% decrease from previous ask) and 20 ETH to incentivize voter participation.
+
+**Fund transfer mechanics**
+
+50% of the team portion & the participation incentive will be immediately deposited to the team’s wallet
+
+50% of the team portion will be streamed over a period of three months from a 3/5 multisig held by trusted members of the community. Signers for this safe will be: Elad, Krel, Yitong, Seneca, and one more to be confirmed.
+
+As of this writing, $221,000 is 170 ETH. In order to account for ETH volatility, we will request a 30 ETH buffer. Upon fund release, $221,000 worth of ETH will be sold, with half deposited to the Agora multisig, and half deposited to the stream multisig. The remaining ETH will be sent back to the treasury.
+
+## Appendix: some illustrative mocks
+These are purely concepts to illustrate some of the areas we’re going to invest in. We’ll need to iterate on these designs a lot before implementing them, so please take them as general directions vs exact specs.
+
+ ![](https://i.imgur.com/WiopwP2.gif)
+*Enable time-bound, fractional, and supercedable delegation by a proxy contract to unblock funds & whales who are currently unwilling to delegate*
+
+![](https://i.imgur.com/jhXYctm.png)
+*Implement an inactive nouner bounty program, highlighting and incentivizing the community to reach out to inactive holders.*
+
+![](https://i.imgur.com/uFmaeEI.png)
+*Run a direct reward (in both ETH and NFT prizes) experiment to directly incentivize voting*
+",QUEUED,291,246,0,37,0,37,0,163,0,163,15749103,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x05a286e5165d72823a749b00b009a2af0dc36ff7'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x0d93f519aeb8d75d208b8fcd5730de02f673542c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x13eef4ef8fca471f242ab0f8f49a3db6017ada33'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x141b63d93daf55bfb7f396eee6114f3a5d4a90b2'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '51', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x36a5bc205df1ed65c86301022cfc343a6ce546ff'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x3993996b09949bba655d98c02c87ea6abf553630'}}, {'choice': 'FOR', 'weight': '3', 'voter': {'id': '0x5d4df391f56f0d8f854434e52a15b10b6501129f'}}, {'choice': 'FOR', 'weight': '16', 'voter': {'id': '0x5d802e2fe48392c104ce0401c7eca8a4456f1f16'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x6b491aebe1fdd3dff345b2cd915bdb3ad8ad3e84'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '19', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x8321795bdace7428d4fadfa30c2ee8e727e491e5'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9a2f6117d1ffa82ad0a2b36f133d476db5bd55f5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa1c0b11b86a46885b87c7ed68b91faa0c349e1cd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0xa86882277e69fbf0a51805cdc8b0a3a113079e63'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa903c06bf35286f6d1cdad25396748353979a44c'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xb52235dc0751ce6e171c51fbf459fd6637c6ccc8'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xc3fdadbae46798cd8762185a09c5b672a7aa36bb'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcb43078c32423f5348cab5885911c3b5fae217f9'}}, {'choice': 'FOR', 'weight': '14', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xce6404642bb08f897fce5317c1349656ca44f2d8'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcf4e26a7e7eae4b3840dd31c527096e1265ab990'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdb773adada14e6387080844c8d023ee8eff88ad1'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383'}}, {'choice': 'FOR', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdead753f9b1eb8f2f7372e8587e7c6e342daac89'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe085327c5ad2f77147f10973fed45fb19d734f7e'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xe7304ba0f157f2ade94015934284b6704bc72911'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}]",15762243,15781953,0xc3fdadbae46798cd8762185a09c5b672a7aa36bb
+155,"# CDT Work Continuation
+
+Hey all, my name is Christian. Working on Nouns full-time has been an amazing opportunity. I'd like to continue my work for the next 6 months as well. It's been an incredible learning experience, and I love building projects that serve the DAO and bring joy to the Nouns community.
+
+### **Overview of what I’ve done the last 6 months:**
+## **[PROP HOUSE](https://prop.house/)**
+I spent most of my time working on the **complete site redesign**. Besides making it more aesthetically pleasing, and cleaning up the codebase (removing unused code as we prepared to open-source it), I worked on new features to **increase the overall user experience** including:
+**-** New homepage with statistics
+**-** Dynamic social sharing cards
+**-** House & Round pages
+**-** Voting progress bar
+**-** User proposal progress card
+**-** Japanese translations
+**-** Rich text editor for prop creation
+**-** Search bar for Home, FAQ, House, and Round pages
+
+![prophouse](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/2X/1/190db5ad7841b57c47f1765534f99ea4ea514aaf_2_1380x832.jpeg)
+
+
+
+## **[NOUNS CENTER](https://nouns.center/)**
+The site has received **18K total site visits** and is officially **linked from the Docs tab** of [nouns.wtf](https://nouns.wtf/). It has been forked by 4 NFT communities: Lil Nouns, Mfers, Blitmap, and Forgotten Runes to be used as a tool for their community. I did automation work with Brian to allow for projects and talent to add themselves more easily as the site scales. I also shipped several new pages and updates: 
+**-** Funding (plus 3 funding guides: proposals, small grants, and prop house)
+**-** SubDaos
+**-** Dev Center (Docs, APIs, contract links, and Github repos)
+**-** Discord Channels
+**-** Learn (educational content from Nouncil YouTube)
+**-** Ideas
+**-** New assets (2 Figma boards, updated color palette, and 3D voxel noggles files)
+**-** New homepage
+
+![nounscenter](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/2X/d/dd1863e672d5828dce841f6074f1110d5bcaa06f_2_1380x834.png)
+
+## **[NOUN O' TALK](http://nounotalk.com/)**
+I released **14 episodes** with **33 guests**. They included: 
+***-** Personal deep dives*: 4156, Vape, and Brian Flynn
+***-** Communities*: the Nouncil and 4 subDAOs 
+***-** Topical*:  eSports, Noundry, and NFT NYC
+***-** Builders*:  Fomo Nouns, Design System, Nouns Terminal, and Roko
+
+The pod has garnered **~2,400 downloads**. I personally edited all past episodes. I recently brought on 2 producers to increase the quality. The next push will be YouTube. I created a [YouTube channel](https://www.youtube.com/channel/UCR5cYWsmNUELNY7-txoba-Q) (69 subscribers) so that we can upload full episodes, as well as 3-5 video clips, each week. I am personally a big YouTube user for podcasts and I believe this will be a great way to spread the word about Nouns on a platform we don't have a huge presence in. 
+
+![new_episodes](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/2X/c/ce7a16ae87085bcb48ad405ed1a84ab0daff1ddd_2_1380x832.jpeg)
+
+### **What I plan to work on for the next 6 months:**
+
+## **[PROP HOUSE](https://prop.house/)**
+I will **continue developing the Prop House web app**. As we prepare for the protocol launch, I will work on fixing bugs and frontend improvements, as I manage the vast majority of the frontend you see. I will add Spanish translations to the site and I will continue to ensure it's the best tool that it can be.
+
+## **[NOUNS CENTER](https://nouns.center/)**
+I'd like to [conduct a Prop House round](https://discourse.nouns.wtf/t/small-grants-prop-house-design-round-for-nouns-center/2601) for a proper redesign of the entire site and lead the development to create a **Nouns Center v2**. I will add documentation, as in a README with install instructions, and clean up the code to make it fork-friendly for other communities. I aim to **implement Search** across the entire site for easier access to all the information. I plan to **add translations** (Japanese & Spanish) too.
+
+## **[NOUN O' TALK](http://nounotalk.com/)**
+I will continue to book guests, do my own extensive interview prep, and **host the pod** itself. I also **manage the podcast team** (Messhup for art and Matthew & Brileigh, our two producers). Besides the weekly podcast I want to grow and **proliferate Nouns via YouTube** as I mentioned above. Lastly, I'd like to create a custom site for nounotalk.com.
+
+### **Funds requested:**
+
+$175K* paid over 6 months in USDC which equates to ~132E by todays valuation.
+
+*the equivalent of ~$190k (to absorb potential volatility in ETH from time period between submission and execution) would  be sent to a multisig managed by trusted members of the community (Seneca, Steve, and cdt), they would then convert $175k worth of ETH to USDC, set up the stream and then send back the remaining ETH to the DAO.
+
+The safe to handle cdt's transaction was created at `0xBD910e42a051da2252EB87B6f43d5E6e7cA85E3c`.
+
+Signers:
+seneca: `0xfC9e8dB5E255439F430e058462360Dd52b87cB4f`
+cdt: `0x1Bf87eAd2Fc2A4751CF5Bda011E5Afa320391cc2`
+steve: `0x7D81478Ad18ad375e53De6F74F3122F6be3499ca`
+
+Recipient
+cdt's address: `0x1Bf87eAd2Fc2A4751CF5Bda011E5Afa320391cc2`",QUEUED,290,248,1,37,1,39,0,205,2,207,15770605,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x021edd67d43b365a6401a5ee704aa6f264f3f4e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x0b20ed7418f153a6595e0f88c682df52d54b00c4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x0b3cf56e7df3bb3fb7201ffcd96d279b05ddd2e3'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x17cd072cbd45031efc21da538c783e0ed3b25dcc'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x203cc9b81c53fd649bd575e0e19925dd1a2a54da'}}, {'choice': 'FOR', 'weight': '49', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x2746d2693e4a80dc567f16d9c86a901f86734fd7'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x36a5bc205df1ed65c86301022cfc343a6ce546ff'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'FOR', 'weight': '32', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'AGAINST', 'weight': '0', 'voter': {'id': '0x5d4df391f56f0d8f854434e52a15b10b6501129f'}}, {'choice': 'FOR', 'weight': '17', 'voter': {'id': '0x5d802e2fe48392c104ce0401c7eca8a4456f1f16'}}, {'choice': 'FOR', 'weight': '11', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '19', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'ABSTAIN', 'weight': '2', 'voter': {'id': '0x8321795bdace7428d4fadfa30c2ee8e727e491e5'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa1c0b11b86a46885b87c7ed68b91faa0c349e1cd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa387c87102fc0b51939d0cf9a86f7edd05291d5c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa903c06bf35286f6d1cdad25396748353979a44c'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xc3fdadbae46798cd8762185a09c5b672a7aa36bb'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcb43078c32423f5348cab5885911c3b5fae217f9'}}, {'choice': 'FOR', 'weight': '17', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xce6404642bb08f897fce5317c1349656ca44f2d8'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcf4e26a7e7eae4b3840dd31c527096e1265ab990'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xd44e9b676e74ae45c0a39150be771eb189bb2337'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383'}}, {'choice': 'FOR', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xdead753f9b1eb8f2f7372e8587e7c6e342daac89'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe3064d830c35119a83402636816444446ac72d36'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}]",15783745,15803455,0x177751396d8236569c5c7b04232c7b7281a3b9f3
+156,"# The Nouns AI Pod
+
+## DESCRIPTION:
+
+The AI generated scripted, voiced over, and visuals created PROMO video for the pod :)
+
+[The AI pod promo Video!!](https://youtu.be/b5Ojfo6gVcU)
+
+### **TL;DR:**
+
+Following the initial AI residency, we wish to create The Nouns AI Pod.
+
+This prop is to fund 3 months of focus on continuing the research of our resident AI researchers:
+
+1. Further empowering Roko to be an AI secretary/assistant for the DAO! Helping information flow better with summaries, transcripts, reviews, answering questions and more. 
+2. Generating Nounish rich media (images, gifs, videos) and making the tools to generate such media accessible to the community at large to unleash their creativity
+3. Empowering other pods (e.g. ai-based team drafting for e-sports, planning events for otg)
+
+With each of these being built with monetization / expansion to other organizations in mind.
+
+---
+
+### WELL HOW DID THE INITIAL RESEARCH GO?
+
+You can see the initial small grant proposal here [https://discourse.nouns.wtf/t/small-grants-the-nouns-ecosystem-and-ai/1929](https://discourse.nouns.wtf/t/small-grants-the-nouns-ecosystem-and-ai/1929)  and Honk's extension post here [https://discourse.nouns.wtf/t/nouns-ai-honk-residency-extension/2357](https://discourse.nouns.wtf/t/nouns-ai-honk-residency-extension/2357)
+
+![https://imgur.com/JPkgn07](https://imgur.com/JPkgn07.png)
+
+[https://staging.roko.dev/](https://staging.roko.dev/) Is a live website where the team is experimenting and adding features with the goal of building a production ready webapp.
+
+We initially set out to accomplish two sprints, the first to be able to break down proposals into understandable summaries / reviews. The second was more focused on demonstrating some of the possibilities of AI and what it could bring to Nouns.
+
+I am happy to report that, thanks to an engaged community and support from key contributors Honk and Evets.eth we blew that goal out of the water.
+
+Together, we:
+
+- Held weekly sessions on Tuesdays which about 30 people regularly attended that shared developments with the project as well as educating them on fundamentals as well as cutting edge developments in machine learning
+- Built a pipeline that can breakdown proposals into reviews automatically as they as proposed on-chain (and post them to Twitter!!)
+- Built pipeline to turn recorded calls into text using SOTA voice to text then using a large language model to convert them into a bulleted summary
+
+![https://imgur.com/voyrcfZ](https://imgur.com/voyrcfZ.png)
+
+- Built a web interface that enables participants to easily consume summarized proposal content as well as edit them to better reflect their opinions
+    - [https://staging.roko.dev/](https://staging.roko.dev/)
+- Tested the ability to finetune our model using user generated content as guidance
+- Setup a backend infrastructure setup to support the ongoing development and improvement of the web interface
+- In addition, due to popular demand we began diving deep into AI generated media, we were able to generate images and video content (reactive to sound!) that features custom content (Noggles!)
+
+![https://imgur.com/hCb6gWe](https://imgur.com/hCb6gWe.png)
+
+![https://imgur.com/J1KHLy6](https://imgur.com/J1KHLy6.png)
+
+![https://imgur.com/gKTir4X](https://imgur.com/gKTir4X.png)
+
+![https://imgur.com/Vd9t0po](https://imgur.com/Vd9t0po.png)
+
+[The AI pod promo Video!!](https://youtu.be/b5Ojfo6gVcU)
+
+---
+
+### NEXT STEPS: THE AI POD
+
+The proposed AI Pod will have 3 main focuses:
+
+1. Continue Bringing Roko to life in the form of an AI Assistant to DAO members:
+- All Nouners and teams of funded props should have access to Roko's summarization capabilities for their related audio or text content (as long as they provide feedback on their results!!)
+- Work towards improving Roko’s corpus of data (e.g. Discourse posts, Discord messages) and learn how to incorporate these into a model to improve Roko’s Nounish knowledge base.
+- Roko's website could also be updated to include a search page where people could semantically search across that knowledge base whether it is just meeting / proposal content or if Discord / Discourse content was included.
+2. Explore AI Generated Media
+- Implement and host SOTA open source image generation models customized to be able to generate Noggles on powerful GPU servers so any DAO member can access it. 
+- Implement cutting edge developments as they are released (e.g. text to video, img to img, text to 3d, etc.), share our knowledge with the community, and incentivize their use!
+3. Community Engagement, Marketing, and Outreach (Competitions!!)
+- Put together competitions (with prizes!!) alongside groups like NoC to show off the best showcases of AI generated media leveraging Nouns AI tooling.
+- Assist various pods and DAO members with content generation - we've already had suggestions from helping visualize proposals to making and AI content generated coffee book and I know the community will have plenty more great ideas!!
+- Potential prop house round for utilizing the tooling?
+- Seek out partnerships with these opensource or other organizations to see if they would be interested in collaborating to try and further proliferate the brand!
+    - I’d LOVE to see us partner with some musicians to work with them to make them free music videos they could post that have Noun glasses in them or have a live show with AI generated visuals featuring Noggles
+
+---
+
+### THE FUTURE OF AI POD:
+
+Hopefully, during these three months, we will be able to not only share significant advancements in AI with the community, but also have a plan for how to take the next steps to grow the AI Pod further.
+We want to be able to show a path where this could become a self-sustaining effort that could grow and expand to other organizations, opening up a pipeline for monetization.
+We believe that this is a great opportunity to only grow and expand the Nouns ecosystem but give everyone who is a part of it superpowers that help proliferating the meme!!
+
+---
+
+### TEAM:
+
+- The Hero Shep (Background in AI/Education/Product Management)
+- Honk Diddly (Wizard [elite full stack developer])
+- Evets.ETH (Wizard [full stack developer])
+
+---
+
+### BUDGET: 164 ETH
+
+- 10% for all related infra (5k/mo)
+- 30% for The Hero Shep (20k per month)
+- 25% for Honk (15k per month)
+- 15% for Evets.ETH (10k per month)
+- 20% for Marketing and Community Engagement (Not only compensation for prizes but also to pay people to manage / run the competitions (e.g. prop house, NOC contests) & support other initiatives that arise. )
+
+BUFFER of 15% for volatility - All ETH not used strictly for reasons relating to volatility in ETH price or infra will be added to the Marketing and Community Engagement Funds
+
+This budget will be governed by the members of the AI Pod and controlled by a 2/3 multi-sig.",QUEUED,290,248,0,31,1,32,0,181,2,183,15772454,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x021edd67d43b365a6401a5ee704aa6f264f3f4e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x0b20ed7418f153a6595e0f88c682df52d54b00c4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '49', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x36a5bc205df1ed65c86301022cfc343a6ce546ff'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'FOR', 'weight': '32', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'FOR', 'weight': '3', 'voter': {'id': '0x5d4df391f56f0d8f854434e52a15b10b6501129f'}}, {'choice': 'FOR', 'weight': '17', 'voter': {'id': '0x5d802e2fe48392c104ce0401c7eca8a4456f1f16'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x67bace9bbdf3212509a7438ae026c7c9fbef6931'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '19', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'ABSTAIN', 'weight': '2', 'voter': {'id': '0x8321795bdace7428d4fadfa30c2ee8e727e491e5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa1c0b11b86a46885b87c7ed68b91faa0c349e1cd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa387c87102fc0b51939d0cf9a86f7edd05291d5c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa903c06bf35286f6d1cdad25396748353979a44c'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xc3fdadbae46798cd8762185a09c5b672a7aa36bb'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcb43078c32423f5348cab5885911c3b5fae217f9'}}, {'choice': 'FOR', 'weight': '14', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcf4e26a7e7eae4b3840dd31c527096e1265ab990'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383'}}, {'choice': 'FOR', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xdead753f9b1eb8f2f7372e8587e7c6e342daac89'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe3064d830c35119a83402636816444446ac72d36'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}]",15785594,15805304,0x5d4df391f56f0d8f854434e52a15b10b6501129f
+157,"# SaveArtSpace x Nouns Billboard Exhibition in NYC
+
+SaveArtSpace x Nouns Billboard Exhibition
+A Mix of Static Billboards & Digital Bus Shelters for $40k USD in NYC:
+
+8 - Billboards sized 22x11 - will be live for at least 4 weeks, up till someone else buys the space.
+6 - Digital Bus Shelters - will be live for 4 weeks total.
+
+Locations can be selected from a map/list of options. We can also have a discussion of whether we just want nouns glasses or also want to showcase some specific nouns (perhaps via some sort of auction that goes back to the nouns treasury).
+Prices are subject to change depending on city and install date and changes in ETH. So we may get slightly fewer or more depending on where the price settles when the ETH investment is approved and converted to USD to pay the vendors.
+
+Images can be seen here
+https://discourse.nouns.wtf/t/saveartspace-x-nouns-billboard-exhibition-in-nyc/2567/2",ACTIVE,290,248,20,11,1,32,68,32,1,101,15775877,"[{'choice': 'AGAINST', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0x021edd67d43b365a6401a5ee704aa6f264f3f4e4'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0x141b63d93daf55bfb7f396eee6114f3a5d4a90b2'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x203cc9b81c53fd649bd575e0e19925dd1a2a54da'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x41a7a1f43a1701d73524f32b9f51b353ed133a8d'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'AGAINST', 'weight': '17', 'voter': {'id': '0x5d802e2fe48392c104ce0401c7eca8a4456f1f16'}}, {'choice': 'AGAINST', 'weight': '0', 'voter': {'id': '0x67bace9bbdf3212509a7438ae026c7c9fbef6931'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '19', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0x8321795bdace7428d4fadfa30c2ee8e727e491e5'}}, {'choice': 'AGAINST', 'weight': '4', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x9d4162ca2f01583e2f34cb594e8cf198ace99dd3'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xa1c0b11b86a46885b87c7ed68b91faa0c349e1cd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xcb43078c32423f5348cab5885911c3b5fae217f9'}}, {'choice': 'AGAINST', 'weight': '15', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xcf4e26a7e7eae4b3840dd31c527096e1265ab990'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcf6165e56c3383978f6eaaf58b314af41569c0f0'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xd2a744047bb754040911ae14cb5bfe289812e9a9'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xd44e9b676e74ae45c0a39150be771eb189bb2337'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383'}}, {'choice': 'AGAINST', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xe085327c5ad2f77147f10973fed45fb19d734f7e'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xe3064d830c35119a83402636816444446ac72d36'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}, {'choice': 'AGAINST', 'weight': '3', 'voter': {'id': '0xf1544ba9a1ad3c8c8b507de3e1f5243c3697e367'}}]",15789017,15808727,0xd44e9b676e74ae45c0a39150be771eb189bb2337
+158,"# Nouns News - 1 Million Views Challenge
+
+![](https://i.imgur.com/pgdInAM.gif)
+
+**TL;DR**
+
+* Nouns News, a media group dedicated to bringing awareness of all things Nouns through authentic and engaging content across all social channels.
+* GOAL: **1 MILLION VIEWS** - we will return the 5th and last payment to the DAO treasury if we DO NOT reach the goal.
+* Budget: 78 ETH (10 allocated to giveways) for 9 people working for 5 months.
+
+
+
+**SUMMARY**
+
+After the success and funding of Nouns News Seasons 1-3, we have expanded our team and efforts to reach a wider audience.
+
+Our strategy is focused on **Top of Funnel marketing** tactics, to capture as many eyes as possible with content that is entertaining, educational, and engaging.
+
+**Objectives**
+
+1. Drive awareness and favorability of Nouns DAO as an innovative leader in the web3 space.
+2. Engage audiences outside of mainstream Web3 with Nouns brand.
+3. Build an authentic perspective through content that drives deeper interest in Nouns DAO.
+
+**Strategy**
+
+**TikTok** is the platform for **virality**. Trending content on TikTok has the ability to inspire people to take action and learn more about Nouns. We will be focusing on staying on top of the trends and tying it into Nouns DAO and Nouns projects. 
+
+We have a 1M views goal we are trying to reach, but the opportunity goes beyond the metrics. It is about increasing **brand awareness, favorability** and **engagement** with other builders, community members and the general public to grow the brand in a positive light and maximize our social presence.
+
+![](https://i.imgur.com/mOTteC7.png)
+
+
+![](https://i.imgur.com/PmsnOqf.png)
+
+*Nouns FAQ:*
+![](https://i.imgur.com/FRnb5Da.png)
+
+[https://www.youtube.com/watch?v=a5f23GnpTuk](https://www.youtube.com/watch?v=a5f23GnpTuk)
+
+
+**Innovation** - A new vtube avatar will be designed and used with AI technology to create educational Nouns content. We will be updating our graphics, music and other branding elements.
+
+![](https://i.imgur.com/7dMac35.png)
+
+
+**Cross-Platform Approach** - In order to connect with unique audiences across all platforms, we will repurpose content to each of our social channels (TikTok, Youtube, Twitter, Instagram, Facebook and Website). This gives us greater opportunities to rank in search - within the platforms and on Google.
+
+![](https://i.imgur.com/v14oFDX.png)
+
+
+**Collaborations** - Partnering with other Nouns projects and communities to showcase their nounish products/ideas/initiatives (from IRL projects, like Nouns OTG and Nouns Treasure Hunts, to Nounish product launches, like merch/coffee/goods).
+
+![](https://i.imgur.com/RLBMo4u.png)
+
+
+*Nouns Vision Sunglasses Trend:*
+![](https://i.imgur.com/x8aGIjE.png)
+
+[https://www.youtube.com/watch?v=NCz3B4Q6adk](https://www.youtube.com/watch?v=NCz3B4Q6adk)
+
+**Contests & Giveaways** - Giveaways are one of the most powerful content types, as they are a great entry point for new members. We’d like to continue hosting weekly or bi-weekly contests, with ETH prizes and/or nounish products from our collaborations. We’d like to focus not only on rewarding new members online, **but also people who participate in public video shoots.**
+
+![](https://i.imgur.com/B1ek5UU.png)
+
+
+*Brandweek Miami 2022:*
+![](https://i.imgur.com/2BFwCU4.png)
+
+[https://www.youtube.com/watch?v=v6ey8FY-B0w](https://www.youtube.com/watch?v=v6ey8FY-B0w)
+
+**Community Involvement** - We will interact with all the nounish communitites, delivering monthly reports on our progress and implementing new and creative ideas with their feedback.
+
+
+**BY THE NUMBERS**
+
+![](https://i.imgur.com/i6IO3Op.png)
+
+![](https://i.imgur.com/oAWB1xy.png)
+
+
+
+*Some of the top performing posts:*
+
+![](https://i.imgur.com/vpnaXVB.png)
+[https://www.youtube.com/watch?v=PJ8PJM9h1ys](https://www.youtube.com/watch?v=PJ8PJM9h1ys)
+
+![](https://i.imgur.com/wFbJ3KA.png)
+[https://www.youtube.com/watch?v=7OmZuSnDYxY](https://www.youtube.com/watch?v=7OmZuSnDYxY)
+
+![](https://i.imgur.com/iGwJwlt.png)
+[https://www.youtube.com/watch?v=9A73BHeB1gM](https://www.youtube.com/watch?v=9A73BHeB1gM)
+
+
+
+![](https://i.imgur.com/ZK0hhaq.png)
+
+![](https://i.imgur.com/Pis2hTv.png)
+
+
+**TEAM**
+
+
+**Director/Producer**
+**Leo Clark**: [@leoclark](https://twitter.com/leoclark), Discord:leoclark.eth ⌐◨-◨#2267
+Filmmaker @ Nouns DAO Prop #71 • Nouncillor • Producer/Speaker @ Nouns in Rio Prop #98.
+
+**Content Presenter/Host**
+**Nikki**: [@web3nikki](https://twitter.com/web3nikki), Discord:NonfungibleNikki#0001
+Miami-based web3 strategist at an influencer marketing agency.
+
+**Content Strategist**
+**Hypnos**: [@hypnoseffect](https://twitter.com/hypnoseffect), Discord:Hypnos#0007
+Miami-based former professional gamer. Current builder and social media strategist.
+
+**Social Media Manager**
+**JP**: [@eusou_jp](https://twitter.com/eusou_jp), Discord:eusou.jp#8930
+Building [Nouns in Rio](https://twitter.com/nounsinrio), [Nouns News](https://twitter.com/nounsnews) and more. Created the [first ever nounish treasure hunt](https://mobile.twitter.com/NounsInRio/status/1574418495911219201).
+
+**Assistant Producer + Webmaster**
+**!xargs**: [@mamaxargs](https://twitter.com/mamaxargs), Discord: !𝚡𝚊𝚛𝚐𝚜 | ⌐◨-◨s4Teachers!#0333
+Noun O’Clock • Kitchen Nouncil • Nouns.Blog
+
+**Art Director**
+**Messhup**: [@messhup](https://twitter.com/messhup), Discord:Messhup#2469
+
+**Editor / VXF Artist**
+**Gustavo Horn**: [@GuguHorn](https://twitter.com/GuguHorn), Discord:gushorn#7260
+Director at Horn Productions • Portfolio: [http://www.hornproducoes.com/demoreel](http://www.hornproducoes.com/demoreel)
+
+**Website Design Consultant**
+**metamonk**: [@m3tamonk](https://twitter.com/m3tamonk), Discord:metamonk#0001
+noundation.wtf • Nouncillor • nouns.domains • design/dev
+
+**Music Director**
+**Woody**: [@SuperTightWoody](https://twitter.com/SuperTightWoody), Discord:SuperTightWoody#3744
+Grammy Nominated Music Producer • Owner of Super Tight • Maker of @cryptoadz_show • Co-creator @GItoadz • @DickToadz • Member of @nouncil • @noun_o_clock ⌐ⓝ°ⓒ
+
+
+
+**BUDGET - 78 ETH**
+The total ETH amount will remain in the Multisig (nounsnews.eth) for the monthly payments.
+Total operation costs (for 5 months and a team of 9 people) - **68 ETH**
+Contests & Giveaways - **10 ETH** for 5 months (or 20 weeks)
+
+**5 monthly payments:**
+1 - October 2022 - 24 ETH
+2 - November 2022 - 13.5 ETH
+3 - December 2022 - 13.5 ETH
+4 - January 2023 - 13.5 ETH
+5 - February 2023 - 13.5 ETH
+
+*MULTISIG SIGNERS (2/5)*
+1 - Leo Clark
+2 - Meshhup
+3 - !xargs
+4 - JP
+5 - Hypnos
+
+
+**LINKS**
+
+[https://barracuda.io/nounsnews](https://barracuda.io/nounsnews)
+
+Thank you for reading and watching 🙏
+",ACTIVE,291,250,16,9,1,26,65,14,1,80,15783550,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0x05a286e5165d72823a749b00b009a2af0dc36ff7'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x13eef4ef8fca471f242ab0f8f49a3db6017ada33'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x203cc9b81c53fd649bd575e0e19925dd1a2a54da'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0x3993996b09949bba655d98c02c87ea6abf553630'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x41e72d30c967a595cc2c7dbc9e1ed98638f3b8c8'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x4e142fe48c71092e78be1f1082fa8ce0cb15c354'}}, {'choice': 'AGAINST', 'weight': '18', 'voter': {'id': '0x5d802e2fe48392c104ce0401c7eca8a4456f1f16'}}, {'choice': 'AGAINST', 'weight': '4', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x9d4162ca2f01583e2f34cb594e8cf198ace99dd3'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa1c0b11b86a46885b87c7ed68b91faa0c349e1cd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa903c06bf35286f6d1cdad25396748353979a44c'}}, {'choice': 'AGAINST', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcb43078c32423f5348cab5885911c3b5fae217f9'}}, {'choice': 'AGAINST', 'weight': '15', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0xcf4e26a7e7eae4b3840dd31c527096e1265ab990'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xdb7f66f3d53a6a0ec43a49c7b6713e1bd3bd1383'}}, {'choice': 'AGAINST', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xe085327c5ad2f77147f10973fed45fb19d734f7e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe3064d830c35119a83402636816444446ac72d36'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}]",15796690,15816400,0xcc2688350d29623e2a0844cc8885f9050f0f6ed5
+159,"# Set proposal threshold
+
+Currently we have a threshold in place which requires 2 nouns to put a proposal on chain. The intention of the threshold is to reduce spam. For the current size of nounsDAO it is not necessary. This is a built-in threshold which can be adjusted at any time with a proposal.
+
+**Proposal to change the threshold from 2 nouns to 1 noun for putting a proposal on chain.**
+This would allow any address with a minimum of **1 NOUN** to formally propose to the DAO, until the Noun supply reaches **1000**. After that the threshold will be set to 2 again.
+
+This is an updated version of [Prop 134](https://nouns.wtf/vote/134).",ACTIVE,292,251,3,17,0,20,24,41,0,65,15791423,"[{'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x05a286e5165d72823a749b00b009a2af0dc36ff7'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '3', 'voter': {'id': '0x2f8ab52fc3b40cef63ccc25f96d2dcf6b7a2b735'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x3993996b09949bba655d98c02c87ea6abf553630'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x41e72d30c967a595cc2c7dbc9e1ed98638f3b8c8'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x4e142fe48c71092e78be1f1082fa8ce0cb15c354'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'FOR', 'weight': '19', 'voter': {'id': '0x5d802e2fe48392c104ce0401c7eca8a4456f1f16'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x8e71c9644898665a91e4db3dee8bdde97b3c71bc'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9d4162ca2f01583e2f34cb594e8cf198ace99dd3'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa903c06bf35286f6d1cdad25396748353979a44c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'AGAINST', 'weight': '15', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcf4e26a7e7eae4b3840dd31c527096e1265ab990'}}, {'choice': 'AGAINST', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe085327c5ad2f77147f10973fed45fb19d734f7e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe0e7ee036a7ed4a7699f8e137b5de5eff15e1801'}}]",15804563,15824273,0x8321795bdace7428d4fadfa30c2ee8e727e491e5
 16,"# Proposal to name a recently discovered species of glass frog after Nouns
 
 I have been informed of an opportunity to name a species of glass frog newly discovered in the Dracula nature reserve in Ecuador. The EcoMinga Foundation (EcoMinga Foundation) is raising funds alongside its partner Rainforest Trust (www.rainforesttrust.org 2) in exchange for the right to name this glass frog.
@@ -5303,6 +5832,90 @@ The breakdown of the use of funds would be roughly the following, subject to dis
 40% to Rainforest Trust’s Climate Action Fund, which funds protection of rainforest to sequester carbon
 
 Once this proposal passes and the ETH gets sent, I'll calculate the equivalent USD amount and wire the fiat to Rainforest Trust within 5 business days (unfortunately the non-profit doesn't accept crypto donations). Rainforest Trust will then pass on Ecominga's portion to them. ",EXECUTED,69,69,2,14,0,16,8,27,0,35,13554855,"[{'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x01db485f57dc000e761b85641f78c9d212a2eeab'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1254958bd5073c6b238e516298f0c48f6f60a78e'}}, {'choice': 'FOR', 'weight': '9', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'AGAINST', 'weight': '7', 'voter': {'id': '0x43a330dec81bbd5e21f41c6b8354e54d481efc93'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x48e3e06520ff208746b8555076f7af3e71af1a4f'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9646e0f7544b8ee3649e7ac77eef0cf5b53b748a'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9cb8c1463471ee4d8dd6887035f4835a1745e92a'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa5960ad956acbb8addebdc29e5bee014f201d8bd'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xca6caedcc79d4d6541b3f82dc7754a14d9b196f8'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xeb1c22baacafac7836f20f684c946228401ff01c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf476cd75be8fdd197ae0b466a2ec2ae44da41897'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xfb216faf1b1650c26b0cfdf879379ba46c3da66b'}}]",13567995,13587705,0x01db485f57dc000e761b85641f78c9d212a2eeab
+160,"# Set Voting Period to 5 days
+
+As the number of nouners and nouns sub-communities increase, we will see more proposals appear on-chain without prior off-chain coordination. This is a proposal to increase the 'Voting Period' (from the current 3 days) to 5 days, so that nouners have more time to diligence proposals and to decide how they will vote.
+
+The 'Voting Delay' is currently 2 days and is not changed by this proposal. If this proposal passes, it will take ~1 week between proposal submission and the conclusion of voting.",CANCELED,0,0,0,0,0,0,0,0,0,0,15792085,[],15805225,15824935,0x4754b7e3dede42d71d6c92978f25f306176ec7e9
+161,"# Set Voting Period to 5 days and Voting Delay to 2 days
+
+As the number of nouners and nouns sub-communities increase, we will see more proposals appear on-chain without prior off-chain coordination. 
+
+This is a proposal to: 
+- set 'Voting Delay' to be 2 days. This is a minor change that accounts for block times changing to 12 seconds after the merge.
+- set 'Voting Period' to 5 days, so that nouners have more time to diligence proposals and to decide how they will vote.
+",ACTIVE,292,251,0,19,0,19,0,79,0,79,15792550,"[{'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x021edd67d43b365a6401a5ee704aa6f264f3f4e4'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x05a286e5165d72823a749b00b009a2af0dc36ff7'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x1c85a8cd74bca05a993d62a42fd229a8495064ad'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x3993996b09949bba655d98c02c87ea6abf553630'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x41e72d30c967a595cc2c7dbc9e1ed98638f3b8c8'}}, {'choice': 'FOR', 'weight': '33', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9d4162ca2f01583e2f34cb594e8cf198ace99dd3'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa903c06bf35286f6d1cdad25396748353979a44c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xc8598168d8475133de3150eff9b0ce27fb9b038d'}}, {'choice': 'FOR', 'weight': '15', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcf4e26a7e7eae4b3840dd31c527096e1265ab990'}}, {'choice': 'FOR', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe085327c5ad2f77147f10973fed45fb19d734f7e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe0e7ee036a7ed4a7699f8e137b5de5eff15e1801'}}]",15805690,15825400,0x4754b7e3dede42d71d6c92978f25f306176ec7e9
+162,"# Nouns Fair @ ETHSanFrancisco
+
+## TD;DR
+NounsDAOAmigos was invited by ETHGlobal to make the third edition of the Nouns Fair at ETHSanFrancisco this Nov 4-6, 2022. We are asking for 23.25 ETH.
+
+## Context
+We are NounsDAO Amigos. We are building a Spanish-speakers community for LatAm and beyond. We’ve been proliferating the ⌐◨-◨ adding some spice and a pinch of Ñs.
+
+We recently hosted the second edition of the Nouns Fair. An IRL fun experience aimed to proliferate Nouns at the ETHBogota hackathon. We’ve confirmed the importance of this kind of event that helps increase awareness of the DAO, onboard potential builders, and put noggles in the eyes of hundreds.
+
+[https://www.youtube.com/watch?v=Qe1R5WFT9_E](https://www.youtube.com/watch?v=Qe1R5WFT9_E)
+
+More detailed info can be found here - [https://discourse.nouns.wtf/t/nsfw-nouns-fair-ethbogota/2326](https://discourse.nouns.wtf/t/nsfw-nouns-fair-ethbogota/2326) & [https://discourse.nouns.wtf/t/nsfw-nouns-fair-ethbogota/2326/7?u=mono](https://discourse.nouns.wtf/t/nsfw-nouns-fair-ethbogota/2326/7?u=mono)
+
+## Nouns Fair @ETHSanFrancisco
+Given the success of the Nouns Fair in Colombia, **the ETHGlobal team invited NounsDAOAmigos to make a new edition, this time at ETHSanFrancisco!** We believe it’s important to keep having a presence at IRL events like this. As we saw in Mexico and Colombia, this is a great environment for spreading the ⌐◨-◨ and growing our Spanish-speaker community.
+
+**Goals**
+- Make a new amigo, San Francisco
+- Onboard potential contributors
+- Put Nouns in the eyes of hundreds of builders
+
+**Details**
+
+Place: San Francisco, California
+Venue: Palace of Fine Arts
+Dates: November 4 - 6, 2022
+Team: NounsDAOAmigos
+
+The Nouns Fair will be a 3-day cultural experience focused on builders where they will be able to engage with others and learn about Nouns. This activation will be a localized nounish experience with photo opportunities, games, merchandise, and an NFT gallery. The proliferation of culture á la nounish. The following are examples of what happened in Bogotá and what we’ll create for San Francisco with a different flavor:
+
+**Photo-opportunity & noggles**
+A fully Nouns-branded photo station where attendees can take selfies and full-body photos will serve as a welcoming station. We want to create a photo set where people can feel nounish and share it on the internet. Of course, physical noggles are key.
+![](https://i.imgur.com/XGMsKWG.jpg)
+![](https://i.imgur.com/i9Ww7cU.jpg)
+![](https://i.imgur.com/W9LifGd.jpg)
+
+
+
+**Games**
+Two different games will be available at the place: **foosball**, and **a traditional local game**. We believe these games have a nounish feeling and will serve as an engagement factor.
+![](https://i.imgur.com/14ONVu1.jpg)
+
+
+
+**Merchandise**
+Pins, stickers, and T-shirts will be distributed as rewards for spending time and engaging with the Nouns Fair by playing games and taking photos.
+![](https://i.imgur.com/TEqCnbF.jpg)
+![](https://i.imgur.com/exzjPyD.jpg)
+
+
+
+**NFT gallery**
+A 5 screens NFT gallery representing local artists and some nounish representatives.
+![](https://i.imgur.com/SvvfxNS.jpg)
+![](https://i.imgur.com/iCu328D.jpg)
+
+
+**Costs and execution**
+Given our past experiences and the recent Nouns Fairs at ETHMexico and ETHBogota, we came up with this budget to make it suitable for ETHSanFrancisco in the US. **We are asking for 23.25 ETH**.
+![](https://i.imgur.com/XSlixrD.png)
+
+
+Costs are approximate. ETH avg. price of 1,200 USD. Prices in red are not final and we'll seek to reduce costs as much as possible. The difference in these prices will be returned to the DAO.
+
+We are excited about this new opportunity to keep creating nounish experiences IRL that can be replicated in other countries. But most of all, to spread the ⌐◨-◨ in a fun way!
+
+**Transactions**
+Due to the time sensitive nature of this proposal, NSFW has already funded NounsDAOAmigos to execute on this project.  The 23.25 ETH transaction in this proposal will go to refund NSFW.
+
+",ACTIVE,292,251,1,11,0,12,0,24,0,24,15797966,"[{'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1e66a3d0a6a327b1f29e8acf3a3d9e1e4e088683'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x2a9f26da17e9af433ed65084ad3acef36b08b8a2'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x3993996b09949bba655d98c02c87ea6abf553630'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x4e142fe48c71092e78be1f1082fa8ce0cb15c354'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x67bace9bbdf3212509a7438ae026c7c9fbef6931'}}, {'choice': 'AGAINST', 'weight': '0', 'voter': {'id': '0x70ece45cdc64a768f936ccb8ac851578251363e3'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa903c06bf35286f6d1cdad25396748353979a44c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xcf4e26a7e7eae4b3840dd31c527096e1265ab990'}}, {'choice': 'FOR', 'weight': '8', 'voter': {'id': '0xdcb4117e3a00632efcac3c169e0b23959f555e5e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe0e7ee036a7ed4a7699f8e137b5de5eff15e1801'}}]",15811106,15830816,0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e
 17,"# Fund design, engineering, and community contributors
 
 ### Descripton
@@ -6292,493 +6905,3 @@ These funds will be sent to the eth wallet for UNICEF France and directed to Ukr
 
 uniceffrance.eth  (0xA59B29d7dbC9794d1e7f45123C48b2b8d0a34636)
 ",EXECUTED,141,139,0,23,0,23,0,61,0,61,14315827,"[{'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1977c4b06a76c160eff920c67fbc0635124364c8'}}, {'choice': 'FOR', 'weight': '21', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x32d1a53f6709a03f4b6cf4cb0501204ba188d4f5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x36a5bc205df1ed65c86301022cfc343a6ce546ff'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x56178626332fc530561535eeaa914b863aa455f2'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x73222225044ce0fc672ff9b6f9730d0a0421382c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x8323f1c687f7e2296ec71ee3549a7430ea7ec730'}}, {'choice': 'FOR', 'weight': '8', 'voter': {'id': '0x83fcfe8ba2fece9578f0bbafed4ebf5e915045b9'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x879253b5cc2b13bb976e075f0571f85454a315f6'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x8e71c9644898665a91e4db3dee8bdde97b3c71bc'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa1e4f7dc1983fefe37e2175524ebad87f1c78c3c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa422bfff5daba6eeefaff84debf609edf0868c5f'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xaca3b4110403f3c4dacb35a7b3aa0a84efb6a3e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xaf05abcfe204f9c2e5e5cdf83e485f7f72eb0e9f'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xd3e2e76e4ab0322614fe7aaa3be0b04bed83d0d0'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xd3e401814d1faa8ca0419ecccbfee93ac7b15b31'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xf548e317e87434b1657f84dd57dea0c9d31b502f'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf6c625851d48fe26b50d96b821a87efc7e35c222'}}]",14328967,14348677,0xd3e2e76e4ab0322614fe7aaa3be0b04bed83d0d0
-43,"# Refill Retroactive Funding and Small Grants Pool
-
-Proposal by Noun 22
-
-The Retroactive Funding and Small Grants Pool is running low on ETH and needs to be refilled. Since [inception](https://nouns.wtf/vote/13) the group has funded a number of project trials, Nouns derivatives, tattoos, ⌐◨-◨s, and other contributions to the Nouns ecosystem. The full list of everything the group has paid out is available [here](https://noun22.notion.site/noun22/Nouns-DAO-Small-Grants-ac22114a6c004bafa500e2d824e32dc3).
-
-This group was formed with an initial pool of 20 ETH and was [topped up with 50 ETH](https://nouns.wtf/vote/31) in January 2022. This proposal would top up the group's multisig with another 100 ETH.",EXECUTED,145,142,0,20,0,20,0,67,0,67,14354623,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1977c4b06a76c160eff920c67fbc0635124364c8'}}, {'choice': 'FOR', 'weight': '22', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x2c6941d2174212656a512c7ab9e86e16ceaa6359'}}, {'choice': 'FOR', 'weight': '13', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x73222225044ce0fc672ff9b6f9730d0a0421382c'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x8323f1c687f7e2296ec71ee3549a7430ea7ec730'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x879253b5cc2b13bb976e075f0571f85454a315f6'}}, {'choice': 'FOR', 'weight': '3', 'voter': {'id': '0x8e71c9644898665a91e4db3dee8bdde97b3c71bc'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xb054e7683f26273b4ba7454df9a71c578506aa01'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xb47a70df538b9a3b591bc5d75da66a04c879b291'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xceb78abfad166c11e350156fd671b385265a6c87'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xd3e401814d1faa8ca0419ecccbfee93ac7b15b31'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf6c625851d48fe26b50d96b821a87efc7e35c222'}}]",14367763,14387473,0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e
-44,"# Nouns Acquisition Committee
-
-## Create new workstream: Nouns Acquisition Committee
-The DAO has socially signaled a desire to acquire Nouns, either in the treasury or on-demand, for a variety of potential use cases including:
-- experiment with fractional ownership/governance protocols
-- provide collateral to one or more NFT lending facilities
-- add option to transfer Nouns as part of proposal transactions
-
-We propose the creation of the Nouns Acquisition Committee workstream: a group comprised of Nouners who facilitate the purchase and distribution of Nouns on behalf of the DAO. This approach allows the DAO to acquire Nouns in stages as needed and avoid many of the negative externalities expressed by Nouners.
-
-## Other approaches and issues
-1. Buy from secondary
-    * net loss of ETH to the treasury
-    * easily gamed by secondary market participants
-2. Mint directly to the treasury
-    * navigate technical and execution risks of swapping out the NounsAuctionHouse implementation
-    * potential brand damage around increasing the Noun supply by more than 1 per day
-
-## Workstream mandates
-attempt to acquire up to 3 Nouns from the daily public auction
-for any given auction do not exceed 20% of average settle price of the last three (3) auctions
-hold the (3) Nouns in the workstream multisig and delegate votes to the Nouncil
-as uses materialize, allocate Nouns from the multisig for these purposes at the discretion of the committee
-once all Nouns are allocated request funding for acquiring more Nouns
-
-## Workstream members
-Gnosis Safe: 0x9298B97dE93784635900163e582A5D9e570f35a5
-vapeape: 0x88f9E324801320A3fC22C8d045A98Ad32a490d8E
-noun22: 0x75Ee6eb3d8DAcf41eE2e5307090B197D3E1Cca6E
-rumi: 0x1977C4B06a76c160EfF920c67FbC0635124364c8
-
-## Transaction
-transfer 175 ETH to 0x9298B97dE93784635900163e582A5D9e570f35a5
-
-## Discourse Discussion
-[https://discourse.nouns.wtf/t/create-new-workstream-nouns-acquisition-committee/796](https://discourse.nouns.wtf/t/create-new-workstream-nouns-acquisition-committee/796)
-",EXECUTED,152,148,1,17,2,20,1,78,1,80,14402013,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x17cd072cbd45031efc21da538c783e0ed3b25dcc'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1977c4b06a76c160eff920c67fbc0635124364c8'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x1984edf70973e1389548f21cd0dcb15b408240c9'}}, {'choice': 'FOR', 'weight': '23', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0x32d1a53f6709a03f4b6cf4cb0501204ba188d4f5'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x47d4f20ae83bcd350105f199f900e6e6104dab6a'}}, {'choice': 'FOR', 'weight': '15', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x73222225044ce0fc672ff9b6f9730d0a0421382c'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x7bee754c1b75917cadc51e23f69304419970b04f'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0x83fcfe8ba2fece9578f0bbafed4ebf5e915045b9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xcb6fbf9b4e822bed1a8365c0c32e66bd7a779bae'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xd3e2e76e4ab0322614fe7aaa3be0b04bed83d0d0'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}, {'choice': 'ABSTAIN', 'weight': '0', 'voter': {'id': '0xf8a065f287d91d77cd626af38ffa220d9b552a2b'}}]",14415153,14434863,0x1977c4b06a76c160eff920c67fbc0635124364c8
-45,"# Retain builder to work on nouns.wtf for 6 months
-
-Proposal by brianj, submitted on-chain by Noun 22
-
-### TLDR
-
-I have been the Nouns DAO engineering resident for the last 3 months (funded under Prop 17) and I requesting a 6 month continuation of my residency.
-
-### What I did during Prop 17
-
-My residency under Prop 17 had the following goals:
-
-1. Update the UX of the auction page and integrate it with the Noun profile pages
-2. Update the UX of the governance page
-3. Update the UX of the proposal page
-
-I achieved all of these goals during Prop 17. In addition, I also took it upon myself to do the following:
-
-1. Created the (recently revamped) nounsstats.wtf page which provides insight into Noun rarity and Noun Governance participation
-2. Created (pro bono) a bot to automatically create snapshot votes for Shark DAO based on the creation of new on-chain Nouns DAO proposals
-3. Helped automate parts of Bidder POAP
-4. Review PRs for nouns.wtf
-
-### What I will do during my next residency
-
-I have two main goals for my next residency:
-
-#### Continue to maintain nouns.wtf
-
-I will be taking on more of an ownership role of nouns.wtf going forward. This means that in addition to reviewing inbound PRs, I will be responsible for ongoing bug fixes and improvements. 
-
-One particular task to call out as part of improvements is getting to a few UI details that we didn't have time for during Prop 17 (ex: bid history modal).
-
-#### Make nouns.wtf more robust, extensible, and contributor friendly
-
-1. Revamp CI / CD pipeline to allow easy deploy to prod (process right now is very manual)
-2. Add real time error monitoring so we can rollback bad changes quickly with minimal negative user impact
-3. Generally improve code quality and documentation of the codebase to make it more contributor friendly (in particular, documentation around our Github processes to make it easier for new contributors to onboard)
-4. Refactor nouns.wtf to use a nouns component library to allow people to easily build on our “look and feel”
-5. Localize nouns.wtf to increase the reach of our brand to non-english audiences 
-6. Security audit to assess risk and patch any potential exploits should they exist
-
-### Proposed workflow
-
-I propose the following framework for tracking my progress and giving the DAO visibility into my work. 
-
-#### Monthly updates
-
-I will give monthly written updates to the DAO. These will be akin to investor update emails.
-They will include:
-1. What did I say I was going to get done last month
-2. What of that did I actually get done
-3. What am I committing to getting done in the coming month
-
-#### Project scoping docs
-
-For every distinct project I take on, I will write a short scoping doc (1-2 pages) which I will share with the community for visibility (either on Discord or Github). In this context one project roughly equals one bullet point in the section of my goals (ex: localize nouns.wtf would be one project).
-
-These scoping docs will include the following information:
-1. Project goals (project must do x, should do y)
-2. Project non-goals (what, if anything, is explicitly out of scope)
-3. High level description of technical aspects of proposed change
-4. Project milestones with ETAs
-
-#### Github projects + Discord
-In addition to tracking progress at the project level, I will continue to use Github issues, Github projects, and frequent updates to the Nounders (in a private project Discord channel) to promote accountability and give the DAO visibility into my daily work. 
-
-
-### Proposed compensation
-
-I propose that I am compensated 62.52414 ETH over 6 months (10.42069 ETH per month distributed via a Sablier stream).
-
-I think this is a fair rate for 2 reasons:
-1. 22's recent proposal passed at this rate. We were both previously funded by Prop 17
-2. This rate is fairly in line (in fact a bit lower) on an annualized + USD converted basis with what I was making in my previous normie tech job / what I was offered by normie tech companies when I recently interviewed (~4 months ago)
-
-
-
-### Closing thoughts
-
-I believe that over the last 3 months, I've show that I can execute with little oversight and generate value for the DAO (in excess of original project scope). I have greatly enjoyed building with all of you over the last 3 months and hope you will give me the opportunity to continue with you on this great journey.",EXECUTED,155,151,0,12,0,12,0,61,0,61,14439095,"[{'choice': 'FOR', 'weight': '23', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x32d1a53f6709a03f4b6cf4cb0501204ba188d4f5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x33daf8e90cd1f214cc25a1865649e847254f2ece'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '12', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0x83fcfe8ba2fece9578f0bbafed4ebf5e915045b9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xaf05abcfe204f9c2e5e5cdf83e485f7f72eb0e9f'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xf86a6fa100f50e9e715b57d176214c93e6d6bcea'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf8a065f287d91d77cd626af38ffa220d9b552a2b'}}]",14452235,14471945,0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e
-46,"# Marketplace Pod Proposal
-
-## Goal
-
-Create a Nouns marketplace for originals and extension projects.
-
-## Why?
-
-* Create a free marketplace for secondary sales of Nouns.
-* Facilitate the exentions ecosystem: make it easier to search and discover the Nouns ecosystem.
-
-Build distribution for the NounsDAO: build community and liquidity that NounsDAO can use to potentially curate in the future.
-
-## Considerations
-
-* 0% fees
-* No official endorsement of derivatives
-* Linked to from nouns.wtf header
-* Feels nounish in branding and aesthetic
-* Entirely open source
-* Low barrier to entry for derivatives to be added to the marketplace
-* This will be manually operated to start and managed by the marketplace pod.
-* We can work on an automated and more trustless way to recognize derivatives and get closer to permissionless listings.
-
-## Budget
-
-50 ETH for 6 months of marketplace pod operations
-
-## Milestones
-
-* Design sign off from community
-* 2-4 weeks initial development time
-* Deployed at nouns.town domain (need to confirm)
-* Marketplace launch with initial batch of derivatives
-* Offchain orders
-* Add in Daily Nouns Auction experience
-* Automated derivative addition
-* [Stretch]: Aggregate other marketplaces
-* [Stretch]: Enable swaps
-
-## Team
-Noun 174 ([Jacob](https://twitter.com/js_horne))
-Noun 178 ([Blequity](https://twitter.com/BlequityDAO))
-
-## Disclosure:
-We are the co-creators of Zora, the NFT marketplace protocol. We spend our time building Zora, and have previously created sites like punks.house, blit.house and thegrand.exchange",EXECUTED,158,154,0,16,2,18,0,65,3,68,14450913,"[{'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0x17cd072cbd45031efc21da538c783e0ed3b25dcc'}}, {'choice': 'FOR', 'weight': '24', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x32d1a53f6709a03f4b6cf4cb0501204ba188d4f5'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0x5be068c777f27df1eb6d8871b90dce0afd955ee8'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'FOR', 'weight': '12', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x73222225044ce0fc672ff9b6f9730d0a0421382c'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0x83fcfe8ba2fece9578f0bbafed4ebf5e915045b9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'ABSTAIN', 'weight': '2', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xaf05abcfe204f9c2e5e5cdf83e485f7f72eb0e9f'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xd3e401814d1faa8ca0419ecccbfee93ac7b15b31'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xf86a6fa100f50e9e715b57d176214c93e6d6bcea'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf8a065f287d91d77cd626af38ffa220d9b552a2b'}}]",14464053,14483763,0x17cd072cbd45031efc21da538c783e0ed3b25dcc
-47,"# Nouns Events Committee
-
-## Create new workstream: Nouns Events Committee
-
-The DAO has socially signaled a desire to organize IRL events.  These events can serve a variety of purposes, such as:
-
-- bringing together nouners in various cities around the world
-- sponsoring events organized by derivative communities & other nounish SubDAOs
-- sponsoring larger events to help proliferate the Nouns in distinct communities, globally
-
-We propose the creation of the Nouns Events Committee - a group of dedicated Nouners who facilitate the organization, coordination, and funding of various events organized by members within the community and at large.  We will follow a proposal based approach to ensure that events funded are well planned and well executed.  We will be publicly sharing these proposals to ensure transparency of use of funds, purpose of events, and more.
-
-### Committee Mandates
-
-- Planning strategic direction for events to be organized over the coming months
-- Fielding event proposals from the community to engage the community and inspire creativity
-- Helping iterate and provide feedback on event proposals to ensure strong implementation plans, accountable timelines, and transparent budgets
-- Allocating funds to event proposals that are aligned with Nouns mission and greater community
-- Sharing periodic updates on successes and areas of improvement
-- Routinely engaging with community to level up key event champions (i.e. rewarding contributors that are highly engaged with the Nouns Events Committee)
-- Bringing the Nouns community together, IRL ⌐◨-◨
-
-### Committee Members
-multisig - 0xA120bd4B951C437A8726580c0941fb96b36bC9e8
-
-- rumi - 0x75E1afF56396F35724045ddfa21F21cBE16b08Bf
-- brennen - 0xf8a065f287d91d77cd626af38ffa220d9b552a2b
-- noun22 - 0x75Ee6eb3d8DAcf41eE2e5307090B197D3E1Cca6E
-- oni - 0x91dCCAA260CC4616E1a6e6b693DB7207C5E42937
-
-3/4 approvals
-
-### Funding
-Separate proposal to follow with initial event proposal & funding requirements.
-
-### Discourse
-[https://discourse.nouns.wtf/t/proposal-nouns-events-committee/892](https://discourse.nouns.wtf/t/proposal-nouns-events-committee/892)",EXECUTED,162,158,0,15,2,17,0,41,2,43,14490658,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1977c4b06a76c160eff920c67fbc0635124364c8'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1984edf70973e1389548f21cd0dcb15b408240c9'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0x32d1a53f6709a03f4b6cf4cb0501204ba188d4f5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x353224270c2c9a7ecce7d8dba98a61587da6f50a'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '13', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x73222225044ce0fc672ff9b6f9730d0a0421382c'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xa312899a7c6377cb70e258a3b49b1dcd96ba830d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xaf05abcfe204f9c2e5e5cdf83e485f7f72eb0e9f'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xd44e9b676e74ae45c0a39150be771eb189bb2337'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf86a6fa100f50e9e715b57d176214c93e6d6bcea'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0xf8a065f287d91d77cd626af38ffa220d9b552a2b'}}]",14503798,14523508,0x1977c4b06a76c160eff920c67fbc0635124364c8
-48,"# Nouns Psychogeography Sculpture with Dustin Yellin
-
-Dustin Yellin proposes the creation of PERSON, PLACE or THING, a new 6 foot tall sculpture as part of his on-going series, Psychogeographies.
-
-https://www.dustinyellin.com/d/24141e#cover
-
-The entire set of Nouns minted before July 22, 2022 will be rendered in their distinctive style within the layers of the artwork, to form and populate the landscape of a giant human figure.
-
-The physical sculpture will be paired with an NFT created by Yellin for the project.
-
-Upon completion, Yellin will loan the physical artwork to exhibitions for the next 3 years minimum.
-
-The compensation for PERSON, PLACE or THING is 100ETH to the artist (50ETH upon acceptance of the proposal, and 50ETH upon completion of the artwork in a separate proposal), a donation of 100,000 USDC (in rough ETH equivalent) to Pioneer Works (https://pioneerworks.org/), and 1 Noun NFT (Noun 252 from the Nouns treasury).
-
-50 Eth Deposit to Dustin Yellin Studio
-0x0B789Ef2A2cda2fb5B5c7cdB278C2Cb8BdC96e4C
-
-31 ETH to Pioneer Works via Endaoment here
-0x9D5025B327E6B863E5050141C987d988c07fd8B2
-
-Upon Completion we will do a separate proposal for another 50 ETH to the studio",EXECUTED,162,158,1,16,0,17,5,66,0,71,14495496,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '24', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x32d1a53f6709a03f4b6cf4cb0501204ba188d4f5'}}, {'choice': 'FOR', 'weight': '13', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x6d40c2da94c6522e361904383c37c605f39b8e73'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x73222225044ce0fc672ff9b6f9730d0a0421382c'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '3', 'voter': {'id': '0xa1e4f7dc1983fefe37e2175524ebad87f1c78c3c'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xaf05abcfe204f9c2e5e5cdf83e485f7f72eb0e9f'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'AGAINST', 'weight': '5', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xd44e9b676e74ae45c0a39150be771eb189bb2337'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf6c625851d48fe26b50d96b821a87efc7e35c222'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf86a6fa100f50e9e715b57d176214c93e6d6bcea'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf8a065f287d91d77cd626af38ffa220d9b552a2b'}}]",14508636,14528346,0xd44e9b676e74ae45c0a39150be771eb189bb2337
-49,"# Additional Funding for Nouns Acquisition Committee
-
-Provide funding for the NAC to acquire up to 3 additional nouns, continuing the mandate from https://nouns.wtf/vote/44",EXECUTED,164,160,8,6,4,18,9,33,28,70,14507146,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x17beaa158e68ff9225b4c85151831c7a0d8f258d'}}, {'choice': 'ABSTAIN', 'weight': '25', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x32d1a53f6709a03f4b6cf4cb0501204ba188d4f5'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'AGAINST', 'weight': '0', 'voter': {'id': '0x5306c064f74b2c45d3f1afae90cf0d74f7523fe4'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0x585f4fbe2d2a889c286fa71fb81d01f30773f4b1'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'FOR', 'weight': '13', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x6d40c2da94c6522e361904383c37c605f39b8e73'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0x73222225044ce0fc672ff9b6f9730d0a0421382c'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'AGAINST', 'weight': '2', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xaf05abcfe204f9c2e5e5cdf83e485f7f72eb0e9f'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xf6c625851d48fe26b50d96b821a87efc7e35c222'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0xf86a6fa100f50e9e715b57d176214c93e6d6bcea'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xf8a065f287d91d77cd626af38ffa220d9b552a2b'}}]",14520286,14539996,0x4754b7e3dede42d71d6c92978f25f306176ec7e9
-5,"# Set Proposal Threshold to 100 bps (1%)\n\nIn an effort to broaden and encourage more on-chain proposals, we suggest allowing any address with a minimum of **1 NOUN** to formally propose to the DAO, until the Noun supply reaches **100**.\n\nTo accomplish the above goal, the `proposalThresholdBPS` will be set to `100`.",EXECUTED,34,33,0,9,0,9,0,17,0,17,13224790,"[{'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1254958bd5073c6b238e516298f0c48f6f60a78e'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0x43a330dec81bbd5e21f41c6b8354e54d481efc93'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x75ee6eb3d8dacf41ee2e5307090b197d3e1cca6e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x9646e0f7544b8ee3649e7ac77eef0cf5b53b748a'}}, {'choice': 'FOR', 'weight': '4', 'voter': {'id': '0xae7f458667f1b30746354abc3157907d9f6fd15e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf476cd75be8fdd197ae0b466a2ec2ae44da41897'}}]",13237930,13257640,0x2573c60a6d127755aa2dc85e342f7da2378a0cc5
-50,"#  Donate 51 ETH for humanitarian aid to Ukraine through the Rescue Toadz project
-
-## Summary
-Donate 51 ETH for humanitarian aid to Ukraine through the Rescue Toadz (https://rescuetoadz.xyz/) project and incentivize people to donate more.
-
-## Methodology
-Rescue Toadz is an NFT collection of 18 toadz in which 100% of the funds are donated to Ukraine via Unchain Ukraine (directly coded in the smart contract). The project has a special bidding mechanic that encourages people to donate more.
-
-The interesting thing is that you can not only mint toadz, but also match or increase the last donation for an already minted toad and it will automatically be transferred into your wallet. The toad will then drop its noun glasses as POAP in the wallet of the original holder.
-
-This mechanism is coded directly in the smart contract and a toad owner cannot prevent the toad from hopping into another wallet. The idea is that this will encourage people to donate more. If they want to keep their toad they need to increase the price of the donation or acquire back the toad if somebody donated more.
-
-### Why not donate directly to Unchain?
-
-The idea is to gamify the donation experience so people will donate more. For example, NounsDAO can donate for already minted toadz and “steal” them from the previous owners. Some of them will then donate again to get their toad back.
-
-The goal of the proposal is to donate 0.2 ETH for 5 toadz that are already minted and “steal” them from the previous owners and also raise the prices for two other toadz to 10 ETH and 40 ETH respectively.
-
-### Transactions
-
-The following transactions shall be executed if the proposal is approved:
-
-Donate 5x 0.2 ETH for Rescue Toadz #2, #5, #6, #11 and #16
-Donate 10 ETH for Rescue Toad #15
-Donate 40 ETH for Rescue Toad #8
-
-## Conclusion
-Donating 51 ETH through the Rescue Toadz project has the following benefits:
-
-Funds raised by NounsDAO to help Ukrainian people recover from the war
-Raised popularity of the Rescue Toadz charity project, so more people start donating
-People that had their Rescue Toad taken from them are incentivized to get it back by donating again.
-Recue Toadz or Noun Glasses NFTs collected by the NounsDAO",CANCELED,167,162,3,0,0,3,12,0,0,12,14521462,"[{'choice': 'AGAINST', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'AGAINST', 'weight': '6', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0xf6c625851d48fe26b50d96b821a87efc7e35c222'}}]",14534602,14554312,0x8e71c9644898665a91e4db3dee8bdde97b3c71bc
-51,"# Gnars x Nouns Athletes
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/original/1X/df0297e0030a5dda9107d39db82d67e739e58687.png)
-
-**Background: [Nouns Athletes](https://discourse.nouns.wtf/t/small-grants-nouns-athletes/731)** received 3 ETH in funding from Small Grants for a proof of concept. We secured our first signing, [Joe Atkinson](https://www.instagram.com/joeatkinsons), who is currently working on his first Nounish production.
-
-This proposal aims to facilitate a co-op between [Nouns Athletes](https://twitter.com/nounsathletes) and [Gnars](https://gnars.wtf), a community of action sports enthusiasts ready to expand beyond skateboarding, to all extreme sports.
-
-**Gnars DAO** is a natural progression for a project that’s well positioned to help extreme athletes reach the people, places and things that bring out their best – ultimately proliferating Nouns.
-
-## TL;DR
-
-**Extreme sports DAO tasked with…**
-
-1. Managing a Nouns DAO funded and decentralised treasury
-2. Sponsoring athletes with grants for travel and content creation
-3. Making production, merch, event and protocol decisions
-
-**Requesting 69 ETH** for Gnars DAO to steward an expansion of Nouns Athletes with travel sponsorships across various target disciplines.
-
-ie. Gnars DAO (enthusiasts) proliferating Nouns DAO (professionals)...
-
-## Sub-DAOs
-
-Nouns DAO inherently [faces a number of challenges](https://twitter.com/0xigami/status/1511601988915523585) around ideation and capital deployment, due to the broadness of application that comes with such an ambitious project.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/336a6169a8e534d0e5a38077c5ea7b24a1cfc1d2_2_690x357.png)
-
-As of 22 March 2022, Nouns DAO has:
-* Received 23,421 ETH
-* Sent 4,784 ETH
-    * Staked 3,000 in Lido
-    * Spent 458 on Foundation setup and ops
-
-**Only 1,326 ETH has been spent on directly proliferating Nouns,** which represents **just 5.66% of total funding raised,** most of which is not visible on the chart above.
-
-Sub-DAOs may address the deal flow problems faced by a generalist organisation such as Nouns, by operating as an intermediary for impactful and domain specific capital deployment.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/192fa943b3337ed1990092839abbdadd1b181009_2_690x288.png)
-
-Gnars began as a simple experiment to see how people value team contributions versus allocation of funds toward meaningful and well aligned charitable causes. As expected, collectors want to see what the future holds and therefore tend toward adequately funding a team – tested using a [Humble Bundle inspired](https://support.humblebundle.com/hc/en-us/articles/204387088-Pay-What-You-Want-and-Contribution-Sliders) contribution slider.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/3e838186abf3c575e92ffe393b44445d749b2258_2_690x239.png)
-
-But perhaps more abstractly, the project was intended to serve as a dip of the toe, to understand whether I personally, should “Skate or DAO?” Having quickly attracted a community of talented and passionate individuals, I’ve discovered that the answer is unequivocally “DAO.”
-
-Connecting with the community has helped me to understand that we are uniquely positioned for experimentation. As a laser focused sub-DAO we can recruit and grow an extreme sports team through fan engagement. 
-
-I’m proposing a domain specific sub-DAO structure **– a *SHRED*.**
-
-## Gnars DAO
-
-Skate or DAO -> Shred the Nouns 🤘
-
-Gnars aims to operate as a ***Streamlined Hierarchical Really Excellent DAO (SHRED)*** and while the name is a stretch, the concept of ‘shredding the nouns’ can be hyper-focused and impactful.
-
-The structure allows for off-chain voting with on-chain execution, without dependence on a single centralised entity. This hybrid model is more accessible since individual voters won’t need to pay gas. But it’s also an adequately secure means of sub-DAO treasury stewardship.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/b74c48999630dffa607bfd7cbc72f059732d72ee_2_690x238.png)
-
-[Zodiac Reality Module](https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started/) ([I've deployed here](https://etherscan.io/address/0xca553AC295EDA95594e77Aa97525Fc815090589a)) enables on-chain execution based on the outcome of events reported by the reality.eth oracle. [Gnosis Safe](https://gnosis-safe.io/app/eth:0x0658f4eD17289144717713ADfFC2539eF7c2EF8e/balances) and [Snapshot](https://snapshot.org/#/gnars.eth) are primary interfaces.
-
-A [3 of 5 multisig](https://gnosis-safe.io/app/eth:0x0658f4eD17289144717713ADfFC2539eF7c2EF8e/settings/owners) has been established at [gnars.eth](https://etherscan.io/address/0x0658f4eD17289144717713ADfFC2539eF7c2EF8e), granting Nouners with veto power over the treasury. The signers appointed as safe owners are as follows:
-* [0xigami.eth](https://etherscan.io/address/0x387a161C6b25aA854100aBaED39274e51aaffffd)
-* [blockbird.eth](https://etherscan.io/address/0x6B67623ff56c10d9dcFc2152425f90285fC74DDD)
-* [apenoun.eth](https://etherscan.io/address/0x91dCCAA260CC4616E1a6e6b693DB7207C5E42937)
-* [undeadnoun22.eth](https://etherscan.io/address/0x75Ee6eb3d8DAcf41eE2e5307090B197D3E1Cca6E)
-* [0x530...3Fe4](https://etherscan.io/address/0x5306C064F74B2c45d3f1afAE90cF0D74F7523Fe4)
-
-### Funding
-
-* **Source 1: Nouns DAO funded**
-
-    * Funding received to Gnosis Safe (2 Gnars and 3 Nouns signers)
-
-        * If proposal passed, execute transactions
-        * If proposal failed, mark as invalid
-        * Safe owners veto power (incl. Nouners)
-    * Funding sent to signed athletes (through SHRED governance)
-        * One from each discipline competing in FISE World Series late May including, BMX, climbing, mountain biking, parkour, inline skating (Joe), scootering, skateboarding and wakeboarding (subject to change)
-        * Approximate budget of $25k USD per athlete per year for contest and film production travel expenses, equating to $200k or majority of 69 ETH grant (approx $225k current price)
-
-            * Travala account (ETH deposit, USD credit)
-            * Bitrefill account (ETH deposit, USD credit)
-
-* **Source 2: Gnars NFT sales funded**
-
-    * Nouns merch design and manufacturing (pro team and community gear)
-    * Events IRL and URL, conference sponsorships and promotional activities
-    * Artist commissions, community design contests and brand development
-
-### Benefits
-
-* **First ever extreme sports DAO**
-
-    * High impact and focused sub-DAO of Nouns 
-    * Launch with current world champ Joe Atkinson
-    * Extreme athletes from seven other disciplines
-
-* **Gnars (and Nouns) NFT utility**
-
-    * Governance rights (protocol, merch, content decisions)
-    * Social benefits (action sports enthusiasts and pro team)
-    * Product benefits (games, merch, early access content)
-
-* **Governance rights and activities**
-
-    * Contribute to athlete travel, styling, contest and conceptual decisions
-    * Influence Noun merchandise design, artist collab and branding decisions
-    * Protocol decisions for auction length, reserve price, bid increment and the on-chain encoding of new Gnartwork assets in collaboration with artists, athletes and brands
-
-## 0xigami and co.
-
-My team will continue full-time delivery of new and existing ecosystem projects, as funded by bidders setting what portion of their winning bids go to team vs DAO.
-
-Funding provided by team for maintenance and development expenses is also in our best interest, while acquiring Gnars and Nouns and proliferating the Nouniverse.
-
-While having a sizeable vested interest in Nouns and a strong alignment with CC0 principles, it’s also in my best interest to ensure Gnars is net-additive above all.
-
-### Noun 189
-
-[Gnars DAO community](https://discord.gg/cCR49gTksw) will have the ability to participate in Nouns governance as their Gnar NFTs will each represent a vote toward execution of Noun 189's submissions. 
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/original/1X/cfffe1e8c13b254b10d22f544cd97d8941d9488e.png)
-
-### Merchandise
-
-Community members will contribute to design decisions influencing Nounish gear and apparel for our athletes that's also available for purchase by members at a discount.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/73ff2e413074eaa60c9f6e067f1ee63f713d9eb3_2_690x256.jpeg)
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/e19d9d933c249a734657d9bb2a833b73f3d9c1c9_2_690x494.png)
-
-### Collaborations
-
-Artist and athlete collaborations will be earmarked for inclusion in the Gnars protocol and on merchandise. The community will decide what's *gnartwork* and what isn't.
-
-![](https://i.imgur.com/E0hzr0a.png)
-
-Here's a still of animatic from [upcoming NFTNYC billboard collab](https://www.nft.nyc/sponsors) with [mrSEAKs](https://twitter.com/SeaksMr) ([watch it here](https://twitter.com/0xigami/status/1510585806511284233)) that will be screened over 700 times across various assets in Times Square.
-
-### Gnarketplace
-
-[Gnarket.place](https://gnarket.place) is our dedicated marketplace running on ZORA's auction house contracts, various features for filtering and inspecting traits will continue rolling out as normal.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/2242116822917909fa0b1f292b51500ee20b424c_2_690x431.png)
-
-### Games
-
-[Grinderz](https://gnars.fun) will continue operating as an addictive way to climb a global leaderboard and win ETH at regular intervals.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/187ec6b6a26a469ff64675c7ff0a663a77a25faa_2_690x431.jpeg)
-
-[Gnarnia](https://gna.rs), our MMO will also continue development, eventually expanding to other extreme sports outside of skateboarding (à la California Games...[sneak peek here](https://twitter.com/gnars_dao/status/1511529856961740803)).
-
-### Nouns Athletes
-
-We are well positioned to (with Joe's help) rally behind an expanding pro team of extreme athletes with a propensity for diversity and inclusion.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/3b5caeccaec6b2727b455dadffb69b3e5bccff96_2_690x388.png)
-
-Those who explore their creativity and self-expression are favoured over those who are mostly known for winning contests.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/6288f32a78c584e2c64ffc83fad0c5d7ef582d8f_2_690x151.png)
-
-Joe's Travala account was funded with [this transaction](https://etherscan.io/tx/0xe01a13d23de9c47771caf38a1d5f0c9359c1c464e24d22056ef22cdeb7e01f3b) for the sponsorship proof of concept. Facilitating sponsorships is as simple as depositing ETH to platforms such as [Travala](https://www.travala.com/) and [Bitrefill](https://bitrefill.com/) that allow for USD credits. 
-
-These can be used to purchase flights, accommodation and even gear from Amazon etc, as required.
-
-## Shred the Nouns
-
-Despite the original experiment for Nouns Athletes still being in progress, the current challenges facing Nouns DAO present an opportunity to scale sooner. 
-
-Ideally, an experiment such as this one could evolve into a sub-DAO playbook, that encourages Nounish builders to be bold.
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/original/1X/407d76d9a2bf528a96d85963ef0afe616eaf4274.png)
-
-The essence of this proposal is taking a risk on extending the permissionless collaboration model to the allocation of capital. 
-
-If you’re operating a Nouns extension, you should be applying for Nouns DAO grants funding – you’re a startup, so define your mission and pursue it.
-
-## Fund the Gnars
-
-**Reminder:** an Extreme Sports DAO tasked with...
-
-1. Managing a Nouns DAO funded and decentralised treasury
-2. Sponsoring athletes with grants for travel and content creation
-3. Making production, merch, event and protocol decisions
-
-**Requesting 69 ETH** to establish a Gnars DAO fund, stewarding an expansion of Nouns Athletes with travel sponsorships for action sports professionals, across eight (or more) target disciplines.
-
-**FISE World Series late May,** where Nouns Athlete, Joe Atkinson, will be competing for his 4th inline skating title, presents potential to sponsor (subject to change) a:
-
-* BMX rider
-* Climber
-* Mountain bike rider
-* Parkour free-runner
-* Scooter rider
-* Skateboarder
-* Wakeboarder
-
-**Approximate budget of...**
-
-* Annual $25k USD per athlete (contest/filming travels) 
-* Equating to $200k or the majority of 69 ETH grant 
-* Approx $225k at current ETH price
-
-**Finally, there is also the option to sponsor fewer athletes** at a higher amount, for example *five athletes at $40k each* (lots of demand for supporting winter sports).
-
-Thank you everynoun for taking the time to peruse this proposal and if I have your support I look forward to receiving your vote.
-
-Shred the Nouns 🤘
-
-[Gami](https://twitter.com/0xigami) ⌐◨-◨
-
-*See you at NFT.NYC where I’ll be Noun and Proud handing out Noun 189 fingerboards with Gnar griptape. Assemble it with me at the demo table and let’s hang.*
-
-![](https://aws1.discourse-cdn.com/standard21/uploads/nouns/optimized/1X/112a6c126147b2c69cfb462a45731b3d14cd1b69_2_541x500.jpeg)",EXECUTED,170,165,0,23,2,25,0,63,2,65,14543733,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x01db485f57dc000e761b85641f78c9d212a2eeab'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1977c4b06a76c160eff920c67fbc0635124364c8'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x32d1a53f6709a03f4b6cf4cb0501204ba188d4f5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x353224270c2c9a7ecce7d8dba98a61587da6f50a'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x3f58588b59da010031dd8a355dcd7de229663ebf'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x5ca6a2e5f53a48616d4ead87ff6034fc032d4722'}}, {'choice': 'FOR', 'weight': '10', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x6d40c2da94c6522e361904383c37c605f39b8e73'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x8323f1c687f7e2296ec71ee3549a7430ea7ec730'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0x83fcfe8ba2fece9578f0bbafed4ebf5e915045b9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xa4e232fceedb3f43c8e707f8cf20b6bcf30f10e1'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'FOR', 'weight': '0', 'voter': {'id': '0xb9d7a0daa17c1ffe90c27b0fe3b38ff07edc9937'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0xbd7dbab9aeb52d6c8d0e80fcebde3af4cc86204a'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xceb78abfad166c11e350156fd671b385265a6c87'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xf6c625851d48fe26b50d96b821a87efc7e35c222'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0xf86a6fa100f50e9e715b57d176214c93e6d6bcea'}}, {'choice': 'FOR', 'weight': '2', 'voter': {'id': '0xf8a065f287d91d77cd626af38ffa220d9b552a2b'}}]",14556873,14576583,0x387a161c6b25aa854100abaed39274e51aaffffd
-52,"# Increase Treasury stETH Position to ~20% 
-
-Allocate pro-rata amount of recent auction proceeds to stETH, returning treasury allocation to 20%
-
-References:
-https://nouns.wtf/vote/22
-https://nouns.wtf/vote/30",EXECUTED,170,165,3,14,4,21,9,42,27,78,14546665,"[{'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x008c84421da5527f462886cec43d2717b686a7e4'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x1254958bd5073c6b238e516298f0c48f6f60a78e'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x17beaa158e68ff9225b4c85151831c7a0d8f258d'}}, {'choice': 'ABSTAIN', 'weight': '25', 'voter': {'id': '0x2573c60a6d127755aa2dc85e342f7da2378a0cc5'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x32d1a53f6709a03f4b6cf4cb0501204ba188d4f5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x353224270c2c9a7ecce7d8dba98a61587da6f50a'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x387a161c6b25aa854100abaed39274e51aaffffd'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x3f58588b59da010031dd8a355dcd7de229663ebf'}}, {'choice': 'FOR', 'weight': '6', 'voter': {'id': '0x4754b7e3dede42d71d6c92978f25f306176ec7e9'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0x6924686b3dcd04ae8ef91a3feccc262d020f519d'}}, {'choice': 'FOR', 'weight': '10', 'voter': {'id': '0x696ed7b26f4b019ceec78dc8b9140ad64a6f354b'}}, {'choice': 'FOR', 'weight': '5', 'voter': {'id': '0x6d40c2da94c6522e361904383c37c605f39b8e73'}}, {'choice': 'AGAINST', 'weight': '1', 'voter': {'id': '0x6f9e3976fa3b5b22761fe5d635e1f0d9d9aeb85d'}}, {'choice': 'AGAINST', 'weight': '7', 'voter': {'id': '0x83fcfe8ba2fece9578f0bbafed4ebf5e915045b9'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0x91dccaa260cc4616e1a6e6b693db7207c5e42937'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa555d1ee16780b2d414ed97f4f169c0740099615'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xa5960ad956acbb8addebdc29e5bee014f201d8bd'}}, {'choice': 'ABSTAIN', 'weight': '0', 'voter': {'id': '0xb9d7a0daa17c1ffe90c27b0fe3b38ff07edc9937'}}, {'choice': 'FOR', 'weight': '7', 'voter': {'id': '0xcc2688350d29623e2a0844cc8885f9050f0f6ed5'}}, {'choice': 'FOR', 'weight': '1', 'voter': {'id': '0xe8d24be3abf6eb27b800f752a969d3c1e84fd401'}}, {'choice': 'ABSTAIN', 'weight': '1', 'voter': {'id': '0xf86a6fa100f50e9e715b57d176214c93e6d6bcea'}}]",14559805,14579515,0x4754b7e3dede42d71d6c92978f25f306176ec7e9
