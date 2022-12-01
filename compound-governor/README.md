@@ -1,15 +1,14 @@
 Project folder for generating subgraphs that are in Compound Governor formats
 
-- Currently focused on pulling voting and delegation results
-
 ## TODO
 
-how to get circulating tokens at the moment?
+check messari /
+separate oz and compound
 
-time sensitive:
-tokenHolders at start of proposal
-
-check whether compound works
+look into delegations;
+Nouns
+Aave
+Gitcoin
 
 In order to authenticate thegraph studio:
 graph auth --studio 1859200c78e860873b66b52310138140
@@ -19,21 +18,19 @@ graph auth --studio 1859200c78e860873b66b52310138140
 - add slug in Studio as dao-governance
 
 - Prepare token and governor address and start block
-
   - add network in config
   - check whether the DAO uses OZ/Compound
 
 - Init:
-
-  - run: graph init --studio --protocol=ethereum --from-contract=${governor_contract} --contract-name=${DAOGovernor} --${dao-governance}
+  
+  - run: graph init --studio 
   - add token_contract, DAOToken
 
   * what: generates abi / generated folder inside dao-governance folder
 
 - Add abi:
 
-  - move abi and generated from dao-governance to current directory
-  - write script to automate this
+  - npm run move-abi --protocol=DAO-governance
 
 - prepare protocol folder
 
@@ -52,7 +49,7 @@ graph auth --studio 1859200c78e860873b66b52310138140
 
 - prepare yaml
 
-  - npm run prepare:yaml --protocol=silo-governance --template=silo-governance.template.yaml --network=ethereum
+  - npm run prepare:yaml --protocol=DAO-governance
 
 - build
   - npm run prepare:build

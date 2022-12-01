@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 from web3.auto.infura import w3
 from ens import ENS
-import datetime
 import gc
 import os
 from utils import get_block_timestamp
@@ -10,8 +9,6 @@ from utils import get_block_timestamp
 """
 Combine and format results for Onchain data
 """
-
-
                       
 def combineVotes(path):
     """
@@ -29,12 +26,11 @@ def combineVotes(path):
                 try:
                     cdf = pd.read_csv(os.path.join(root, file), index_col=None)
                     df = pd.concat([cdf, df], ignore_index=True)
-                    
                 except:
                     pass
-            df['dao'] = dao
-            df['Offchains'] = 0
-            df['choices'] = df.apply(lambda x: ['FOR', 'AGAINST', 'ABSTAIN'], axis = 1)
+            df['DAO Name'] = dao
+            df['Offchain?'] = 0
+            df['Proposal Choices'] = df.apply(lambda x: ['FOR', 'AGAINST', 'ABSTAIN'], axis = 1)
             df['proposal.id'] = df['proposal.id'].astype(str)
             df['weight'] = df['weight'].astype(np.float64)
             df.to_csv(path+f'/votecombined/{dao}.csv')
@@ -58,7 +54,7 @@ def addProposalToVotes(path):
                     cdf = pd.read_csv(cpath+dao+'.csv', low_memory=False)
                     df = pd.read_csv(os.path.join(root, file), index_col=None, low_memory=False)
                     cdf['proposal.id'] = cdf['proposal.id'].astype(str)
-                    df['dao'] = dao
+                    df['DAO Name'] = dao
                     df['id'] = df['id'].astype(str)
                     df["startBlock"] = df["startBlock"].astype('Int64')
                     df["startBlock"] = df["startBlock"].fillna(0)
@@ -73,39 +69,31 @@ def addProposalToVotes(path):
                             "id": "proposal.id"
                         }, inplace=True)
                     
-                    cdf = cdf.merge(df, how='outer', on=['proposal.id', 'dao'])
+                    cdf = cdf.merge(df, how='outer', on=['proposal.id', 'DAO Name'])
 
                     cdf = rename_cols(cdf)
                     cdf.to_csv(dpath+f'{dao}.csv', index=False)
                     print(dao, 'merged')
                     gc.collect()
-                    
-                 
 
 def rename_cols(df):
     df.drop(columns=['Unnamed: 0', 'votes', 'id', 'description'], index=1, inplace=True)
     df.rename(columns={
-                    "dao": "DAO Name",
                     "voter.id": "Voter Address",
-                    "Offchains": "Offchain?",
                     "proposal.id": "Proposal ID",
                     "creationBlock": "Proposal Date Created",
                     "startBlock": "Proposal Date Start",
                     "endBlock": "Proposal Date End",
                     "proposer.id": "Proposal Author",
-                    "choices": "Proposal Choices",
                     "choice": "Voter Choice",
-                    "reason": "Voter Reason",
                     "txnHash": "Transaction Hash"
                 }, inplace=True)
-
     return df
 
 def combineDelegations(path):
     """
     Combine all delegations into one, store in delegationscombined.csv
     """
-
     delegations = pd.DataFrame()
     for root, _, files in os.walk(path):
         two = os.sep.join(os.path.normpath(root).split(os.sep)[-2:])
@@ -135,13 +123,13 @@ def mergeToOne(path):
                 pass
     # df['weight'] = df['weight'].div(10**18).round(5)
     # df['DAO Token Supply'] = df['DAO Token Supply'].div(10**18).round(5)
-    df['Voting Power'] = df['Voting Power'].round(10)
+    df['Voter Power'] = df['Voter Power'].round(10)
     df.to_csv(path+f'/final_onchain.csv')
     print("finished")
    
 
 def addGovParamters(path):
-    dpath = path+"/proposalAdded/"
+    dpath = path+"/votes/"
     for root, _, files in os.walk(path):
         two = os.sep.join(os.path.normpath(root).split(os.sep)[-2:])
         if two == 'governances/csv':
@@ -151,21 +139,17 @@ def addGovParamters(path):
                 for file in files:
                     df = pd.read_csv(os.path.join(root, file), index_col=None)
                     total_supply = df['totalTokenSupply'].astype(np.float64)
-                    # cdf['DAO Token Supply'] = total_supply[0]
-                    cdf['Voting Power'] = cdf['weight'].div(cdf['DAO Token Supply'], axis=0)
+                    cdf['DAO Token Supply'] = total_supply[0]
+                    cdf['Voter Power'] = cdf['weight'].div(cdf['DAO Token Supply'], axis=0)
                     # daoindex = cdf.index[cdf['DAO Name']==dao]
                     # cdf.loc[daoindex, 'DAO Token Supply'] = str(total_supply[0])
-
                     cdf.to_csv(dpath+dao+'.csv', index=False)
     
 def read_and_merge(path):
-    print("combining votes")
-    # combineVotes(path)
-    print("adding proposals and gov paramaters")
-    # addProposalToVotes(path)
-    #addGovParamters(path)
+    
+    addGovParamters(path)
     print("merging to one")
     mergeToOne(path)
     print("combining delegations")
-    #combineDelegations(path)
+    combineDelegations(path)
 

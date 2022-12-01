@@ -1,0 +1,11 @@
+{
+  "governor": "Governor",
+  "token": "Token",
+  "governance": "aavev1-governance",
+  "network": "mainnet",
+  "governorContractAddress": "0x8a2Efd9A790199F4c94c6effE210fce0B4724f52",
+  "governorContractStartBlock": 10925875, 
+  "tokenContractAddress": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+  "tokenContractStartBlock":10926829
+}
+

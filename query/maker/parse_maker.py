@@ -55,7 +55,7 @@ def handle_spells(path, jsonData):
         spells["DAO Name"] = "Maker"
         spells["Offchain?"] = 0
         spells.drop(columns=['_wad', '_locked'], inplace=True)
-
+        spells = spells.loc[spells['_type']=='AddAction']
         spells.rename(columns={
                     "_id": "VoteID",
                     "_timestamp": "blockTime",
@@ -64,6 +64,8 @@ def handle_spells(path, jsonData):
                     "id": "Proposal ID",
                     "timestamp": "Proposal Date Created"
                 }, inplace=True)
+        spells.drop(columns=['_type', 'castedWith', 'liftedWith'], inplace=True)
+
 
         spells = spells.to_csv(f"{path}/Maker.csv", index=False)
         print('flattened json')

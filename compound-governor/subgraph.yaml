@@ -6,9 +6,9 @@ dataSources:
     name: Governor
     network: mainnet
     source:
-      address: "0x690e775361AD66D1c4A25d89da9fCd639F5198eD"
+      address: "0x8a2Efd9A790199F4c94c6effE210fce0B4724f52"
       abi: Governor
-      startBlock: 11863739
+      startBlock: 10925875
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -24,7 +24,7 @@ dataSources:
         - VoteDailySnapshot
       abis:
         - name: Governor
-          file: ./abis/radicle-governance/Governor.json
+          file: ./abis/aavev1-governance/Governor.json
       eventHandlers:
         - event: ProposalCanceled(uint256)
           handler: handleProposalCanceled
@@ -36,14 +36,14 @@ dataSources:
           handler: handleProposalQueued
         - event: VoteCast(address,uint256,bool,uint256)
           handler: handleVoteCast
-      file: ./protocols/radicle-governance/src/Governor.ts
+      file: ./protocols/aavev1-governance/src/Governor.ts
   - kind: ethereum/contract
     name: Token
     network: mainnet
     source:
-      address: "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3"
+      address: "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
       abi: Token
-      startBlock: 11863739
+      startBlock: 10926829
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -59,7 +59,7 @@ dataSources:
         - VoteDailySnapshot
       abis:
         - name: Token
-          file: ./abis/radicle-governance/Token.json
+          file: ./abis/aavev1-governance/Token.json
       eventHandlers:
         - event: DelegateChanged(indexed address,indexed address,indexed address)
           handler: handleDelegateChanged
@@ -67,4 +67,4 @@ dataSources:
           handler: handleDelegateVotesChanged
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
-      file: ./protocols/radicle-governance/src/Token.ts
+      file: ./protocols/aavev1-governance/src/Token.ts
