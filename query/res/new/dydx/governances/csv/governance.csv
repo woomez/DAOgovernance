@@ -1,2 +1,0 @@
-id,totalTokenSupply,currentTokenHolders,totalTokenHolders,currentDelegates,totalDelegates,delegatedVotesRaw,delegatedVotes,proposals,proposalsQueued,proposalsExecuted,proposalsCanceled
-AaveGovernanceV2,1000000000000000000000000000,27719,87167,27166,2,1000000000000000000000000000,1000000000,9,0,7,1

@@ -57,7 +57,7 @@ def handle_Nounvote(dao, query, df):
 
     unique_addresses = df['voter.id'].unique()
 
-    with open('./messariGovernor/ens_map.pickle', 'rb') as handle:
+    with open('./ens_map.pickle', 'rb') as handle:
         ens_map = pickle.load(handle)
 
     for address in unique_addresses:
@@ -68,7 +68,7 @@ def handle_Nounvote(dao, query, df):
             ens_map[address] = ENS
             df.loc[df['voter.id']==address, 'ENS'] = ens_map[address]
 
-    with open('./messariGovernor/ens_map.pickle', 'wb') as handle:
+    with open('./ens_map.pickle', 'wb') as handle:
         pickle.dump(ens_map, handle, protocol=pickle.HIGHEST_PROTOCOL) 
     
 
@@ -81,7 +81,6 @@ def handle_Nounvote(dao, query, df):
         "proposal.totalWeightedVotes": "Total Weighted Votes",
     """
     # drop and add columns
-    df.drop(columns=['id'], index=1, inplace=True)
     df.rename(columns={
                     "voter.id": "Voter Address",
                     "voter.delegatedVotes": "Current Delegated Votes to Voter",
@@ -110,7 +109,7 @@ def handle_Nounvote(dao, query, df):
     df = df[cols_to_move + [ col for col in df.columns if col not in cols_to_move]]
     first_column = df.pop('DAO Name')
     df.insert(0, 'DAO Name', first_column)
-    df.drop(columns=['id'], index=1, inplace=True, errors='ignore')
+    df.drop(columns=['id', 'support', 'Proposal Author', 'Proposal Date Created', 'Proposal Created'], index=1, inplace=True)
     df.drop(df.filter(regex="Unname"),axis=1, inplace=True, errors='ignore')
 
 
@@ -122,16 +121,16 @@ def handle_Nounvote(dao, query, df):
 
     # Save
     try:
-        daopath = f"./messariGovernor/res/{query}/{dao}.csv"
+        daopath = "./res/votes/Nouns.csv"
         daodf = pd.read_csv(daopath, index=False)
         print("found previously stored data")
         daodf = pd.concat([daodf, df], ignore_index=True)
-        daodf.to_csv(daopath)
+        daodf.to_csv(daopath, index=False)
         df = daodf
 
     except:
         print("could not find previously stored data")
-        df.to_csv(f"./messariGovernor/res/{query}/{dao}.csv", index=False)
+        df.to_csv(f"./res/{query}/{dao}.csv", index=False)
 
     print("successfuly saved")
     return df
@@ -286,7 +285,7 @@ def voteQuery(client, dao, _query):
     
 
     try:
-        df = pd.read_csv(f"./messariGovernor/res/votes/{dao}.csv", index_col=None)
+        df = pd.read_csv(f"./res/votes/{dao}.csv", index_col=None)
         df = df.sort_values(by=["block"])
         params["lastBlock"] = str(df["block"].iloc[-1])
         lastBlock = params["lastBlock"]

@@ -8,9 +8,25 @@ import os
 import json
 from flatten_json import flatten
 
-combined = "/Users/jaeyongpark/codes/governance/query/combined.csv"
-new = "/Users/jaeyongpark/codes/governance/query/res/new/final_onchain.csv"
-maker = "/Users/jaeyongpark/codes/governance/query/maker/csvs/Maker.csv"
+path = "./res/votes"
+
+def mergeToOne(path):
+    df = pd.DataFrame()
+
+    for root, _, files in os.walk(path):
+        for file in files:
+            try:
+                print(file)
+                cdf = pd.read_csv(os.path.join(root, file), index_col=None, low_memory=False)
+                df = pd.concat([cdf, df], ignore_index=True)
+
+            except:
+                pass
+    # df['weight'] = df['weight'].div(10**18).round(5)
+    # df['DAO Token Supply'] = df['DAO Token Supply'].div(10**18).round(5)
+    df.drop(df.filter(regex="Unname"),axis=1, inplace=True, errors='ignore')
+    df.to_csv("./onchain.csv")
+    print("finished")
 
 def combineres(path):
     
@@ -22,12 +38,7 @@ def combineres(path):
     df['Voter Power'] = df['Voter Power'] + df['Voting Power']
     df.to_csv(path+f'/combined.csv')
 
-path = "/Users/jaeyongpark/codes/governance/query"
+path = "/Users/jaeyongpark/codes/governance/query/res/votes"
 # combineres(path)
 
-df = pd.read_csv(combined, index_col=False)
-df['Voter Power'].fillna(0, inplace=True)
-df['Voting Power'].fillna(0, inplace=True)
-df['Voter Power'] = df['Voter Power'] + df['Voting Power']
-df.drop(columns=['Voting Power', 'Unnamed: 0', 'Unnamed: 0.1', 'Unnamed: 0.1.1'], index=1, inplace=True)
-df.to_csv(path+"/updated.csv")
+mergeToOne(path)

@@ -49,7 +49,7 @@ if __name__ == "__main__":
     for url in urls:
         generate_results(url, votes)
         
-    dpath= "/Users/jaeyongpark/codes/governance/query/messariGovernor/res"
+    dpath= "/Users/jaeyongpark/codes/governance/query/res"
     print("Merging res")
     read_and_merge(dpath)
 

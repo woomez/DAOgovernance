@@ -1,2 +1,0 @@
-id,totalTokenSupply,currentTokenHolders,totalTokenHolders,currentDelegates,totalDelegates,totalDelegations,delegatedVotesRaw,delegatedVotes,proposals,proposalsQueued,proposalsExecuted,proposalsCanceled
-CompoundGovernor,22189290759345719,792,1268,776,1258,119,22189290759345719,0.022189290759345719,2,0,1,0

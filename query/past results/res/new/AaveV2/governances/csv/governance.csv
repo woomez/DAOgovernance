@@ -1,0 +1,2 @@
+id,totalTokenSupply,currentTokenHolders,totalTokenHolders,currentDelegates,totalDelegates,delegatedVotesRaw,delegatedVotes,proposals,proposalsQueued,proposalsExecuted,proposalsCanceled
+AaveGovernanceV2,16000000000000000000000000,129698,406651,116552,274,15923926634311032370344938,15923926.634311032370344938,116,2,96,6

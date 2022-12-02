@@ -1,2 +1,2 @@
-,id,totalTokenSupply,currentTokenHolders,totalTokenHolders,currentDelegates,totalDelegates,delegatedVotesRaw,delegatedVotes,proposals,proposalsQueued,proposalsExecuted,proposalsCanceled
-0,OZGovernor,0,13289,44922,349,966,-12146921905163612319259252,-12146921.905163612319259252,63,0,52,9
+Unnamed: 0,id,totalTokenSupply,currentTokenHolders,totalTokenHolders,currentDelegates,totalDelegates,delegatedVotesRaw,delegatedVotes,proposals,proposalsQueued,proposalsExecuted,proposalsCanceled
+0,OZGovernor,1e+27,13305,45059,349,966,-13981312360467945129798003,-13981312.360467946,63,0,52,9

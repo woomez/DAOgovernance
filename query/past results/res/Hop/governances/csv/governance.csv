@@ -1,0 +1,2 @@
+id,totalTokenSupply,currentTokenHolders,totalTokenHolders,currentDelegates,totalDelegates,totalDelegations,delegatedVotesRaw,delegatedVotes,proposals,proposalsQueued,proposalsExecuted,proposalsCanceled
+CompoundGovernor,1000000000000000000000000000,13546,30072,3663,7200,24162,22127844320971537518069804,22127844.320971537518069804,1,1,0,0

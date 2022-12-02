@@ -1,2 +1,2 @@
 ,id,totalTokenSupply,currentTokenHolders,totalTokenHolders,currentDelegates,totalDelegates,delegatedVotesRaw,delegatedVotes,proposals,proposalsQueued,proposalsExecuted,proposalsCanceled
-0,GovernorAlphaBravo,100000000000000000000000000,23896,53379,6105,11024,21121563831677382478095294,21121563.831677382478095294,41,1,32,0
+0,GovernorAlphaBravo,100000000000000000000000000,24325,53943,6188,11133,21128236778460655850197091,21128236.778460655850197091,44,2,33,0

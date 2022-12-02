@@ -37,57 +37,53 @@ def generate_ens(path, ens_map={}):
         pickle.dump(ens_map, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
-def ens_map_lookup(df, address):
-    pass
-
-def mergeToOne(path):
-    """TODO
-    
-    """
-    dpath = path +"/votes"
-    df = pd.DataFrame()
-
-    for root, _, files in os.walk(dpath):
-        for file in files:
-            try:
-                cdf = pd.read_csv(os.path.join(root, file), index_col=None, low_memory=False)
-                df = pd.concat([cdf, df], ignore_index=True)
-
-            except:
-                pass
-    # df['weight'] = df['weight'].div(10**18).round(5)
-    # df['DAO Token Supply'] = df['DAO Token Supply'].div(10**18).round(5)
-    df.to_csv(path+f'/final_onchain.csv')
-    print("finished")
-
-def addGovParamters(path):
+def addGovParams(path):
 
     """TODO
-    traverse through given folder, 
-    add parameters from governances
-
     later, get token supply from daily snapshot, update accordingly
     """
-
+    missing = []
     vote_path = path+"/votes/"
-    gov_path = path+"/governances"
+    gov_path = path+"/governances/"
     for root, _, files in os.walk(gov_path):
         for file in files:
-            print(file)
+            dao = file[:-4]
             gov_df = pd.read_csv(os.path.join(root, file), index_col=None, low_memory=False)
-            df = pd.read_csv(vote_path+file, index_col=None, low_memory=False)
-            total_supply = gov_df['totalTokenSupply'].astype(np.float64)
-            df['DAO Token Supply'] = total_supply[0]
-            df['Voter Power'] = df['Weight'].div(df['DAO Token Supply'], axis=0)
-            df['Voter Power'] = df['Voter Power'].round(10)
-            df.to_csv(vote_path+file, index=False)
+            
+            try:
+                df = pd.read_csv(vote_path+file, index_col=None, low_memory=False)
+                total_supply = gov_df['totalTokenSupply'].astype(np.float64)
+                if total_supply[0] == 0:
+                    print(dao, "has 0 total_supply.")
+                    supply = fetchGovParams(dao)
+                    if supply != 0:
+                        gov_df['totalTokenSupply'] = supply
+                        gov_df.to_csv(gov_path+file, index=False)
+                    else:
+                       missing.append(dao) 
 
+                else: 
+                    supply = total_supply[0]
 
-def read_and_merge(path):
+                df['DAO Token Supply'] = supply
+                df['Voter Power'] = df['Weight'].div(df['DAO Token Supply'], axis=0)
+                df['Voter Power'] = df['Voter Power'].round(10)
+                df.to_csv(vote_path+file, index=False)
+
+            except:
+                print(f"Gov file does not exist for {file}")
+                pass
     
-    addGovParamters(path)
-    print("merging to one")
-    mergeToOne(path)
+    print(missing)
+    
+def fetchGovParams(daoname):
+    with open('./messariGovernor/supply.txt') as f:
+        for line in f:
+            line = line.strip().split(" ")
+            if line[0] == daoname:
+                return np.float64(line[1])*(10**18)
 
-dpath= "/Users/jaeyongpark/codes/governance/query/messariGovernor/res"
-read_and_merge(dpath)
+        return 0
+
+dpath= "./res"
+addGovParams(dpath)
