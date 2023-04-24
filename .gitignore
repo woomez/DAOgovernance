@@ -1,0 +1,11 @@
+./query/.env
+
+query/res/
+./query/res/delegateVotingPowerChanges/DYDX.csv
+./query/res/delegateVotingPowerChanges/AaveV2.csv
+./query/res/delegateVotingPowerChanges/ENS.csv
+./query/delegations.csv
+./query/res/delegateVotingPowerChanges/DYDX.csv
+./query/res/delegateVotingPowerChanges/AaveV2.csv
+./query/res/delegateVotingPowerChanges/ENS.csv
+./query/delegations.csv

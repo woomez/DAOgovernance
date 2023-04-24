@@ -1,0 +1,74 @@
+{
+  "Ampleforth": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/ampleforth-governance",
+    "token": "0x77fba179c79de5b7653f68b5039af940ada60ce0"
+  },
+  "CompoundV1": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari//compound-governance-v1",
+    "token": "0xc00e94cb662c3520282e6f5717214004a7f26888"
+  },
+  "CompoundBravo": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/compound-governance",
+    "token": "0xc00e94cb662c3520282e6f5717214004a7f26888"
+  },
+  "Cryptex": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/cryptex-governance",
+    "token": "0x321c2fe4446c7c963dc41dd58879af648838f98d"
+  },
+  "Gitcoin": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/gitcoin-governance",
+    "token": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f"
+  },
+  "IdleV1": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/idle-governance-v1",
+    "token": "0x875773784af8135ea0ef43b5a374aad105c5d39e"
+  },
+  "Idle": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/idle-governance",
+    "token": "0x875773784af8135ea0ef43b5a374aad105c5d39e"
+  },
+  "Indexed": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/indexed-governance",
+    "token": "0x86772b1409b61c639eaac9ba0acfbb6e238e5f83"
+  },
+  "LilNouns": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/lilnouns-governance",
+    "token": "0x4b10701bfd7bfedc47d50562b76b436fbb5bdb3b"
+  },
+  "Nouns": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/nouns-governance",
+    "token": "0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03"
+  },
+  "Ooki": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/ooki-governance",
+    "token": "0x0de05f6447ab4d22c8827449ee4ba2d5c288379b"
+  },
+  "PoolTogether": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/pooltogether-governance",
+    "token": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e"
+  },
+  "Radicle": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/radicle-governance",
+    "token": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3"
+  },
+  "Reflexer": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/reflexer-governance",
+    "token": "0x6243d8cea23066d098a15582d81a598b4e8391f4"
+  },
+  "UniswapV1": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/uniswap-governance-v1",
+    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+  },
+  "UniswapV2": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/uniswap-governance-v2",
+    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+  },
+  "UniswapV3": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/uniswap-governance",
+    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+  },
+  "Unslashed": {
+    "url": "https://api.thegraph.com/subgraphs/name/messari/unslashed-governance",
+    "token": "0xe0e05c43c097b0982db6c9d626c4eb9e95c3b9ce"
+  }
+}
