@@ -9,50 +9,52 @@ from tqdm import tqdm
 
 load_dotenv()
 
-parser = argparse.ArgumentParser(description='Process transfers from specified folder.')
+parser = argparse.ArgumentParser(description='')
 parser.add_argument('--folder', type=str, default='openzepplinGovernor', help='Folder name to load the data from (default: openzepplinGovernor)')
 
 args = parser.parse_args()
 folder_name = args.folder
-
-with open(f"./messariGovernor/{folder_name}/abis/transfer.json", "r") as abi_file:
-    token_abi = json.load(abi_file)
 
 infura_api_key = os.getenv('INFURA_API_KEY')
 infura_url = f'https://mainnet.infura.io/v3/{infura_api_key}'
 w3 = Web3(Web3.HTTPProvider(infura_url)) 
 
 # Replace with the transaction hash you're interested in
-with open('./messariGovernor/{folder_name}/dao.json', 'r') as f:
+with open(f'./messariGovernor/{folder_name}/dao.json', 'r') as f:
     dao = json.load(f)
 
 if not os.path.exists('./res/transfer'):
     os.makedirs('./res/transfer')
 
 for name in dao.keys():
+    #load abi
+    with open(f"./messariGovernor/{folder_name}/abis/{name}/{name}.json", "r") as abi_file:
+        token_abi = json.load(abi_file)
+
     # create df to store results
     results = pd.DataFrame(columns=['txnHash', 'from', 'to', 'value'])
-    print(name)
     values = dao[name]
     token_address = Web3.to_checksum_address(values['token'])
     # load delegation csv if there is one
     delegation_path = f'./res/delegateVotingPowerChanges/{name}.csv'
+
     if os.path.exists(delegation_path):
         df = pd.read_csv(delegation_path)
     else: #stop loop
         continue
-    print(f'{name} size: {len(df)}')
+
     # if transfer csv exist, load it and fetch the last txnHash
     if os.path.exists(f'./res/transfer/{name}.csv'):
         results = pd.read_csv(f'./res/transfer/{name}.csv')
         last_txnHash = results['txnHash'].iloc[-1]
-        # locate the last txnHash in df and update df to start from the next txnHash
-        df = df.loc[df['txnHash'] == last_txnHash].iloc[1:]
- 
-
+        # look up last_txnHash in df and slice df to start from there
+        last_txnHash_index = df[df['txnHash'] == last_txnHash].index[0]
+        df = df.iloc[last_txnHash_index+1:]
+    
+    print(f'Processing {name} with {len(df)} txns')
     txn_hash = df['txnHash'].to_list()
 
-    for i, txn in tqdm(enumerate(txn_hash)):
+    for i, txn in tqdm(enumerate(txn_hash), total=len(df), bar_format='{l_bar}{bar:20}{r_bar}{bar:-20b}'):
         if i!= 0 and i % 100 == 0:
             results.to_csv(f'./res/transfer/{name}.csv', index=False)
         # Get the transaction receipt for the transaction
@@ -72,11 +74,13 @@ for name in dao.keys():
                 txn_hash = logs['transactionHash'].hex()
                 _from = logs['args']['from']
                 _to = logs['args']['to']
-                _value = logs['args']['value']
+                if folder_name=='compoundGovernor':
+                    _value = logs['args']['amount']
+                elif folder_name=='openzepplinGovernor': 
+                    _value = logs['args']['value']
 
                 # Create a new row dictionary
                 new_row = pd.DataFrame([{'txnHash': txn_hash, 'from': _from, 'to': _to, 'value': _value}])
-                print(new_row)
 
                 # Append the new row to the results DataFrame
                 results = pd.concat([results, new_row], ignore_index=True)

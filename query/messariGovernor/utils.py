@@ -6,6 +6,8 @@ from ens import ENS
 from web3 import Web3
 # from web3.auto.infura import w3
 from tqdm import tqdm
+import warnings
+warnings.filterwarnings("ignore")
 
 # ns = ENS.fromWeb3(w3)
 

@@ -1,46 +1,57 @@
 {
   "Angle": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/angle-governance",
-    "token": "0x31429d1856aD1377A8A0079410B297e1a9e214c2"
+    "token": "0x31429d1856aD1377A8A0079410B297e1a9e214c2",
+    "normalizer": 1
   },
   "ENS": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/ens-governance",
-    "token": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
+    "token": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+    "normalizer": 1
   },
   "Fei": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/fei-governance",
-    "token": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B"
+    "token": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
+    "normalizer": 1
   },
   "Hop": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/hop-governance",
-    "token": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc"
+    "token": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+    "normalizer": 1
   },
   "Optimism": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/optimism-governance",
-    "token": "0x4200000000000000000000000000000000000042"
+    "token": "0x4200000000000000000000000000000000000042",
+    "normalizer": 1
   },
   "Ousd": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/ousd-governance",
-    "token": "0x0c4576ca1c365868e162554af8e385dc3e7c66d9"
+    "token": "0x0c4576ca1c365868e162554af8e385dc3e7c66d9",
+    "normalizer": 1
   },
   "Rarible": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/rarible-governance",
-    "token": "0x096Bd9a7a2e703670088C05035e23c7a9F428496"
+    "token": "0x096Bd9a7a2e703670088C05035e23c7a9F428496",
+    "normalizer": 1
   },
   "Silo": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/silo-governance",
-    "token": "0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8"
+    "token": "0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8",
+    "normalizer": 1
   },
   "Threshold": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/threshold-governance",
-    "token": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5"
+    "token": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
+    "normalizer": 1
   },
   "Truefi": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/truefi-governance",
-    "token": "0x23696914ca9737466d8553a2d619948f548ee424"
+    "token": "0x23696914ca9737466d8553a2d619948f548ee424",
+    "normalizer": 1
   },
   "Unlock": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/unlock-governance",
-    "token": "0x90DE74265a416e1393A450752175AED98fe11517"
+    "token": "0x90DE74265a416e1393A450752175AED98fe11517",
+    "normalizer": 1
   }
 }

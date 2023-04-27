@@ -1,74 +1,92 @@
 {
   "Ampleforth": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/ampleforth-governance",
-    "token": "0x77fba179c79de5b7653f68b5039af940ada60ce0"
+    "token": "0x77fba179c79de5b7653f68b5039af940ada60ce0",
+    "normalizer": 1
   },
   "CompoundV1": {
-    "url": "https://api.thegraph.com/subgraphs/name/messari//compound-governance-v1",
-    "token": "0xc00e94cb662c3520282e6f5717214004a7f26888"
+    "token": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "url": "https://api.thegraph.com/subgraphs/name/messari/compound-governance-v1",
+    "normalizer": 1
   },
   "CompoundBravo": {
+    "token": "0xc00e94cb662c3520282e6f5717214004a7f26888",
     "url": "https://api.thegraph.com/subgraphs/name/messari/compound-governance",
-    "token": "0xc00e94cb662c3520282e6f5717214004a7f26888"
+    "normalizer": 1
   },
   "Cryptex": {
+    "token": "0x321c2fe4446c7c963dc41dd58879af648838f98d",
     "url": "https://api.thegraph.com/subgraphs/name/messari/cryptex-governance",
-    "token": "0x321c2fe4446c7c963dc41dd58879af648838f98d"
+    "normalizer": 1
   },
   "Gitcoin": {
+    "token": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
     "url": "https://api.thegraph.com/subgraphs/name/messari/gitcoin-governance",
-    "token": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f"
+    "normalizer": 1
   },
   "IdleV1": {
+    "token": "0x875773784af8135ea0ef43b5a374aad105c5d39e",
     "url": "https://api.thegraph.com/subgraphs/name/messari/idle-governance-v1",
-    "token": "0x875773784af8135ea0ef43b5a374aad105c5d39e"
+    "normalizer": 1
   },
   "Idle": {
+    "token": "0x875773784af8135ea0ef43b5a374aad105c5d39e",
     "url": "https://api.thegraph.com/subgraphs/name/messari/idle-governance",
-    "token": "0x875773784af8135ea0ef43b5a374aad105c5d39e"
+    "normalizer": 1
   },
   "Indexed": {
+    "token": "0x86772b1409b61c639eaac9ba0acfbb6e238e5f83",
     "url": "https://api.thegraph.com/subgraphs/name/messari/indexed-governance",
-    "token": "0x86772b1409b61c639eaac9ba0acfbb6e238e5f83"
+    "normalizer": 1
   },
   "LilNouns": {
+    "token": "0x4b10701bfd7bfedc47d50562b76b436fbb5bdb3b",
     "url": "https://api.thegraph.com/subgraphs/name/messari/lilnouns-governance",
-    "token": "0x4b10701bfd7bfedc47d50562b76b436fbb5bdb3b"
+    "normalizer": 1
   },
   "Nouns": {
+    "token": "0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03",
     "url": "https://api.thegraph.com/subgraphs/name/messari/nouns-governance",
-    "token": "0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03"
+    "normalizer": 1
   },
   "Ooki": {
+    "token": "0x0de05f6447ab4d22c8827449ee4ba2d5c288379b",
     "url": "https://api.thegraph.com/subgraphs/name/messari/ooki-governance",
-    "token": "0x0de05f6447ab4d22c8827449ee4ba2d5c288379b"
+    "normalizer": 1
   },
   "PoolTogether": {
+    "token": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
     "url": "https://api.thegraph.com/subgraphs/name/messari/pooltogether-governance",
-    "token": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e"
+    "normalizer": 1
   },
   "Radicle": {
+    "token": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
     "url": "https://api.thegraph.com/subgraphs/name/messari/radicle-governance",
-    "token": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3"
+    "normalizer": 1
   },
   "Reflexer": {
+    "token": "0x6243d8cea23066d098a15582d81a598b4e8391f4",
     "url": "https://api.thegraph.com/subgraphs/name/messari/reflexer-governance",
-    "token": "0x6243d8cea23066d098a15582d81a598b4e8391f4"
+    "normalizer": 1
   },
   "UniswapV1": {
+    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
     "url": "https://api.thegraph.com/subgraphs/name/messari/uniswap-governance-v1",
-    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+    "normalizer": 1
   },
   "UniswapV2": {
+    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
     "url": "https://api.thegraph.com/subgraphs/name/messari/uniswap-governance-v2",
-    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+    "normalizer": 1
   },
   "UniswapV3": {
+    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
     "url": "https://api.thegraph.com/subgraphs/name/messari/uniswap-governance",
-    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+    "normalizer": 1
   },
   "Unslashed": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/unslashed-governance",
-    "token": "0xe0e05c43c097b0982db6c9d626c4eb9e95c3b9ce"
+    "token": "0xe0e05c43c097b0982db6c9d626c4eb9e95c3b9ce",
+    "normalizer": 1
   }
 }
