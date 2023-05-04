@@ -11,20 +11,22 @@ warnings.filterwarnings("ignore")
 
 # ns = ENS.fromWeb3(w3)
 
-def getUniqueDelegators(df, address):
-    stringENS = address[:-4]
-    mask = df[address].isnull()
-    delegators = df.loc[mask, stringENS].unique() 
+def getUniqueDelegators(df, address, ENScol):
+    
+    mask = df[ENScol].isnull()
+    delegators = df.loc[mask, address].unique() 
     return delegators
 
 def handle_ens(df, address='voter.id'):
-    print(f'Handling ens for {address}')
-    
-    if address + ' ENS' not in df.columns:
-        df.loc[:, address + ' ENS'] = pd.Series() 
+    if address == 'voter.id':
+        ENScol = 'ENS'
+    else: ENScol = address + ' ENS' 
+
+    if ENScol not in df.columns:
+        df.loc[:, ENScol] = pd.Series()
 
     # get unique delegators with null ens
-    unique_addresses = getUniqueDelegators(df, address + ' ENS') 
+    unique_addresses = getUniqueDelegators(df, address, ENScol) 
 
     with open('./ens_map.pickle', 'rb') as handle:
         ens_map = pickle.load(handle)
@@ -55,14 +57,14 @@ def handle_ens(df, address='voter.id'):
    
     print('ens_map saved \n')
     # add column in df called address + ENS and store ens_map[uniqueA]
-    df.loc[:, address + ' ENS'] = df[address].map(ens_map)   
-    df[address + ' ENS'] = df[address + ' ENS'].astype(str)
+    df.loc[:, ENScol] = df[address].map(ens_map)   
+    df[ENScol] = df[ENScol].astype(str)
 
     # place the new column next to the address column
     cols = list(df.columns.values)
     cols.pop(cols.index(address))
-    cols.pop(cols.index(address + ' ENS'))
-    df = df[[address, address + ' ENS'] + cols]
+    cols.pop(cols.index(ENScol))
+    df = df[[address, ENScol] + cols]
     return df
 
 def get_block_timestamp(block_num):

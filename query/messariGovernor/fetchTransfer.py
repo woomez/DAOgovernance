@@ -27,6 +27,8 @@ if not os.path.exists('./res/transfer'):
     os.makedirs('./res/transfer')
 
 for name in dao.keys():
+    if name=="Reflexer":
+        continue
     #load abi
     with open(f"./messariGovernor/{folder_name}/abis/{name}/{name}.json", "r") as abi_file:
         token_abi = json.load(abi_file)
@@ -40,6 +42,7 @@ for name in dao.keys():
 
     if os.path.exists(delegation_path):
         df = pd.read_csv(delegation_path)
+        print(f"\nLoaded {len(df)} rows from {delegation_path}")
     else: #stop loop
         continue
 
@@ -51,7 +54,9 @@ for name in dao.keys():
         last_txnHash_index = df[df['txnHash'] == last_txnHash].index[0]
         df = df.iloc[last_txnHash_index+1:]
     
-    print(f'Processing {name} with {len(df)} txns')
+    print(f'Processing {name} with {len(df)} txns to process \n')
+    print(f'Last txnHash: {last_txnHash} \n')
+    print(f'Length of current transfers: {len(results)} \n')
     txn_hash = df['txnHash'].to_list()
 
     for i, txn in tqdm(enumerate(txn_hash), total=len(df), bar_format='{l_bar}{bar:20}{r_bar}{bar:-20b}'):
@@ -74,9 +79,9 @@ for name in dao.keys():
                 txn_hash = logs['transactionHash'].hex()
                 _from = logs['args']['from']
                 _to = logs['args']['to']
-                if folder_name=='compoundGovernor':
+                try:
                     _value = logs['args']['amount']
-                elif folder_name=='openzepplinGovernor': 
+                except: 
                     _value = logs['args']['value']
 
                 # Create a new row dictionary

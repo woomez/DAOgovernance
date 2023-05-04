@@ -2,7 +2,8 @@
 
 ## TODO
 
-- [ ] add missing total supply
 - [ ] add maker delegations
 - [ ] circulating token supply at time
-- [ ] clean code
+- [ ] divide by norm one time at end
+- [ ] simple transfer table
+- [ ] delegates at proposal

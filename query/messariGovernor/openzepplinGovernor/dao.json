@@ -2,27 +2,26 @@
   "Angle": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/angle-governance",
     "token": "0x31429d1856aD1377A8A0079410B297e1a9e214c2",
-    "normalizer": 1
+    "normalizer": "10^18",
+    "total_supply": "10^9"
   },
   "ENS": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/ens-governance",
     "token": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
-    "normalizer": 1
+    "normalizer": "10^18",
+    "total_supply": "10^8"
   },
   "Fei": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/fei-governance",
     "token": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
-    "normalizer": 1
+    "normalizer": "10^18",
+    "total_supply": "10^9"
   },
   "Hop": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/hop-governance",
     "token": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-    "normalizer": 1
-  },
-  "Optimism": {
-    "url": "https://api.thegraph.com/subgraphs/name/messari/optimism-governance",
-    "token": "0x4200000000000000000000000000000000000042",
-    "normalizer": 1
+    "normalizer": "10^18",
+    "total_supply": "10^9"
   },
   "Ousd": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/ousd-governance",
@@ -37,12 +36,14 @@
   "Silo": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/silo-governance",
     "token": "0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8",
-    "normalizer": 1
+    "normalizer": 1,
+    "total_supply": "10^9"
   },
   "Threshold": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/threshold-governance",
     "token": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
-    "normalizer": 1
+    "normalizer": 1,
+    "total_supply": "10^9"
   },
   "Truefi": {
     "url": "https://api.thegraph.com/subgraphs/name/messari/truefi-governance",

@@ -4,8 +4,10 @@ import numpy as np
 import pandas as pd
 import os
 
-def handle_votecsv(dao, query, df):
+def handle_votecsv(dao,values,query, df):
     df = df.sort_values(by=["block"])
+    norm = values['normalizer']
+    total = values['total_supply']
 
     df['DAO Name'] = dao
     df['Offchain?'] = 0
@@ -14,6 +16,9 @@ def handle_votecsv(dao, query, df):
     # convert blocktime to timestamp
     df["proposal.startBlock"] = df["proposal.startBlock"].fillna(0)
     df["proposal.endBlock"] = df["proposal.endBlock"].fillna(0)
+
+    # weight should be divided by normalizer / weighted votes too
+    # update total supply
 
     # change data types
     convert_dict = {'proposal.id': str,
@@ -73,19 +78,19 @@ def handle_votecsv(dao, query, df):
     try:
         daopath = f"./res/{query}/{dao}.csv"
         daodf = pd.read_csv(daopath)
-        print("found previously stored data")
+        print("found previously stored data \n")
         daodf = pd.concat([daodf, df], ignore_index=True)
         daodf.to_csv(daopath)
         df = daodf
 
     except:
-        print("could not find previously stored data")
+        print("could not find previously stored data \n")
         df.to_csv(f"./res/{query}/{dao}.csv", index=False)
 
     print("successfuly saved")
     return df
 
-def voteQuery(client, dao, _query):
+def voteQuery(client, dao, values, _query):
     """
     try except:
         order by blocktime
@@ -102,7 +107,7 @@ def voteQuery(client, dao, _query):
     
 
     try:
-        df = pd.read_csv(f"./res/votes/{dao}.csv", index_col=None)
+        df = pd.read_csv(f"./res/vote/{dao}.csv", index_col=None)
         df = df.sort_values(by=["block"])
         params["lastBlock"] = str(df["block"].iloc[-1])
         lastBlock = params["lastBlock"]
@@ -174,4 +179,4 @@ def voteQuery(client, dao, _query):
                 counter += 1
     
     print("Total added votes: ", length)
-    votes = handle_votecsv(dao, _query, votes)
+    votes = handle_votecsv(dao, values, _query, votes)

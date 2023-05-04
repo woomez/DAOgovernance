@@ -4,6 +4,12 @@ import os
 from utils import handle_ens, log_message
 from tqdm import tqdm
 """
+TODO:
+combine results from transfer
+instead of tracking delegate changes, track voting power changes' txnHash
+
+for each transaction hash, store all events. Think about calculating amount last
+
 flags:
 0: amount = 0
 1: delegate to self w amount > 0
@@ -43,15 +49,19 @@ def combineDelegations(dao):
     dc = pd.read_csv(dcpath, index_col=None)
     dvpcpath = os.path.join("./res/delegateVotingPowerChanges", dao+".csv")
     dvpc = pd.read_csv(dvpcpath, index_col=None)
+    transferpath = os.path.join("./res/transfer", dao+".csv")
+    transfer = pd.read_csv(transferpath, index_col=None)
 
     cols = ["newBalance", "previousBalance"]
     dvpc = convertNP(dvpc, cols)
+    transfer = convertNP(transfer, ["value"])
     
     merged = pd.DataFrame()
 
     #use tqdm to show progress in bar 
+    #store all rows with same txnHash in merged. For now, store all events in same txnHash in same row
     print(f"combineDelegations: Number of delegate changes: {len(dc)}")
-    for i, row in tqdm(dc.iterrows(), total=dc.shape[0]):
+    for i, row in tqdm(dvpc.iterrows(), total=dc.shape[0]):
         delegator = row["delegator"]
         prev_del = row["previousDelegate"]
         new_del = row["delegate"]

@@ -1,0 +1,6 @@
+Number of delegate changes 0 
+ Empty DataFrame
+Columns: [Unnamed: 0, id, txnHash, blockNumber, blockTimestamp, delegate, delegator, previousDelegate]
+Index: []
+Number of rows where delegates are greater than 2 in dvpc: 0
+ Index([], dtype='object', name='txnHash')

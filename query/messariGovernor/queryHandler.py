@@ -5,12 +5,14 @@ import gc
 import pandas as pd
 from queries.delegations import delegateChangesQuery
 from queries.delegatePower import delegatePowerChangesQuery
+from queries.votes import voteQuery
 
-def generate_results(url, _queries):
-    dao, api = url
-    print(f"\nQuerying {dao}")
+def generate_results(name, dao, _queries):
+    print(f"Querying {name} \n")
+    url = dao['url']
+
     for _query in _queries:
-        query(dao, api, _query)
+        query(name, dao, url, _query)
         gc.collect()
 
 def make_client(api):
@@ -19,9 +21,9 @@ def make_client(api):
     client = Client(transport=transport, fetch_schema_from_transport=True)
     return client
 
-def query(dao, api, query):
+def query(name, dao, api, query):
     client = make_client(api) 
-    globals()[query+"Query"](client, dao, query)
+    globals()[query+"Query"](client, name, dao, query)
 
 
 
