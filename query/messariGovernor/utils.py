@@ -2,14 +2,20 @@ import pandas as pd
 import numpy as np
 import os
 import pickle
-from ens import ENS
+from ens import ENS 
 from web3 import Web3
-# from web3.auto.infura import w3
 from tqdm import tqdm
+from dotenv import load_dotenv
+
 import warnings
 warnings.filterwarnings("ignore")
 
-# ns = ENS.fromWeb3(w3)
+load_dotenv()
+infura_api_key = os.getenv('INFURA_API_KEY')
+infura_url = f'https://mainnet.infura.io/v3/{infura_api_key}'
+w3 = Web3(Web3.HTTPProvider(infura_url))
+
+ns = ENS.from_web3(w3)
 
 def getUniqueDelegators(df, address, ENScol):
     
@@ -44,13 +50,12 @@ def handle_ens(df, address='voter.id'):
                     pickle.dump(ens_map, handle)
             if uniqueA not in ens_map:
                 try:
-                    # ENS_name = ns.name(uniqueA)
-                    # ens_map[uniqueA] = ENS_name
+                    ENS_name = ns.name(uniqueA)
+                    ens_map[uniqueA] = ENS_name
                     pass
                 except Exception as Error:
                     print(f"\n Error raised in {uniqueA}:\n", Error)
                     continue
-
 
     with open('./ens_map.pickle', 'wb') as handle:
         pickle.dump(ens_map, handle) 

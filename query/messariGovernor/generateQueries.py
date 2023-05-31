@@ -12,6 +12,7 @@ from utils import log_message
 from tqdm import tqdm
 
 votes = ["vote"]
+delegates = ["delegates"]
 delegations = ["delegateChanges", "delegatePowerChanges"]
 _all = ["governances", "proposals", "delegateChanges", "delegatePowerChanges", "votedailysnapshots", "tokendailysnapshots", "votes", "delegates"]
 
@@ -22,6 +23,7 @@ parser.add_argument('--folder', type=str, default='openzepplinGovernor', help='F
 mode_dict = {
     "votes": votes,
     "delegations": delegations,
+    "delegates": delegates,
     "_all": _all
 }
 
@@ -36,16 +38,6 @@ w3 = Web3(Web3.HTTPProvider(infura_url))
 #Load DAOs 
 with open(f'./messariGovernor/{folder_name}/dao.json', 'r') as f:
     dao = json.load(f)
-
-#when testing urls
-# dao = {
-#         "Angle": {
-#             "url": "https://api.thegraph.com/subgraphs/name/messari/angle-governance",
-#             "token": "0x31429d1856aD1377A8A0079410B297e1a9e214c2",
-#             "normalizer": "10^21",
-#             "total_supply": "10^9",
-#         },
-#     }
 
 if __name__ == "__main__":
     for name in dao.keys():

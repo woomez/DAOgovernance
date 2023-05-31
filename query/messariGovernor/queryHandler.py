@@ -6,6 +6,7 @@ import pandas as pd
 from queries.delegations import delegateChangesQuery
 from queries.delegatePower import delegatePowerChangesQuery
 from queries.votes import voteQuery
+from queries.delegates import delegatesQuery
 
 def generate_results(name, dao, _queries):
     print(f"Querying {name} \n")
